@@ -41,7 +41,15 @@ cities:
       # Added 2026-08-07 (Black economic-empowerment programming — job/skills/
       # homeownership workshops; community uplift, tagged teachin):
       - { kind: ics, url: "https://www.gsul.org/events/?ical=1", org: "Greater Sacramento Urban League", default_type: teachin }
+      # Added 2026-08-07 (labor — fills a gap; low volume now but a real local body):
+      - { kind: mobilize, org_id: 40215, default_type: meeting }   # Sacramento Central Labor Council (its own feed, local — no near_zips needed)
     # Rejected / not added (kept here so they're not "rediscovered" as new):
+    #   - Reproductive rights: NO local org publishes a fetchable feed (PP Mar Monte
+    #     has none; national PP Mobilize org 157 returns 0 Sacramento events). Gap.
+    #   - Sierra Club Sacramento (meetup ics): only recreational day hikes, one in SF.
+    #   - Sacramento Area Bicycle Advocates (google ics): 30 VEVENTs but ~1 upcoming.
+    #   - Wellstone Progressive Democrats (google ics): electoral Dem-club meetings.
+    #   - March for Our Lives Sacramento: Facebook-only, no feed.
     #   - Sacramento Native American Health Center (ics https://snahc.org/events/?ical=1):
     #     valid feed but it's a health CLINIC's patient-care calendar (CBT/therapy
     #     groups, addiction recovery, a "Closed Meeting", same-day behavioral clinic)
