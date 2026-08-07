@@ -38,7 +38,14 @@ cities:
       # "Coalition Against Project 2025" events); near_zips keeps only its
       # Sacramento-metro events (956xx = inner suburbs, 958xx = city/south Sac).
       - { kind: mobilize, org_id: 40479, default_type: action, near_zips: ["956", "958"] }
+      # Added 2026-08-07 (Black economic-empowerment programming — job/skills/
+      # homeownership workshops; community uplift, tagged teachin):
+      - { kind: ics, url: "https://www.gsul.org/events/?ical=1", org: "Greater Sacramento Urban League", default_type: teachin }
     # Rejected / not added (kept here so they're not "rediscovered" as new):
+    #   - Sacramento Native American Health Center (ics https://snahc.org/events/?ical=1):
+    #     valid feed but it's a health CLINIC's patient-care calendar (CBT/therapy
+    #     groups, addiction recovery, a "Closed Meeting", same-day behavioral clinic)
+    #     — sensitive, non-organizing, and would swamp the wall (30 cards). Not a fit.
     #   - Indivisible Sacramento (mobilize 34947): national firehose (IL zips, CDT Zooms).
     #   - States Win Sacramento (mobilize 6496): near-identical duplicate of 40479 — skip.
     #   - Indivisible Yolo (mobilize 4362): 29 events but all Woodland/Davis/West Sac
