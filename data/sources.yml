@@ -46,6 +46,10 @@ cities:
       # Added 2026-08-07 (LGBTQ+ — Lavender Library queer community programming;
       # Squarespace dropped ICS export so we read its events-collection JSON):
       - { kind: squarespace, url: "https://www.lavenderlibrary.com/events", org: "Lavender Library (LLACE)", default_type: meeting }
+      # Added 2026-08-07 (Squarespace fetcher unlocks two more — POC/Indigenous
+      # arts & culture, and faith-based justice organizing):
+      - { kind: squarespace, url: "https://www.solcollective.org/calendar", org: "Sol Collective", default_type: show }
+      - { kind: squarespace, url: "https://www.sacact.org/events", org: "Sacramento ACT", default_type: action }
     # Rejected / not added (kept here so they're not "rediscovered" as new):
     #   - Reproductive rights: NO local org publishes a fetchable feed (PP Mar Monte
     #     has none; national PP Mobilize org 157 returns 0 Sacramento events). Gap.

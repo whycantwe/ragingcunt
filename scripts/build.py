@@ -367,9 +367,9 @@ def fetch_ics(city_key, url, org=None, default_type="meeting"):
     return out
 
 def _strip_tags(s):
-    """Cheap HTML-tag strip for Squarespace excerpt/body (front end also sanitizes)."""
-    import re
-    return re.sub(r"<[^>]+>", " ", s or "").replace("&amp;", "&").strip()
+    """Strip HTML tags and decode entities (Squarespace encodes &amp;, accents, …)."""
+    import re, html
+    return html.unescape(re.sub(r"<[^>]+>", " ", s or "")).strip()
 
 def _ss_months(start, end):
     """Yield 'MM-YYYY' strings for every month spanned by [start, end] inclusive."""
@@ -416,14 +416,15 @@ def fetch_squarespace(city_key, url, org=None, default_type="meeting"):
             if key not in earliest or start < earliest[key][0]:
                 earliest[key] = (start, it, wd)
 
+    import html
     out = []
     for key, (start, it, wd) in earliest.items():
         loc = it.get("location") or {}
         venue = loc.get("addressTitle") or loc.get("addressLine1") or None
         full = it.get("fullUrl") or ""
         e = norm_event(
-            city_key, title=str(it.get("title", "")), start=start,
-            type_=default_type, org=org, venue=venue,
+            city_key, title=html.unescape(str(it.get("title", ""))), start=start,
+            type_=default_type, org=org, venue=html.unescape(venue) if venue else None,
             url=(origin + full) if full.startswith("/") else (full or None),
             blurb=_strip_tags(it.get("excerpt") or it.get("body") or "")[:280],
             source="squarespace",
