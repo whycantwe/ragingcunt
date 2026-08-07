@@ -24,10 +24,18 @@
 cities:
   sacramento:
     label: "Sacramento, CA"
-    # TODO — add real Sacramento feeds, e.g.:
-    #   - { kind: ics,      url: "https://<org-site>/events/?ical=1", org: "Capitol Tenants Union", default_type: tenant }
-    #   - { kind: mobilize, org_id: 00000, default_type: action }
-    sources: []
+    # Verified 2026-08-07: each feed fetched and confirmed to return real
+    # upcoming VEVENTs. All three are public Google Calendar iCal exports
+    # (the %40 = @ encoding is required).
+    sources:
+      - { kind: ics, url: "https://calendar.google.com/calendar/ical/dsasacramento%40gmail.com/public/basic.ics", org: "Sacramento DSA", default_type: meeting }
+      - { kind: ics, url: "https://calendar.google.com/calendar/ical/c_182554b64da4c175a456432c76c4287b3aef3af1110a8abf58792ef0a36a9a44%40group.calendar.google.com/public/basic.ics", org: "NorCal Resist", default_type: mutualaid }
+      - { kind: ics, url: "https://calendar.google.com/calendar/ical/sacvalleytenants%40gmail.com/public/basic.ics", org: "Sacramento Valley Tenants Union", default_type: tenant }
+    # Rejected 2026-08-07 (kept here so they're not "rediscovered" as new):
+    #   - Indivisible Sacramento (mobilize org_id 34947): 696 events but a
+    #     national coalition firehose (non-local, e.g. IL zip 60008 / CDT Zooms).
+    #     Re-add only once build.py can filter by locality/postal_code.
+    #   - Women's March Sacramento (mobilize org_id 6363): valid feed, 0 upcoming.
 
   oakland:       { label: "Oakland, CA",       sources: [] }
   los-angeles:   { label: "Los Angeles, CA",   sources: [] }

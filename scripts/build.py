@@ -66,7 +66,7 @@ def load_hoods(city_key):
     path = HOODS_DIR / f"{city_key}.geojson"
     feats = []
     if path.exists() and shape is not None:
-        gj = json.loads(path.read_text())
+        gj = json.loads(path.read_text(encoding="utf-8"))
         for f in gj.get("features", []):
             name = (f.get("properties") or {}).get("name")
             try:
@@ -107,11 +107,17 @@ def _iso(v):
         v = v.replace(tzinfo=DEFAULT_TZ)
     return v.isoformat()
 
+# Calendar-blocking placeholders that show up in shared Google Calendars but
+# aren't real public events. Matched case-insensitively against the whole title.
+_SKIP_TITLES = {"space reserved", "reserved", "hold", "placeholder", "busy", "tbd", "n/a"}
+
 def norm_event(city_key, *, title, start, type_, org=None, venue=None,
                lat=None, lng=None, url=None, blurb=None, source="?", end=None):
     """Build one event dict in the front-end's exact shape (or None if unusable)."""
     start_iso = _iso(start)
     if not title or not start_iso:
+        return None
+    if title.strip().lower() in _SKIP_TITLES:  # drop venue-hold placeholders
         return None
     eid = hashlib.sha1(f"{title}|{start_iso}|{venue or ''}".encode()).hexdigest()[:12]
     return {
@@ -211,11 +217,12 @@ def fetch_mobilize(city_key, org_id, default_type="meeting"):
             f"stopping pagination early")
     return out
 
-def fetch_ics(city_key, feed_url, org=None, default_type="meeting"):
-    """Parse an .ics feed (The Events Calendar, Google Calendar, etc.)."""
+def fetch_ics(city_key, url, org=None, default_type="meeting"):
+    """Parse an .ics feed (The Events Calendar, Google Calendar, etc.).
+    Param is `url` to match the documented sources.yml schema (kind: ics, url: …)."""
     if Calendar is None:
         raise RuntimeError("icalendar not installed (pip install icalendar)")
-    r = http_get(feed_url, timeout=30)
+    r = http_get(url, timeout=30)
     cal = Calendar.from_ical(r.content)
     out = []
     for comp in cal.walk("VEVENT"):
@@ -242,7 +249,7 @@ FETCHERS = {"mobilize": fetch_mobilize, "ics": fetch_ics}
 # ─────────────────────────────── main loop ────────────────────────────────
 def load_prev():
     if OUT.exists():
-        try: return json.loads(OUT.read_text())
+        try: return json.loads(OUT.read_text(encoding="utf-8"))
         except Exception: return {}
     return {}
 
@@ -265,7 +272,7 @@ def dedupe(evs):
     return out
 
 def main():
-    cfg  = yaml.safe_load(SOURCES.read_text()) or {}
+    cfg  = yaml.safe_load(SOURCES.read_text(encoding="utf-8")) or {}
     prev = load_prev()
     # keep-last-good source = previous REAL output only. Never resurrect the demo seed.
     prev_events = {}
@@ -298,7 +305,7 @@ def main():
         log(f"[{city_key}] {len(collected)} events")
 
     result = {"generated": NOW.isoformat(), "demo": False, "cities": out_cities}
-    OUT.write_text(json.dumps(result, indent=2))
+    OUT.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
     total = sum(len(c["events"]) for c in out_cities.values())
     log(f"wrote {OUT} — {total} events across {len(out_cities)} cities")
 
