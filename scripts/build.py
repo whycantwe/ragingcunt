@@ -144,6 +144,9 @@ def norm_event(city_key, *, title, start, type_, org=None, venue=None,
 # Transient statuses worth a retry (rate-limit + gateway/5xx). 4xx (except 429)
 # are the caller's fault and fail fast.
 _RETRY_STATUS = {429, 500, 502, 503, 504}
+# A browser-ish UA: some calendar hosts (e.g. saccenter.org) 403 the default
+# python-requests agent.
+_UA = "Mozilla/5.0 (compatible; ragingcunt-build/1.0; +https://ragingcunt.com)"
 
 def http_get(url, params=None, *, timeout=30, retries=3, backoff=2.0):
     """GET with a hard timeout and exponential backoff on transient failures.
@@ -151,7 +154,8 @@ def http_get(url, params=None, *, timeout=30, retries=3, backoff=2.0):
     last = None
     for attempt in range(retries):
         try:
-            r = requests.get(url, params=params, timeout=timeout)
+            r = requests.get(url, params=params, timeout=timeout,
+                              headers={"User-Agent": _UA})
             if r.status_code in _RETRY_STATUS:
                 raise requests.HTTPError(f"{r.status_code} {r.reason}", response=r)
             r.raise_for_status()
@@ -180,7 +184,7 @@ def _guess_type(raw, default):
 
 _MOBILIZE_MAX_PAGES = 40  # safety valve: ~40 * per_page events before we stop
 
-def fetch_mobilize(city_key, org_id, default_type="meeting"):
+def fetch_mobilize(city_key, org_id, default_type="meeting", near_zips=None):
     """
     Mobilize public API. Docs: https://github.com/mobilizeamerica/api
     Endpoint: GET /v1/organizations/:org_id/events  (org-scoped, documented path).
@@ -188,12 +192,19 @@ def fetch_mobilize(city_key, org_id, default_type="meeting"):
     URL to the following page (or null). Follow it until exhausted.
     Verified fields: timeslots[].start_date (unix), location.venue,
     location.location.latitude/longitude, sponsor.name, browser_url, event_type.
+
+    near_zips: optional list of postal-code PREFIXES (e.g. ["956","958"]). Many
+    Indivisible/coalition orgs cross-post a national firehose; when set, only
+    events whose postal_code starts with one of these prefixes are kept, so the
+    feed contributes just its genuinely-local events. Events without a matching
+    postal code (incl. virtual/no-location) are dropped.
     """
     # First request seeds per_page; every subsequent `next` URL already carries
     # the cursor + per_page, so params are only sent on the initial call.
     url = f"https://api.mobilize.us/v1/organizations/{org_id}/events"
     params = {"per_page": 50}
     out = []
+    dropped = 0
     for page in range(_MOBILIZE_MAX_PAGES):
         r = http_get(url, params=params, timeout=30)
         params = None
@@ -201,24 +212,38 @@ def fetch_mobilize(city_key, org_id, default_type="meeting"):
         for ev in body.get("data", []):
             loc = ev.get("location") or {}
             ll = (loc.get("location") or {})
-            for ts in (ev.get("timeslots") or [{}]):
-                start = (dt.datetime.fromtimestamp(ts["start_date"], dt.timezone.utc)
-                         if ts.get("start_date") else None)
-                e = norm_event(
-                    city_key, title=ev.get("title", ""), start=start,
-                    type_=_guess_type(ev.get("event_type"), default_type),
-                    org=(ev.get("sponsor") or {}).get("name"),
-                    venue=loc.get("venue"), lat=ll.get("latitude"), lng=ll.get("longitude"),
-                    url=ev.get("browser_url"), blurb=(ev.get("description") or "")[:280],
-                    source="mobilize")
-                if e:
-                    out.append(e)
+            if near_zips:
+                pc = str(loc.get("postal_code") or "")
+                if not any(pc.startswith(z) for z in near_zips):
+                    dropped += 1
+                    continue                      # non-local coalition cross-post
+            # Collapse to the NEXT upcoming timeslot — Mobilize visibility/recurring
+            # events can carry dozens of future timeslots; one card each, like ICS.
+            starts = sorted(ts["start_date"] for ts in (ev.get("timeslots") or [])
+                            if ts.get("start_date"))
+            upcoming = [s for s in starts if s >= NOW.timestamp() - 6 * 3600]
+            if not upcoming:
+                continue
+            e = norm_event(
+                city_key, title=ev.get("title", ""),
+                start=dt.datetime.fromtimestamp(upcoming[0], dt.timezone.utc),
+                type_=_guess_type(ev.get("event_type"), default_type),
+                org=(ev.get("sponsor") or {}).get("name"),
+                venue=loc.get("venue"), lat=ll.get("latitude"), lng=ll.get("longitude"),
+                url=ev.get("browser_url"), blurb=(ev.get("description") or "")[:280],
+                source="mobilize",
+                recurrence=("Recurring" if len(upcoming) > 1 else None))
+            if e:
+                out.append(e)
         url = body.get("next")
         if not url:
             break
     else:
         log(f"[{city_key}] mobilize org {org_id}: hit {_MOBILIZE_MAX_PAGES}-page cap, "
             f"stopping pagination early")
+    if near_zips and dropped:
+        log(f"[{city_key}] mobilize org {org_id}: dropped {dropped} non-local events "
+            f"(kept postal prefixes {near_zips})")
     return out
 
 # How far ahead we expand repeating events. A weekly rebuild keeps data fresh;
