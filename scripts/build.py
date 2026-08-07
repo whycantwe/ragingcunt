@@ -461,6 +461,150 @@ def dedupe(evs):
         seen.add(e["id"]); out.append(e)
     return out
 
+# ─────────────────────────── SEO: SSR + JSON-LD + sitemap ───────────────────
+# The front end renders events client-side, which crawlers index poorly. Each
+# build also bakes the current events into index.html as static HTML + schema.org
+# JSON-LD and refreshes sitemap.xml, so search engines and no-JS clients see real
+# content. The runtime JS overwrites the SSR block on load with the same content.
+SITE_URL     = "https://ragingcunt.com"
+DEFAULT_CITY = "sacramento"
+INDEX_HTML   = ROOT / "index.html"
+SITEMAP_XML  = ROOT / "sitemap.xml"
+TYPE_META = {
+    "action":   ("ACTION",         "t-action"),
+    "meeting":  ("MEETING",        "t-meeting"),
+    "mutualaid":("MUTUAL AID",     "t-mutualaid"),
+    "show":     ("SHOW",           "t-show"),
+    "teachin":  ("TEACH-IN",       "t-teachin"),
+    "tenant":   ("TENANT",         "t-tenant"),
+    "kyr":      ("KNOW UR RIGHTS", "t-kyr"),
+}
+
+def _esc(s):
+    return (str(s) if s is not None else "").replace("&", "&amp;").replace(
+        "<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+
+def _pt(iso):
+    """Parse an event start ISO into a DEFAULT_TZ-local datetime (or None)."""
+    try:
+        d = dtparse.parse(iso)
+    except Exception:
+        return None
+    if d.tzinfo is None:
+        d = d.replace(tzinfo=DEFAULT_TZ)
+    return d.astimezone(DEFAULT_TZ)
+
+def _clock(d):
+    h = d.hour % 12 or 12
+    return f"{h}:{d.minute:02d}{'AM' if d.hour < 12 else 'PM'} PT"
+
+def render_ssr(result):
+    """Static HTML of the default city's events (mirrors the JS render markup)."""
+    city = (result.get("cities") or {}).get(DEFAULT_CITY)
+    if not city:
+        return ""
+    evs = sorted((e for e in city.get("events", []) if _pt(e.get("start"))),
+                 key=lambda e: _pt(e["start"]))
+    n = len(evs)
+    html = (f'<div class="ihead"><span class="eyebrow">ISSUE #01</span><h1>CITYWIDE</h1>'
+            f'<div class="where">{_esc((city.get("label") or "").upper())} · '
+            f'<span class="count">{n} DISPATCH{"" if n == 1 else "ES"}</span></div></div>'
+            f'<div class="feed">')
+    last_day = None
+    for e in evs:
+        d = _pt(e["start"])
+        daykey = d.date().isoformat()
+        if daykey != last_day:
+            if last_day is not None:
+                html += "</div>"
+            wd = d.strftime("%a").upper()
+            md = d.strftime("%b").upper() + " " + str(d.day)
+            html += (f'<div class="daydiv"><div class="d"><b>{wd}</b> {md}</div></div>'
+                     f'<div class="grid">')
+            last_day = daykey
+        tlabel, tcls = TYPE_META.get(e.get("type"), (str(e.get("type", "")).upper(), ""))
+        rec = e.get("recurrence")
+        recpill = f'<span class="recur">↻ {_esc(rec)}</span>' if rec else ""
+        blurb = _strip_tags(e.get("blurb") or "")
+        if len(blurb) > 168:
+            blurb = blurb[:168].rsplit(" ", 1)[0] + "…"
+        blurb_html = f'<div class="blurb">{_esc(blurb)}</div>' if blurb else ""
+        url = e.get("url")
+        link = (f'<a class="flyer-link" href="{_esc(url)}" target="_blank" rel="noopener">'
+                f'DETAILS / RSVP →</a>' if url and url != "#" else "")
+        html += (
+            f'<article class="flyer"><div class="tagrow">'
+            f'<span class="tag {tcls}">{_esc(tlabel)}</span>{recpill}</div>'
+            f'<h3 class="ftitle">{_esc(e.get("title"))}</h3><div class="meta">'
+            f'<div><span class="k">{"NEXT" if rec else "WHEN"}</span><span>{_clock(d)}</span></div>'
+            f'<div><span class="k">WHERE</span><span>{_esc(e.get("venue") or "TBA — RSVP")}</span></div>'
+            f'<div><span class="k">WHO</span><span>{_esc(e.get("org") or "—")}</span></div></div>'
+            f'{blurb_html}{link}'
+            f'<div class="src"><span>src: {_esc(e.get("source") or "—")}</span></div></article>')
+    if last_day is not None:
+        html += "</div>"
+    return html + "</div>"
+
+def render_jsonld(result):
+    """schema.org Event JSON-LD for every event (search rich results)."""
+    events = []
+    for city in (result.get("cities") or {}).values():
+        cityname = (city.get("label") or "").split(",")[0] or "Sacramento"
+        for e in city.get("events", []):
+            if not e.get("start"):
+                continue
+            obj = {
+                "@context": "https://schema.org", "@type": "Event",
+                "name": e.get("title") or "", "startDate": e["start"],
+                "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                "eventStatus": "https://schema.org/EventScheduled",
+                "location": {"@type": "Place", "name": e.get("venue") or f"{cityname}, CA",
+                             "address": {"@type": "PostalAddress",
+                                         "streetAddress": e.get("venue") or "",
+                                         "addressLocality": cityname, "addressRegion": "CA"}},
+                "organizer": {"@type": "Organization", "name": e.get("org") or ""},
+                "url": e.get("url") or SITE_URL,
+            }
+            if e.get("end"):
+                obj["endDate"] = e["end"]
+            blurb = _strip_tags(e.get("blurb") or "")
+            if blurb:
+                obj["description"] = blurb[:300]
+            events.append(obj)
+    if not events:
+        return ""
+    payload = json.dumps(events, ensure_ascii=False).replace("</", "<\\/")
+    return f'<script type="application/ld+json">{payload}</script>'
+
+def _replace_between(text, start, end, inner):
+    i, j = text.find(start), text.find(end)
+    if i == -1 or j == -1 or j < i:
+        raise RuntimeError(f"SEO markers missing: {start!r}..{end!r}")
+    return text[:i + len(start)] + inner + text[j:]
+
+def write_sitemap():
+    day = NOW.date().isoformat()
+    SITEMAP_XML.write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f'  <url><loc>{SITE_URL}/</loc><lastmod>{day}</lastmod>'
+        '<changefreq>weekly</changefreq><priority>1.0</priority></url>\n'
+        '</urlset>\n', encoding="utf-8")
+
+def inject_seo(result):
+    """Bake SSR HTML + JSON-LD into index.html and refresh sitemap.xml. Best-effort:
+    never aborts the build — events.json is the authoritative output."""
+    try:
+        html = INDEX_HTML.read_text(encoding="utf-8")
+        html = _replace_between(html, "<!--SSR:START-->", "<!--SSR:END-->", render_ssr(result))
+        html = _replace_between(html, "<!--JSONLD:START-->", "<!--JSONLD:END-->", render_jsonld(result))
+        INDEX_HTML.write_text(html, encoding="utf-8")
+        write_sitemap()
+        log("SEO: baked SSR + JSON-LD into index.html, refreshed sitemap.xml")
+    except Exception as e:
+        log(f"SEO injection skipped: {e}")
+
+
 def main():
     cfg  = yaml.safe_load(SOURCES.read_text(encoding="utf-8")) or {}
     prev = load_prev()
@@ -498,6 +642,7 @@ def main():
     OUT.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
     total = sum(len(c["events"]) for c in out_cities.values())
     log(f"wrote {OUT} — {total} events across {len(out_cities)} cities")
+    inject_seo(result)   # bake crawlable HTML + JSON-LD into index.html, refresh sitemap
 
 
 if __name__ == "__main__":
