@@ -252,6 +252,7 @@ def fetch_mobilize(city_key, org_id, default_type="meeting", near_zips=None):
 RECUR_WINDOW_DAYS = 35
 _WD = {"MO":"Monday","TU":"Tuesday","WE":"Wednesday","TH":"Thursday",
        "FR":"Friday","SA":"Saturday","SU":"Sunday"}
+_WEEKDAY = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
 
 def rrule_label(comp):
     """Human label for an RRULE, e.g. 'Every Sunday' / 'Every other Tuesday' / 'Monthly'."""
@@ -365,7 +366,73 @@ def fetch_ics(city_key, url, org=None, default_type="meeting"):
             out.append(e)
     return out
 
-FETCHERS = {"mobilize": fetch_mobilize, "ics": fetch_ics}
+def _strip_tags(s):
+    """Cheap HTML-tag strip for Squarespace excerpt/body (front end also sanitizes)."""
+    import re
+    return re.sub(r"<[^>]+>", " ", s or "").replace("&amp;", "&").strip()
+
+def _ss_months(start, end):
+    """Yield 'MM-YYYY' strings for every month spanned by [start, end] inclusive."""
+    y, m = start.year, start.month
+    while (y, m) <= (end.year, end.month):
+        yield f"{m:02d}-{y}"
+        m, y = (1, y + 1) if m == 12 else (m + 1, y)
+
+def fetch_squarespace(city_key, url, org=None, default_type="meeting"):
+    """Pull events from a Squarespace 7.1 Events collection. Squarespace dropped the
+    ICS export, but the collection's OWN data API still serves structured JSON — this
+    is an automated feed of the org's published events, just a different transport.
+
+    The generic ?format=json view is unreliable (paginates oddly), so we use the
+    collection's `/api/open/GetItemsByMonth` endpoint, month by month across the
+    window. startDate is a unix-ms UTC timestamp. Recurring events come pre-expanded
+    into instances, so we collapse same-title-same-weekday to the next upcoming card
+    (labelling weekly ones 'Every <day>')."""
+    from urllib.parse import urlsplit
+    base = urlsplit(url)
+    origin = f"{base.scheme}://{base.netloc}"
+    sep = "&" if "?" in url else "?"
+    meta = http_get(url + sep + "format=json", timeout=30).json() or {}
+    cid = (meta.get("collection") or {}).get("id")
+    if not cid:
+        raise RuntimeError("squarespace: could not resolve collection id")
+
+    floor = NOW - dt.timedelta(hours=6)
+    horizon = NOW + dt.timedelta(days=RECUR_WINDOW_DAYS)
+    counts, earliest = {}, {}
+    for mon in _ss_months(NOW, horizon):
+        api = f"{origin}/api/open/GetItemsByMonth?month={mon}&collectionId={cid}"
+        items = http_get(api, timeout=30).json() or []
+        for it in items:
+            sd = it.get("startDate")
+            if not sd:
+                continue
+            start = dt.datetime.fromtimestamp(sd / 1000, dt.timezone.utc)
+            if start < floor or start > horizon:
+                continue
+            wd = start.astimezone(DEFAULT_TZ).weekday()
+            key = (str(it.get("title", "")).strip().lower(), wd)
+            counts[key] = counts.get(key, 0) + 1
+            if key not in earliest or start < earliest[key][0]:
+                earliest[key] = (start, it, wd)
+
+    out = []
+    for key, (start, it, wd) in earliest.items():
+        loc = it.get("location") or {}
+        venue = loc.get("addressTitle") or loc.get("addressLine1") or None
+        full = it.get("fullUrl") or ""
+        e = norm_event(
+            city_key, title=str(it.get("title", "")), start=start,
+            type_=default_type, org=org, venue=venue,
+            url=(origin + full) if full.startswith("/") else (full or None),
+            blurb=_strip_tags(it.get("excerpt") or it.get("body") or "")[:280],
+            source="squarespace",
+            recurrence=(f"Every {_WEEKDAY[wd]}" if counts[key] > 1 else None))
+        if e:
+            out.append(e)
+    return out
+
+FETCHERS = {"mobilize": fetch_mobilize, "ics": fetch_ics, "squarespace": fetch_squarespace}
 
 
 # ─────────────────────────────── main loop ────────────────────────────────
