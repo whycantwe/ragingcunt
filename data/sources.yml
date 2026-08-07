@@ -1,0 +1,40 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# ragingcunt.com — EVENT SOURCES
+# This is the ONE file you maintain. Add a city or a feed here and the Sunday
+# job pulls from everything listed and rebuilds data/events.json.
+#
+# Each city = a label + a list of `sources`. Two kinds work out of the box
+# (see scripts/build.py):
+#   - { kind: ics,      url: "<.ics feed>", org: "Name", default_type: tenant }
+#   - { kind: mobilize, org_id: 12345,       default_type: action }
+#
+# default_type is applied to a feed's events unless the fetcher infers better.
+# TYPES: action | meeting | mutualaid | show | teachin | tenant | kyr
+#
+# HOW TO FIND FEEDS
+#   • WordPress + "The Events Calendar" sites usually expose an ICS at
+#       <site>/events/?ical=1     (or look for a "Subscribe / iCal" link)
+#   • Google Calendar: Settings ▸ Integrate calendar ▸ "Public iCal address"
+#   • Mobilize org_id: open the org's mobilize.us page; the id is in the URL/API
+#
+# RULE: only add feeds that actually exist and return events. An empty city is
+# an honest empty issue — the site never invents listings to fill a gap.
+# ═══════════════════════════════════════════════════════════════════════════
+
+cities:
+  sacramento:
+    label: "Sacramento, CA"
+    # TODO — add real Sacramento feeds, e.g.:
+    #   - { kind: ics,      url: "https://<org-site>/events/?ical=1", org: "Capitol Tenants Union", default_type: tenant }
+    #   - { kind: mobilize, org_id: 00000, default_type: action }
+    sources: []
+
+  oakland:       { label: "Oakland, CA",       sources: [] }
+  los-angeles:   { label: "Los Angeles, CA",   sources: [] }
+  san-francisco: { label: "San Francisco, CA", sources: [] }
+  san-diego:     { label: "San Diego, CA",     sources: [] }
+  san-jose:      { label: "San Jose, CA",      sources: [] }
+  long-beach:    { label: "Long Beach, CA",    sources: [] }
+  fresno:        { label: "Fresno, CA",        sources: [] }
+  santa-cruz:    { label: "Santa Cruz, CA",    sources: [] }
+  riverside:     { label: "Riverside, CA",     sources: [] }

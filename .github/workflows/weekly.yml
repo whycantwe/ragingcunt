@@ -1,0 +1,52 @@
+name: weekly-build
+
+# Rebuilds data/events.json from the feeds in data/sources.yml and commits it.
+# The static site (index.html) just reads that file, so committing = publishing.
+
+on:
+  schedule:
+    # Sundays 14:00 UTC (~6–7am US Pacific). GitHub cron can lag under load; fine weekly.
+    - cron: "0 14 * * 0"
+  workflow_dispatch: {}   # lets you click "Run workflow" to build on demand (use this first)
+
+# REQUIRED so the job can commit events.json back to the repo.
+# Also flip Settings ▸ Actions ▸ General ▸ Workflow permissions ▸ "Read and write".
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r scripts/requirements.txt
+
+      - name: Build events.json
+        env:
+          # Add API keys here as repo secrets (Settings ▸ Secrets ▸ Actions) and
+          # read them in build.py via os.environ. Public ICS/Mobilize need none.
+          ACTION_NETWORK_TOKEN: ${{ secrets.ACTION_NETWORK_TOKEN }}
+        run: python scripts/build.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "rage-bot"
+          git config user.email "rage-bot@users.noreply.github.com"
+          git add data/events.json
+          if git diff --staged --quiet; then
+            echo "No changes this week."
+          else
+            git commit -m "weekly: refresh events $(date -u +%F)"
+            git push
+          fi

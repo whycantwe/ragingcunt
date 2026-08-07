@@ -1,0 +1,5 @@
+requests>=2.31
+PyYAML>=6.0
+python-dateutil>=2.9
+icalendar>=5.0
+shapely>=2.0

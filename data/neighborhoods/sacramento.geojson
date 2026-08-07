@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "note": "PLACEHOLDER boundaries — rough bounding boxes only. Replace with real neighborhood polygons (e.g. from the City of Sacramento open-data portal or OpenStreetMap) before trusting the neighborhood buckets. Each feature needs properties.name; the build does point-in-polygon on event lat/lng and falls back to 'Citywide'.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Downtown", "note": "PLACEHOLDER bbox" },
+      "geometry": { "type": "Polygon", "coordinates": [[[-121.508,38.573],[-121.489,38.573],[-121.489,38.587],[-121.508,38.587],[-121.508,38.573]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Midtown", "note": "PLACEHOLDER bbox" },
+      "geometry": { "type": "Polygon", "coordinates": [[[-121.489,38.560],[-121.469,38.560],[-121.469,38.578],[-121.489,38.578],[-121.489,38.560]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Oak Park", "note": "PLACEHOLDER bbox" },
+      "geometry": { "type": "Polygon", "coordinates": [[[-121.472,38.542],[-121.450,38.542],[-121.450,38.560],[-121.472,38.560],[-121.472,38.542]]] }
+    }
+  ]
+}

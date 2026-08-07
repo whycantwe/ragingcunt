@@ -1,0 +1,239 @@
+{
+  "generated": "2026-07-12T14:00:00Z",
+  "cities": {
+    "sacramento": {
+      "label": "Sacramento, CA",
+      "events": [
+        {
+          "id": "s1",
+          "title": "Rent Is Theft: Rally at City Hall",
+          "type": "action",
+          "org": "Capitol Tenants Union",
+          "start": "2026-07-18T17:30:00-07:00",
+          "venue": "City Hall Steps, 915 I St",
+          "neighborhood": "Downtown",
+          "url": "#",
+          "source": "mobilize",
+          "blurb": "<span class='shout'>DONE ASKING NICELY.</span> Rent went up again and the council's 'studying it.' Bring signs, bring your neighbors, bring the noise. Meet at the steps — we march at 6."
+        },
+        {
+          "id": "s2",
+          "title": "New Member Orientation",
+          "type": "meeting",
+          "org": "River City Socialists (demo)",
+          "start": "2026-07-16T18:00:00-07:00",
+          "venue": "Coloma Community Center",
+          "neighborhood": "East Sacramento",
+          "url": "#",
+          "source": "ics",
+          "blurb": "Curious how the sausage of solidarity gets made? Folding chairs, bad coffee, actual plans. No experience needed — just a pulse and a grudge against your boss."
+        },
+        {
+          "id": "s3",
+          "title": "Oak Park Free Fridge — Restock Run",
+          "type": "mutualaid",
+          "org": "Oak Park Community Fridge",
+          "start": "2026-07-15T12:00:00-07:00",
+          "venue": "3rd Ave & Broadway",
+          "neighborhood": "Oak Park",
+          "url": "#",
+          "source": "ics",
+          "blurb": "The fridge doesn't means-test and neither do we. <span class='shout'>TAKE WHAT YOU NEED, LEAVE WHAT YOU CAN.</span> Noon restock — hands welcome, questions never asked."
+        },
+        {
+          "id": "s4",
+          "title": "BENEFIT SHOW: 4 Bands, 0 Cops",
+          "type": "show",
+          "org": "Delta DIY",
+          "start": "2026-07-19T20:00:00-07:00",
+          "venue": "The Colony (all ages)",
+          "neighborhood": "Midtown",
+          "url": "#",
+          "source": "ics",
+          "blurb": "Sliding scale at the door — <span class='shout'>NOBODY TURNED AWAY FOR LACK OF FUNDS.</span> All proceeds to the bail fund. Loud, sweaty, ours."
+        },
+        {
+          "id": "s5",
+          "title": "Marx for People Who Fell Asleep in Econ",
+          "type": "teachin",
+          "org": "Midtown Reading Collective",
+          "start": "2026-07-17T19:00:00-07:00",
+          "venue": "Sac Public Library, Central",
+          "neighborhood": "Downtown",
+          "url": "#",
+          "source": "mobilize",
+          "blurb": "No prereqs, no jargon, no gatekeeping. We read the boring parts so you don't have to. Snacks provided, hot takes encouraged."
+        },
+        {
+          "id": "s6",
+          "title": "Building-by-Building: Tenant Mapping Night",
+          "type": "tenant",
+          "org": "Capitol Tenants Union",
+          "start": "2026-07-22T18:30:00-07:00",
+          "venue": "Oak Park Community Center",
+          "neighborhood": "Oak Park",
+          "url": "#",
+          "source": "ics",
+          "blurb": "Your landlord has a group chat. <span class='shout'>NOW YOU DO TOO.</span> We're mapping the slumlords one building at a time. Bring your lease and your rage."
+        },
+        {
+          "id": "s7",
+          "title": "Know Your Rights: ICE at the Door",
+          "type": "kyr",
+          "org": "Sac Rapid Response (demo)",
+          "start": "2026-07-20T14:00:00-07:00",
+          "venue": "La Familia Counseling Center",
+          "neighborhood": "South Sacramento",
+          "url": "#",
+          "source": "mobilize",
+          "blurb": "Know your rights <span class='shout'>BEFORE</span> you need them. Free red cards, the script for the door, and what to do if they show up. Bilingual, childcare on site."
+        },
+        {
+          "id": "s8",
+          "title": "Del Paso Community Dinner + Supply Drive",
+          "type": "mutualaid",
+          "org": "North Sac Mutual Aid",
+          "start": "2026-07-21T17:00:00-07:00",
+          "venue": "Grant Park",
+          "neighborhood": "Del Paso Heights",
+          "url": "#",
+          "source": "ics",
+          "blurb": "Hot food, no strings, no forms. Drop socks/hygiene/anything useful. We feed the block because the state won't."
+        },
+        {
+          "id": "s9",
+          "title": "Stop the Sweeps — Emergency Response",
+          "type": "action",
+          "org": "Sac Housing Coalition (demo)",
+          "start": "2026-07-14T09:00:00-07:00",
+          "venue": "Meet: Loaves & Fishes lot",
+          "neighborhood": "Downtown",
+          "url": "#",
+          "source": "mobilize",
+          "blurb": "<span class='shout'>THEY'RE CLEARING THE CAMP AT DAWN.</span> Legal observers, witnesses, and bodies needed. Show up, film, protect neighbors. Solidarity not sweeps."
+        },
+        {
+          "id": "s10",
+          "title": "Zine Fair + Screenprint Table",
+          "type": "show",
+          "org": "Land Park Print Gang (demo)",
+          "start": "2026-07-26T13:00:00-07:00",
+          "venue": "Belle Cooledge Library lawn",
+          "neighborhood": "Land Park",
+          "url": "#",
+          "source": "ics",
+          "blurb": "Trade zines, pull a print, learn to make your own propaganda. Bring paper, leave with a movement. Kids and dogs welcome."
+        },
+        {
+          "id": "s11",
+          "title": "Weekly Chapter Meeting",
+          "type": "meeting",
+          "org": "River City Socialists (demo)",
+          "start": "2026-07-23T18:30:00-07:00",
+          "venue": "Online + Tahoe Park",
+          "neighborhood": "Tahoe Park",
+          "url": "#",
+          "source": "mobilize",
+          "blurb": "Committees, campaigns, and what we're actually doing this month. Newcomers get 5 minutes of fame and a buddy. Hybrid — pull up in person or online."
+        },
+        {
+          "id": "s12",
+          "title": "Renters' Assembly: Citywide",
+          "type": "tenant",
+          "org": "Capitol Tenants Union",
+          "start": "2026-07-27T15:00:00-07:00",
+          "venue": "Online (Zoom)",
+          "neighborhood": "Citywide",
+          "url": "#",
+          "source": "mobilize",
+          "blurb": "Every building, every hood, one room. Share what your landlord's pulling and plot the response together. <span class='shout'>ORGANIZED TENANTS DON'T LOSE ALONE.</span>"
+        },
+        {
+          "id": "s13",
+          "title": "Copwatch Training",
+          "type": "teachin",
+          "org": "Sac Copwatch (demo)",
+          "start": "2026-07-24T18:00:00-07:00",
+          "venue": "Oak Park Community Center",
+          "neighborhood": "Oak Park",
+          "url": "#",
+          "source": "ics",
+          "blurb": "How to film, where to stand, what the law actually says. Cameras up, rights intact. Bring a charged phone."
+        },
+        {
+          "id": "s14",
+          "title": "Community Fridge Deep Clean",
+          "type": "mutualaid",
+          "org": "Oak Park Community Fridge",
+          "start": "2026-07-25T10:00:00-07:00",
+          "venue": "3rd Ave & Broadway",
+          "neighborhood": "Oak Park",
+          "url": "#",
+          "source": "ics",
+          "blurb": "Gloves, bleach, good playlist. Keeping the fridge alive is the work. An hour of scrubbing = a week of full shelves."
+        },
+        {
+          "id": "s15",
+          "title": "Palestine Solidarity March",
+          "type": "action",
+          "org": "Sac Coalition (demo)",
+          "start": "2026-07-28T16:00:00-07:00",
+          "venue": "Cesar Chavez Plaza",
+          "neighborhood": "Downtown",
+          "url": "#",
+          "source": "mobilize",
+          "blurb": "March from the plaza. Signs provided, medics on hand, marshals in vests. Loud, disciplined, unmissable."
+        },
+        {
+          "id": "s16",
+          "title": "Skill Share: Fix-It Café",
+          "type": "teachin",
+          "org": "Midtown Reading Collective",
+          "start": "2026-07-29T18:00:00-07:00",
+          "venue": "20th St. side lot",
+          "neighborhood": "Midtown",
+          "url": "#",
+          "source": "ics",
+          "blurb": "Bring a broken thing, leave with a fixed thing + the know-how. Bikes, clothes, small electronics. Repair is resistance to the landfill."
+        }
+      ]
+    },
+    "oakland": {
+      "label": "Oakland, CA",
+      "events": []
+    },
+    "los-angeles": {
+      "label": "Los Angeles, CA",
+      "events": []
+    },
+    "san-francisco": {
+      "label": "San Francisco, CA",
+      "events": []
+    },
+    "san-diego": {
+      "label": "San Diego, CA",
+      "events": []
+    },
+    "san-jose": {
+      "label": "San Jose, CA",
+      "events": []
+    },
+    "long-beach": {
+      "label": "Long Beach, CA",
+      "events": []
+    },
+    "fresno": {
+      "label": "Fresno, CA",
+      "events": []
+    },
+    "santa-cruz": {
+      "label": "Santa Cruz, CA",
+      "events": []
+    },
+    "riverside": {
+      "label": "Riverside, CA",
+      "events": []
+    }
+  },
+  "demo": true
+}

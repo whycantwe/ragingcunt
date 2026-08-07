@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RAGINGCUNT.COM — local rage, issue by issue</title>
+<meta name="description" content="What's happening on your block. Protests, meetings, mutual aid, shows — drilled down to your neighborhood. PROTOTYPE with sample data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Permanent+Marker&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --pink:#ff2d95;
+    --pink-hot:#ff1783;
+    --ink:#0b0b0b;
+    --paper:#f3efe3;
+    --paper-2:#e8e3d3;
+    --white:#fff;
+    --shadow:8px 8px 0 var(--ink);
+    --shadow-pink:8px 8px 0 var(--pink);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Special Elite',monospace;
+    overflow-x:hidden;
+    background-image:
+      radial-gradient(var(--ink) .5px, transparent .6px);
+    background-size:5px 5px;
+    background-attachment:fixed;
+  }
+  /* xerox grain overlay */
+  body::before{
+    content:"";position:fixed;inset:0;z-index:999;pointer-events:none;opacity:.06;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  ::selection{background:var(--pink);color:#fff}
+  a{color:inherit}
+
+  /* ── SAMPLE BANNER ── */
+  .sample-bar{
+    background:repeating-linear-gradient(45deg,var(--pink),var(--pink) 14px,var(--ink) 14px,var(--ink) 28px);
+    color:#fff;text-align:center;padding:7px 12px;position:sticky;top:0;z-index:500;
+  }
+  .sample-bar span{background:var(--ink);padding:4px 12px;font-family:'Archivo Black',sans-serif;font-size:11px;letter-spacing:2px}
+
+  .wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+
+  /* ── MASTHEAD ── */
+  .mast{padding:44px 20px 26px;text-align:center;border-bottom:5px solid var(--ink)}
+  .nameplate{display:inline-flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px;line-height:.9}
+  .np-a,.np-b{font-family:'Archivo Black',sans-serif;font-size:clamp(42px,10vw,104px);padding:4px 16px;transform:skewX(-7deg);text-transform:uppercase;letter-spacing:-1px}
+  .np-a{background:var(--pink);color:var(--ink);box-shadow:5px 5px 0 var(--ink)}
+  .np-b{background:var(--ink);color:var(--pink);box-shadow:5px 5px 0 var(--pink)}
+  .np-dot{font-family:'Special Elite',monospace;font-size:clamp(14px,2.5vw,20px);align-self:flex-end;margin-bottom:10px;letter-spacing:1px}
+  .tagline{font-family:'Permanent Marker',cursive;font-size:clamp(15px,2.6vw,22px);color:var(--pink-hot);margin-top:20px;transform:rotate(-1.2deg)}
+  .sub-tag{font-family:'Special Elite',monospace;font-size:13px;letter-spacing:1px;color:#555;margin-top:10px}
+  .stamp{display:inline-block;margin-top:16px;font-family:'Archivo Black',sans-serif;font-size:11px;letter-spacing:2px;background:var(--ink);color:var(--paper);padding:5px 12px;transform:rotate(1deg)}
+  .stamp b{color:var(--pink)}
+
+  /* ── CONTROLS ── */
+  .controls{display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between;padding:22px 0;border-bottom:3px dashed var(--ink)}
+  .city-pick{display:flex;align-items:center;gap:10px}
+  .city-pick label{font-family:'Archivo Black',sans-serif;font-size:13px;letter-spacing:2px}
+  .city-pick select{
+    font-family:'Special Elite',monospace;font-size:15px;background:var(--ink);color:var(--paper);
+    border:none;padding:10px 14px;cursor:pointer;box-shadow:4px 4px 0 var(--pink);
+  }
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{
+    font-family:'Archivo Black',sans-serif;font-size:11px;letter-spacing:1px;padding:8px 12px;cursor:pointer;
+    background:var(--paper);border:2px solid var(--ink);text-transform:uppercase;transition:transform .1s;user-select:none;
+  }
+  .chip:hover{transform:translate(-1px,-1px)}
+  .chip.off{opacity:.32;text-decoration:line-through}
+  .chip.on{background:var(--ink);color:var(--paper)}
+
+  /* type colors */
+  .t-action{--tc:var(--pink);--tf:#000}
+  .t-meeting{--tc:#111;--tf:var(--pink)}
+  .t-aid{--tc:var(--paper);--tf:#000}
+  .t-show{--tc:#111;--tf:#fff}
+  .t-teach{--tc:#5b2be0;--tf:#fff}
+  .t-tenant{--tc:var(--pink-hot);--tf:#fff}
+  .t-kyr{--tc:#111;--tf:#ffe600}
+
+  /* ── SECTION HEADS ── */
+  .ransom{font-family:'Anton',sans-serif;text-transform:uppercase;line-height:.86;letter-spacing:-1px}
+  .rack-head{padding:38px 0 8px;text-align:center}
+  .rack-head h2{font-size:clamp(40px,9vw,96px)}
+  .rack-head h2 .hl{color:var(--pink)}
+  .scrawl{font-family:'Permanent Marker',cursive;color:var(--pink-hot);font-size:clamp(15px,2.4vw,20px);margin-top:12px;transform:rotate(-1deg)}
+
+  /* ── ISSUE RACK ── */
+  .rack{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:26px;padding:34px 0 60px}
+  .zine{
+    position:relative;background:var(--paper);border:3px solid var(--ink);box-shadow:var(--shadow);
+    padding:22px 20px 20px;cursor:pointer;transition:transform .12s,box-shadow .12s;min-height:270px;
+    display:flex;flex-direction:column;
+  }
+  .zine:nth-child(3n){transform:rotate(-1.4deg)}
+  .zine:nth-child(3n+1){transform:rotate(1deg)}
+  .zine:nth-child(4n){transform:rotate(-.5deg)}
+  .zine:hover{transform:rotate(0) translate(-3px,-3px);box-shadow:12px 12px 0 var(--pink)}
+  .zine::before{ /* tape */
+    content:"";position:absolute;top:-11px;left:50%;transform:translateX(-50%) rotate(-3deg);
+    width:80px;height:22px;background:rgba(255,45,149,.5);border:1px dashed rgba(0,0,0,.35);
+  }
+  .zine-no{font-family:'Archivo Black',sans-serif;font-size:12px;letter-spacing:2px;background:var(--ink);color:var(--paper);display:inline-block;padding:4px 9px;align-self:flex-start}
+  .zine-name{font-family:'Anton',sans-serif;text-transform:uppercase;font-size:clamp(30px,4vw,44px);line-height:.9;margin:14px 0 6px}
+  .zine-count{font-family:'Permanent Marker',cursive;color:var(--pink-hot);font-size:17px;margin-bottom:14px}
+  .zine-types{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}
+  .mini{font-family:'Archivo Black',sans-serif;font-size:9px;letter-spacing:1px;padding:4px 7px;background:var(--tc);color:var(--tf);border:1.5px solid var(--ink)}
+  .zine-open{margin-top:16px;font-family:'Archivo Black',sans-serif;font-size:11px;letter-spacing:2px;color:var(--pink-hot)}
+
+  /* ── ISSUE VIEW ── */
+  #issueView{padding-bottom:70px}
+  .back{
+    margin:30px 0 6px;font-family:'Archivo Black',sans-serif;font-size:12px;letter-spacing:2px;
+    background:var(--ink);color:var(--paper);border:none;padding:11px 16px;cursor:pointer;box-shadow:4px 4px 0 var(--pink);
+  }
+  .back:hover{transform:translate(-2px,-2px)}
+  .issue-mast{border-bottom:5px solid var(--ink);padding:26px 0 22px;margin-bottom:8px}
+  .issue-no{font-family:'Archivo Black',sans-serif;font-size:13px;letter-spacing:3px;background:var(--pink);color:#000;display:inline-block;padding:5px 12px;transform:skewX(-7deg)}
+  .issue-name{font-size:clamp(48px,12vw,130px);margin:12px 0 2px}
+  .issue-city{font-family:'Special Elite',monospace;letter-spacing:3px;font-size:14px;color:#555}
+  .issue-intro{max-width:680px}
+
+  /* ── FLYERS ── */
+  .flyers{columns:2;column-gap:24px;padding-top:26px}
+  @media(max-width:720px){.flyers{columns:1}}
+  .flyer{
+    break-inside:avoid;margin-bottom:24px;background:var(--white);border:3px solid var(--ink);
+    box-shadow:var(--shadow);padding:20px 20px 18px;position:relative;
+  }
+  .flyer:nth-child(even){transform:rotate(-.6deg)}
+  .flyer:nth-child(odd){transform:rotate(.5deg)}
+  .flyer-type{font-family:'Archivo Black',sans-serif;font-size:11px;letter-spacing:1px;padding:6px 11px;background:var(--tc);color:var(--tf);border:2px solid var(--ink);display:inline-block;transform:skewX(-6deg)}
+  .flyer-title{font-family:'Anton',sans-serif;text-transform:uppercase;font-size:clamp(24px,3.4vw,34px);line-height:.94;margin:12px 0 10px}
+  .flyer-meta{font-family:'Special Elite',monospace;font-size:13.5px;line-height:1.7;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:10px 0;margin-bottom:12px}
+  .flyer-meta .k{color:var(--pink-hot);font-weight:700}
+  .flyer-blurb{font-family:'Special Elite',monospace;font-size:14px;line-height:1.6;color:#1c1c1c}
+  .flyer-blurb .shout{font-family:'Archivo Black',sans-serif;font-style:normal}
+  .flyer-link{display:inline-block;margin-top:14px;font-family:'Archivo Black',sans-serif;font-size:12px;letter-spacing:1px;background:var(--ink);color:var(--paper);padding:9px 14px;text-decoration:none}
+  .flyer-link:hover{background:var(--pink);color:#000}
+  .flyer-src{font-family:'Special Elite',monospace;font-size:10px;color:#999;margin-top:12px;letter-spacing:1px}
+
+  .empty{padding:60px 20px;text-align:center;font-family:'Permanent Marker',cursive;color:var(--pink-hot);font-size:22px}
+
+  /* ── CITY NOTE (no data) ── */
+  .citynote{padding:60px 20px;text-align:center;border:3px dashed var(--ink);margin:34px 0 60px;background:var(--paper-2)}
+  .citynote h3{font-family:'Anton',sans-serif;text-transform:uppercase;font-size:clamp(28px,5vw,52px);line-height:.9}
+  .citynote p{font-family:'Special Elite',monospace;margin-top:14px;max-width:560px;margin-left:auto;margin-right:auto;line-height:1.7}
+
+  /* ── FOOTER ── */
+  footer{border-top:5px solid var(--ink);background:var(--ink);color:var(--paper);padding:44px 20px 60px}
+  .foot-grid{display:flex;flex-wrap:wrap;gap:30px;justify-content:space-between;max-width:1160px;margin:0 auto}
+  .foot-col{flex:1;min-width:230px}
+  .foot-col h4{font-family:'Archivo Black',sans-serif;color:var(--pink);font-size:13px;letter-spacing:2px;margin-bottom:12px}
+  .foot-col p{font-family:'Special Elite',monospace;font-size:13px;line-height:1.75;color:#cfcabb}
+  .foot-col a{color:var(--pink)}
+  .disc{max-width:1160px;margin:34px auto 0;font-family:'Special Elite',monospace;font-size:11.5px;color:#8a8577;line-height:1.7;border-top:1px solid #333;padding-top:20px}
+
+  @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="sample-bar"><span>⚠ PROTOTYPE — SAMPLE DATA — NOT REAL LISTINGS</span></div>
+
+<header class="mast">
+  <div class="nameplate">
+    <span class="np-a">RAGING</span><span class="np-b">CUNT</span><span class="np-dot">.COM</span>
+  </div>
+  <div class="tagline">local rage — issue by issue.</div>
+  <div class="sub-tag">WHAT'S HAPPENING ON YOUR BLOCK · CITY BY CITY · HOOD BY HOOD</div>
+  <div class="stamp" id="stamp">▪ LAST XEROXED: <b>—</b></div>
+</header>
+
+<div class="wrap">
+  <div class="controls">
+    <div class="city-pick">
+      <label for="city">CITY</label>
+      <select id="city"></select>
+    </div>
+    <div class="chips" id="typeChips"></div>
+  </div>
+</div>
+
+<div class="wrap">
+  <!-- RACK -->
+  <main id="rackView">
+    <div class="rack-head">
+      <h2 class="ransom">PICK YOUR <span class="hl">ISSUE.</span></h2>
+      <p class="scrawl">every block gets its own zine. flip through &amp; find your people.</p>
+    </div>
+    <div class="rack" id="rack"></div>
+  </main>
+
+  <!-- ISSUE -->
+  <main id="issueView" hidden>
+    <button class="back" id="back">◀ BACK TO THE RACK</button>
+    <div class="issue-mast">
+      <span class="issue-no" id="issueNo">ISSUE #00</span>
+      <h2 class="issue-name ransom" id="issueName">—</h2>
+      <div class="issue-city" id="issueCity">SACRAMENTO, CA</div>
+      <p class="issue-intro scrawl" id="issueIntro"></p>
+    </div>
+    <div class="flyers" id="flyers"></div>
+  </main>
+</div>
+
+<footer>
+  <div class="foot-grid">
+    <div class="foot-col">
+      <h4>WHAT IS THIS</h4>
+      <p>A photocopied wall of what's actually happening near you — protests, meetings, mutual aid, shows, tenant fights, know-your-rights. Sorted by city, drilled to the neighborhood. No algorithm. No ads. No cops.</p>
+    </div>
+    <div class="foot-col">
+      <h4>HOW IT STAYS REAL</h4>
+      <p>Listings are pulled every Sunday from verified org calendars and feeds — not made up, not scraped from randos. If a feed dies, the last good issue stays up. Dead events get buried automatically.</p>
+    </div>
+    <div class="foot-col">
+      <h4>GET ON THE WALL</h4>
+      <p>Run a chapter, a fridge, a union, a venue? Point us at your calendar feed and your block gets an issue. Reclaim the noise. <a href="#">holler@ragingcunt.com</a></p>
+    </div>
+  </div>
+  <p class="disc">
+    PROTOTYPE. Every listing shown here is <b>placeholder sample data</b> built to demonstrate the format — the orgs, dates, and venues are invented and none of these are real events. In production, listings are generated weekly from real, verified feeds; nothing on this wall is ever fabricated. Aesthetic is a tribute to riot-grrrl / xerox-zine culture.
+  </p>
+</footer>
+
+<script>
+/* ============================================================
+   DATA CONTRACT
+   The front end reads ONE file: data/events.json
+   Shape (this is exactly what the weekly build.py must emit):
+   {
+     "generated": "2026-07-12T14:00:00Z",   // ISO, stamped by the Sunday job
+     "cities": {
+       "sacramento": {
+         "label": "Sacramento, CA",
+         "events": [
+           {
+             "id": "unique-hash",
+             "title": "...",
+             "type": "action|meeting|mutualaid|show|teachin|tenant|kyr",
+             "org": "...",
+             "start": "2026-07-18T18:00:00-07:00",  // ISO w/ tz
+             "end": null,
+             "venue": "...",
+             "neighborhood": "Midtown",   // or "Citywide"
+             "address": "...",
+             "lat": null, "lng": null,
+             "url": "https://...",
+             "blurb": "...",              // editorial copy (built or templated)
+             "source": "mobilize|ics|..." // provenance
+           }
+         ]
+       }
+     }
+   }
+   On load we try fetch('data/events.json'); if it 404s (like right now,
+   standalone), we fall back to SAMPLE_DATA below so the UI always renders.
+   ============================================================ */
+
+const SAMPLE_DATA = {
+  generated: "2026-07-12T14:00:00Z",
+  cities: {
+    sacramento: {
+      label: "Sacramento, CA",
+      events: [
+        {id:"s1", title:"Rent Is Theft: Rally at City Hall", type:"action", org:"Capitol Tenants Union", start:"2026-07-18T17:30:00-07:00", venue:"City Hall Steps, 915 I St", neighborhood:"Downtown", url:"#", source:"mobilize",
+         blurb:"<span class='shout'>DONE ASKING NICELY.</span> Rent went up again and the council's 'studying it.' Bring signs, bring your neighbors, bring the noise. Meet at the steps — we march at 6."},
+        {id:"s2", title:"New Member Orientation", type:"meeting", org:"River City Socialists (demo)", start:"2026-07-16T18:00:00-07:00", venue:"Coloma Community Center", neighborhood:"East Sacramento", url:"#", source:"ics",
+         blurb:"Curious how the sausage of solidarity gets made? Folding chairs, bad coffee, actual plans. No experience needed — just a pulse and a grudge against your boss."},
+        {id:"s3", title:"Oak Park Free Fridge — Restock Run", type:"mutualaid", org:"Oak Park Community Fridge", start:"2026-07-15T12:00:00-07:00", venue:"3rd Ave & Broadway", neighborhood:"Oak Park", url:"#", source:"ics",
+         blurb:"The fridge doesn't means-test and neither do we. <span class='shout'>TAKE WHAT YOU NEED, LEAVE WHAT YOU CAN.</span> Noon restock — hands welcome, questions never asked."},
+        {id:"s4", title:"BENEFIT SHOW: 4 Bands, 0 Cops", type:"show", org:"Delta DIY", start:"2026-07-19T20:00:00-07:00", venue:"The Colony (all ages)", neighborhood:"Midtown", url:"#", source:"ics",
+         blurb:"Sliding scale at the door — <span class='shout'>NOBODY TURNED AWAY FOR LACK OF FUNDS.</span> All proceeds to the bail fund. Loud, sweaty, ours."},
+        {id:"s5", title:"Marx for People Who Fell Asleep in Econ", type:"teachin", org:"Midtown Reading Collective", start:"2026-07-17T19:00:00-07:00", venue:"Sac Public Library, Central", neighborhood:"Downtown", url:"#", source:"mobilize",
+         blurb:"No prereqs, no jargon, no gatekeeping. We read the boring parts so you don't have to. Snacks provided, hot takes encouraged."},
+        {id:"s6", title:"Building-by-Building: Tenant Mapping Night", type:"tenant", org:"Capitol Tenants Union", start:"2026-07-22T18:30:00-07:00", venue:"Oak Park Community Center", neighborhood:"Oak Park", url:"#", source:"ics",
+         blurb:"Your landlord has a group chat. <span class='shout'>NOW YOU DO TOO.</span> We're mapping the slumlords one building at a time. Bring your lease and your rage."},
+        {id:"s7", title:"Know Your Rights: ICE at the Door", type:"kyr", org:"Sac Rapid Response (demo)", start:"2026-07-20T14:00:00-07:00", venue:"La Familia Counseling Center", neighborhood:"South Sacramento", url:"#", source:"mobilize",
+         blurb:"Know your rights <span class='shout'>BEFORE</span> you need them. Free red cards, the script for the door, and what to do if they show up. Bilingual, childcare on site."},
+        {id:"s8", title:"Del Paso Community Dinner + Supply Drive", type:"mutualaid", org:"North Sac Mutual Aid", start:"2026-07-21T17:00:00-07:00", venue:"Grant Park", neighborhood:"Del Paso Heights", url:"#", source:"ics",
+         blurb:"Hot food, no strings, no forms. Drop socks/hygiene/anything useful. We feed the block because the state won't."},
+        {id:"s9", title:"Stop the Sweeps — Emergency Response", type:"action", org:"Sac Housing Coalition (demo)", start:"2026-07-14T09:00:00-07:00", venue:"Meet: Loaves & Fishes lot", neighborhood:"Downtown", url:"#", source:"mobilize",
+         blurb:"<span class='shout'>THEY'RE CLEARING THE CAMP AT DAWN.</span> Legal observers, witnesses, and bodies needed. Show up, film, protect neighbors. Solidarity not sweeps."},
+        {id:"s10", title:"Zine Fair + Screenprint Table", type:"show", org:"Land Park Print Gang (demo)", start:"2026-07-26T13:00:00-07:00", venue:"Belle Cooledge Library lawn", neighborhood:"Land Park", url:"#", source:"ics",
+         blurb:"Trade zines, pull a print, learn to make your own propaganda. Bring paper, leave with a movement. Kids and dogs welcome."},
+        {id:"s11", title:"Weekly Chapter Meeting", type:"meeting", org:"River City Socialists (demo)", start:"2026-07-23T18:30:00-07:00", venue:"Online + Tahoe Park", neighborhood:"Tahoe Park", url:"#", source:"mobilize",
+         blurb:"Committees, campaigns, and what we're actually doing this month. Newcomers get 5 minutes of fame and a buddy. Hybrid — pull up in person or online."},
+        {id:"s12", title:"Renters' Assembly: Citywide", type:"tenant", org:"Capitol Tenants Union", start:"2026-07-27T15:00:00-07:00", venue:"Online (Zoom)", neighborhood:"Citywide", url:"#", source:"mobilize",
+         blurb:"Every building, every hood, one room. Share what your landlord's pulling and plot the response together. <span class='shout'>ORGANIZED TENANTS DON'T LOSE ALONE.</span>"},
+        {id:"s13", title:"Copwatch Training", type:"teachin", org:"Sac Copwatch (demo)", start:"2026-07-24T18:00:00-07:00", venue:"Oak Park Community Center", neighborhood:"Oak Park", url:"#", source:"ics",
+         blurb:"How to film, where to stand, what the law actually says. Cameras up, rights intact. Bring a charged phone."},
+        {id:"s14", title:"Community Fridge Deep Clean", type:"mutualaid", org:"Oak Park Community Fridge", start:"2026-07-25T10:00:00-07:00", venue:"3rd Ave & Broadway", neighborhood:"Oak Park", url:"#", source:"ics",
+         blurb:"Gloves, bleach, good playlist. Keeping the fridge alive is the work. An hour of scrubbing = a week of full shelves."},
+        {id:"s15", title:"Palestine Solidarity March", type:"action", org:"Sac Coalition (demo)", start:"2026-07-28T16:00:00-07:00", venue:"Cesar Chavez Plaza", neighborhood:"Downtown", url:"#", source:"mobilize",
+         blurb:"March from the plaza. Signs provided, medics on hand, marshals in vests. Loud, disciplined, unmissable."},
+        {id:"s16", title:"Skill Share: Fix-It Café", type:"teachin", org:"Midtown Reading Collective", start:"2026-07-29T18:00:00-07:00", venue:"20th St. side lot", neighborhood:"Midtown", url:"#", source:"ics",
+         blurb:"Bring a broken thing, leave with a fixed thing + the know-how. Bikes, clothes, small electronics. Repair is resistance to the landfill."}
+      ]
+    },
+    // Other CA cities: framework present, no feeds wired yet -> shows the "request an issue" state.
+    oakland:      {label:"Oakland, CA", events:[]},
+    "los-angeles":{label:"Los Angeles, CA", events:[]},
+    "san-francisco":{label:"San Francisco, CA", events:[]},
+    "san-diego":  {label:"San Diego, CA", events:[]},
+    "san-jose":   {label:"San Jose, CA", events:[]},
+    "long-beach": {label:"Long Beach, CA", events:[]},
+    fresno:       {label:"Fresno, CA", events:[]},
+    "santa-cruz": {label:"Santa Cruz, CA", events:[]},
+    riverside:    {label:"Riverside, CA", events:[]}
+  }
+};
+
+const TYPES = {
+  action:   {label:"ACTION",       cls:"t-action"},
+  meeting:  {label:"MEETING",      cls:"t-meeting"},
+  mutualaid:{label:"MUTUAL AID",   cls:"t-aid"},
+  show:     {label:"SHOW",         cls:"t-show"},
+  teachin:  {label:"TEACH-IN",     cls:"t-teach"},
+  tenant:   {label:"TENANT",       cls:"t-tenant"},
+  kyr:      {label:"KNOW UR RIGHTS",cls:"t-kyr"}
+};
+
+const NEIGHBORHOOD_INTRO = {
+  "Downtown":"the belly of the beast. city hall, the plaza, the sweeps. this is where we get loud.",
+  "Midtown":"art kids, print gangs, and the loudest basements in the 916.",
+  "Oak Park":"fridges, unions, copwatch. the block that shows up for itself.",
+  "East Sacramento":"quiet streets, quieter meetings. the work still gets done here.",
+  "South Sacramento":"know your rights, feed your neighbors, watch each other's backs.",
+  "Del Paso Heights":"north side mutual aid. dinner's on the block, no forms required.",
+  "Land Park":"lawns, libraries, and low-key propaganda. bring the kids.",
+  "Tahoe Park":"hybrid meetings and porch-light organizing.",
+  "Citywide":"no single block — this one's for the whole 916."
+};
+
+let DATA = SAMPLE_DATA;
+let IS_DEMO = true;   // true for inline/seed data; real build output sets demo:false
+let state = { city:"sacramento", types:new Set(Object.keys(TYPES)), view:"rack", hood:null };
+
+/* try to load real data; fall back to sample */
+(async function init(){
+  try{
+    const r = await fetch("data/events.json", {cache:"no-store"});
+    if(r.ok){ DATA = await r.json(); IS_DEMO = !!DATA.demo; if(!IS_DEMO) document.querySelector(".sample-bar").hidden = true; }
+  }catch(e){ /* standalone / no file — keep SAMPLE_DATA */ }
+  boot();
+})();
+
+function boot(){
+  // stamp
+  const g = DATA.generated ? new Date(DATA.generated) : null;
+  document.querySelector("#stamp b").textContent = g
+    ? g.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"}).toUpperCase()
+    : "—";
+
+  // city selector
+  const sel = document.getElementById("city");
+  sel.innerHTML = Object.entries(DATA.cities).map(([k,v])=>{
+    const n = v.events.length;
+    return `<option value="${k}">${v.label.toUpperCase()}${n?"":"  — no issue yet"}</option>`;
+  }).join("");
+  sel.value = state.city in DATA.cities ? state.city : Object.keys(DATA.cities)[0];
+  state.city = sel.value;
+  sel.addEventListener("change", ()=>{ state.city=sel.value; state.view="rack"; state.hood=null; render(); });
+
+  // type chips
+  const chipWrap = document.getElementById("typeChips");
+  chipWrap.innerHTML = Object.entries(TYPES).map(([k,t])=>
+    `<span class="chip on ${t.cls}" data-type="${k}">${t.label}</span>`).join("");
+  chipWrap.querySelectorAll(".chip").forEach(c=>{
+    c.addEventListener("click", ()=>{
+      const t=c.dataset.type;
+      if(state.types.has(t)){ state.types.delete(t); c.classList.replace("on","off"); }
+      else { state.types.add(t); c.classList.replace("off","on"); }
+      render();
+    });
+  });
+
+  document.getElementById("back").addEventListener("click", ()=>{ state.view="rack"; state.hood=null; render(); window.scrollTo({top:0,behavior:"smooth"}); });
+  render();
+}
+
+function cityEvents(){
+  return (DATA.cities[state.city]?.events || []).filter(e=>state.types.has(e.type));
+}
+function fmt(iso){
+  const d=new Date(iso);
+  return d.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"}).toUpperCase()
+    + " · " + d.toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"});
+}
+
+function render(){
+  const rackView=document.getElementById("rackView");
+  const issueView=document.getElementById("issueView");
+  const evs=cityEvents();
+  const noData=(DATA.cities[state.city]?.events||[]).length===0;
+
+  if(state.view==="issue" && state.hood){ rackView.hidden=true; issueView.hidden=false; renderIssue(evs); return; }
+  issueView.hidden=true; rackView.hidden=false;
+
+  const rack=document.getElementById("rack");
+  if(noData){
+    rack.innerHTML = `<div class="citynote" style="grid-column:1/-1">
+      <h3>No issue for ${DATA.cities[state.city].label} yet.</h3>
+      <p>Nobody's wired up the feeds for this city. Know the orgs, fridges, unions and venues here? Send their calendars and we'll cut this block its first issue.</p>
+      <p style="margin-top:16px"><a href="#" style="background:var(--ink);color:var(--paper);padding:10px 16px;text-decoration:none;font-family:'Archivo Black',sans-serif;font-size:12px;letter-spacing:1px;">REQUEST THIS CITY →</a></p>
+    </div>`;
+    return;
+  }
+
+  // group by neighborhood
+  const groups={};
+  evs.forEach(e=>{ (groups[e.neighborhood]??=[]).push(e); });
+  const hoods=Object.keys(groups).sort((a,b)=> a==="Citywide"?1 : b==="Citywide"?-1 : groups[b].length-groups[a].length);
+
+  if(hoods.length===0){ rack.innerHTML=`<div class="empty" style="grid-column:1/-1">no dispatches match those filters. turn some back on. ↑</div>`; return; }
+
+  rack.innerHTML = hoods.map((h,i)=>{
+    const list=groups[h];
+    const typesHere=[...new Set(list.map(e=>e.type))];
+    const mini=typesHere.slice(0,4).map(t=>`<span class="mini ${TYPES[t].cls}">${TYPES[t].label}</span>`).join("");
+    return `<div class="zine" data-hood="${encodeURIComponent(h)}">
+      <span class="zine-no">ISSUE #${String(i+1).padStart(2,"0")}</span>
+      <div class="zine-name">${h}</div>
+      <div class="zine-count">${list.length} dispatch${list.length>1?"es":""}</div>
+      <div class="zine-types">${mini}</div>
+      <div class="zine-open">FLIP IT OPEN →</div>
+    </div>`;
+  }).join("");
+
+  rack.querySelectorAll(".zine").forEach(z=>{
+    z.addEventListener("click", ()=>{ state.hood=decodeURIComponent(z.dataset.hood); state.view="issue"; render(); window.scrollTo({top:0,behavior:"smooth"}); });
+  });
+}
+
+function renderIssue(evs){
+  const list=evs.filter(e=>e.neighborhood===state.hood)
+    .sort((a,b)=> new Date(a.start)-new Date(b.start));
+  // issue number = position in the rack ordering
+  const groups={}; evs.forEach(e=>{ (groups[e.neighborhood]??=[]).push(e); });
+  const hoods=Object.keys(groups).sort((a,b)=> a==="Citywide"?1 : b==="Citywide"?-1 : groups[b].length-groups[a].length);
+  const idx=hoods.indexOf(state.hood);
+
+  document.getElementById("issueNo").textContent = "ISSUE #"+String((idx<0?0:idx+1)).padStart(2,"0");
+  document.getElementById("issueName").textContent = state.hood;
+  document.getElementById("issueCity").textContent = (DATA.cities[state.city].label||"").toUpperCase();
+  document.getElementById("issueIntro").textContent = NEIGHBORHOOD_INTRO[state.hood] || "what's happening on this block right now.";
+
+  const wrap=document.getElementById("flyers");
+  if(list.length===0){ wrap.innerHTML=`<div class="empty">nothing here with those filters. flip some chips back on. ↑</div>`; return; }
+
+  wrap.innerHTML = list.map(e=>{
+    const t=TYPES[e.type]||{label:e.type,cls:""};
+    return `<article class="flyer ${t.cls}">
+      <span class="flyer-type">${t.label}</span>
+      <h3 class="flyer-title">${e.title}</h3>
+      <div class="flyer-meta">
+        <div><span class="k">WHEN</span> ${fmt(e.start)}</div>
+        <div><span class="k">WHERE</span> ${e.venue||"TBA"} · ${e.neighborhood}</div>
+        <div><span class="k">WHO</span> ${e.org||"—"}</div>
+      </div>
+      <div class="flyer-blurb">${e.blurb||""}</div>
+      <a class="flyer-link" href="${e.url||"#"}"${e.url&&e.url!=="#"?' target="_blank" rel="noopener"':""}>DETAILS / RSVP →</a>
+      <div class="flyer-src">src: ${e.source||"—"}${IS_DEMO?" · sample":""}</div>
+    </article>`;
+  }).join("");
+}
+</script>
+</body>
+</html>
