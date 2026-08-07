@@ -112,8 +112,11 @@ def _iso(v):
 _SKIP_TITLES = {"space reserved", "reserved", "hold", "placeholder", "busy", "tbd", "n/a"}
 
 def norm_event(city_key, *, title, start, type_, org=None, venue=None,
-               lat=None, lng=None, url=None, blurb=None, source="?", end=None):
-    """Build one event dict in the front-end's exact shape (or None if unusable)."""
+               lat=None, lng=None, url=None, blurb=None, source="?", end=None,
+               recurrence=None):
+    """Build one event dict in the front-end's exact shape (or None if unusable).
+    `recurrence` (optional) is a human label like 'Every Sunday' for a collapsed
+    repeating series; the `start` is then that series' NEXT occurrence."""
     start_iso = _iso(start)
     if not title or not start_iso:
         return None
@@ -133,6 +136,7 @@ def norm_event(city_key, *, title, start, type_, org=None, venue=None,
         "url": url,
         "blurb": (blurb or "").strip(),
         "source": source,
+        "recurrence": recurrence,   # None for one-offs; label for collapsed series
     }
 
 
@@ -217,28 +221,121 @@ def fetch_mobilize(city_key, org_id, default_type="meeting"):
             f"stopping pagination early")
     return out
 
+# How far ahead we expand repeating events. A weekly rebuild keeps data fresh;
+# this only sets how far a visitor can SEE. 35d guarantees the next occurrence of
+# a MONTHLY series is always visible and gives a buffer if a weekly build is missed.
+RECUR_WINDOW_DAYS = 35
+_WD = {"MO":"Monday","TU":"Tuesday","WE":"Wednesday","TH":"Thursday",
+       "FR":"Friday","SA":"Saturday","SU":"Sunday"}
+
+def rrule_label(comp):
+    """Human label for an RRULE, e.g. 'Every Sunday' / 'Every other Tuesday' / 'Monthly'."""
+    r = comp.get("rrule")
+    if not r:
+        return None
+    freq = (r.get("FREQ") or [""])[0]
+    interval = int((r.get("INTERVAL") or [1])[0])
+    byday = r.get("BYDAY") or []
+    day = _WD.get(str(byday[0])[-2:].upper()) if byday else None
+    if not day:
+        ds = comp.get("dtstart")
+        if ds is not None and hasattr(ds.dt, "strftime"):
+            day = ds.dt.strftime("%A")
+    if freq == "WEEKLY":
+        if interval == 1: return f"Every {day}" if day else "Weekly"
+        if interval == 2: return f"Every other {day}" if day else "Every other week"
+        return f"Every {interval} weeks"
+    if freq == "DAILY":
+        return "Daily" if interval == 1 else f"Every {interval} days"
+    if freq == "MONTHLY":
+        return "Monthly" if interval == 1 else f"Every {interval} months"
+    if freq == "YEARLY":
+        return "Yearly"
+    return "Recurring"
+
+def _ics_start(comp):
+    """Comparable tz-aware start for an ICS component (all-day/naive -> DEFAULT_TZ)."""
+    ds = comp.get("dtstart")
+    if not ds:
+        return None
+    v = ds.dt
+    if isinstance(v, dt.date) and not isinstance(v, dt.datetime):
+        v = dt.datetime(v.year, v.month, v.day, tzinfo=DEFAULT_TZ)
+    elif v.tzinfo is None:
+        v = v.replace(tzinfo=DEFAULT_TZ)
+    return v
+
+def _ics_norm(city_key, comp, org, default_type, recurrence=None):
+    """Turn one ICS VEVENT (master, one-off, or expanded occurrence) into an event."""
+    lat = lng = None
+    geo = comp.get("geo")
+    if geo is not None:
+        try: lat, lng = float(geo.latitude), float(geo.longitude)
+        except Exception: pass
+    ds = comp.get("dtstart")
+    return norm_event(
+        city_key, title=str(comp.get("summary", "")),
+        start=ds.dt if ds else None, type_=default_type, org=org,
+        venue=str(comp.get("location", "")) or None,
+        lat=lat, lng=lng, url=str(comp.get("url", "")) or None,
+        blurb=str(comp.get("description", "") or "")[:280],
+        source="ics", recurrence=recurrence)
+
 def fetch_ics(city_key, url, org=None, default_type="meeting"):
     """Parse an .ics feed (The Events Calendar, Google Calendar, etc.).
-    Param is `url` to match the documented sources.yml schema (kind: ics, url: …)."""
+    Param is `url` to match the documented sources.yml schema (kind: ics, url: …).
+
+    Recurring series are COLLAPSED to a single card at their next occurrence within
+    the next RECUR_WINDOW_DAYS (labelled e.g. 'Every Sunday'); one-off events are
+    emitted with no forward cap, exactly as before."""
     if Calendar is None:
         raise RuntimeError("icalendar not installed (pip install icalendar)")
-    r = http_get(url, timeout=30)
-    cal = Calendar.from_ical(r.content)
+    cal = Calendar.from_ical(http_get(url, timeout=30).content)
+
+    # Which UIDs are recurring masters? Map each to its human label.
+    recurring = {str(c.get("uid")): rrule_label(c)
+                 for c in cal.walk("VEVENT") if c.get("rrule")}
+
     out = []
+
+    # Collapse recurring series -> the earliest upcoming occurrence in the window.
+    if recurring:
+        try:
+            import recurring_ical_events
+            occs = recurring_ical_events.of(cal).between(
+                NOW - dt.timedelta(hours=6), NOW + dt.timedelta(days=RECUR_WINDOW_DAYS))
+        except Exception as ex:
+            log(f"[{city_key}] recurrence expansion unavailable ({ex}); skipping repeats")
+            occs = []
+        best = {}
+        for occ in occs:
+            uid = str(occ.get("uid"))
+            if uid not in recurring:
+                continue                      # one-offs handled below (no window cap)
+            k = _ics_start(occ)
+            if k is not None and (uid not in best or k < best[uid][0]):
+                best[uid] = (k, occ, recurring[uid])
+        # Second collapse: some orgs model one weekly-ish event as several separate
+        # monthly series (e.g. the same reading circle on alternating Tuesdays/venues).
+        # Merge same title on the same weekday to the single earliest upcoming card —
+        # while keeping genuinely-distinct same-title series (e.g. a Sat and a Sun
+        # session) apart, since they fall on different weekdays.
+        merged = {}
+        for k, occ, label in best.values():
+            ck = (str(occ.get("summary", "")).strip().lower(), k.weekday())
+            if ck not in merged or k < merged[ck][0]:
+                merged[ck] = (k, occ, label)
+        for k, occ, label in merged.values():
+            e = _ics_norm(city_key, occ, org, default_type, recurrence=label)
+            if e:
+                out.append(e)
+
+    # One-off events: emit all future ones (no forward cap). Skip recurrence masters
+    # and their edited-instance overrides — those are represented by the collapsed card.
     for comp in cal.walk("VEVENT"):
-        ds = comp.get("dtstart")
-        start = ds.dt if ds else None
-        lat = lng = None
-        geo = comp.get("geo")
-        if geo is not None:
-            try: lat, lng = float(geo.latitude), float(geo.longitude)
-            except Exception: pass
-        e = norm_event(
-            city_key, title=str(comp.get("summary", "")), start=start,
-            type_=default_type, org=org,
-            venue=str(comp.get("location", "")) or None,
-            lat=lat, lng=lng, url=str(comp.get("url", "")) or None,
-            blurb=str(comp.get("description", "") or "")[:280], source="ics")
+        if comp.get("rrule") or comp.get("recurrence-id") is not None:
+            continue
+        e = _ics_norm(city_key, comp, org, default_type)
         if e:
             out.append(e)
     return out

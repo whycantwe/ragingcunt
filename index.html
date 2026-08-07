@@ -104,7 +104,9 @@
   .grid{display:grid;grid-template-columns:1fr;gap:16px}
   .flyer{position:relative;background:var(--ink-2);border:2px solid var(--line);box-shadow:var(--hard-ink);padding:18px 16px 16px;transition:transform .12s,box-shadow .12s}
   .flyer:hover{transform:translate(-2px,-2px);box-shadow:var(--hard);border-color:var(--pink)}
+  .tagrow{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
   .tag{font-family:var(--head);font-size:11px;letter-spacing:1px;padding:5px 10px;border:2px solid #000;display:inline-block;transform:skewX(-6deg)}
+  .recur{font-family:var(--type);font-size:10.5px;letter-spacing:1px;text-transform:uppercase;color:var(--pink-lift);border:1.5px solid var(--pink);padding:3px 8px;display:inline-block}
   .t-action{background:var(--pink);color:#000}
   .t-meeting{background:transparent;color:var(--pink-lift);border-color:var(--pink)}
   .t-mutualaid{background:var(--bone);color:#000}
@@ -312,10 +314,10 @@ function render(){
       const blurb=stripHTML(e.blurb);
       const link=(e.url && e.url!=="#") ? `<a class="flyer-link" href="${esc(e.url)}" target="_blank" rel="noopener">DETAILS / RSVP →</a>` : "";
       html += `<article class="flyer">
-        <span class="tag ${t.cls}">${t.label}</span>
+        <div class="tagrow"><span class="tag ${t.cls}">${t.label}</span>${e.recurrence?`<span class="recur">↻ ${esc(e.recurrence)}</span>`:""}</div>
         <h3 class="ftitle">${esc(e.title)}</h3>
         <div class="meta">
-          <div><span class="k">WHEN</span><span>${timeLabel(e.start)} PT</span></div>
+          <div><span class="k">${e.recurrence?"NEXT":"WHEN"}</span><span>${timeLabel(e.start)} PT</span></div>
           <div><span class="k">WHERE</span><span>${esc(e.venue)||"TBA — RSVP"}</span></div>
           <div><span class="k">WHO</span><span>${esc(e.org)||"—"}</span></div>
         </div>
