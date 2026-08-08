@@ -111,7 +111,7 @@
 
   /* ── FLYERS ── */
   .feed{padding-bottom:20px}
-  .grid{display:grid;grid-template-columns:1fr;gap:16px}
+  .grid{display:grid;grid-template-columns:minmax(0,1fr);gap:16px}
   .flyer{position:relative;background:var(--ink-2);border:2px solid var(--line);box-shadow:var(--hard-ink);padding:18px 16px 16px;transition:transform .12s,box-shadow .12s}
   .flyer:hover{transform:translate(-2px,-2px);box-shadow:var(--hard);border-color:var(--pink)}
   .tagrow{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
@@ -124,12 +124,13 @@
   .t-show{background:#fff;color:#000}
   .t-teachin{background:var(--violet);color:#fff;border-color:#000}
   .t-kyr{background:var(--acid);color:#000}
-  .ftitle{font-family:var(--head);font-size:clamp(19px,4.6vw,23px);line-height:1.14;letter-spacing:-.2px;margin:12px 0 13px;color:#fff;text-wrap:balance}
+  .ftitle{font-family:var(--head);font-size:clamp(19px,4.6vw,23px);line-height:1.14;letter-spacing:-.2px;margin:12px 0 13px;color:#fff;text-wrap:balance;overflow-wrap:anywhere}
   .meta{font-family:var(--type);font-size:14px;line-height:1.65;border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line);padding:11px 0;margin-bottom:13px}
-  .meta div{display:flex;gap:10px}
+  .meta div{display:flex;gap:10px;min-width:0}
+  .meta span:last-child{overflow-wrap:anywhere;min-width:0}
   .meta .k{color:var(--pink-lift);flex:0 0 46px}
   .meta span:last-child{color:var(--bone)}
-  .blurb{font-family:var(--type);font-size:14px;line-height:1.7;color:#e2ddd2}
+  .blurb{font-family:var(--type);font-size:14px;line-height:1.7;color:#e2ddd2;overflow-wrap:anywhere}
   .flyer-link{display:inline-block;margin-top:14px;font-family:var(--head);font-size:12px;letter-spacing:1px;background:var(--bone);color:#000;padding:9px 14px;text-decoration:none}
   .flyer-link:hover{background:var(--pink)}
   .src{font-family:var(--type);font-size:10.5px;color:var(--ash);margin-top:13px;letter-spacing:1px;display:flex;justify-content:space-between;gap:8px}
@@ -150,11 +151,11 @@
 
   /* ── DESKTOP ── */
   @media(min-width:720px){
-    .grid{grid-template-columns:repeat(2,1fr);gap:22px}
+    .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
     .chipbar{justify-content:center;flex-wrap:wrap;overflow:visible}
     .fgrid{grid-template-columns:repeat(3,1fr);gap:34px}
   }
-  @media(min-width:1024px){ .grid{grid-template-columns:repeat(3,1fr)} }
+  @media(min-width:1024px){ .grid{grid-template-columns:repeat(3,minmax(0,1fr))} }
   @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
