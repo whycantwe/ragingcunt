@@ -283,7 +283,7 @@ const GRACE = 6*3600*1000;                     // keep events until 6h after sta
 
 let DATA = {cities:{}};
 let IS_DEMO = false;
-let state = {city:null, off:new Set()};
+let state = {city:null, only:new Set()};   // only = types to show; empty = show ALL
 
 (async function init(){
   try{
@@ -309,7 +309,7 @@ function boot(){
   }).join("");
   state.city = keys.includes("sacramento") ? "sacramento" : keys[0] || null;
   if(state.city) sel.value = state.city;
-  sel.addEventListener("change", ()=>{ state.city=sel.value; state.off.clear(); render(); });
+  sel.addEventListener("change", ()=>{ state.city=sel.value; state.only.clear(); render(); });
 
   render();
 }
@@ -350,12 +350,18 @@ function render(){
   const counts = {}; all.forEach(e=>counts[e.type]=(counts[e.type]||0)+1);
 
   chipbar.style.display = present.length ? "" : "none";
-  chipbar.innerHTML = present.map(t=>{
-    const on = !state.off.has(t);
-    return `<button class="chip ${on?"on":""}" data-t="${t}">${TYPES[t].label}<span class="n">${counts[t]}</span></button>`;
-  }).join("");
+  const allOn = state.only.size === 0;   // nothing picked = everything shown
+  chipbar.innerHTML =
+    `<button class="chip ${allOn?"on":""}" data-t="__all" aria-pressed="${allOn}">ALL<span class="n">${all.length}</span></button>` +
+    present.map(t=>{
+      const on = state.only.has(t);
+      return `<button class="chip ${on?"on":""}" data-t="${t}" aria-pressed="${on}">${TYPES[t].label}<span class="n">${counts[t]}</span></button>`;
+    }).join("");
   chipbar.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{
-    const t=c.dataset.t; state.off.has(t)?state.off.delete(t):state.off.add(t); render();
+    const t=c.dataset.t;
+    if(t==="__all"){ state.only.clear(); }              // reset to show everything
+    else { state.only.has(t) ? state.only.delete(t) : state.only.add(t); }  // toggle this type
+    render();
   }));
 
   if(all.length===0){
@@ -367,7 +373,7 @@ function render(){
     return;
   }
 
-  const evs = all.filter(e=>!state.off.has(e.type));
+  const evs = state.only.size ? all.filter(e=>state.only.has(e.type)) : all;
   let html = `<div class="ihead">
     <span class="eyebrow">ISSUE #01</span>
     <h1>CITYWIDE</h1>
@@ -375,7 +381,7 @@ function render(){
   </div><div class="feed">`;
 
   if(evs.length===0){
-    html += `<div class="citynote"><h3>Nothing with those filters.</h3><p>Flip some chips back on. ↑</p></div>`;
+    html += `<div class="citynote"><h3>Nothing with those filters.</h3><p>Tap ALL to see everything. ↑</p></div>`;
   } else {
     let lastDay=null;
     evs.forEach(e=>{
