@@ -167,14 +167,8 @@ cities:
     # Skipped: WFP CA (mobilize 2566) — electoral, ~2 local events. South Bay's grassroots-left
     # orgs (SIREN, 350 SV, Sacred Heart, Sunrise) publish no ingestible feed.
 
-  long-beach:
-    label: "Long Beach, CA"
-    # Verified 2026-08-10. Long Beach is thin on wireable feeds — both are their own
-    # local Mobilize orgs (no filter). DSA Long Beach & LB Forward aren't ingestible
-    # (Solidarity Tech / Action Network / Cloudflare-blocked).
-    sources:
-      - { kind: mobilize, org_id: 45408, default_type: action }   # Long Beach Indivisible (own local)
-      - { kind: mobilize, org_id: 52419, default_type: action }   # Long Beach Stands Up For Democracy (weekly protest)
+  # Long Beach dropped 2026-08-11 (too thin — only 2 Indivisible orgs, ~5 events;
+  # DSA-LB on Action Network, LB Forward Cloudflare-blocked). Re-add if a real feed appears.
   fresno:
     label: "Fresno, CA"
     # Verified 2026-08-10. Fresno has no DSA calendar / live ICS — it's Mobilize-only.
@@ -185,13 +179,8 @@ cities:
       - { kind: mobilize, org_id: 47652, default_type: action }    # Fresno Bridge Brigade (visibility protests)
       - { kind: mobilize, org_id: 45409, default_type: meeting }   # Central Valley Indivisible
 
-  santa-cruz:
-    label: "Santa Cruz, CA"
-    # Verified 2026-08-10. DSA Santa Cruz also carries the county renters union
-    # (SCCRU) + Loveboat mutual aid. (sctenantunion.org is South CAROLINA — not this.)
-    sources:
-      - { kind: ics, url: "https://calendar.google.com/calendar/ical/c_11359efa166adbfc2e9bc3b946a23f7dd14d0a18bf3ba8e2a776b9bf261a04b5%40group.calendar.google.com/public/basic.ics", org: "DSA Santa Cruz", default_type: meeting }
-
+  # Santa Cruz dropped 2026-08-11 (too thin — only DSA Santa Cruz, ~4 events; tenant/
+  # housing orgs there publish no feed, SCHJN unreachable). Re-add if a real feed appears.
   riverside:
     label: "Riverside, CA"
     # Verified 2026-08-10. Inland Empire DSA (Riverside + San Bernardino), all-local.
