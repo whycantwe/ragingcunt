@@ -82,6 +82,7 @@ cities:
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/429c1964013f6170ff0cd8cdcd36df48c28a04e92e3b592ba7609a0a620d02c5%40group.calendar.google.com/public/basic.ics", org: "Oakland Tenants Union", default_type: meeting }
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/b00109f5c3955e833d48084091f907abcd75987942c55fcd527385cdf1ba7cb5%40group.calendar.google.com/public/basic.ics", org: "Oakland Tenants Union", default_type: kyr }
       - { kind: ics, url: "https://lapena.org/events/?ical=1", org: "La Peña Cultural Center", default_type: show }
+      - { kind: mobilize, org_id: 32784, default_type: action, near_zips: ["945", "946", "947", "948"] }  # Indivisible East Bay (resistance/GOTV, Tri-Valley-heavy)
     # Skipped: 350 Bay Area (ics) — regional (EB+SF+Benicia), no zip data to filter,
     #   would duplicate across cities. Critical Resistance (ics) — after Oakland-only
     #   filter it's 12 near-identical "Prisoner Mail Nights", repetitive filler.
