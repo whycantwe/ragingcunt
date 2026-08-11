@@ -90,7 +90,6 @@ cities:
     sources:
       - { kind: ics, url: "https://dsa-la.org/events/?ical=1", org: "DSA Los Angeles", default_type: meeting }
       - { kind: ics, url: "https://latenantsunion.org/events/?ical=1", org: "LA Tenants Union", default_type: tenant }
-      - { kind: mobilize, org_id: 34118, default_type: mutualaid }   # LA Compost (community composting, all LA County)
       - { kind: mobilize, org_id: 39546, default_type: meeting }     # Initiate Justice Action (criminal-justice, thin)
       # Diversity pass 2026-08-10 (immigrant rights, racial justice, houseless):
       - { kind: mobilize, org_id: 52372, default_type: meeting }     # Pasadena Migrant Solidarity (own local — Pasadena 911, no zip filter)
