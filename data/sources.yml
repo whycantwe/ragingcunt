@@ -124,6 +124,27 @@ cities:
     sources:
       - { kind: mobilize, org_id: 45408, default_type: action }   # Long Beach Indivisible (own local)
       - { kind: mobilize, org_id: 52419, default_type: action }   # Long Beach Stands Up For Democracy (weekly protest)
-  fresno:        { label: "Fresno, CA",        sources: [] }
-  santa-cruz:    { label: "Santa Cruz, CA",    sources: [] }
-  riverside:     { label: "Riverside, CA",     sources: [] }
+  fresno:
+    label: "Fresno, CA"
+    # Verified 2026-08-10. Fresno has no DSA calendar / live ICS — it's Mobilize-only.
+    # These three are all-local Central Valley orgs (no filter). Skipped the electoral
+    # firehoses (CA Dem Party 2289, Fresno Dem Party 25276, Disappeared in America 44001).
+    sources:
+      - { kind: mobilize, org_id: 19666, default_type: action }    # PowerCA Action (racial/climate/civic justice)
+      - { kind: mobilize, org_id: 47652, default_type: action }    # Fresno Bridge Brigade (visibility protests)
+      - { kind: mobilize, org_id: 45409, default_type: meeting }   # Central Valley Indivisible
+
+  santa-cruz:
+    label: "Santa Cruz, CA"
+    # Verified 2026-08-10. DSA Santa Cruz also carries the county renters union
+    # (SCCRU) + Loveboat mutual aid. (sctenantunion.org is South CAROLINA — not this.)
+    sources:
+      - { kind: ics, url: "https://calendar.google.com/calendar/ical/c_11359efa166adbfc2e9bc3b946a23f7dd14d0a18bf3ba8e2a776b9bf261a04b5%40group.calendar.google.com/public/basic.ics", org: "DSA Santa Cruz", default_type: meeting }
+
+  riverside:
+    label: "Riverside, CA"
+    # Verified 2026-08-10. Inland Empire DSA (Riverside + San Bernardino), all-local.
+    # Skipped: electoral Mobilize firehoses (2289, 2566); Starting Over Inc's Squarespace
+    # feed is Lorem-Ipsum demo data (would publish fake events); WWRC ICS is empty.
+    sources:
+      - { kind: ics, url: "https://calendar.google.com/calendar/ical/419e4a3c3454c63590714082481f0c03563bc966625b90902cdde8415d3fcf9e%40group.calendar.google.com/public/basic.ics", org: "Inland Empire DSA", default_type: meeting }
