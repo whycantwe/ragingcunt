@@ -50,6 +50,11 @@ cities:
       # arts & culture, and faith-based justice organizing):
       - { kind: squarespace, url: "https://www.solcollective.org/calendar", org: "Sol Collective", default_type: show }
       - { kind: squarespace, url: "https://www.sacact.org/events", org: "Sacramento ACT", default_type: action }
+      # Electoral/resistance 2026-08-11 (verified clean of Dem-party sponsors; near_zips floodguard).
+      # Skipped Indivisible Sacramento 34947 — redundant aggregator (dups existing Coalition/Indivisible) + rate-limits.
+      - { kind: mobilize, org_id: 6496, default_type: action, near_zips: ["956", "958"] }   # States Win Sacramento
+      - { kind: mobilize, org_id: 47790, default_type: action, near_zips: ["956", "958"] }  # Sunrise Solidarity (climate/youth)
+      - { kind: mobilize, org_id: 45411, default_type: action, near_zips: ["956", "958"] }  # Indivisible Elk Grove Laguna
     # Rejected / not added (kept here so they're not "rediscovered" as new):
     #   - Reproductive rights: NO local org publishes a fetchable feed (PP Mar Monte
     #     has none; national PP Mobilize org 157 returns 0 Sacramento events). Gap.
@@ -148,6 +153,7 @@ cities:
       - { kind: mobilize, org_id: 48475, default_type: action }                       # PANA (immigrant/refugee, own local)
       - { kind: mobilize, org_id: 44285, default_type: kyr, near_zips: ["921"] }      # NDLON (immigrant rapid response — national, filter to SD)
       - { kind: mobilize, org_id: 37218, default_type: meeting, near_zips: ["921"] }  # SURJ San Diego (racial justice — national chapter, filter)
+      - { kind: mobilize, org_id: 44280, default_type: action, near_zips: ["921"] }  # The Justice Workshop (democracy/RCV resistance, own-local)
     # Skipped: SD Labor Council (mobilize 44491) — currently heavy on Prop 50 electoral canvassing.
 
   san-jose:
@@ -157,6 +163,7 @@ cities:
     sources:
       - { kind: ics, url: "https://siliconvalleydsa.org/events/?ical=1", org: "Silicon Valley DSA", default_type: meeting }
       - { kind: ics, url: "https://pactsj.org/events/?ical=1", org: "PACT San José", default_type: meeting }
+      - { kind: mobilize, org_id: 5842, default_type: action, near_zips: ["951"] }   # Blue Turn Indivisible (own-local resistance)
     # Skipped: WFP CA (mobilize 2566) — electoral, ~2 local events. South Bay's grassroots-left
     # orgs (SIREN, 350 SV, Sacred Heart, Sunrise) publish no ingestible feed.
 
