@@ -95,9 +95,35 @@ cities:
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/outreach%40dsasf.org/public/basic.ics", org: "DSA San Francisco", default_type: meeting }
       - { kind: squarespace, url: "https://indivisiblesf.org/events", org: "Indivisible SF", default_type: action }
 
-  san-diego:     { label: "San Diego, CA",     sources: [] }
-  san-jose:      { label: "San Jose, CA",      sources: [] }
-  long-beach:    { label: "Long Beach, CA",    sources: [] }
+  san-diego:
+    label: "San Diego, CA"
+    # Verified 2026-08-10. near_zips 921 isolates local events from national orgs.
+    sources:
+      - { kind: ics, url: "https://calendar.google.com/calendar/ical/sddsacalendar%40gmail.com/public/basic.ics", org: "DSA San Diego", default_type: meeting }
+      - { kind: mobilize, org_id: 46251, default_type: action }                       # Visibility Brigade SD (own local org)
+      - { kind: mobilize, org_id: 48475, default_type: action }                       # PANA (immigrant/refugee, own local)
+      - { kind: mobilize, org_id: 44285, default_type: kyr, near_zips: ["921"] }      # NDLON (immigrant rapid response — national, filter to SD)
+      - { kind: mobilize, org_id: 37218, default_type: meeting, near_zips: ["921"] }  # SURJ San Diego (racial justice — national chapter, filter)
+    # Skipped: SD Labor Council (mobilize 44491) — currently heavy on Prop 50 electoral canvassing.
+
+  san-jose:
+    label: "San Jose, CA"
+    # Verified 2026-08-10. Silicon Valley DSA aggregates the South Bay grassroots
+    # scene (mutual aid, ICE watch, Food Not Bombs, tenant); it's its own local org.
+    sources:
+      - { kind: ics, url: "https://siliconvalleydsa.org/events/?ical=1", org: "Silicon Valley DSA", default_type: meeting }
+      - { kind: ics, url: "https://pactsj.org/events/?ical=1", org: "PACT San José", default_type: meeting }
+    # Skipped: WFP CA (mobilize 2566) — electoral, ~2 local events. South Bay's grassroots-left
+    # orgs (SIREN, 350 SV, Sacred Heart, Sunrise) publish no ingestible feed.
+
+  long-beach:
+    label: "Long Beach, CA"
+    # Verified 2026-08-10. Long Beach is thin on wireable feeds — both are their own
+    # local Mobilize orgs (no filter). DSA Long Beach & LB Forward aren't ingestible
+    # (Solidarity Tech / Action Network / Cloudflare-blocked).
+    sources:
+      - { kind: mobilize, org_id: 45408, default_type: action }   # Long Beach Indivisible (own local)
+      - { kind: mobilize, org_id: 52419, default_type: action }   # Long Beach Stands Up For Democracy (weekly protest)
   fresno:        { label: "Fresno, CA",        sources: [] }
   santa-cruz:    { label: "Santa Cruz, CA",    sources: [] }
   riverside:     { label: "Riverside, CA",     sources: [] }

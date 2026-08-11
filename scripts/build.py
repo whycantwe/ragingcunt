@@ -201,8 +201,11 @@ def fetch_mobilize(city_key, org_id, default_type="meeting", near_zips=None):
     """
     # First request seeds per_page; every subsequent `next` URL already carries
     # the cursor + per_page, so params are only sent on the initial call.
+    # timeslot_start=gte_<now> is a server-side filter: only future events. This
+    # slashes pagination for national-firehose orgs (hundreds of past events),
+    # avoiding rate-limit 429s. `next` URLs carry it forward automatically.
     url = f"https://api.mobilize.us/v1/organizations/{org_id}/events"
-    params = {"per_page": 50}
+    params = {"per_page": 50, "timeslot_start": f"gte_{int(NOW.timestamp())}"}
     out = []
     dropped = 0
     for page in range(_MOBILIZE_MAX_PAGES):
