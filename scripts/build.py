@@ -546,9 +546,11 @@ def render_ssr(result):
     return html + "</div>"
 
 def render_jsonld(result):
-    """schema.org Event JSON-LD for every event (search rich results)."""
+    """schema.org Event JSON-LD for the default city's events (matches the SSR'd
+    visible content; other cities are behind the JS dropdown, not the main page)."""
+    city = (result.get("cities") or {}).get(DEFAULT_CITY)
     events = []
-    for city in (result.get("cities") or {}).values():
+    if city:
         cityname = (city.get("label") or "").split(",")[0] or "Sacramento"
         for e in city.get("events", []):
             if not e.get("start"):

@@ -69,9 +69,32 @@ cities:
     #   - Sacramento Area Peace Action: The Events Calendar exists but ?ical=1 returns
     #     HTML, not raw ICS (cache/export blocked) — revisit if they expose a real feed.
 
-  oakland:       { label: "Oakland, CA",       sources: [] }
-  los-angeles:   { label: "Los Angeles, CA",   sources: [] }
-  san-francisco: { label: "San Francisco, CA", sources: [] }
+  oakland:
+    label: "Oakland, CA"
+    # Verified 2026-08-09. East Bay orgs (Oakland/Berkeley/Alameda).
+    sources:
+      - { kind: ics, url: "https://www.eastbaydsa.org/events/?ical=1", org: "East Bay DSA", default_type: meeting }
+      - { kind: ics, url: "https://calendar.google.com/calendar/ical/tenantorganizingeastbay%40gmail.com/public/basic.ics", org: "Tenant and Neighborhood Councils (TANC)", default_type: tenant }
+    # Skipped: 350 Bay Area (ics) — regional (EB+SF+Benicia), no zip data to filter,
+    #   would duplicate across cities. Sunrise (mobilize 2425) — 0 East Bay after 945-948 filter.
+
+  los-angeles:
+    label: "Los Angeles, CA"
+    # Verified 2026-08-09. LA Compost & Initiate Justice are their own local orgs
+    # (not firehoses), so no near_zips needed.
+    sources:
+      - { kind: ics, url: "https://dsa-la.org/events/?ical=1", org: "DSA Los Angeles", default_type: meeting }
+      - { kind: ics, url: "https://latenantsunion.org/events/?ical=1", org: "LA Tenants Union", default_type: tenant }
+      - { kind: mobilize, org_id: 34118, default_type: mutualaid }   # LA Compost (community composting, all LA County)
+      - { kind: mobilize, org_id: 39546, default_type: meeting }     # Initiate Justice Action (criminal-justice, thin)
+
+  san-francisco:
+    label: "San Francisco, CA"
+    # Verified 2026-08-09.
+    sources:
+      - { kind: ics, url: "https://calendar.google.com/calendar/ical/outreach%40dsasf.org/public/basic.ics", org: "DSA San Francisco", default_type: meeting }
+      - { kind: squarespace, url: "https://indivisiblesf.org/events", org: "Indivisible SF", default_type: action }
+
   san-diego:     { label: "San Diego, CA",     sources: [] }
   san-jose:      { label: "San Jose, CA",      sources: [] }
   long-beach:    { label: "Long Beach, CA",    sources: [] }
