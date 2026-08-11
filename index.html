@@ -76,8 +76,18 @@
   .brand{font-family:var(--disp);font-size:22px;letter-spacing:.5px;line-height:1;color:var(--bone)}
   .brand b{color:var(--pink)}
   .brand i{font-style:normal;color:var(--ash);font-size:12px;font-family:var(--type)}
-  .citysel{font-family:var(--type);font-size:13px;background:var(--ink-2);color:var(--bone);border:1.5px solid var(--line);padding:8px 10px;cursor:pointer;max-width:52vw}
-  .citysel:focus-visible{outline:2px solid var(--pink);outline-offset:2px}
+  .curcity{font-family:var(--disp);font-size:16px;letter-spacing:1px;color:var(--pink);text-transform:uppercase;max-width:52vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  /* ── CITY BAR (primary nav) ── */
+  .citybar{display:flex;align-items:center;gap:12px;padding:14px 16px;border-bottom:2px solid var(--line)}
+  .barlabel{flex:0 0 auto;font-family:var(--disp);font-size:15px;letter-spacing:1.5px;color:var(--bone);text-transform:uppercase}
+  .barlabel::after{content:"→";color:var(--pink);margin-left:6px}
+  .citychips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;flex:1}
+  .citychips::-webkit-scrollbar{display:none}
+  .citychip{flex:0 0 auto;font-family:var(--head);font-size:12.5px;letter-spacing:.5px;padding:9px 13px;cursor:pointer;background:transparent;color:var(--bone);border:2px solid var(--line);white-space:nowrap;transition:transform .1s,background .1s;user-select:none}
+  .citychip:hover{transform:translate(-1px,-1px)}
+  .citychip:focus-visible{outline:2px solid var(--pink);outline-offset:2px}
+  .citychip.on{background:var(--pink);color:#0a0a0b;border-color:var(--pink);box-shadow:3px 3px 0 #000}
+  .citychip .n{font-family:var(--type);font-size:11px;opacity:.72;margin-left:6px}
 
   /* ── MASTHEAD ── */
   .mast{padding:34px 16px 22px;text-align:center;border-bottom:3px solid var(--line)}
@@ -173,7 +183,7 @@
 
 <header class="topbar">
   <div class="brand disp"><b>RAGING</b>CUNT <i>.com</i></div>
-  <select class="citysel" id="city" aria-label="Choose city"></select>
+  <div class="curcity" id="curcity" aria-hidden="true"></div>
 </header>
 
 <section class="mast">
@@ -184,6 +194,11 @@
   <div class="subtag">WHAT'S HAPPENING ON YOUR BLOCK · REAL ORGS · NO ALGORITHM · NO COPS</div>
   <div class="stamp">▪ LAST XEROXED: <b id="stamp">—</b></div>
 </section>
+
+<nav class="citybar" id="cities" aria-label="Choose city">
+  <span class="barlabel">Pick your city</span>
+  <div class="citychips" id="citychips"></div>
+</nav>
 
 <nav class="chipbar" id="chips" aria-label="Filter by type"></nav>
 
@@ -327,14 +342,29 @@ function boot(){
 
   const cities = DATA.cities || {};
   const keys = Object.keys(cities);
-  const sel = document.getElementById("city");
-  sel.innerHTML = keys.map(k=>{
-    const n = upcoming(cities[k].events).length;
-    return `<option value="${k}">${cities[k].label.toUpperCase()}${n?" · "+n:" — no issue yet"}</option>`;
-  }).join("");
   state.city = keys.includes("sacramento") ? "sacramento" : keys[0] || null;
-  if(state.city) sel.value = state.city;
-  sel.addEventListener("change", ()=>{ state.city=sel.value; state.only.clear(); render(); });
+
+  const cchips = document.getElementById("citychips");
+  const curcity = document.getElementById("curcity");
+  const shortName = k => (cities[k].label || k).replace(/,\s*CA$/i, "").toUpperCase();
+
+  function renderCities(){
+    cchips.innerHTML = keys.map(k=>{
+      const n = upcoming(cities[k].events).length;
+      const on = k === state.city;
+      return `<button class="citychip ${on?"on":""}" data-city="${k}" aria-pressed="${on}">${shortName(k)}<span class="n">${n}</span></button>`;
+    }).join("");
+    if(state.city) curcity.textContent = shortName(state.city);
+  }
+  cchips.addEventListener("click", e=>{
+    const b = e.target.closest(".citychip");
+    if(!b || b.dataset.city === state.city) return;
+    state.city = b.dataset.city; state.only.clear();
+    renderCities(); render();
+    b.scrollIntoView({inline:"center", block:"nearest", behavior:"smooth"});
+    window.scrollTo({top:0, behavior:"smooth"});
+  });
+  renderCities();
 
   render();
 }
