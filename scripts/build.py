@@ -310,16 +310,43 @@ def _ics_norm(city_key, comp, org, default_type, recurrence=None):
         blurb=str(comp.get("description", "") or "")[:280],
         source="ics", recurrence=recurrence)
 
-def fetch_ics(city_key, url, org=None, default_type="meeting"):
+def _parse_ical(content):
+    """Parse an iCalendar, tolerating common RFC violations. Some hosts (e.g. Tockify)
+    emit durations like 'P15M' (meaning 15 minutes) that RFC 5545 forbids — sanitize
+    to 'PT15M' and retry rather than dropping the whole feed."""
+    try:
+        return Calendar.from_ical(content)
+    except Exception:
+        import re
+        text = content.decode("utf-8", "replace") if isinstance(content, (bytes, bytearray)) else content
+        # Tockify emits time durations without the required 'T' (P15M meaning 15
+        # minutes -> PT15M) on both event and calendar-metadata properties.
+        text = re.sub(
+            r'((?:DURATION|TRIGGER|REFRESH-INTERVAL|X-PUBLISHED-TTL)[^\r\n:]*:[+-]?)P(\d+)([HMS])',
+            r'\1PT\2\3', text)
+        return Calendar.from_ical(text)
+
+def _ics_keep(comp, match):
+    """True if `match` (list of lowercased substrings) is empty, or the event's
+    summary/location contains one — isolates one chapter from a multi-city feed."""
+    if not match:
+        return True
+    hay = (str(comp.get("summary", "")) + " " + str(comp.get("location", ""))).lower()
+    return any(m in hay for m in match)
+
+def fetch_ics(city_key, url, org=None, default_type="meeting", match=None):
     """Parse an .ics feed (The Events Calendar, Google Calendar, etc.).
     Param is `url` to match the documented sources.yml schema (kind: ics, url: …).
 
     Recurring series are COLLAPSED to a single card at their next occurrence within
     the next RECUR_WINDOW_DAYS (labelled e.g. 'Every Sunday'); one-off events are
-    emitted with no forward cap, exactly as before."""
+    emitted with no forward cap. `match` (optional list of substrings) keeps only
+    events whose summary/location contains one — to isolate a local chapter from a
+    multi-city feed (e.g. Critical Resistance interleaves Oakland/NY/LA/Portland)."""
     if Calendar is None:
         raise RuntimeError("icalendar not installed (pip install icalendar)")
-    cal = Calendar.from_ical(http_get(url, timeout=30).content)
+    match = [m.lower() for m in match] if match else None
+    cal = _parse_ical(http_get(url, timeout=30).content)
 
     # Which UIDs are recurring masters? Map each to its human label.
     recurring = {str(c.get("uid")): rrule_label(c)
@@ -341,6 +368,8 @@ def fetch_ics(city_key, url, org=None, default_type="meeting"):
             uid = str(occ.get("uid"))
             if uid not in recurring:
                 continue                      # one-offs handled below (no window cap)
+            if not _ics_keep(occ, match):
+                continue
             k = _ics_start(occ)
             if k is not None and (uid not in best or k < best[uid][0]):
                 best[uid] = (k, occ, recurring[uid])
@@ -359,12 +388,31 @@ def fetch_ics(city_key, url, org=None, default_type="meeting"):
             if e:
                 out.append(e)
 
-    # One-off events: emit all future ones (no forward cap). Skip recurrence masters
-    # and their edited-instance overrides — those are represented by the collapsed card.
+    # Non-RRULE events. Some feeds (e.g. Tockify) PRE-EXPAND a recurring event into
+    # many individual VEVENTs; collapse repeats by title+weekday to the next upcoming
+    # one (labelled 'Every <day>') so they don't flood. Genuinely-distinct one-offs
+    # have a unique title+weekday, so they pass through unchanged (no forward cap).
+    floor = NOW - dt.timedelta(hours=6)
+    singles = {}
     for comp in cal.walk("VEVENT"):
         if comp.get("rrule") or comp.get("recurrence-id") is not None:
+            continue                          # represented by the collapsed RRULE card
+        if not _ics_keep(comp, match):
             continue
-        e = _ics_norm(city_key, comp, org, default_type)
+        k = _ics_start(comp)
+        if k is None or k < floor:
+            continue
+        key = (str(comp.get("summary", "")).strip().lower(), k.weekday())
+        g = singles.get(key)
+        if g is None:
+            singles[key] = [k, comp, 1]
+        else:
+            g[2] += 1
+            if k < g[0]:
+                g[0], g[1] = k, comp
+    for k, comp, cnt in singles.values():
+        rec = f"Every {_WEEKDAY[k.weekday()]}" if cnt > 1 else None
+        e = _ics_norm(city_key, comp, org, default_type, recurrence=rec)
         if e:
             out.append(e)
     return out

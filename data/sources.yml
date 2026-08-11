@@ -75,7 +75,12 @@ cities:
     sources:
       - { kind: ics, url: "https://www.eastbaydsa.org/events/?ical=1", org: "East Bay DSA", default_type: meeting }
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/tenantorganizingeastbay%40gmail.com/public/basic.ics", org: "Tenant and Neighborhood Councils (TANC)", default_type: tenant }
+      # Diversity pass 2026-08-10 (racial justice, mutual aid/houseless):
+      - { kind: squarespace, url: "https://www.antipoliceterrorproject.org/new-events", org: "Anti Police-Terror Project", default_type: action }
+      - { kind: ics, url: "https://tockify.com/api/feeds/ics/eastoaklandcollective", org: "East Oakland Collective", default_type: mutualaid }
     # Skipped: 350 Bay Area (ics) — regional (EB+SF+Benicia), no zip data to filter,
+    #   would duplicate across cities. Critical Resistance (ics) — after Oakland-only
+    #   filter it's 12 near-identical "Prisoner Mail Nights", repetitive filler.
     #   would duplicate across cities. Sunrise (mobilize 2425) — 0 East Bay after 945-948 filter.
 
   los-angeles:
@@ -87,6 +92,10 @@ cities:
       - { kind: ics, url: "https://latenantsunion.org/events/?ical=1", org: "LA Tenants Union", default_type: tenant }
       - { kind: mobilize, org_id: 34118, default_type: mutualaid }   # LA Compost (community composting, all LA County)
       - { kind: mobilize, org_id: 39546, default_type: meeting }     # Initiate Justice Action (criminal-justice, thin)
+      # Diversity pass 2026-08-10 (immigrant rights, racial justice, houseless):
+      - { kind: mobilize, org_id: 52372, default_type: meeting }     # Pasadena Migrant Solidarity (own local — Pasadena 911, no zip filter)
+      - { kind: squarespace, url: "https://www.awarela.org/allupcoming", org: "AWARE-LA (White People 4 Black Lives)", default_type: meeting }
+      - { kind: squarespace, url: "https://www.selahnhc.org/upcoming-events", org: "SELAH Neighborhood Homeless Coalition", default_type: mutualaid }
 
   san-francisco:
     label: "San Francisco, CA"
@@ -94,6 +103,10 @@ cities:
     sources:
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/outreach%40dsasf.org/public/basic.ics", org: "DSA San Francisco", default_type: meeting }
       - { kind: squarespace, url: "https://indivisiblesf.org/events", org: "Indivisible SF", default_type: action }
+      # Diversity pass 2026-08-10 (immigrant/EJ mutual aid, rapid response/KYR, disability+tenant):
+      - { kind: ics, url: "https://www.podersf.org/events/?ical=1", org: "PODER", default_type: mutualaid }
+      - { kind: squarespace, url: "https://www.bayresistance.org/events", org: "Bay Resistance", default_type: action }
+      - { kind: ics, url: "https://calendar.google.com/calendar/ical/c_2adc475d711170518ba018ad03d14da354be77a160c11f21eb381b15a31220fd%40group.calendar.google.com/public/basic.ics", org: "Senior & Disability Action", default_type: meeting }
 
   san-diego:
     label: "San Diego, CA"
