@@ -78,6 +78,10 @@ cities:
       # Diversity pass 2026-08-10 (racial justice, mutual aid/houseless):
       - { kind: squarespace, url: "https://www.antipoliceterrorproject.org/new-events", org: "Anti Police-Terror Project", default_type: action }
       - { kind: ics, url: "https://tockify.com/api/feeds/ics/eastoaklandcollective", org: "East Oakland Collective", default_type: mutualaid }
+      # Deeper pass 2026-08-11 (dedicated tenant org + clinics, arts/culture):
+      - { kind: ics, url: "https://calendar.google.com/calendar/ical/429c1964013f6170ff0cd8cdcd36df48c28a04e92e3b592ba7609a0a620d02c5%40group.calendar.google.com/public/basic.ics", org: "Oakland Tenants Union", default_type: meeting }
+      - { kind: ics, url: "https://calendar.google.com/calendar/ical/b00109f5c3955e833d48084091f907abcd75987942c55fcd527385cdf1ba7cb5%40group.calendar.google.com/public/basic.ics", org: "Oakland Tenants Union", default_type: kyr }
+      - { kind: ics, url: "https://lapena.org/events/?ical=1", org: "La Peña Cultural Center", default_type: show }
     # Skipped: 350 Bay Area (ics) — regional (EB+SF+Benicia), no zip data to filter,
     #   would duplicate across cities. Critical Resistance (ics) — after Oakland-only
     #   filter it's 12 near-identical "Prisoner Mail Nights", repetitive filler.
@@ -95,6 +99,9 @@ cities:
       - { kind: mobilize, org_id: 52372, default_type: meeting }     # Pasadena Migrant Solidarity (own local — Pasadena 911, no zip filter)
       - { kind: squarespace, url: "https://www.awarela.org/allupcoming", org: "AWARE-LA (White People 4 Black Lives)", default_type: meeting }
       - { kind: squarespace, url: "https://www.selahnhc.org/upcoming-events", org: "SELAH Neighborhood Homeless Coalition", default_type: mutualaid }
+      # Deeper pass 2026-08-11 (food-justice mutual aid, immigrant/day-labor rights):
+      - { kind: mobilize, org_id: 46521, default_type: mutualaid }   # Black Thumb Farm (food justice, SFV — own local)
+      - { kind: mobilize, org_id: 44285, default_type: action, near_zips: ["900", "901", "910", "911"] }  # NDLON (day laborers/anti-ICE — national, filter to LA county)
 
   san-francisco:
     label: "San Francisco, CA"
@@ -106,6 +113,12 @@ cities:
       - { kind: ics, url: "https://www.podersf.org/events/?ical=1", org: "PODER", default_type: mutualaid }
       - { kind: squarespace, url: "https://www.bayresistance.org/events", org: "Bay Resistance", default_type: action }
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/c_2adc475d711170518ba018ad03d14da354be77a160c11f21eb381b15a31220fd%40group.calendar.google.com/public/basic.ics", org: "Senior & Disability Action", default_type: meeting }
+      # Deeper pass 2026-08-11 (LGBTQ+/trans, arts/culture):
+      - { kind: squarespace, url: "https://www.transgenderdistrictsf.com/events", org: "Transgender District", default_type: show }
+      - { kind: ics, url: "https://somarts.org/events/?ical=1", org: "SOMArts Cultural Center", default_type: show }
+      - { kind: ics, url: "https://galeriadelaraza.org/events/?ical=1", org: "Galería de la Raza", default_type: show }
+    # Skipped: 350 Bay Area (regional), Civic Joy Fund mob 40887 (89 events but civic
+    #   neighborhood-cleanups, not organizing), SF Rising 6847 (1 electoral-ish event).
 
   san-diego:
     label: "San Diego, CA"
