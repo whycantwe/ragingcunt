@@ -662,6 +662,57 @@ def render_citylinks(result, current=None):
             parts.append(f'<a class="citylink" href="{_city_path(k)}">{_esc(name)} <b>{n}</b></a>')
     return " · ".join(parts)
 
+# calendar/platform SaaS hosts — the event URL lives here but it is NOT the org's
+# site, so don't link to it (fall back to a plain-text credit instead).
+_NOT_ORG_HOSTS = ("tockify", "google.", "googleapis", "squarespace.com",
+                  "eventbrite.", "zoom.us", "facebook.", "fbcdn", "bit.ly", "linktr.ee")
+
+def _org_home(url):
+    """Reduce an event URL to the org's likely landing page (for crediting +
+    linking the source org). Returns None when there's nothing linkable."""
+    if not url:
+        return None
+    from urllib.parse import urlparse
+    try:
+        p = urlparse(url)
+    except Exception:
+        return None
+    if p.scheme not in ("http", "https") or not p.netloc:
+        return None
+    host = p.netloc.lower()
+    if "mobilize.us" in host:                          # /<org-slug>/event/... -> /<org-slug>/
+        seg = [s for s in p.path.split("/") if s]
+        return f"{p.scheme}://{p.netloc}/{seg[0]}/" if seg else f"{p.scheme}://{p.netloc}/"
+    if any(b in host for b in _NOT_ORG_HOSTS):         # calendar/platform host, not the org
+        return None
+    return f"{p.scheme}://{p.netloc}/"                 # else: the org's own domain root
+
+def render_sources(result, city_key):
+    """Credit (and link, where we can) the real orgs whose calendars feed this
+    city's page — transparency + outbound authority + a reciprocal-link path."""
+    city = (result.get("cities") or {}).get(city_key) or {}
+    name = (city.get("label") or city_key.replace("-", " ").title()).split(",")[0].strip()
+    orgs = {}                                          # org name -> home url (or None), first-seen order
+    for e in city.get("events", []):
+        o = (e.get("org") or "").strip()
+        if not o:
+            continue
+        home = _org_home(e.get("url"))
+        if o not in orgs:
+            orgs[o] = home
+        elif orgs[o] is None and home:
+            orgs[o] = home
+    if not orgs:
+        return ""
+    items = []
+    for o, home in orgs.items():
+        if home:
+            items.append(f'<a class="orglink" href="{_esc(home)}" target="_blank" rel="noopener">{_esc(o)}</a>')
+        else:
+            items.append(f'<span class="orglink">{_esc(o)}</span>')
+    return (f'<h4>Pulled from these {_esc(name)} organizations — go support them directly:</h4>'
+            f'<p class="orglist">' + " · ".join(items) + '</p>')
+
 def _sub_title(html, t):
     import re
     return re.sub(r"<title>.*?</title>", lambda m: f"<title>{_esc(t)}</title>", html, count=1, flags=re.S)
@@ -697,6 +748,7 @@ def inject_seo(result):
             html = _replace_between(html, "<!--SSR:START-->", "<!--SSR:END-->", render_ssr(result, city_key))
             html = _replace_between(html, "<!--JSONLD:START-->", "<!--JSONLD:END-->", render_jsonld(result, city_key))
             html = _replace_between(html, "<!--CITYLINKS:START-->", "<!--CITYLINKS:END-->", render_citylinks(result, city_key))
+            html = _replace_between(html, "<!--SOURCES:START-->", "<!--SOURCES:END-->", render_sources(result, city_key))
             if city_key == DEFAULT_CITY:
                 INDEX_HTML.write_text(html, encoding="utf-8")   # home keeps its brand meta
             else:
