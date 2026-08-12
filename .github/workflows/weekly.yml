@@ -44,8 +44,9 @@ jobs:
           git config user.name  "rage-bot"
           git config user.email "rage-bot@users.noreply.github.com"
           # events.json is the data; build.py also bakes SSR HTML + JSON-LD into
-          # index.html and refreshes sitemap.xml for SEO — commit all three.
-          git add data/events.json index.html sitemap.xml
+          # index.html, generates a crawlable page per city (<city>/index.html), and
+          # refreshes sitemap.xml for SEO — commit data + every generated page.
+          git add -A data/events.json index.html sitemap.xml "*/index.html"
           if git diff --staged --quiet; then
             echo "No changes this week."
           else

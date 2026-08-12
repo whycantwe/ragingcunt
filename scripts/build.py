@@ -549,9 +549,9 @@ def _clock(d):
     h = d.hour % 12 or 12
     return f"{h}:{d.minute:02d}{'AM' if d.hour < 12 else 'PM'} PT"
 
-def render_ssr(result):
-    """Static HTML of the default city's events (mirrors the JS render markup)."""
-    city = (result.get("cities") or {}).get(DEFAULT_CITY)
+def render_ssr(result, city_key=DEFAULT_CITY):
+    """Static HTML of a city's events (mirrors the JS render markup)."""
+    city = (result.get("cities") or {}).get(city_key)
     if not city:
         return ""
     evs = sorted((e for e in city.get("events", []) if _pt(e.get("start"))),
@@ -596,10 +596,10 @@ def render_ssr(result):
         html += "</div>"
     return html + "</div>"
 
-def render_jsonld(result):
-    """schema.org Event JSON-LD for the default city's events (matches the SSR'd
-    visible content; other cities are behind the JS dropdown, not the main page)."""
-    city = (result.get("cities") or {}).get(DEFAULT_CITY)
+def render_jsonld(result, city_key=DEFAULT_CITY):
+    """schema.org Event JSON-LD for a city's events (matches that page's SSR'd
+    visible content)."""
+    city = (result.get("cities") or {}).get(city_key)
     events = []
     if city:
         cityname = (city.get("label") or "").split(",")[0] or "Sacramento"
@@ -635,27 +635,90 @@ def _replace_between(text, start, end, inner):
         raise RuntimeError(f"SEO markers missing: {start!r}..{end!r}")
     return text[:i + len(start)] + inner + text[j:]
 
-def write_sitemap():
+def _city_path(city_key):
+    """Site-relative URL path for a city page (home = default city)."""
+    return "/" if city_key == DEFAULT_CITY else f"/{city_key}/"
+
+def _city_seo(city_key, city):
+    label = city.get("label") or city_key.replace("-", " ").title()
+    name  = label.split(",")[0].strip()
+    n     = sum(1 for e in city.get("events", []) if _pt(e.get("start")))
+    title = f"{name} protests, meetings & mutual aid — RAGINGCUNT.COM"
+    desc  = (f"Real, verified local organizing in {name}, CA: protests, meetings, "
+             f"mutual aid, tenant fights, know-your-rights. {n} upcoming, pulled weekly "
+             f"from orgs' own public calendars — never fabricated.")
+    return {"name": name, "url": SITE_URL + _city_path(city_key), "title": title, "desc": desc, "n": n}
+
+def render_citylinks(result, current=None):
+    """A real crawlable <a> nav of every city, so search engines can reach each
+    per-city page — the JS-rendered chips alone are not followed by crawlers."""
+    parts = []
+    for k, c in (result.get("cities") or {}).items():
+        name = (c.get("label") or k).split(",")[0].strip()
+        n    = sum(1 for e in c.get("events", []) if _pt(e.get("start")))
+        if k == current:
+            parts.append(f'<span class="citylink on" aria-current="page">{_esc(name)} <b>{n}</b></span>')
+        else:
+            parts.append(f'<a class="citylink" href="{_city_path(k)}">{_esc(name)} <b>{n}</b></a>')
+    return " · ".join(parts)
+
+def _sub_title(html, t):
+    import re
+    return re.sub(r"<title>.*?</title>", lambda m: f"<title>{_esc(t)}</title>", html, count=1, flags=re.S)
+
+def _sub_attr(html, key, value, attr="property", tag="meta", field="content"):
+    import re
+    pat = re.compile(r'(<' + tag + r' ' + attr + r'="' + re.escape(key) + r'" ' + field + r'=")[^"]*(")')
+    return pat.sub(lambda m: m.group(1) + _esc(value) + m.group(2), html, count=1)
+
+def write_sitemap(result):
     day = NOW.date().isoformat()
+    rows = [f'  <url><loc>{SITE_URL}/</loc><lastmod>{day}</lastmod>'
+            f'<changefreq>weekly</changefreq><priority>1.0</priority></url>']
+    for k in (result.get("cities") or {}):
+        if k == DEFAULT_CITY:
+            continue
+        rows.append(f'  <url><loc>{SITE_URL}/{k}/</loc><lastmod>{day}</lastmod>'
+                    f'<changefreq>weekly</changefreq><priority>0.8</priority></url>')
     SITEMAP_XML.write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        f'  <url><loc>{SITE_URL}/</loc><lastmod>{day}</lastmod>'
-        '<changefreq>weekly</changefreq><priority>1.0</priority></url>\n'
-        '</urlset>\n', encoding="utf-8")
+        + "\n".join(rows) + "\n</urlset>\n", encoding="utf-8")
 
 def inject_seo(result):
-    """Bake SSR HTML + JSON-LD into index.html and refresh sitemap.xml. Best-effort:
-    never aborts the build — events.json is the authoritative output."""
+    """Bake a crawlable static page for EVERY city (home = default city) with its own
+    SSR event list, JSON-LD, title/meta/canonical and a shared city-nav, then refresh
+    the sitemap. Best-effort: never aborts the build — events.json is authoritative."""
     try:
-        html = INDEX_HTML.read_text(encoding="utf-8")
-        html = _replace_between(html, "<!--SSR:START-->", "<!--SSR:END-->", render_ssr(result))
-        html = _replace_between(html, "<!--JSONLD:START-->", "<!--JSONLD:END-->", render_jsonld(result))
-        INDEX_HTML.write_text(html, encoding="utf-8")
-        write_sitemap()
-        log("SEO: baked SSR + JSON-LD into index.html, refreshed sitemap.xml")
+        template = INDEX_HTML.read_text(encoding="utf-8")
+        cities = result.get("cities") or {}
+        for city_key, city in cities.items():
+            html = template
+            html = _replace_between(html, "<!--SSR:START-->", "<!--SSR:END-->", render_ssr(result, city_key))
+            html = _replace_between(html, "<!--JSONLD:START-->", "<!--JSONLD:END-->", render_jsonld(result, city_key))
+            html = _replace_between(html, "<!--CITYLINKS:START-->", "<!--CITYLINKS:END-->", render_citylinks(result, city_key))
+            if city_key == DEFAULT_CITY:
+                INDEX_HTML.write_text(html, encoding="utf-8")   # home keeps its brand meta
+            else:
+                seo = _city_seo(city_key, city)
+                html = _sub_title(html, seo["title"])
+                html = _sub_attr(html, "description", seo["desc"], attr="name")
+                html = _sub_attr(html, "canonical", seo["url"], attr="rel", tag="link", field="href")
+                html = _sub_attr(html, "og:title", seo["title"])
+                html = _sub_attr(html, "og:description", seo["desc"])
+                html = _sub_attr(html, "og:url", seo["url"])
+                html = _sub_attr(html, "og:image:alt", f'RAGINGCUNT.COM — real organizing in {seo["name"]}')
+                html = _sub_attr(html, "twitter:title", seo["title"], attr="name")
+                html = _sub_attr(html, "twitter:description", seo["desc"], attr="name")
+                html = html.replace("<body>", f'<body>\n<script>window.__CITY__={json.dumps(city_key)};</script>', 1)
+                dest = ROOT / city_key / "index.html"
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                dest.write_text(html, encoding="utf-8")
+        write_sitemap(result)
+        log(f"SEO: baked {len(cities)} crawlable city pages + sitemap ({', '.join(cities)})")
     except Exception as e:
         log(f"SEO injection skipped: {e}")
+        traceback.print_exc()
 
 
 def main():
