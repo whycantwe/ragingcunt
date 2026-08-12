@@ -97,12 +97,10 @@
   .citybar{position:relative;z-index:1;display:flex;align-items:center;gap:12px;padding:14px 16px;border-bottom:2px solid var(--line)}
   .barlabel{flex:0 0 auto;font-family:var(--scrawl);font-size:18px;letter-spacing:.5px;color:var(--bone)}
   .barlabel::after{content:"→";color:var(--pink);margin-left:6px;text-shadow:var(--glow)}
-  .citychips{display:flex;gap:10px;overflow-x:auto;scrollbar-width:none;flex:1;padding:4px 2px}
+  .citychips{display:flex;align-items:center;gap:10px;overflow-x:auto;scrollbar-width:none;flex:1;padding:10px 2px}
   .citychips::-webkit-scrollbar{display:none}
-  .citychip{flex:0 0 auto;font-family:var(--head);font-size:12.5px;letter-spacing:.4px;padding:8px 12px;cursor:pointer;background:var(--paper);color:var(--ink);border:0;display:inline-block;text-decoration:none;white-space:nowrap;position:relative;box-shadow:2px 3px 0 rgba(0,0,0,.5);transition:transform .12s,box-shadow .12s;user-select:none;transform:rotate(-1.5deg)}
-  .citychip:nth-child(2n){transform:rotate(1.5deg)}
-  .citychip:nth-child(3n){transform:rotate(-2.5deg)}
-  .citychip:hover{transform:rotate(0) translateY(-2px);box-shadow:3px 4px 0 var(--pink)}
+  .citychip{flex:0 0 auto;font-family:var(--head);font-size:12.5px;letter-spacing:.4px;padding:8px 12px;cursor:pointer;background:var(--paper);color:var(--ink);border:0;display:inline-block;text-decoration:none;white-space:nowrap;position:relative;box-shadow:2px 3px 0 rgba(0,0,0,.5);transition:transform .12s,box-shadow .12s;user-select:none}
+  .citychip:hover{transform:translateY(-2px);box-shadow:3px 4px 0 var(--pink)}
   .citychip:focus-visible{outline:2px solid var(--pink);outline-offset:3px}
   .citychip.on{color:var(--pink)}
   .citychip.on::after{content:"";position:absolute;inset:-6px -8px;border:2.5px solid var(--pink);border-radius:60% 40% 55% 45%;transform:rotate(-3deg);pointer-events:none;box-shadow:0 0 16px rgba(255,45,149,.5)}
@@ -300,7 +298,7 @@ Fresno, CA…</div><a class="flyer-link" href="https://www.mobilize.us/afscpanva
     </div>
   </div>
   <section class="sources"><!--SOURCES:START--><h4>Pulled from these Fresno organizations — go support them directly:</h4><p class="orglist"><a class="orglink" href="https://www.mobilize.us/powercaaction/" target="_blank" rel="noopener">PowerCA Action</a> · <a class="orglink" href="https://www.mobilize.us/fresnobridgebrigade/" target="_blank" rel="noopener">Fresno Bridge Brigade</a> · <a class="orglink" href="https://www.mobilize.us/centralvalleyindivisible/" target="_blank" rel="noopener">Central Valley Indivisible</a> · <a class="orglink" href="https://www.lgbtqfresno.com/" target="_blank" rel="noopener">LGBTQ Fresno</a> · <a class="orglink" href="https://www.mobilize.us/afscpanvalleyinstitute/" target="_blank" rel="noopener">AFSC Pan Valley Institute</a></p><!--SOURCES:END--></section>
-  <nav class="citylinks" aria-label="All cities"><!--CITYLINKS:START--><a class="citylink" href="/">Sacramento <b>104</b></a> · <a class="citylink" href="/oakland/">Oakland <b>125</b></a> · <a class="citylink" href="/los-angeles/">Los Angeles <b>55</b></a> · <a class="citylink" href="/san-francisco/">San Francisco <b>65</b></a> · <a class="citylink" href="/san-diego/">San Diego <b>103</b></a> · <a class="citylink" href="/san-jose/">San Jose <b>35</b></a> · <span class="citylink on" aria-current="page">Fresno <b>14</b></span> · <a class="citylink" href="/riverside/">Riverside <b>27</b></a><!--CITYLINKS:END--></nav>
+  <nav class="citylinks" aria-label="All cities"><!--CITYLINKS:START--><a class="citylink" href="/">Sacramento <b>105</b></a> · <a class="citylink" href="/oakland/">Oakland <b>125</b></a> · <a class="citylink" href="/los-angeles/">Los Angeles <b>55</b></a> · <a class="citylink" href="/san-francisco/">San Francisco <b>64</b></a> · <a class="citylink" href="/san-diego/">San Diego <b>103</b></a> · <a class="citylink" href="/san-jose/">San Jose <b>35</b></a> · <span class="citylink on" aria-current="page">Fresno <b>14</b></span> · <a class="citylink" href="/riverside/">Riverside <b>27</b></a><!--CITYLINKS:END--></nav>
   <p class="disc" id="disc">Listings are generated weekly from real, verified feeds — the site never fabricates events. An empty city just means nobody's wired its feeds up yet.</p>
 </footer>
 
@@ -361,7 +359,19 @@ function boot(){
     }).join("");
     if(state.city) curcity.textContent = shortName(state.city);
   }
+  // Center the current city's chip in the mobile horizontal scroll. Run after
+  // fonts settle (and once more on a timer) so the row has its real width — an
+  // early call fires before webfonts load, when the row isn't scrollable yet.
+  function centerActiveCity(){
+    const on = cchips.querySelector(".citychip.on");
+    if(!on) return;
+    const cr = cchips.getBoundingClientRect(), er = on.getBoundingClientRect();
+    cchips.scrollLeft += (er.left - cr.left) + er.width/2 - cr.width/2;
+  }
   renderCities();
+  centerActiveCity();
+  if(document.fonts && document.fonts.ready) document.fonts.ready.then(centerActiveCity);
+  setTimeout(centerActiveCity, 500);
 
   render();
 }
