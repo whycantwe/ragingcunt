@@ -79,6 +79,11 @@
   }
   .sample-bar span{background:#000;padding:4px 12px;font-family:var(--head);font-size:11px;letter-spacing:2px}
 
+  /* ── TOP STRIP (mission + last-xeroxed, moved to the very top) ── */
+  .topstrip{position:relative;z-index:1;text-align:center;padding:11px 16px 10px;border-bottom:1px solid var(--line);background:rgba(13,10,12,.55)}
+  .topstrip .fmission{margin:0 auto 6px}
+  .topstrip .fstamp{margin:0 auto}
+
   /* ── TOPBAR ── */
   .topbar{
     position:sticky;top:0;z-index:500;display:flex;align-items:center;justify-content:space-between;gap:12px;
@@ -222,6 +227,11 @@
 
 <div class="sample-bar" id="sampleBar" hidden><span>⚠ PROTOTYPE — SAMPLE DATA — NOT REAL LISTINGS</span></div>
 
+<div class="topstrip">
+  <div class="fmission">NO ALGORITHM · NO COPS · REAL ORGS ONLY · <b>SHOW UP</b></div>
+  <div class="fstamp">▪ LAST XEROXED: <b id="stamp">—</b> · RE-PULLED FROM REAL ORG CALENDARS EVERY SUNDAY</div>
+</div>
+
 <header class="topbar">
   <div class="brand disp"><b>RAGING</b>CUNT <i>.com</i></div>
   <div class="curcity" id="curcity" aria-hidden="true"></div>
@@ -328,8 +338,6 @@ Where:…</div><a class="flyer-link" href="https://www.mobilize.us/sclc/event/10
 </main>
 
 <footer>
-  <div class="fmission">NO ALGORITHM · NO COPS · REAL ORGS ONLY · <b>SHOW UP</b></div>
-  <div class="fstamp">▪ LAST XEROXED: <b id="stamp">—</b> · RE-PULLED FROM REAL ORG CALENDARS EVERY SUNDAY</div>
   <div class="fgrid">
     <div class="fcol">
       <h4>WHAT IS THIS</h4>
