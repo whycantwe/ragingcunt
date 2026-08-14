@@ -182,6 +182,63 @@ def _guess_type(raw, default):
          "COMMUNITY": "mutualaid", "FUNDRAISER": "show"}
     return m.get((raw or "").upper(), default)
 
+# Infer an event's type from its TITLE. ICS/Squarespace feeds stamp one
+# default_type on every event, so an org's whole calendar (actions, socials,
+# book clubs, canvasses) all read as one type. Keywords are precision-first
+# (specific phrases, no bare substrings that collide — e.g. never plain
+# "social"/"party", which hit "Socialist"/"third party"). Checked in priority
+# order; first hit wins. Returns a type or None (no confident match).
+_TITLE_TYPE = [
+    # explicit org-governance phrases win first (a "... Committee Meeting" is a
+    # meeting even if it also mentions e.g. 'political education')
+    ("meeting", ["committee meeting", "committee mtg", "steering committee",
+                 "general body", "general membership meeting", "delegate meeting",
+                 "board meeting"]),
+    ("kyr", ["know your rights", "know ur rights", "know-your-rights", " kyr ",
+             "red card", "rapid response", "ice watch", "ice raid", "raid response",
+             "deportation defense", "immigration clinic", "legal observer"]),
+    ("tenant", ["tenant", "eviction", "rent strike", "renters", "landlord",
+                "housing clinic", "right to counsel"]),
+    ("action", ["rally", "protest", "march for", "march on", "vigil", "demonstration",
+                "picket", "walkout", "boycott", "canvass", "phone bank", "phonebank",
+                "sit-in", "die-in", "blockade", "occupy", "day of action", "direct action",
+                "banner drop", "speak out", "speakout", "abolish ice", "no ice",
+                "shut down", "counter-protest", "counter protest", "strike"]),
+    ("mutualaid", ["mutual aid", "distro", "distribution", "free store", "free food",
+                   "food not bombs", "community fridge", "brake light", "care package",
+                   "supply drive", "clothing drive", "food distribution", "community meal",
+                   "harm reduction", "food pantry", "grocery"]),
+    ("teachin", ["teach-in", "teach in", "teachin", "book club", "reading group",
+                 "reading circle", "summer reading", "workshop", "training", "screening",
+                 "film screening", " panel", "panel discussion", "discussion group",
+                 "lecture", "seminar", "study group", "skillshare", "skill share",
+                 "academy", "political education", "know your history", "curriculum"]),
+    ("show", ["potluck", "mixer", "chapter social", "weekend social", "summer social",
+              "holiday social", "game night", "trivia", "karaoke", "happy hour",
+              "night out", "open mic", "picnic", " bbq", "barbecue", "fundraiser",
+              "gala", "benefit show", "festival", "concert", "movie night",
+              "watch party", "block party", "dance party", "friendsgiving", "pow wow",
+              "powwow", "mercado", "choir", "cabaret", "drag show", "kickback"]),
+    ("meeting", ["meeting", "committee", "general body", "steering", "assembly",
+                 "caucus", "orientation", "new member", " gathering", "coffee klatch",
+                 "klatch", "office hours", "delegate", "convening"]),
+]
+
+def _guess_type_title(title):
+    t = (title or "").lower()
+    for typ, kws in _TITLE_TYPE:
+        if any(k in t for k in kws):
+            return typ
+    return None
+
+def refine_type(title, base):
+    """Upgrade a feed's default/base type using the event title. Only overrides
+    when the title confidently names a MORE SPECIFIC type — a generic 'meeting'
+    guess never demotes an already-specific default (so a tenant union's
+    'General Meeting' stays 'tenant')."""
+    g = _guess_type_title(title)
+    return g if (g and g != "meeting") else base
+
 _MOBILIZE_MAX_PAGES = 40  # safety valve: ~40 * per_page events before we stop
 
 def fetch_mobilize(city_key, org_id, default_type="meeting", near_zips=None):
@@ -230,7 +287,7 @@ def fetch_mobilize(city_key, org_id, default_type="meeting", near_zips=None):
             e = norm_event(
                 city_key, title=ev.get("title", ""),
                 start=dt.datetime.fromtimestamp(upcoming[0], dt.timezone.utc),
-                type_=_guess_type(ev.get("event_type"), default_type),
+                type_=refine_type(ev.get("title", ""), _guess_type(ev.get("event_type"), default_type)),
                 org=(ev.get("sponsor") or {}).get("name"),
                 venue=loc.get("venue"), lat=ll.get("latitude"), lng=ll.get("longitude"),
                 url=ev.get("browser_url"), blurb=(ev.get("description") or "")[:280],
@@ -304,7 +361,8 @@ def _ics_norm(city_key, comp, org, default_type, recurrence=None):
     ds = comp.get("dtstart")
     return norm_event(
         city_key, title=str(comp.get("summary", "")),
-        start=ds.dt if ds else None, type_=default_type, org=org,
+        start=ds.dt if ds else None,
+        type_=refine_type(str(comp.get("summary", "")), default_type), org=org,
         venue=str(comp.get("location", "")) or None,
         lat=lat, lng=lng, url=str(comp.get("url", "")) or None,
         blurb=str(comp.get("description", "") or "")[:280],
@@ -473,9 +531,10 @@ def fetch_squarespace(city_key, url, org=None, default_type="meeting"):
         loc = it.get("location") or {}
         venue = loc.get("addressTitle") or loc.get("addressLine1") or None
         full = it.get("fullUrl") or ""
+        _title = html.unescape(str(it.get("title", "")))
         e = norm_event(
-            city_key, title=html.unescape(str(it.get("title", ""))), start=start,
-            type_=default_type, org=org, venue=html.unescape(venue) if venue else None,
+            city_key, title=_title, start=start,
+            type_=refine_type(_title, default_type), org=org, venue=html.unescape(venue) if venue else None,
             url=(origin + full) if full.startswith("/") else (full or None),
             blurb=_strip_tags(it.get("excerpt") or it.get("body") or "")[:280],
             source="squarespace",
