@@ -229,3 +229,16 @@ cities:
     # Skipped: Indivisible Inland Empire (mobilize 42519) — 903-event CA-Dem-Party firehose;
     # Fontana People's Campaign (50176) — candidate-slate GOTV. Feedless/gaps: PC4EJ & CCAEJ
     # (EJ, JSON-LD/dormant Squarespace), Inland Equity CLT tenants' unions (CiviCRM), IC4IJ.
+
+  davis:
+    label: "Davis, CA"
+    # Added 2026-08-12. Yolo County (Davis / Woodland / West Sacramento / Winters, 956xx).
+    # Carried by Indivisible Yolo (own-local chapter: visibility brigades, anti-ICE) + Cool
+    # Davis (climate). near_zips ["956"] on Indivisible Yolo strips the Randy Villegas CA-22
+    # congressional GOTV firehose (drops ~20 Fresno/Bakersfield events). NorCal Resist, Sac DSA
+    # and 350 Sac all belong to the existing Sacramento city (their Davis events are past/sparse).
+    sources:
+      - { kind: mobilize, org_id: 4362, default_type: action, near_zips: ["956"], reject: ["for Congress", "States Win", "Postcard", "Register Voters", "Villegas"] }  # Indivisible Yolo — reject strips its candidate/GOTV cross-posts (Villegas CA-22, States Win)
+      - { kind: ics, url: "https://calendar.google.com/calendar/ical/mbvpc3flaoira9ba8ge6p7kmg0%40group.calendar.google.com/public/basic.ics", org: "Cool Davis", default_type: action }
+    # Feedless (verified): Yolo/Davis Tenants Union (Facebook-only), Davis Food Not Bombs (static
+    # schedule), RISE Inc (services), UC Davis grassroots student orgs (no public iCal export).

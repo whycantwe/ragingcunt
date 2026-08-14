@@ -229,6 +229,16 @@
   .fcol h4{font-family:var(--head);color:var(--pink);font-size:13px;letter-spacing:2px;margin-bottom:10px}
   .fcol p{font-family:var(--type);font-size:13.5px;line-height:1.75;color:#c6c0b5}
   .fcol a{color:var(--pink-lift)}
+  /* get-on-the-wall contact form (no third-party captcha script — honeypot only) */
+  .wallform{display:flex;flex-direction:column;gap:7px;margin-top:6px;max-width:340px}
+  .wallform .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+  .wallform input,.wallform textarea{font-family:var(--type);font-size:13px;background:#141018;color:var(--bone);border:1.5px solid var(--line);padding:8px 10px;width:100%}
+  .wallform input:focus,.wallform textarea:focus{outline:none;border-color:var(--pink)}
+  .wallform input::placeholder,.wallform textarea::placeholder{color:#7a7280}
+  .wallform button{font-family:var(--head);font-size:12px;letter-spacing:.5px;background:var(--pink);color:#0d0a0c;border:0;padding:9px 15px;cursor:pointer;transform:skewX(-6deg);align-self:flex-start;margin-top:2px}
+  .wallform button:hover{box-shadow:0 0 16px rgba(255,45,149,.5)}
+  .orpref{font-family:var(--type);font-size:11.5px;color:var(--ash);margin-top:9px}
+  .orpref a{color:var(--pink-lift)}
   .disc{max-width:1120px;margin:28px auto 0;font-family:var(--type);font-size:11.5px;color:var(--ash);line-height:1.7;border-top:1px solid var(--line);padding-top:18px}
   /* source-org credits (transparency + outbound links) */
   .sources{max-width:1120px;margin:30px auto 0;border-top:1px solid var(--line);padding-top:22px}
@@ -585,12 +595,26 @@ San Jose CA 95112 US</div><div class="src"><span>src: ics</span></div></article>
     </div>
     <div class="fcol">
       <h4>GET ON THE WALL</h4>
-      <p>Run a chapter, a fridge, a union, a venue? Point us at your public calendar feed and your block gets an issue. <a href="mailto:holler@ragingcunt.com">holler@ragingcunt.com</a></p>
+      <p>Run a chapter, a fridge, a union, a venue? Point us at your public calendar and your block gets an issue.</p>
+      <form class="wallform" action="https://formsubmit.co/ragingcunt@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="ragingcunt.com — get on the wall">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="true">
+        <input type="hidden" name="_next" value="https://ragingcunt.com/">
+        <!-- honeypot: bots fill this, humans can't see it; no script, no third party -->
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <input type="text" name="org" placeholder="org / group name" required>
+        <input type="url" name="calendar" placeholder="public calendar / feed URL">
+        <input type="email" name="email" placeholder="your email (optional — for a reply)">
+        <textarea name="message" rows="2" placeholder="anything else?"></textarea>
+        <button type="submit">SEND IT →</button>
+      </form>
+      <p class="orpref">or just email <a href="mailto:ragingcunt@gmail.com">ragingcunt@gmail.com</a></p>
     </div>
   </div>
   <div class="privacy"><b>NO TRACKING · NO COOKIES · NO ANALYTICS · NO ACCOUNTS.</b> This site sets no cookies, runs no trackers, and keeps no log of who you are. We even serve our own fonts, so not one third party — not even Google — sees your visit. There is literally no way for this site to identify you, and that's the whole point. (Tapping through to an event opens that org's own site; what happens there is on them, not us.)</div>
   <section class="sources"><!--SOURCES:START--><h4>Pulled from these San Jose organizations — go support them directly:</h4><p class="orglist"><a class="orglink" href="https://siliconvalleydsa.org/" target="_blank" rel="noopener">Silicon Valley DSA</a> · <a class="orglink" href="https://pactsj.org/" target="_blank" rel="noopener">PACT San José</a> · <a class="orglink" href="https://www.mobilize.us/itsblueturn/" target="_blank" rel="noopener">Blue Turn Indivisible</a> · <a class="orglink" href="https://surjsantaclaracounty.org/" target="_blank" rel="noopener">SURJ Santa Clara County</a> · <span class="orglink">San Jose Peace &amp; Justice Center</span></p><!--SOURCES:END--></section>
-  <nav class="citylinks" aria-label="All cities"><!--CITYLINKS:START--><a class="citylink" href="/">Sacramento <b>109</b></a> · <a class="citylink" href="/oakland/">Oakland <b>137</b></a> · <a class="citylink" href="/los-angeles/">Los Angeles <b>69</b></a> · <a class="citylink" href="/san-francisco/">San Francisco <b>65</b></a> · <a class="citylink" href="/san-diego/">San Diego <b>117</b></a> · <span class="citylink on" aria-current="page">San Jose <b>102</b></span> · <a class="citylink" href="/fresno/">Fresno <b>13</b></a> · <a class="citylink" href="/riverside/">Riverside <b>34</b></a><!--CITYLINKS:END--></nav>
+  <nav class="citylinks" aria-label="All cities"><!--CITYLINKS:START--><a class="citylink" href="/">Sacramento <b>109</b></a> · <a class="citylink" href="/oakland/">Oakland <b>137</b></a> · <a class="citylink" href="/los-angeles/">Los Angeles <b>69</b></a> · <a class="citylink" href="/san-francisco/">San Francisco <b>65</b></a> · <a class="citylink" href="/san-diego/">San Diego <b>117</b></a> · <span class="citylink on" aria-current="page">San Jose <b>102</b></span> · <a class="citylink" href="/fresno/">Fresno <b>13</b></a> · <a class="citylink" href="/riverside/">Riverside <b>34</b></a> · <a class="citylink" href="/davis/">Davis <b>16</b></a><!--CITYLINKS:END--></nav>
   <p class="disc" id="disc">Listings are generated weekly from real, verified feeds — the site never fabricates events. An empty city just means nobody's wired its feeds up yet.</p>
 </footer>
 
@@ -728,7 +752,7 @@ function render(){
     box.innerHTML = `<div class="citynote">
       <h3>No issue for ${esc(city.label)} yet.</h3>
       <p>Nobody's wired up the feeds for this city. Know the orgs, fridges, unions and venues here? Send their public calendars and we'll cut this block its first issue.</p>
-      <a href="mailto:holler@ragingcunt.com?subject=Feeds for ${encodeURIComponent(city.label)}">REQUEST THIS CITY →</a>
+      <a href="mailto:ragingcunt@gmail.com?subject=Feeds for ${encodeURIComponent(city.label)}">REQUEST THIS CITY →</a>
     </div>`;
     return;
   }

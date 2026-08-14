@@ -241,7 +241,7 @@ def refine_type(title, base):
 
 _MOBILIZE_MAX_PAGES = 40  # safety valve: ~40 * per_page events before we stop
 
-def fetch_mobilize(city_key, org_id, default_type="meeting", near_zips=None):
+def fetch_mobilize(city_key, org_id, default_type="meeting", near_zips=None, reject=None):
     """
     Mobilize public API. Docs: https://github.com/mobilizeamerica/api
     Endpoint: GET /v1/organizations/:org_id/events  (org-scoped, documented path).
@@ -277,6 +277,11 @@ def fetch_mobilize(city_key, org_id, default_type="meeting", near_zips=None):
                 if not any(pc.startswith(z) for z in near_zips):
                     dropped += 1
                     continue                      # non-local coalition cross-post
+            if reject:                            # strip candidate/GOTV items off an otherwise-local chapter feed
+                hay = (str(ev.get("title", "")) + " " + str((ev.get("sponsor") or {}).get("name") or "")).lower()
+                if any(r.lower() in hay for r in reject):
+                    dropped += 1
+                    continue
             # Collapse to the NEXT upcoming timeslot — Mobilize visibility/recurring
             # events can carry dozens of future timeslots; one card each, like ICS.
             starts = sorted(ts["start_date"] for ts in (ev.get("timeslots") or [])
