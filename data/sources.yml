@@ -55,6 +55,8 @@ cities:
       - { kind: mobilize, org_id: 6496, default_type: action, near_zips: ["956", "958"] }   # States Win Sacramento
       - { kind: mobilize, org_id: 47790, default_type: action, near_zips: ["956", "958"] }  # Sunrise Solidarity (climate/youth)
       - { kind: mobilize, org_id: 45411, default_type: action, near_zips: ["956", "958"] }  # Indivisible Elk Grove Laguna
+      # Added 2026-08-12 (faith-justice — weekly anti-ICE "Compassionate Resistance", own-local):
+      - { kind: mobilize, org_id: 48491, default_type: action }  # UUSS (Unitarian Universalist Society of Sacramento — own-local weekly vigil; no near_zips, its event lacks a matching postal code)
     # Rejected / not added (kept here so they're not "rediscovered" as new):
     #   - Reproductive rights: NO local org publishes a fetchable feed (PP Mar Monte
     #     has none; national PP Mobilize org 157 returns 0 Sacramento events). Gap.
@@ -94,6 +96,9 @@ cities:
       # Dem-party content the user excluded, and floods with national canvassing.
       - { kind: mobilize, org_id: 42967, default_type: action }   # Eden Area Indivisible (Castro Valley/Hayward, own-local)
       - { kind: mobilize, org_id: 47687, default_type: action }   # Together We Will Albany Berkeley (own-local)
+      # Added 2026-08-12 (alt-platform sweep): AAPI cultural-justice venue, Oakland Chinatown.
+      - { kind: ics, url: "https://oacc.cc/events/?ical=1", org: "Oakland Asian Cultural Center", default_type: show }
+      - { kind: ics, url: "https://fiaeastbay.org/events/?ical=1", org: "Faith in Action East Bay", default_type: action }  # immigrant rights/faith (server 406s a bare curl but accepts our browser UA)
     # Skipped: 350 Bay Area (ics) — regional (EB+SF+Benicia), no zip data to filter,
     #   would duplicate across cities. Critical Resistance (ics) — after Oakland-only
     #   filter it's 12 near-identical "Prisoner Mail Nights", repetitive filler.
@@ -158,6 +163,8 @@ cities:
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/ak73hn991ctkr074mj40br54j8%40group.calendar.google.com/public/basic.ics", org: "Activist San Diego", default_type: action }
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/tenantcouncilssandiego%40gmail.com/public/basic.ics", org: "Tenant Councils of San Diego", default_type: tenant }
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/prcsandiego%40gmail.com/public/basic.ics", org: "Peace Resource Center of San Diego", default_type: action }
+      # Added 2026-08-12 (recovered via Timely/All-in-One-Event-Calendar export — was logged feedless):
+      - { kind: ics, url: "https://sandiego350.org/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true", org: "SanDiego350", default_type: action }
     # Skipped: SD Labor Council (mobilize 44491) — currently heavy on Prop 50 electoral canvassing.
     # SanDiego350 (ai1ec/Timely plugin), ACCE, Unión del Barrio, SD Tenants Union — feedless.
 
@@ -172,6 +179,9 @@ cities:
       # Added 2026-08-12 (racial justice organizing + peace/anti-war vigils):
       - { kind: squarespace, url: "https://surjsantaclaracounty.org/calendar", org: "SURJ Santa Clara County", default_type: meeting }
       - { kind: ics, url: "https://peaceandjustice.org/events/?ical=1", org: "Peninsula Peace & Justice Center", default_type: action }
+      # Added 2026-08-12 (CalendarWiz export — South Bay movement HUB: aggregates SJ Against War,
+      # SJ Food Not Bombs, Tech Workers Coalition, mutual aid, ICE-response vigils, Palestine actions):
+      - { kind: ics, url: "https://www.calendarwiz.com/CalendarWiz_iCal.php?crd=sanjosepeace", org: "San Jose Peace & Justice Center", default_type: action }
     # Skipped: WFP CA (mobilize 2566) — electoral, ~2 local events. South Bay's grassroots-left
     # orgs (SIREN, 350 SV, Sacred Heart, Sunrise) publish no ingestible feed. Also skipped
     # (per user 2026-08-12): Billy DeFrank LGBTQ+ Center (public Google Cal, but 84 events of
@@ -206,13 +216,16 @@ cities:
   riverside:
     label: "Riverside, CA"
     # Verified 2026-08-10. Inland Empire DSA (Riverside + San Bernardino), all-local.
-    # Skipped: electoral Mobilize firehoses (2289, 2566); Starting Over Inc's Squarespace
-    # feed is Lorem-Ipsum demo data (would publish fake events); WWRC ICS is empty.
+    # Skipped: electoral Mobilize firehoses (2289, 2566); Indivisible Inland Empire (42519,
+    # 903-event CA-Dem firehose); WWRC ICS is empty; PC4EJ/CCAEJ/TODEC feedless-or-dormant.
+    # NOTE: Starting Over Inc's Squarespace feed WAS lorem-ipsum demo data; as of 2026-08-12 it's
+    # LIVE with real events (verified, 0 placeholder) — now wired below; covers Riverside AOUON too.
     sources:
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/419e4a3c3454c63590714082481f0c03563bc966625b90902cdde8415d3fcf9e%40group.calendar.google.com/public/basic.ics", org: "Inland Empire DSA", default_type: meeting }
       # Added 2026-08-12 (IE labor council — 90 unions, also runs movement programming: Black
       # August film school, warehouse/data-center EJ forums, Labor Day parade; IE-wide, all-local):
       - { kind: ics, url: "https://ielabor.org/events/?ical=1", org: "Inland Empire Labor Council", default_type: meeting }
+      - { kind: squarespace, url: "https://www.startingoverinc.org/events", org: "Starting Over Inc", default_type: action }
     # Skipped: Indivisible Inland Empire (mobilize 42519) — 903-event CA-Dem-Party firehose;
     # Fontana People's Campaign (50176) — candidate-slate GOTV. Feedless/gaps: PC4EJ & CCAEJ
     # (EJ, JSON-LD/dormant Squarespace), Inland Equity CLT tenants' unions (CiviCRM), IC4IJ.
