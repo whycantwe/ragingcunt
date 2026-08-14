@@ -795,19 +795,96 @@ def write_sitemap(result):
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "\n".join(rows) + "\n</urlset>\n", encoding="utf-8")
 
+def _ics_esc(s):
+    return str(s or "").replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\r", "").replace("\n", "\\n")
+
+def _ics_utc(d):
+    return d.astimezone(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+
+def build_ics(city_key, city):
+    """A subscribable .ics of a city's events (the next occurrence of each; the weekly
+    build refreshes the file). Plain, generic, per-city — no tracking, no per-user URLs."""
+    name = (city.get("label") or city_key.replace("-", " ").title()).split(",")[0].strip()
+    out = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//ragingcunt.com//EN",
+           "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
+           f"X-WR-CALNAME:RAGINGCUNT \u2014 {name}",
+           f"X-WR-CALDESC:{_ics_esc('Real local organizing in ' + name + ', refreshed weekly. ragingcunt.com')}"]
+    stamp = NOW.strftime("%Y%m%dT%H%M%SZ")
+    for e in city.get("events", []):
+        d0 = _pt(e.get("start"))
+        if not d0:
+            continue
+        d1 = (_pt(e.get("end")) if e.get("end") else None) or (d0 + dt.timedelta(hours=2))
+        uid = e.get("id") or hashlib.md5((str(e.get("title", "")) + str(e.get("start", ""))).encode()).hexdigest()
+        tlabel = TYPE_META.get(e.get("type"), (str(e.get("type", "")).upper(), ""))[0]
+        parts = [f"[{tlabel}]"]
+        if e.get("org"):
+            parts.append(str(e["org"]))
+        if e.get("recurrence"):
+            parts.append(f"({e['recurrence']})")
+        blurb = _strip_tags(e.get("blurb") or "")
+        if blurb:
+            parts.append(blurb[:300])
+        if e.get("url"):
+            parts.append(str(e["url"]))
+        out += ["BEGIN:VEVENT", f"UID:{uid}@ragingcunt.com", f"DTSTAMP:{stamp}",
+                f"DTSTART:{_ics_utc(d0)}", f"DTEND:{_ics_utc(d1)}",
+                f"SUMMARY:{_ics_esc(e.get('title'))}"]
+        if e.get("venue"):
+            out.append(f"LOCATION:{_ics_esc(e['venue'])}")
+        out.append(f"DESCRIPTION:{_ics_esc(' \u2014 '.join(parts))}")
+        if e.get("url"):
+            out.append(f"URL:{_ics_esc(e['url'])}")
+        out.append("END:VEVENT")
+    out.append("END:VCALENDAR")
+    return "\r\n".join(out) + "\r\n"
+
+def write_calendars(result):
+    for k, city in (result.get("cities") or {}).items():
+        # write BYTES so the CRLF line endings survive verbatim — write_text would
+        # translate \n on Windows and turn our \r\n into \r\r\n (breaks strict parsers).
+        (ROOT / f"{k}.ics").write_bytes(build_ics(k, city).encode("utf-8"))
+
+def render_subscribe(city_key, city):
+    """The on-brand, privacy-honest 'add your city to your calendar' flyer."""
+    name = (city.get("label") or city_key.replace("-", " ").title()).split(",")[0].strip()
+    shown = f"ragingcunt.com/{city_key}.ics"
+    full = f"https://ragingcunt.com/{city_key}.ics"
+    tabs = "".join(f'<span class="ctab">{city_key}<b>.ics</b></span>' for _ in range(7))
+    return (
+        '<article class="subflyer"><span class="subtape"></span>'
+        '<div class="sub-eye">never miss one \u21bb</div>'
+        f'<h2 class="sub-h">Put {_esc(name)}<br>in your calendar</h2>'
+        '<p class="sub-p">Every action, meeting &amp; mutual-aid event drops into your own '
+        'calendar and re-pulls every Sunday. No account, no app to install.</p>'
+        f'<div class="feedrow"><code>{_esc(shown)}</code>'
+        f'<button class="cbtn" type="button" data-copy="{full}">COPY</button></div>'
+        f'<div class="dlrow"><a class="dbtn" href="/{city_key}.ics" download>\u2193 DOWNLOAD .ICS</a>'
+        '<span class="works">works with Apple \u00b7 Google \u00b7 Proton \u00b7 any calendar</span></div>'
+        '<div class="pnote"><b>HEADS UP \u2014</b> this puts these events in your calendar, so '
+        'whoever runs your calendar (Google, Apple\u2026) can see them. Most private: an offline / '
+        'local calendar app, or just check the wall right here. Either way, <b>we</b> never see you '
+        '\u2014 no account, no tracking, generic link.</div>'
+        f'<div class="ctabs"><span class="ctabhint">\u2702 take a tab</span>{tabs}</div>'
+        '</article>'
+    )
+
 def inject_seo(result):
     """Bake a crawlable static page for EVERY city (home = default city) with its own
-    SSR event list, JSON-LD, title/meta/canonical and a shared city-nav, then refresh
-    the sitemap. Best-effort: never aborts the build — events.json is authoritative."""
+    SSR event list, JSON-LD, title/meta/canonical, a shared city-nav, source credits and
+    a calendar-subscribe module; write per-city .ics; refresh the sitemap. Best-effort:
+    never aborts the build — events.json is authoritative."""
     try:
         template = INDEX_HTML.read_text(encoding="utf-8")
         cities = result.get("cities") or {}
+        write_calendars(result)          # per-city .ics feeds people can subscribe to
         for city_key, city in cities.items():
             html = template
             html = _replace_between(html, "<!--SSR:START-->", "<!--SSR:END-->", render_ssr(result, city_key))
             html = _replace_between(html, "<!--JSONLD:START-->", "<!--JSONLD:END-->", render_jsonld(result, city_key))
             html = _replace_between(html, "<!--CITYLINKS:START-->", "<!--CITYLINKS:END-->", render_citylinks(result, city_key))
             html = _replace_between(html, "<!--SOURCES:START-->", "<!--SOURCES:END-->", render_sources(result, city_key))
+            html = _replace_between(html, "<!--SUBSCRIBE:START-->", "<!--SUBSCRIBE:END-->", render_subscribe(city_key, city))
             if city_key == DEFAULT_CITY:
                 INDEX_HTML.write_text(html, encoding="utf-8")   # home keeps its brand meta
             else:

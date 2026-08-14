@@ -1,0 +1,244 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ragingcunt.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RAGINGCUNT — Riverside
+X-WR-CALDESC:Real local organizing in Riverside\, refreshed weekly. ragingcunt.com
+BEGIN:VEVENT
+UID:d3354d3c1ac2@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260826T020000Z
+DTEND:20260826T040000Z
+SUMMARY:Immigrant Justice Meeting
+DESCRIPTION:[MEETING] — Inland Empire DSA — (Every other Tuesday) — Join us to discuss how to keep our neighbors safe and push back against ALPR's! Meeting will be held in Discord.
+END:VEVENT
+BEGIN:VEVENT
+UID:dec2208702c8@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260906T220000Z
+DTEND:20260907T000000Z
+SUMMARY:Political Education Committee
+DESCRIPTION:[TEACH-IN] — Inland Empire DSA — (Monthly) — Monthly meetings to recap the past month's activity\, prepare for the upcoming month\, and plan for the future! Join us in Discord to hear what we are cookin' up\, to offer feedback\, and get involved in the struggle to develop class consciousness!
+END:VEVENT
+BEGIN:VEVENT
+UID:649d4eb0eb52@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260902T020000Z
+DTEND:20260902T040000Z
+SUMMARY:Budget\, Finance\, and Fundraising Team Meeting
+DESCRIPTION:[MEETING] — Inland Empire DSA — (Monthly) — Join the BFF Team as we go over the Chapter’s finances. This includes budgeting\, planning and executing fundraising\, and working on fiscal policies. Check out our channel on IE DSA’s Discord server for more info.
+END:VEVENT
+BEGIN:VEVENT
+UID:e945f7065b44@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260827T020000Z
+DTEND:20260827T040000Z
+SUMMARY:Rant and File
+LOCATION:Haven City Market\, 8443 Haven Ave\, Rancho Cucamonga\, CA 91730\, USA
+DESCRIPTION:[MEETING] — Inland Empire DSA — (Monthly) — A monthly circle for workers to meet each other\, vent about their jobs\, celebrate wins\, and learn from each other. Bring your rants\, your files\, and your strategy (or lack of)\, you rank and file worker! This month will be located at Haven City Market in Rancho. This is a food cou
+END:VEVENT
+BEGIN:VEVENT
+UID:3d994f2a22c4@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260821T023000Z
+DTEND:20260821T043000Z
+SUMMARY:Electoral Committee Meeting
+LOCATION:Discord
+DESCRIPTION:[MEETING] — Inland Empire DSA — (Every Thursday) — Join the Electoral Committee (EC) for our regular meeting\, where we'll discuss campaign updates\, endorsement work\, upcoming priorities\, and committee business. This meeting will be held virtually. For meeting details and access information\, please see the Electoral Committee chan
+END:VEVENT
+BEGIN:VEVENT
+UID:1d09404cdc11@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260818T020000Z
+DTEND:20260818T040000Z
+SUMMARY:Steering Committee Meeting
+LOCATION:virtual
+DESCRIPTION:[MEETING] — Inland Empire DSA — (Every other Monday) — The Steering Committee (SC) is the administrative arm of the chapter and is responsible for executing the will of the chapter's members. All members are encouraged to join in on SC meetings to provide input and ensure the SC is moving in tandem with the will of the Chapter. M
+END:VEVENT
+BEGIN:VEVENT
+UID:baf04a167889@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260909T020000Z
+DTEND:20260909T040000Z
+SUMMARY:What is Imperialism? Part 3 of 4 of the "What is Socialism?" series.
+LOCATION:https://iedsa.solidarity.tech/what-is-imperialism
+DESCRIPTION:[MEETING] — Inland Empire DSA — Join IE DSA's Political Education Committee  for a presentation and discussion about imperialism! Tonight you'll learn all about the socialist definition of imperialism and how/why imperialist nations like our own support themselves through the exploitation of the global south
+END:VEVENT
+BEGIN:VEVENT
+UID:80c5e061fc66@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260922T020000Z
+DTEND:20260922T040000Z
+SUMMARY:What is Organizing? Part 4 of 4 of the "What is Socialism?" series.
+LOCATION:https://iedsa.solidarity.tech/what-is-organizing
+DESCRIPTION:[MEETING] — Inland Empire DSA — Join IE DSA's Political Education Committee for a presentation and discussion about organizing! Having learned about socialism\, class\, and imperialism\, what comes next? What is the boots-on-the-ground work that needs to be done to effect meaningful and lasting change? How can
+END:VEVENT
+BEGIN:VEVENT
+UID:6218be089348@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260926T223000Z
+DTEND:20260927T003000Z
+SUMMARY:Tabling at Hemet Pride
+LOCATION:Hemet Center for Spiritual Living\, 40450 Stetson Ave\, Hemet\, CA 92544\, USA
+DESCRIPTION:[MEETING] — Inland Empire DSA — In collaboration with IE SRA\, to get involved reach out to Fabi and Marla. For more info on the event reach out to @OfficalHemetPride and @KiwanisRivCo on Instagram or email info@kiwanisrivcoallinclusive.org.
+END:VEVENT
+BEGIN:VEVENT
+UID:001fb8a5fd92@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260825T020000Z
+DTEND:20260825T040000Z
+SUMMARY:What is Class? Part 2 of 4 of the "What is Socialism?" series.
+LOCATION:https://iedsa.solidarity.tech/what-is-class
+DESCRIPTION:[MEETING] — Inland Empire DSA — Join IE DSA's Political Education Committee for a presentation and discussion about Class! Tonight you'll learn all about the socialist definition of class and how that definition completely re-frames how you see your role and potential to affect change in the U.S.A. A definit
+END:VEVENT
+BEGIN:VEVENT
+UID:70801e96703d@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260815T190000Z
+DTEND:20260815T210000Z
+SUMMARY:New Member Onboarding
+DESCRIPTION:[MEETING] — Inland Empire DSA — Join our monthly IE DSA New Member On-Boarding!   This is a group on-boarding event on Zoom (about 60–75 minutes) where you’ll meet other new members\, learn about what Inland Empire DSA is working on\, and find ways to get involved. The session is interactive and includes
+END:VEVENT
+BEGIN:VEVENT
+UID:71e6155a2f7f@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260815T220000Z
+DTEND:20260816T000000Z
+SUMMARY:8.15.2026 Cross-Chapter Oceanside Beach Social
+LOCATION:https://maps.app.goo.gl/XqzdQV5vQSBpUoHm7
+DESCRIPTION:[MEETING] — Inland Empire DSA — Bring a towel\, some sunglasses\, and lots of good vibes! Join San Diego DSA\, Inland Empire DSA & other Socal DSA chapters for this fun beach day trip continuing until the evening. Look into the forum posts in the Outreach section for more details on carpooling and other such thing
+END:VEVENT
+BEGIN:VEVENT
+UID:59b7979699eb@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260823T210000Z
+DTEND:20260823T230000Z
+SUMMARY:IE DSA Special Meeting: 2028 Presidential Primary
+LOCATION:Hybrid
+DESCRIPTION:[MEETING] — Inland Empire DSA — 📢 **IE DSA Special Meeting: 2028 Presidential Primary**  Join us for a chapter-wide discussion on what we want to see from a potential 2028 presidential campaign and what role DSA should play in it.  We’ll break into small groups to discuss:  * What kind of cand
+END:VEVENT
+BEGIN:VEVENT
+UID:87f83f9d5c66@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260814T233000Z
+DTEND:20260815T013000Z
+SUMMARY:Socialist Job Fair
+DESCRIPTION:[MEETING] — Inland Empire DSA — Tired of your job? Wish you had a union? Let’s build worker power here in the IE! \n\nJoin Inland Empire DSA on August 14th at 4:30 PM to 7:30PM to build better working conditions in our community and beyond. The location will be released one day prior to the event via email to tho
+END:VEVENT
+BEGIN:VEVENT
+UID:6b4627d1420a@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260927T070000Z
+DTEND:20260927T090000Z
+SUMMARY:September Hybrid General Meeting
+DESCRIPTION:[MEETING] — Inland Empire DSA — Join us for our September Hybrid General Meeting!  Inland Empire DSA general meetings are a time where members and the general public are invited to get together and discuss the going-ons of the local chapter.   Working groups and committees give repor
+END:VEVENT
+BEGIN:VEVENT
+UID:db171c8cdb1b@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20261115T080000Z
+DTEND:20261115T100000Z
+SUMMARY:IE DSA Local Chapter Convention
+DESCRIPTION:[MEETING] — Inland Empire DSA — Description\, RSVP\, and time TBD
+END:VEVENT
+BEGIN:VEVENT
+UID:026982383cd3@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260822T020000Z
+DTEND:20260822T040000Z
+SUMMARY:Beer and Roses\, a Socialist Social
+LOCATION:Carbon Nation Brewing\, 9860 Indiana Ave Unit 19\, Riverside\, CA 92503\, USA
+DESCRIPTION:[MEETING] — Inland Empire DSA — Members are getting together at a neighborhood bar for a night of socializing and solidarity. Come build community\, connect with comrades\, and enjoy a drink together!
+END:VEVENT
+BEGIN:VEVENT
+UID:3c53d8cba73d@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260821T020000Z
+DTEND:20260821T040000Z
+SUMMARY:"Light" Lit Circle @ Better Buzz Upland
+LOCATION:1317 E Foothill Blvd\, Upland\, CA 91786\, USA
+DESCRIPTION:[MEETING] — Inland Empire DSA — The format for this is simple. We meet once per month and do some "light reading." A recently published article from a leftist news source relevant to the work we do in DSA. These articles will be paired with a supplemental article or book excerpt that makes the connection betwee
+END:VEVENT
+BEGIN:VEVENT
+UID:488b62ca09ab@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260816T210000Z
+DTEND:20260816T230000Z
+SUMMARY:Online Special Meeting
+LOCATION:Zoom\, RSVP for Info!
+DESCRIPTION:[MEETING] — Inland Empire DSA — 📢 Chapter-Wide Deliberative Meeting — Tabled Legislation  Join us for a Chapter-Wide Deliberative (CWD) meeting to continue the discussion of legislation tabled at our last General Membership meeting.  This meeting will give members dedicated time to review\, discuss\,
+END:VEVENT
+BEGIN:VEVENT
+UID:d037bb7a2e8e@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260814T200000Z
+DTEND:20260814T220000Z
+SUMMARY:Politics & Policy Committee Meeting
+DESCRIPTION:[MEETING] — Inland Empire Labor Council — (Every Friday) — The Committee on Political Education (COPE)\, meets every second Friday of each month at 1:00 PM. \n\n\n\nIELC Delegate Meeting Schedule 2026Download — https://ielabor.org/event/politics-policy-committee-meeting-7/
+URL:https://ielabor.org/event/politics-policy-committee-meeting-7/
+END:VEVENT
+BEGIN:VEVENT
+UID:c890ad4359f9@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260815T020000Z
+DTEND:20260815T040000Z
+SUMMARY:Black August Revolutionary Film School | IEBWC
+DESCRIPTION:[MEETING] — Inland Empire Labor Council — (Every Friday) — Inland Empire Black Worker Center presents the Black August Revolutionary Film School. A 4-part series of screenings featuring films that deepen collective commitment to the study of Black liberation and abolition\, honor the legacy of Black revolutionary resistance\, and uplift th — https://ielabor.org/event/black-august-revolutionary-film-school-iebwc-2/
+URL:https://ielabor.org/event/black-august-revolutionary-film-school-iebwc-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:c1cc7d8c17d6@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260821T163000Z
+DTEND:20260821T183000Z
+SUMMARY:Hyper-Scale Data Centers: Costs\, Benefits & Community Futures | IE Labor & Community Center
+DESCRIPTION:[MEETING] — Inland Empire Labor Council — Via the Inland Empire Labor & Community Center: \n\n\n\nSAVE THE DATE: Friday\, August 21\, 2026 | 9:30AM – 5:00 PM | Greater Palm Desert Area*Data center projects are rapidly expanding across the Coachella Valley\, Imperial Valley\, Inland Empire\, and San Diego regions — bringing both o — https://ielabor.org/event/hyper-scale-data-centers-costs-benefits-community-futures-ie-labor-community-center/
+URL:https://ielabor.org/event/hyper-scale-data-centers-costs-benefits-community-futures-ie-labor-community-center/
+END:VEVENT
+BEGIN:VEVENT
+UID:9389781cd57d@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260907T160000Z
+DTEND:20260907T180000Z
+SUMMARY:Inland Empire Labor Day 2026 Parade & Unity Picnic
+DESCRIPTION:[SHOW] — Inland Empire Labor Council — The Inland Empire Labor Council is proud to announce the Inland Empire Labor Day 2026 Parade & Unity Picnic. This is an event dedicated to celebrating the solidarity of Inland Empire’s working class featuring food\, festivities\, music and a union job fair for the community. \n\n\n\n09 — https://ielabor.org/event/inland-empire-labor-day-2026-parade-union-picnic/
+URL:https://ielabor.org/event/inland-empire-labor-day-2026-parade-union-picnic/
+END:VEVENT
+BEGIN:VEVENT
+UID:998963f7b4a6@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20260909T013000Z
+DTEND:20260909T033000Z
+SUMMARY:September Delegate Meeting
+DESCRIPTION:[MEETING] — Inland Empire Labor Council — Meeting starts promptly at 6:30 PM. Union delegates please arrive early for food and refreshments. Download the schedule below. — https://ielabor.org/event/september-delegate-meeting-3/
+URL:https://ielabor.org/event/september-delegate-meeting-3/
+END:VEVENT
+BEGIN:VEVENT
+UID:8e66625ad63c@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20261014T013000Z
+DTEND:20261014T033000Z
+SUMMARY:October Delegate Meeting
+DESCRIPTION:[MEETING] — Inland Empire Labor Council — Meeting starts promptly at 6:30 PM. Union delegates please arrive early for food and refreshments. Download the schedule below. — https://ielabor.org/event/october-delegate-meeting-2/
+URL:https://ielabor.org/event/october-delegate-meeting-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:a5b4bfa3fb60@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20261111T023000Z
+DTEND:20261111T043000Z
+SUMMARY:November Delegate Meeting
+DESCRIPTION:[MEETING] — Inland Empire Labor Council — Meeting starts promptly at 6:30 PM. Union delegates please arrive early for food and refreshments. Download the schedule below. — https://ielabor.org/event/november-delegate-meeting-3/
+URL:https://ielabor.org/event/november-delegate-meeting-3/
+END:VEVENT
+BEGIN:VEVENT
+UID:9083eb2b6444@ragingcunt.com
+DTSTAMP:20260814T210859Z
+DTSTART:20261209T023000Z
+DTEND:20261209T043000Z
+SUMMARY:December Delegate Meeting
+DESCRIPTION:[MEETING] — Inland Empire Labor Council — Meeting starts promptly at 6:30 PM. Union delegates please arrive early for food and refreshments. Download the schedule below. — https://ielabor.org/event/december-delegate-meeting-2/
+URL:https://ielabor.org/event/december-delegate-meeting-2/
+END:VEVENT
+END:VCALENDAR

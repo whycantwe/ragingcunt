@@ -46,7 +46,7 @@ jobs:
           # events.json is the data; build.py also bakes SSR HTML + JSON-LD into
           # index.html, generates a crawlable page per city (<city>/index.html), and
           # refreshes sitemap.xml for SEO — commit data + every generated page.
-          git add -A data/events.json index.html sitemap.xml "*/index.html"
+          git add -A data/events.json index.html sitemap.xml "*/index.html" "*.ics"
           if git diff --staged --quiet; then
             echo "No changes this week."
           else
