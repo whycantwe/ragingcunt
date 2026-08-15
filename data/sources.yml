@@ -31,9 +31,12 @@ cities:
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/dsasacramento%40gmail.com/public/basic.ics", org: "Sacramento DSA", default_type: meeting }
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/c_182554b64da4c175a456432c76c4287b3aef3af1110a8abf58792ef0a36a9a44%40group.calendar.google.com/public/basic.ics", org: "NorCal Resist", default_type: mutualaid }
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/sacvalleytenants%40gmail.com/public/basic.ics", org: "Sacramento Valley Tenants Union", default_type: tenant }
-      # Added 2026-08-07 to diversify the mix (climate, LGBTQ+, street actions):
+      # Added 2026-08-07 to diversify the mix (climate, street actions):
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/events%40350sacramento.org/public/basic.ics", org: "350 Sacramento", default_type: action }
-      - { kind: ics, url: "https://saccenter.org/events/?ical=1", org: "Sacramento LGBT Community Center", default_type: meeting }
+      # Dropped 2026-08-15: Sacramento LGBT Community Center (saccenter.org) — its
+      # calendar is entirely support/wellness services (grief, coming-out, trauma
+      # therapy, seniors groups). Off-mission and a privacy concern to broadcast;
+      # same rule that excluded Openhouse SF. (Its ?ical=1 was also Sucuri-walled.)
       # Indivisible El Dorado cross-posts a national coalition firehose (147+
       # "Coalition Against Project 2025" events); near_zips keeps only its
       # Sacramento-metro events (956xx = inner suburbs, 958xx = city/south Sac).
