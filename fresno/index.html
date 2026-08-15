@@ -98,6 +98,8 @@
   .brand b{color:var(--pink);text-shadow:var(--glow)}
   .brand i{font-style:normal;color:var(--ash);font-size:12px;font-family:var(--type)}
   .curcity{font-family:var(--scrawl);font-size:17px;color:var(--pink);text-shadow:var(--glow);max-width:52vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;transform:rotate(-2deg)}
+  /* narrow screens: keep brand + ADD YOUR ORG breathing; city is already on the chips/issue head */
+  @media(max-width:600px){.topbar .curcity{display:none}}
   /* ── CITY BAR (primary nav) ── */
   .citybar{position:relative;z-index:1;display:flex;align-items:center;gap:12px;padding:14px 16px;border-bottom:2px solid var(--line)}
   .barlabel{flex:0 0 auto;font-family:var(--scrawl);font-size:18px;letter-spacing:.5px;color:var(--bone)}
@@ -229,16 +231,32 @@
   .fcol h4{font-family:var(--head);color:var(--pink);font-size:13px;letter-spacing:2px;margin-bottom:10px}
   .fcol p{font-family:var(--type);font-size:13.5px;line-height:1.75;color:#c6c0b5}
   .fcol a{color:var(--pink-lift)}
-  /* get-on-the-wall contact form (no third-party captcha script — honeypot only) */
-  .wallform{display:flex;flex-direction:column;gap:7px;margin-top:6px;max-width:340px}
-  .wallform .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
-  .wallform input,.wallform textarea{font-family:var(--type);font-size:13px;background:#141018;color:var(--bone);border:1.5px solid var(--line);padding:8px 10px;width:100%}
-  .wallform input:focus,.wallform textarea:focus{outline:none;border-color:var(--pink)}
-  .wallform input::placeholder,.wallform textarea::placeholder{color:#7a7280}
-  .wallform button{font-family:var(--head);font-size:12px;letter-spacing:.5px;background:var(--pink);color:#0d0a0c;border:0;padding:9px 15px;cursor:pointer;transform:skewX(-6deg);align-self:flex-start;margin-top:2px}
-  .wallform button:hover{box-shadow:0 0 16px rgba(255,45,149,.5)}
-  .orpref{font-family:var(--type);font-size:11.5px;color:var(--ash);margin-top:9px}
-  .orpref a{color:var(--pink-lift)}
+  /* topbar "add your org" jump link */
+  .addorg{font-family:var(--head);font-size:11px;letter-spacing:1px;color:var(--pink);text-decoration:none;border:1.5px solid var(--pink);padding:5px 9px;white-space:nowrap;transition:.12s}
+  .addorg:hover{background:var(--pink);color:#0d0a0c;box-shadow:0 0 14px rgba(255,45,149,.5)}
+  /* ── CONTACT BAND ("get on the wall" flyer; honeypot only, zero third-party on load) ── */
+  .contact{position:relative;z-index:1;padding:36px 16px 6px;scroll-margin-top:70px}
+  .cflyer{position:relative;isolation:isolate;color:var(--ink);padding:30px 26px 26px;max-width:600px;margin:0 auto;transform:rotate(-1.2deg)}
+  .cflyer::before{content:"";position:absolute;inset:-3px;z-index:-1;background:var(--paper);background-image:radial-gradient(rgba(0,0,0,.05) .6px,transparent .7px);background-size:4px 4px;filter:url(#rough);box-shadow:0 14px 34px rgba(0,0,0,.6),0 0 30px rgba(255,45,149,.12)}
+  .ctape{position:absolute;width:118px;height:30px;background:rgba(236,228,205,.42);border-left:1px dashed rgba(255,255,255,.35);border-right:1px dashed rgba(255,255,255,.35);box-shadow:0 1px 3px rgba(0,0,0,.3);z-index:2}
+  .ctape.tl{top:-13px;left:22px;transform:rotate(-20deg)}
+  .ctape.tr{top:-13px;right:22px;transform:rotate(18deg);background:rgba(255,45,149,.34);border-color:rgba(255,139,196,.6);box-shadow:0 0 14px rgba(255,45,149,.4)}
+  .c-eye{font-family:var(--scrawl);font-size:18px;color:var(--pink);transform:rotate(-2deg);display:inline-block;margin-bottom:2px}
+  .c-h{font-family:var(--disp);text-transform:uppercase;font-size:clamp(34px,10vw,58px);line-height:.86;letter-spacing:1px;color:var(--ink);transform:skewX(-5deg);margin-bottom:12px}
+  .c-p{font-family:var(--type);font-size:14px;line-height:1.6;color:#2a2430;margin-bottom:20px;max-width:42ch}
+  .c-form{display:flex;flex-direction:column;gap:14px}
+  .c-form .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+  .c-form label{font-family:var(--head);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink);display:block}
+  .c-form label .opt{color:#8a8290;font-family:var(--type);letter-spacing:.5px;text-transform:none;font-size:10.5px}
+  .c-form input,.c-form textarea{display:block;width:100%;margin-top:5px;background:transparent;border:0;border-bottom:2px dotted #4a4048;font-family:var(--type);font-size:15px;color:var(--ink);padding:5px 2px;resize:vertical}
+  .c-form input::placeholder,.c-form textarea::placeholder{color:#a79f95;font-style:italic}
+  .c-form input:focus,.c-form textarea:focus{outline:none;border-bottom:2px solid var(--pink)}
+  .c-send{align-self:flex-start;margin-top:8px;font-family:var(--head);font-size:14px;letter-spacing:1px;background:var(--pink);color:#0d0a0c;border:2.5px solid var(--ink);padding:11px 20px;cursor:pointer;transform:skewX(-6deg);box-shadow:3px 3px 0 var(--ink)}
+  .c-send:hover{box-shadow:3px 3px 0 var(--ink),0 0 18px rgba(255,45,149,.55)}
+  .c-scrawl{font-family:var(--scrawl);font-size:16px;color:var(--pink);transform:rotate(-3deg);display:inline-block;margin-left:12px}
+  .c-note{font-family:var(--type);font-size:11.5px;line-height:1.7;color:#4a4048;border-top:2px dashed #b9b0a0;margin-top:22px;padding-top:14px}
+  .c-note b{color:var(--pink)}
+  .c-note a{color:var(--ink);text-decoration:none;border-bottom:2px solid var(--pink);font-weight:bold}
   .disc{max-width:1120px;margin:28px auto 0;font-family:var(--type);font-size:11.5px;color:var(--ash);line-height:1.7;border-top:1px solid var(--line);padding-top:18px}
   /* source-org credits (transparency + outbound links) */
   .sources{max-width:1120px;margin:30px auto 0;border-top:1px solid var(--line);padding-top:22px}
@@ -286,6 +304,7 @@
 
 <header class="topbar">
   <div class="brand disp"><b>RAGING</b>CUNT <i>.com</i></div>
+  <a class="addorg" href="#contact">＋ ADD YOUR ORG</a>
   <div class="curcity" id="curcity" aria-hidden="true"></div>
 </header>
 
@@ -324,6 +343,37 @@ Dulce Upfront
 Fresno, CA…</div><a class="flyer-link" href="https://www.mobilize.us/afscpanvalleyinstitute/event/1004298/" target="_blank" rel="noopener">DETAILS / RSVP →</a><div class="src"><span>src: mobilize</span></div></article></div></div><!--SSR:END--></div>
 </main>
 
+<section id="contact" class="contact">
+  <article class="cflyer">
+    <span class="ctape tl"></span><span class="ctape tr"></span>
+    <div class="c-eye">psst — is your block missing? ✶</div>
+    <h2 class="c-h">Get your org<br>on the wall</h2>
+    <p class="c-p">Run a chapter, a fridge, a union, a venue? Point us at your public calendar and your city gets your events — free, forever, no account.</p>
+    <form class="c-form" action="https://formsubmit.co/ragingcunt@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="ragingcunt.com — get on the wall">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="true">
+      <input type="hidden" name="_next" value="https://ragingcunt.com/">
+      <!-- honeypot: bots fill this, humans can't see it; no script, no third party -->
+      <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <label>Org / group
+        <input type="text" name="org" placeholder="who are you?" required>
+      </label>
+      <label>Public calendar / feed URL
+        <input type="url" name="calendar" placeholder="the .ics or calendar link">
+      </label>
+      <label>Your email <span class="opt">(optional — so we can holler back)</span>
+        <input type="email" name="email" placeholder="you@yourorg.org">
+      </label>
+      <label>Anything else
+        <textarea name="message" rows="2" placeholder="city, what you do, what you're fighting…"></textarea>
+      </label>
+      <button type="submit" class="c-send">SEND IT →</button><span class="c-scrawl">we read everything</span>
+    </form>
+    <div class="c-note"><b>▪ NO TRACKERS. NO CAPTCHA-SPYWARE. NO ACCOUNT.</b> Just a hidden honeypot bots trip on — this form loads nothing from Google or anyone. Rather skip it? Holler straight at <a href="mailto:ragingcunt@gmail.com">ragingcunt@gmail.com</a>.</div>
+  </article>
+</section>
+
 <footer>
   <div class="fgrid">
     <div class="fcol">
@@ -336,26 +386,12 @@ Fresno, CA…</div><a class="flyer-link" href="https://www.mobilize.us/afscpanva
     </div>
     <div class="fcol">
       <h4>GET ON THE WALL</h4>
-      <p>Run a chapter, a fridge, a union, a venue? Point us at your public calendar and your block gets an issue.</p>
-      <form class="wallform" action="https://formsubmit.co/ragingcunt@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="ragingcunt.com — get on the wall">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="true">
-        <input type="hidden" name="_next" value="https://ragingcunt.com/">
-        <!-- honeypot: bots fill this, humans can't see it; no script, no third party -->
-        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-        <input type="text" name="org" placeholder="org / group name" required>
-        <input type="url" name="calendar" placeholder="public calendar / feed URL">
-        <input type="email" name="email" placeholder="your email (optional — for a reply)">
-        <textarea name="message" rows="2" placeholder="anything else?"></textarea>
-        <button type="submit">SEND IT →</button>
-      </form>
-      <p class="orpref">or just email <a href="mailto:ragingcunt@gmail.com">ragingcunt@gmail.com</a></p>
+      <p>Run a chapter, a fridge, a union, a venue? <a href="#contact">Point us at your public calendar ↑</a> and your block gets an issue — or just email <a href="mailto:ragingcunt@gmail.com">ragingcunt@gmail.com</a>.</p>
     </div>
   </div>
   <div class="privacy"><b>NO TRACKING · NO COOKIES · NO ANALYTICS · NO ACCOUNTS.</b> This site sets no cookies, runs no trackers, and keeps no log of who you are. We even serve our own fonts, so not one third party — not even Google — sees your visit. There is literally no way for this site to identify you, and that's the whole point. (Tapping through to an event opens that org's own site; what happens there is on them, not us.)</div>
   <section class="sources"><!--SOURCES:START--><h4>Pulled from these Fresno organizations — go support them directly:</h4><p class="orglist"><a class="orglink" href="https://www.mobilize.us/powercaaction/" target="_blank" rel="noopener">PowerCA Action</a> · <a class="orglink" href="https://www.mobilize.us/fresnobridgebrigade/" target="_blank" rel="noopener">Fresno Bridge Brigade</a> · <a class="orglink" href="https://www.mobilize.us/centralvalleyindivisible/" target="_blank" rel="noopener">Central Valley Indivisible</a> · <a class="orglink" href="https://www.lgbtqfresno.com/" target="_blank" rel="noopener">LGBTQ Fresno</a> · <a class="orglink" href="https://www.mobilize.us/afscpanvalleyinstitute/" target="_blank" rel="noopener">AFSC Pan Valley Institute</a></p><!--SOURCES:END--></section>
-  <nav class="citylinks" aria-label="All cities"><!--CITYLINKS:START--><a class="citylink" href="/">Sacramento <b>109</b></a> · <a class="citylink" href="/oakland/">Oakland <b>137</b></a> · <a class="citylink" href="/los-angeles/">Los Angeles <b>69</b></a> · <a class="citylink" href="/san-francisco/">San Francisco <b>65</b></a> · <a class="citylink" href="/san-diego/">San Diego <b>117</b></a> · <a class="citylink" href="/san-jose/">San Jose <b>102</b></a> · <span class="citylink on" aria-current="page">Fresno <b>13</b></span> · <a class="citylink" href="/riverside/">Riverside <b>34</b></a> · <a class="citylink" href="/davis/">Davis <b>16</b></a><!--CITYLINKS:END--></nav>
+  <nav class="citylinks" aria-label="All cities"><!--CITYLINKS:START--><a class="citylink" href="/">Sacramento <b>108</b></a> · <a class="citylink" href="/oakland/">Oakland <b>137</b></a> · <a class="citylink" href="/los-angeles/">Los Angeles <b>69</b></a> · <a class="citylink" href="/san-francisco/">San Francisco <b>66</b></a> · <a class="citylink" href="/san-diego/">San Diego <b>116</b></a> · <a class="citylink" href="/san-jose/">San Jose <b>102</b></a> · <span class="citylink on" aria-current="page">Fresno <b>13</b></span> · <a class="citylink" href="/riverside/">Riverside <b>34</b></a> · <a class="citylink" href="/davis/">Davis <b>16</b></a><!--CITYLINKS:END--></nav>
   <p class="disc" id="disc">Listings are generated weekly from real, verified feeds — the site never fabricates events. An empty city just means nobody's wired its feeds up yet.</p>
 </footer>
 
