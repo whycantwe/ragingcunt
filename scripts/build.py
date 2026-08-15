@@ -47,8 +47,14 @@ ROOT      = pathlib.Path(__file__).resolve().parent.parent
 DATA      = ROOT / "data"
 OUT       = DATA / "events.json"
 SOURCES   = DATA / "sources.yml"
+HEALTH    = DATA / "feed-health.json"
 HOODS_DIR = DATA / "neighborhoods"
 NOW       = dt.datetime.now(dt.timezone.utc)
+
+# Feed watchdog: a source that pulls nothing (empty or errored) for this many
+# consecutive weekly runs is treated as broken and worth a human's attention.
+# 2 = dark two Sundays running, so a single transient blip never cries wolf.
+STALE_AFTER_MISSES = 2
 
 TYPES = {"action", "meeting", "mutualaid", "show", "teachin", "tenant", "kyr"}
 
@@ -578,6 +584,29 @@ def load_prev():
         except Exception: return {}
     return {}
 
+# ─── feed watchdog: track whether each source is actually pulling live data ──
+def load_health():
+    """Previous per-source health, keyed by source. Carries the longitudinal
+    fields (first_seen, last_ok, misses) forward across weekly runs."""
+    if HEALTH.exists():
+        try:
+            return (json.loads(HEALTH.read_text(encoding="utf-8")) or {}).get("sources", {})
+        except Exception:
+            return {}
+    return {}
+
+def source_key(city_key, src):
+    """Stable id for a source across runs — survives an org label edit."""
+    ident = src.get("url") or src.get("org_id") or src.get("org") or ""
+    return f"{city_key}|{src.get('kind')}|{ident}"
+
+def source_label(src):
+    """Human-readable name for a source in the health record / alert."""
+    org   = src.get("org")
+    ident = src.get("url") or (f"mobilize#{src['org_id']}" if src.get("org_id") else "")
+    if org and ident: return f"{org} — {ident}"
+    return org or ident or (src.get("kind") or "?")
+
 def drop_past(evs):
     keep = []
     for e in evs:
@@ -943,6 +972,10 @@ def main():
         prev_events = {c: (prev.get("cities", {}).get(c, {}) or {}).get("events", [])
                        for c in (cfg.get("cities") or {})}
 
+    today = NOW.date().isoformat()
+    prev_health = load_health()
+    health = {}
+
     out_cities = {}
     for city_key, city in (cfg.get("cities") or {}).items():
         label = (city or {}).get("label", city_key.replace("-", " ").title())
@@ -950,15 +983,37 @@ def main():
         for src in (city or {}).get("sources", []) or []:
             kind = (src or {}).get("kind")
             fn = FETCHERS.get(kind)
+            key = source_key(city_key, src)
+            was = prev_health.get(key, {})
+            rec = {"city": city_key, "label": source_label(src),
+                   "org": src.get("org") or "", "kind": kind,
+                   "first_seen": was.get("first_seen", today), "last_seen": today}
             if not fn:
                 log(f"[{city_key}] unknown source kind {kind!r}")
-                continue
-            try:
-                args = {k: v for k, v in src.items() if k != "kind"}
-                collected += fn(city_key, **args)
-            except Exception as e:
-                log(f"SOURCE FAILED [{city_key}] {src}: {e}")
-                traceback.print_exc()
+                rec.update(status="failed", count=0, error=f"unknown source kind {kind!r}")
+            else:
+                try:
+                    args = {k: v for k, v in src.items() if k != "kind"}
+                    evs = fn(city_key, **args)
+                    collected += evs
+                    rec.update(status=("ok" if evs else "empty"), count=len(evs), error=None)
+                except Exception as e:
+                    log(f"SOURCE FAILED [{city_key}] {src}: {e}")
+                    traceback.print_exc()
+                    rec.update(status="failed", count=0, error=str(e)[:300])
+            # longitudinal roll-up. `misses` = consecutive HARD failures (errors /
+            # unparseable junk) — that's the "feed broke" signal worth paging on.
+            # `empty` means the feed fetched fine but the org has nothing upcoming:
+            # it's alive, not broken, so it resets the streak (no false alarms for
+            # a quiet org). `last_ok` only advances when real events came back.
+            if rec["status"] == "ok":
+                rec["last_ok"], rec["misses"] = today, 0
+            elif rec["status"] == "empty":
+                rec["last_ok"], rec["misses"] = was.get("last_ok"), 0
+            else:  # failed
+                rec["last_ok"] = was.get("last_ok")
+                rec["misses"] = int(was.get("misses", 0)) + 1
+            health[key] = rec
         # keep-last-good: nothing came back but we had real events before -> reuse
         if not collected and prev_events.get(city_key):
             log(f"[{city_key}] using last-good ({len(prev_events[city_key])} events)")
@@ -971,6 +1026,16 @@ def main():
     OUT.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
     total = sum(len(c["events"]) for c in out_cities.values())
     log(f"wrote {OUT} — {total} events across {len(out_cities)} cities")
+
+    # feed watchdog state — read next run + by the alert step to ping on decay
+    HEALTH.write_text(json.dumps(
+        {"generated": NOW.isoformat(), "stale_after_misses": STALE_AFTER_MISSES,
+         "sources": health}, indent=2, ensure_ascii=False), encoding="utf-8")
+    broken = sorted((r for r in health.values() if r["misses"] >= STALE_AFTER_MISSES),
+                    key=lambda r: (-r["misses"], r["city"]))
+    log(f"feed health: {len(health)} sources, {len(broken)} dark ≥{STALE_AFTER_MISSES} runs"
+        + (": " + ", ".join(f"{r['label']} ({r['misses']})" for r in broken) if broken else ""))
+
     inject_seo(result)   # bake crawlable HTML + JSON-LD into index.html, refresh sitemap
 
 

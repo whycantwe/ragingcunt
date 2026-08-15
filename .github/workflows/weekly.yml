@@ -13,6 +13,7 @@ on:
 # Also flip Settings ▸ Actions ▸ General ▸ Workflow permissions ▸ "Read and write".
 permissions:
   contents: write
+  issues: write   # feed watchdog opens/closes a GitHub issue when a feed dies
 
 concurrency:
   group: weekly-build
@@ -46,10 +47,19 @@ jobs:
           # events.json is the data; build.py also bakes SSR HTML + JSON-LD into
           # index.html, generates a crawlable page per city (<city>/index.html), and
           # refreshes sitemap.xml for SEO — commit data + every generated page.
-          git add -A data/events.json index.html sitemap.xml "*/index.html" "*.ics"
+          # feed-health.json is the watchdog's memory (miss streaks per feed) —
+          # commit it too, or the streak resets every run and decay never trips.
+          git add -A data/events.json data/feed-health.json index.html sitemap.xml "*/index.html" "*.ics"
           if git diff --staged --quiet; then
             echo "No changes this week."
           else
             git commit -m "weekly: refresh events $(date -u +%F)"
             git push
           fi
+
+      - name: Feed watchdog (ping only if a feed goes dark)
+        if: always()
+        continue-on-error: true   # a gh hiccup must never block publishing
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/feed_health_alert.py
