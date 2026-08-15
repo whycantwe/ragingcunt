@@ -147,17 +147,37 @@ _RETRY_STATUS = {429, 500, 502, 503, 504}
 # A browser-ish UA: some calendar hosts (e.g. saccenter.org) 403 the default
 # python-requests agent.
 _UA = "Mozilla/5.0 (compatible; ragingcunt-build/1.0; +https://ragingcunt.com)"
+# Fallback UA for the opposite problem: some poorly-tuned WAFs (e.g. Peninsula
+# Peace & Justice) 403 *any* UA carrying a parenthetical OS/token string, yet
+# wave through a bare browser string. Tried once when the descriptive UA is
+# blocked, before giving up.
+_UA_FALLBACK = "Mozilla/5.0"
+_BLOCK_STATUS = {401, 403, 406}
 
 def http_get(url, params=None, *, timeout=30, retries=3, backoff=2.0):
     """GET with a hard timeout and exponential backoff on transient failures.
-    Honors Retry-After on 429/503. Raises the last error if all attempts fail."""
+    Honors Retry-After on 429/503. On a 403-class block, retries once with a
+    bare browser UA. Raises the last error if all attempts fail."""
     last = None
+    ua = _UA
     for attempt in range(retries):
         try:
             r = requests.get(url, params=params, timeout=timeout,
-                              headers={"User-Agent": _UA})
+                              headers={"User-Agent": ua})
+            # Some WordPress "The Events Calendar" hosts stamp a 403 on the iCal
+            # export yet still serve the real feed in the body. Trust any
+            # response that is genuinely iCalendar, whatever the status — an HTML
+            # block page or JSON error never begins with BEGIN:VCALENDAR.
+            if r.content[:64].lstrip(b"\xef\xbb\xbf \t\r\n").upper().startswith(b"BEGIN:VCALENDAR"):
+                return r
             if r.status_code in _RETRY_STATUS:
                 raise requests.HTTPError(f"{r.status_code} {r.reason}", response=r)
+            # A 403/401/406 is often a WAF blocking our descriptive UA, not a
+            # real permission problem — fall back to a bare browser UA once.
+            if r.status_code in _BLOCK_STATUS and ua != _UA_FALLBACK:
+                log(f"GET {url} {r.status_code} on descriptive UA; retrying with bare browser UA")
+                ua = _UA_FALLBACK
+                continue
             r.raise_for_status()
             return r
         except requests.RequestException as e:
