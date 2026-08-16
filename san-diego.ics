@@ -6,58 +6,16 @@ METHOD:PUBLISH
 X-WR-CALNAME:RAGINGCUNT — San Diego
 X-WR-CALDESC:Real local organizing in San Diego\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
-UID:1de581d803e4@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260819T010000Z
-DTEND:20260819T030000Z
-SUMMARY:Internal Organizing Committee Meeting
-LOCATION:Online (Zoom)
-DESCRIPTION:[MEETING] — DSA San Diego — (Monthly) — Come join the internal organizing committee as we decide how to promote more involvement within the chapter\, put on social events\, and mobilize the membership for mass actions!       The meeting will be held in the <a href="https://discord.com/cha
-END:VEVENT
-BEGIN:VEVENT
-UID:95303c0c1b24@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260903T020000Z
-DTEND:20260903T040000Z
-SUMMARY:DSA Discord Movie Night!
-DESCRIPTION:[SHOW] — DSA San Diego — (Monthly) — We're hosting our monthly Members-Only Movie Night! For this month\, Sept 2\, we are proud to co-host with Inland Empire DSA in their server. Come meet your So-Cal Comrades and enjoy a cult classic as we socialize in virtual space.  " Say what you want about the tenets o
-END:VEVENT
-BEGIN:VEVENT
-UID:580c9df161d4@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260822T160000Z
-DTEND:20260822T180000Z
-SUMMARY:College Area Community Garden Workday
-LOCATION:College Area Community Garden\, Zura Wy\, San Diego\, CA 92115\, USA
-DESCRIPTION:[MEETING] — DSA San Diego — (Monthly) — Join us at the monthly College Area Community Garden workday! We’ll tackle a variety of tasks that are accessible to all abilities. Tasks may include composting\, weeding\, mulching\, fruit tunnel maintenance\, and more.  <a href="https://dsasandiego.org/college-area-community-
-END:VEVENT
-BEGIN:VEVENT
-UID:d75adacd046e@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260827T013000Z
-DTEND:20260827T033000Z
-SUMMARY:Comms Committee Biweekly Meeting
-DESCRIPTION:[MEETING] — DSA San Diego — (Every other Wednesday) — Members-Only. Takes place in the Comms Committee Voice Channel\nhttps://discord.gg/qgNHPzM5e
-END:VEVENT
-BEGIN:VEVENT
 UID:1f0bca1fa183@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260818T010000Z
 DTEND:20260818T030000Z
 SUMMARY:Leadership Council Meeting
 DESCRIPTION:[MEETING] — DSA San Diego — (Every other Monday) — Meeting of the Leadership Council of DSA San Diego. Open to members only.      Click here to register for Zoom .
 END:VEVENT
 BEGIN:VEVENT
-UID:72221ea2a2e5@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260826T010000Z
-DTEND:20260826T030000Z
-SUMMARY:Electoral Working Group Monthly meeting
-DESCRIPTION:[MEETING] — DSA San Diego — (Monthly) — Meeting of DSA San Diego's Electoral Working Group. Discuss our strategies for supporting candidates and ballot measures endorsed by the chapter\, and plan specific activities.  RSVP here
-END:VEVENT
-BEGIN:VEVENT
 UID:b32a388d10c9@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260820T010000Z
 DTEND:20260820T030000Z
 SUMMARY:Education Committee Meeting
@@ -66,7 +24,7 @@ DESCRIPTION:[MEETING] — DSA San Diego — (Monthly) — Join the Education Com
 END:VEVENT
 BEGIN:VEVENT
 UID:edd41e780a75@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260905T150000Z
 DTEND:20260905T170000Z
 SUMMARY:Peace Resource Center Garden Workday
@@ -74,26 +32,58 @@ LOCATION:Peace Resource Center\, 3850 Westgate Pl\, San Diego\, CA 92105\, USA
 DESCRIPTION:[MEETING] — DSA San Diego — (Monthly) — Join our monthly Arif Urban Agrarian Collective Workday at the Peace Garden!  Be sure to bring sunscreen\, water bottle\, and a hat. We will have more water and restrooms on site! If you have gardening gloves\, please bring those too\, we have a limited number.  There wil
 END:VEVENT
 BEGIN:VEVENT
-UID:00ff25384529@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260821T010000Z
-DTEND:20260821T030000Z
-SUMMARY:Palestine Solidarity Meeting
-LOCATION:Zoom
-DESCRIPTION:[MEETING] — DSA San Diego — (Every other Thursday) — Join DSA San Diego's Palestine Solidarity Working Group to discuss our Labor for an Arms Embargo campaign and other work with local organizations mobilizing and educating for Palestine.  Topic: Palestine Solidarity Meeting Time: 06:00 PM Pacific Time (US and Canada)
+UID:055606c7f7cc@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260906T070000Z
+DTEND:20260906T090000Z
+SUMMARY:Subscribe to the new DSA San Diego Calendar
+DESCRIPTION:[MEETING] — DSA San Diego — (Daily) — dsasandiego.org/events     webcal://www.solidarity.tech/calendar/o/75REFuHAYoHn9sfRt16JURFGthCzxUkhNJ0JRQH_qGo.ics
 END:VEVENT
 BEGIN:VEVENT
-UID:946336a8fa15@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260819T020000Z
-DTEND:20260819T040000Z
-SUMMARY:Labor Working Group Meeting
-LOCATION:Harland - South Park\, 2953 Beech St\, San Diego\, CA 92102\, USA
-DESCRIPTION:[MEETING] — DSA San Diego — (Monthly) — Join the Labor Committee for our monthly meeting to organize campaigns and projects that empower San Diego workers to improve their material conditions.  Know someone who wants to unionize or start a co-op\, but needs local resources? Come to our meeting as a guest of DSA La
+UID:95303c0c1b24@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260903T020000Z
+DTEND:20260903T040000Z
+SUMMARY:DSA Discord Movie Night!
+DESCRIPTION:[SHOW] — DSA San Diego — (Monthly) — We're hosting our monthly Members-Only Movie Night! For this month\, Sept 2\, we are proud to co-host with Inland Empire DSA in their server. Come meet your So-Cal Comrades and enjoy a cult classic as we socialize in virtual space.  " Say what you want about the tenets o
+END:VEVENT
+BEGIN:VEVENT
+UID:72221ea2a2e5@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260826T010000Z
+DTEND:20260826T030000Z
+SUMMARY:Electoral Working Group Monthly meeting
+DESCRIPTION:[MEETING] — DSA San Diego — (Monthly) — Meeting of DSA San Diego's Electoral Working Group. Discuss our strategies for supporting candidates and ballot measures endorsed by the chapter\, and plan specific activities.  RSVP here
+END:VEVENT
+BEGIN:VEVENT
+UID:580c9df161d4@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260822T160000Z
+DTEND:20260822T180000Z
+SUMMARY:College Area Community Garden Workday
+LOCATION:College Area Community Garden\, Zura Wy\, San Diego\, CA 92115\, USA
+DESCRIPTION:[MEETING] — DSA San Diego — (Monthly) — Join us at the monthly College Area Community Garden workday! We’ll tackle a variety of tasks that are accessible to all abilities. Tasks may include composting\, weeding\, mulching\, fruit tunnel maintenance\, and more.  <a href="https://dsasandiego.org/college-area-community-
+END:VEVENT
+BEGIN:VEVENT
+UID:1de581d803e4@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260819T010000Z
+DTEND:20260819T030000Z
+SUMMARY:Internal Organizing Committee Meeting
+LOCATION:Online (Zoom)
+DESCRIPTION:[MEETING] — DSA San Diego — (Monthly) — Come join the internal organizing committee as we decide how to promote more involvement within the chapter\, put on social events\, and mobilize the membership for mass actions!       The meeting will be held in the <a href="https://discord.com/cha
+END:VEVENT
+BEGIN:VEVENT
+UID:d75adacd046e@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260827T013000Z
+DTEND:20260827T033000Z
+SUMMARY:Comms Committee Biweekly Meeting
+DESCRIPTION:[MEETING] — DSA San Diego — (Every other Wednesday) — Members-Only. Takes place in the Comms Committee Voice Channel\nhttps://discord.gg/qgNHPzM5e
 END:VEVENT
 BEGIN:VEVENT
 UID:d24539ef8ec4@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260816T220000Z
 DTEND:20260817T000000Z
 SUMMARY:Intro to Socialism Education Series
@@ -101,70 +91,26 @@ LOCATION:South Chula Vista Library\, 389 Orange Ave\, Chula Vista\, CA 91911\, U
 DESCRIPTION:[MEETING] — DSA San Diego — (Every other Sunday) — The DSA San Diego Education Committee will be hosting a 6 part education series as an Introduction to Socialism. The goal is to provide context to the current geopolitical climate\, theoretical background to Socialist ideas\, and how DSA’s brand of socialism is the future for progr
 END:VEVENT
 BEGIN:VEVENT
-UID:055606c7f7cc@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260906T070000Z
-DTEND:20260906T090000Z
-SUMMARY:Subscribe to the new DSA San Diego Calendar
-DESCRIPTION:[MEETING] — DSA San Diego — (Daily) — dsasandiego.org/events     webcal://www.solidarity.tech/calendar/o/75REFuHAYoHn9sfRt16JURFGthCzxUkhNJ0JRQH_qGo.ics
+UID:946336a8fa15@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260819T020000Z
+DTEND:20260819T040000Z
+SUMMARY:Labor Working Group Meeting
+LOCATION:Harland - South Park\, 2953 Beech St\, San Diego\, CA 92102\, USA
+DESCRIPTION:[MEETING] — DSA San Diego — (Monthly) — Join the Labor Committee for our monthly meeting to organize campaigns and projects that empower San Diego workers to improve their material conditions.  Know someone who wants to unionize or start a co-op\, but needs local resources? Come to our meeting as a guest of DSA La
 END:VEVENT
 BEGIN:VEVENT
-UID:bcec4dc3f8d1@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260912T183000Z
-DTEND:20260912T203000Z
-SUMMARY:Half-Earth Socialism Book Club (Session 4)
-LOCATION:College Area Community Garden - College Area Community Garden\, Zura Way\, San Diego\, CA\, USA
-DESCRIPTION:[TEACH-IN] — DSA San Diego — Join San Diego DSA for a 6 part book club covering Half-Earth Socialism: A Plan to Save the Future from Extinction\, Climate Change and Pandemics\, hosted by our Ecosocialist Working Group. In this series we will discuss its proposals for radical economic and societal transformatio
-END:VEVENT
-BEGIN:VEVENT
-UID:b48b7a41f2ee@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260823T230000Z
-DTEND:20260824T010000Z
-SUMMARY:August Chapter General  Assembly
-LOCATION:United Domestic Workers of America\, UDW/AFSCME Local 3930\, 4855 Seminole Dr\, San Diego\, CA 92115\, USA
-DESCRIPTION:[MEETING] — DSA San Diego — Join the San Diego chapter of the Democratic Socialists of America for our August General Assembly\, where we will hear updates from our current leadership and ongoing campaigns\, and deliberate on important chapter business. Hybrid- Zoom and In-person. Social to follow afterwards.
-END:VEVENT
-BEGIN:VEVENT
-UID:fe988d837706@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260820T010000Z
-DTEND:20260820T030000Z
-SUMMARY:DSA 101 - In Person
-LOCATION:Valencia Park/Malcolm X Branch Library - 5148 Market St\, San Diego\, CA 92114\, USA
-DESCRIPTION:[MEETING] — DSA San Diego — Join us in person or on Zoom to learn about DSA and socialism\, discover how our San Diego chapter strives to build a democratic socialist future\, meet new comrades\, and have your questions answered!\n\nRSVP: <a href="https://www.google.com/url?q=https://www.dsasandiego.org/dsa-101&
-END:VEVENT
-BEGIN:VEVENT
-UID:5803b3621ff9@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260815T163000Z
-DTEND:20260815T183000Z
-SUMMARY:Kraft for El Cajon Canvass!
-LOCATION:Renette Park\, 935 Emerald Ave\, El Cajon\, CA 92020\, USA
-DESCRIPTION:[ACTION] — DSA San Diego — Are you inspired by the whirlwind victories for democratic socialists all over the country? Come out and work to get Socialist Alexander Kraft elected mayor of El Cajon in San Diego's East County. We will be knocking doors and talking to voters to get them to turn out and vote ou
-END:VEVENT
-BEGIN:VEVENT
-UID:0b752723ad89@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260822T160000Z
-DTEND:20260822T180000Z
-SUMMARY:Canvass for Kenneth!
-LOCATION:Bub Williamson Park\, 530 Grapevine Ln\, Vista\, CA 92083\, USA
-DESCRIPTION:[ACTION] — DSA San Diego — RSVP Here!  Are you inspired by the whirlwind victories for democratic socialists all over the coun
-END:VEVENT
-BEGIN:VEVENT
-UID:3a21711bd25b@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260815T220000Z
-DTEND:20260816T000000Z
-SUMMARY:Socal DSA Beach Social- Oceanside
-LOCATION:Oceanside\, CA 
-DESCRIPTION:[MEETING] — DSA San Diego — Join San Diego DSA and other SoCal DSA chapters for a fun day at the beach! Meet other socialists while enjoying the great outdoors.  Bring sunscreen\, a hat\, chairs\, a cooler\, refreshments\, food\, and anything else you may want at the beach! We will bring meat and vegan bu
+UID:00ff25384529@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260821T010000Z
+DTEND:20260821T030000Z
+SUMMARY:Palestine Solidarity Meeting
+LOCATION:Zoom
+DESCRIPTION:[MEETING] — DSA San Diego — (Every other Thursday) — Join DSA San Diego's Palestine Solidarity Working Group to discuss our Labor for an Arms Embargo campaign and other work with local organizations mobilizing and educating for Palestine.  Topic: Palestine Solidarity Meeting Time: 06:00 PM Pacific Time (US and Canada)
 END:VEVENT
 BEGIN:VEVENT
 UID:344d74cfb7ed@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260820T013000Z
 DTEND:20260820T033000Z
 SUMMARY:Tenants Education Series
@@ -173,7 +119,7 @@ DESCRIPTION:[TENANT] — DSA San Diego — (Every Thursday) — Stay tuned for m
 END:VEVENT
 BEGIN:VEVENT
 UID:18152efb2c83@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260822T183000Z
 DTEND:20260822T203000Z
 SUMMARY:Half-Earth Socialism Book Club (Session 3)
@@ -181,25 +127,25 @@ LOCATION:College Area Community Garden - College Area Community Garden\, Zura Wa
 DESCRIPTION:[TEACH-IN] — DSA San Diego — Join San Diego DSA for a 6 part book club covering Half-Earth Socialism: A Plan to Save the Future from Extinction\, Climate Change and Pandemics\, hosted by our Ecosocialist Working Group. In this series we will discuss its proposals for radical economic and societal transformatio
 END:VEVENT
 BEGIN:VEVENT
+UID:b48b7a41f2ee@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260823T230000Z
+DTEND:20260824T010000Z
+SUMMARY:August Chapter General  Assembly
+LOCATION:United Domestic Workers of America\, UDW/AFSCME Local 3930\, 4855 Seminole Dr\, San Diego\, CA 92115\, USA
+DESCRIPTION:[MEETING] — DSA San Diego — Join the San Diego chapter of the Democratic Socialists of America for our August General Assembly\, where we will hear updates from our current leadership and ongoing campaigns\, and deliberate on important chapter business. Hybrid- Zoom and In-person. Social to follow afterwards.
+END:VEVENT
+BEGIN:VEVENT
 UID:eb16e3f9767d@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260827T020000Z
 DTEND:20260827T040000Z
 SUMMARY:DSA Discord Movie Night!
 DESCRIPTION:[SHOW] — DSA San Diego — We're hosting our monthly Members-Only Movie Night! The fourth Wednesday of every month in our DSA Member Voice channel.\nWe will be watching a movie by Mira Nair\, the famed filmmaker\, who also made one of our favorite mayors in the country.
 END:VEVENT
 BEGIN:VEVENT
-UID:272d82922bab@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260815T233000Z
-DTEND:20260816T013000Z
-SUMMARY:Migrants Rights WG
-LOCATION:City Heights/Weingart Branch Library\, 3795 Fairmount Ave\, San Diego\, CA 92105\, USA
-DESCRIPTION:[MEETING] — DSA San Diego
-END:VEVENT
-BEGIN:VEVENT
 UID:749d08f69940@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260829T163000Z
 DTEND:20260829T183000Z
 SUMMARY:DSA for Kraft 8/29
@@ -207,8 +153,35 @@ LOCATION:Renette Park - Renette Park\, Emerald Avenue\, El Cajon\, CA\, USA
 DESCRIPTION:[MEETING] — DSA San Diego — Are you inspired by the whirlwind victories for democratic socialists all over the country? Come out and work to get socialist Alexander Kraft elected mayor of El Cajon in San Diego's East County. We will be knocking doors and talking to voters to get them to turn out and vot
 END:VEVENT
 BEGIN:VEVENT
+UID:bcec4dc3f8d1@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260912T183000Z
+DTEND:20260912T203000Z
+SUMMARY:Half-Earth Socialism Book Club (Session 4)
+LOCATION:College Area Community Garden - College Area Community Garden\, Zura Way\, San Diego\, CA\, USA
+DESCRIPTION:[TEACH-IN] — DSA San Diego — Join San Diego DSA for a 6 part book club covering Half-Earth Socialism: A Plan to Save the Future from Extinction\, Climate Change and Pandemics\, hosted by our Ecosocialist Working Group. In this series we will discuss its proposals for radical economic and societal transformatio
+END:VEVENT
+BEGIN:VEVENT
+UID:0b752723ad89@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260822T160000Z
+DTEND:20260822T180000Z
+SUMMARY:Canvass for Kenneth!
+LOCATION:Bub Williamson Park\, 530 Grapevine Ln\, Vista\, CA 92083\, USA
+DESCRIPTION:[ACTION] — DSA San Diego — RSVP Here!  Are you inspired by the whirlwind victories for democratic socialists all over the coun
+END:VEVENT
+BEGIN:VEVENT
+UID:fe988d837706@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260820T010000Z
+DTEND:20260820T030000Z
+SUMMARY:DSA 101 - In Person
+LOCATION:Valencia Park/Malcolm X Branch Library - 5148 Market St\, San Diego\, CA 92114\, USA
+DESCRIPTION:[MEETING] — DSA San Diego — Join us in person or on Zoom to learn about DSA and socialism\, discover how our San Diego chapter strives to build a democratic socialist future\, meet new comrades\, and have your questions answered!\n\nRSVP: <a href="https://www.google.com/url?q=https://www.dsasandiego.org/dsa-101&
+END:VEVENT
+BEGIN:VEVENT
 UID:3b479555cf94@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260817T230000Z
 DTEND:20260818T010000Z
 SUMMARY:Change Begins With ME Overpass Alliance-Mondays
@@ -218,7 +191,7 @@ URL:https://www.mobilize.us/visibilitybrigadesandiego/event/824571/
 END:VEVENT
 BEGIN:VEVENT
 UID:9f5346b54ddc@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260821T220000Z
 DTEND:20260822T000000Z
 SUMMARY:Feet on the Streets - Bridge Brigade Friday edition
@@ -228,7 +201,7 @@ URL:https://www.mobilize.us/visibilitybrigadesandiego/event/845831/
 END:VEVENT
 BEGIN:VEVENT
 UID:3111dbeef58c@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260819T143000Z
 DTEND:20260819T163000Z
 SUMMARY:Weekly 22nd Street Bridge Bannering Over Hwy 94 | Wednesdays
@@ -238,7 +211,7 @@ URL:https://www.mobilize.us/visibilitybrigadesandiego/event/859696/
 END:VEVENT
 BEGIN:VEVENT
 UID:553c2b0cfd11@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260821T000000Z
 DTEND:20260821T020000Z
 SUMMARY:Weekly Meade Ave Bridge Bannering Over I-805 | Thursday Afternoons
@@ -248,7 +221,7 @@ URL:https://www.mobilize.us/visibilitybrigadesandiego/event/860202/
 END:VEVENT
 BEGIN:VEVENT
 UID:5497aa49a70b@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260819T230000Z
 DTEND:20260820T010000Z
 SUMMARY:Change Begins With ME Overpass Alliance-Wednesdays
@@ -258,7 +231,7 @@ URL:https://www.mobilize.us/visibilitybrigadesandiego/event/895791/
 END:VEVENT
 BEGIN:VEVENT
 UID:3c4e2871990d@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260817T230000Z
 DTEND:20260818T010000Z
 SUMMARY:Weekly 6th Ave Bridge Bannering Over I-5 | Monday Afternoons
@@ -268,7 +241,7 @@ URL:https://www.mobilize.us/visibilitybrigadesandiego/event/921496/
 END:VEVENT
 BEGIN:VEVENT
 UID:f75c23d5a47c@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260821T143000Z
 DTEND:20260821T163000Z
 SUMMARY:Feet on the Streets Pop Up BRIDGE Brigade
@@ -278,7 +251,7 @@ URL:https://www.mobilize.us/visibilitybrigadesandiego/event/1008584/
 END:VEVENT
 BEGIN:VEVENT
 UID:f86861d40c9f@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260818T233000Z
 DTEND:20260819T013000Z
 SUMMARY:Weekly Taylor St Bridge Bannering Over I-8 | Tuesday Afternoons
@@ -288,7 +261,7 @@ URL:https://www.mobilize.us/visibilitybrigadesandiego/event/1011280/
 END:VEVENT
 BEGIN:VEVENT
 UID:a8e8f0e46009@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260822T003000Z
 DTEND:20260822T023000Z
 SUMMARY:Safety in Unity: Flock Out of Everywhere
@@ -298,7 +271,7 @@ URL:https://www.mobilize.us/partnershipfortheadvancementofnewamericans/event/100
 END:VEVENT
 BEGIN:VEVENT
 UID:e4185869405e@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260909T013000Z
 DTEND:20260909T033000Z
 SUMMARY:Choice Voting Volunteer Meeting
@@ -307,231 +280,16 @@ DESCRIPTION:[MEETING] — The Justice Workshop — Join us for our next Choice V
 URL:https://www.mobilize.us/thejusticeworkshop/event/1007120/
 END:VEVENT
 BEGIN:VEVENT
-UID:8fb3e3b87ee9@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260820T173000Z
-DTEND:20260820T193000Z
-SUMMARY:ICE out of SD Rally
-LOCATION:Edward J.Schwartz federal Building\, 880 Front St\, San Diego\, CA 92101\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Thursday) — Join concerned residents\, activists\, and organizers outside the Edward J. Schwartz Federal Building in Downtown San Diego to demonstrate staunch opposition to ICE\, the mistreatment of human beings in their custody\, and the illegal detention of innocent people.
-END:VEVENT
-BEGIN:VEVENT
-UID:9123134a7dfd@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260828T190000Z
-DTEND:20260828T210000Z
-SUMMARY:Care not Cages - Courthouse Rally
-LOCATION:1100 Union St\, San Diego\, CA 92101\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — (Monthly) — Where: San Diego County Courthouse  Demand CARE NOT CAGES and share stories of loved ones struggling with mental illness who are incarcerated and mistreated.  More Info
-END:VEVENT
-BEGIN:VEVENT
-UID:2fc30cb8b6da@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260913T230000Z
-DTEND:20260914T010000Z
-SUMMARY:DSA Book Club -How to Hide an Empire
-LOCATION:Logan Heights
-DESCRIPTION:[TEACH-IN] — Activist San Diego — (Monthly) — A History of the Greater United States by Daniel Immerwahr Chapters 9-12 - Feb 14\, Chapters 13-17 March 8\, Chapters 18-22 April 12.  All welcome\, <a href="https://www.google.com/url?q=https://dsasandiego.org/events&sa=D&source=calendar&usd=2&usg=AOvVaw2hKSKBk-N
-END:VEVENT
-BEGIN:VEVENT
-UID:799a1b39625c@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260816T203000Z
-DTEND:20260816T223000Z
-SUMMARY:Solidarity event at Otay Mesa Detention Center
-LOCATION:Otay Mesa Detention Center\, 7488 Calzada De La Fuente\, San Diego\, CA 92154\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Sunday) — San Diego Families for Justice.  See Flyer
-END:VEVENT
-BEGIN:VEVENT
-UID:cb2ef74a7bcb@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260815T210000Z
-DTEND:20260815T230000Z
-SUMMARY:San Diego Artists Unified Monthly Meeting
-LOCATION:Centro Cultural de la Raza\, 2004 Park Blvd\, San Diego\, CA 92101\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — (Monthly) — Flyer
-END:VEVENT
-BEGIN:VEVENT
-UID:691672f263c4@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260820T233000Z
-DTEND:20260821T013000Z
-SUMMARY:Kensington Neighborhood Banner Drop
-LOCATION:3938 Adams Ave\, San Diego\, CA 92116\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Thursday) — Adams Ave. Bridge over I-15. 3938 Adams Ave. 92116  Adams Ave. Neighbors United for Democracy  CONTACT PERSON: Susan (   adamsave2026@gmail.com )
-END:VEVENT
-BEGIN:VEVENT
-UID:bd0c27cb46c1@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260816T170000Z
-DTEND:20260816T190000Z
-SUMMARY:South Bay Banner Drop
-LOCATION:H Street & Interstate 5 Business Loop\, H St & I-5BL\, Chula Vista\, CA 91910\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Sunday) — H Street over I-5 in Chula Vista. Park at Trolley Station or on the street. Lead by Rev. Danny
-END:VEVENT
-BEGIN:VEVENT
-UID:e710ebaa6cc5@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260822T000000Z
-DTEND:20260822T020000Z
-SUMMARY:Ocean Beach Peace Vigil
-LOCATION:Newport Ave & Abbott St\, San Diego\, CA 92107\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Friday) — Flyer
-END:VEVENT
-BEGIN:VEVENT
-UID:f81156527e4f@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260816T190000Z
-DTEND:20260816T210000Z
-SUMMARY:RALLY for JUSTICE in PALESTINE & EVERYWHERE\, WEEKLY OPPORTUNITIES in North County
-LOCATION:Chesterfield Dr & S Coast Hwy 101\, Encinitas (Magic Carpet Ride statue)\, Cardiff by the Sea\, CA
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Sunday)
-END:VEVENT
-BEGIN:VEVENT
-UID:142e8dc839d2@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260818T233000Z
-DTEND:20260819T013000Z
-SUMMARY:Demonstrate for Democracy - Mira Mesa
-LOCATION:Mira Mesa Boulevard & Westview Parkway\, Mira Mesa Blvd & Westview Pkwy\, San Diego\, CA 92126\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Tuesday) — Make Good Trouble and Demonstrate for Democracy! Every Tuesday 4:30-6:30 Mira Mesa Blvd & Westview Parkway\, Mira Mesa. Bring your signs!  Flyer
-END:VEVENT
-BEGIN:VEVENT
-UID:5decfc7427b0@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260816T210000Z
-DTEND:20260816T230000Z
-SUMMARY:Otay Mesa Vigil
-LOCATION:Otay Mesa Detention Center\, 7488 Calzada De La Fuente\, San Diego\, CA 92154\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Sunday) — Bring music\, drums\, kites\, signs\, friends.  This Sunday. And every Sunday. ✨ We gather to show up\, to bear witness\, and to offer hope + solidarity to the hostages inside.  We listen. We take direct information from the hostages about what they actually need. And
-END:VEVENT
-BEGIN:VEVENT
-UID:85317f5e5729@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260816T070000Z
-DTEND:20260816T090000Z
-SUMMARY:National Week of Action Against ALPRS
-DESCRIPTION:[ACTION] — Activist San Diego — (Daily) — San Diego is joining the National Week of Action Against ALPS August 16-22!  Automated License Plate Readers are watching every move in our neighborhoods — logging where we go\, when\, and how often. They record full video\, analyze it with AI\, and make it shareable. Surveilla
-END:VEVENT
-BEGIN:VEVENT
-UID:1994f56f930a@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260821T233000Z
-DTEND:20260822T013000Z
-SUMMARY:Rally Against Genocide\, Rally for Justice\, North County San Diego\, CA:
-LOCATION:Encinitas Blvd & El Camino Real.\, Encinitas
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Friday)
-END:VEVENT
-BEGIN:VEVENT
-UID:a3fa9c594006@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260821T223000Z
-DTEND:20260822T003000Z
-SUMMARY:RALLY for JUSTICE in PALESTINE & EVERYWHERE\, WEEKLY OPPORTUNITIES in North County
-LOCATION:Encinitas Blvd & El Camino Real.\, Encinitas
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Friday)
-END:VEVENT
-BEGIN:VEVENT
-UID:6fc3f3c80488@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260818T143000Z
-DTEND:20260818T163000Z
-SUMMARY:RALLY for JUSTICE in PALESTINE & EVERYWHERE\, WEEKLY OPPORTUNITIES in North County
-LOCATION:Rancho Santa Fe & San Marcos Blvd\, San Marcos
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Tuesday)
-END:VEVENT
-BEGIN:VEVENT
-UID:88ae877c8398@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260912T230000Z
-DTEND:20260913T010000Z
-SUMMARY:DSA Book Club -How to Hide an Empire
-LOCATION:Logan Heights
-DESCRIPTION:[TEACH-IN] — Activist San Diego — (Monthly) — A History of the Greater United States by Daniel Immerwahr Chapters 9-12 - Feb 14\, Chapters 13-17 March 8\, Chapters 18-22 April 12.  All welcome\,  RSVP  for location    Flyer
-END:VEVENT
-BEGIN:VEVENT
-UID:0731dcaf389a@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260912T010000Z
-DTEND:20260912T030000Z
-SUMMARY:Monthly Community Self-Defense Coalition
-LOCATION:2225 Commercial St San Diego CA 92113
-DESCRIPTION:[ACTION] — Activist San Diego — (Monthly) — Flyer   We invite community members to our monthly Community Self-Defense Coalition meeting. As ICE continues to terrorize our barrios\, the people organize to keep each other safe! Learn more about ongoing street safety pat
-END:VEVENT
-BEGIN:VEVENT
-UID:16a54579a50c@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260819T220000Z
-DTEND:20260820T000000Z
-SUMMARY:East County Banner Drop
-LOCATION:Severin/Fuerte overpass I-8 Severin Dr La Mesa\, CA 91941
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Wednesday) — Bridge Visibility Severin Overpass         Come with your large banners\, flags and word scrabble block signs.  Resist tyranny\, attacks on the Constitution and the rule of law!  Meet on the Severin/ Fuerte overpass.  Every Wednesday 3:00-4:30 pm.
-END:VEVENT
-BEGIN:VEVENT
-UID:f5cef250a1d1@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260910T020000Z
-DTEND:20260910T040000Z
-SUMMARY:Let's Unpack Our Whiteness
-DESCRIPTION:[ACTION] — Activist San Diego — (Monthly) — Dialogues is a monthly practice of community care and political grounding—so whether we are in the heat of crisis\, planning a campaign\, or taking action in the streets\, we remain resourced and rooted in our values. By building resilience and relationships together\, we’re able to
-END:VEVENT
-BEGIN:VEVENT
-UID:235292e82447@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260815T170000Z
-DTEND:20260815T190000Z
-SUMMARY:Ocean Beach Peace Vigil
-LOCATION:32.751084\, -117.242325
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Saturday) — The corner of West Point Loma Blvd and Sunset Cliffs Blvd\, San Diego\, CA  More Info
-END:VEVENT
-BEGIN:VEVENT
-UID:2b1a4461d24a@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260902T020000Z
-DTEND:20260902T040000Z
-SUMMARY:Veterans For Peace Meeting
-LOCATION:4170 Front St\, San Diego\, CA 92103\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — (Monthly) — Monthly meeting is at the Hillcrest First Unitarian Universalist Church 4170 Front St. Room 323 All are welcome.  Flyer      Zoom also available.      <a href="https://us02web.zoom.u
-END:VEVENT
-BEGIN:VEVENT
-UID:706d19769524@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260817T190000Z
-DTEND:20260817T210000Z
-SUMMARY:Activist San Diego Drop-In Volunteer Mondays
-LOCATION:4951 El Cajon Blvd\, San Diego\, CA 92115\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Monday) — It’s almost Monday again! Sign up for Activist San Diego’s Volunteer Drop-In day held every Monday from 12pm noon to 8pm @Pop Up Winona  Registration Required   Flyer
-END:VEVENT
-BEGIN:VEVENT
-UID:0ee440fd64f6@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260820T233000Z
-DTEND:20260821T013000Z
-SUMMARY:Rally Against Genocide\, Rally for Justice\, North County San Diego\, CA:
-LOCATION:Palomar Airport Rd & El Camino Real\, Carlsbad
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Thursday)
-END:VEVENT
-BEGIN:VEVENT
-UID:10f4e8d207bb@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260818T230000Z
-DTEND:20260819T010000Z
-SUMMARY:Rally Against Genocide\, SdProJustice\, North County San Diego\, CA:
-LOCATION:\, Rancho Santa Fe & San Marcos Blvd\, San Marcos
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Tuesday)
-END:VEVENT
-BEGIN:VEVENT
-UID:d1fd4e5aed28@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260822T010000Z
-DTEND:20260822T030000Z
-SUMMARY:Love City Heights Community Open Mic Night!
-LOCATION:4951 El Cajon Blvd\, San Diego\, CA 92115\, USA
-DESCRIPTION:[SHOW] — Activist San Diego — (Every Friday) — Come on out tonight! Open Mic Night. BYOM Bring your own mic\, optional. We have mics. Bring a voice\, bring a friend. Winona & El Cajon Blvd    Flyer
+UID:af8d58436a6f@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260819T230000Z
+DTEND:20260820T010000Z
+SUMMARY:Block the Bombs Phonebank
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Wednesday) — Register for this virtual action   From BDS wins to historic votes in Congress\, 2026 has been a monumental year in the movement for Palestinian liberation\, as we keep fighting with all our strength to e
 END:VEVENT
 BEGIN:VEVENT
 UID:87c67ef899ab@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260816T190000Z
 DTEND:20260816T210000Z
 SUMMARY:Rally Against Genocide\, Rally for Justice\, North County San Diego\, CA:
@@ -539,52 +297,124 @@ LOCATION:Magic carpet ride\, 2324 S Coast Hwy 101\, Cardiff\, CA 92007\, USA
 DESCRIPTION:[ACTION] — Activist San Diego — (Every Sunday) — Magic Carpet Ride statue
 END:VEVENT
 BEGIN:VEVENT
-UID:e3a74d87ce7c@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260911T173000Z
-DTEND:20260911T193000Z
-SUMMARY:Food Distribution and Clothing Swap City Heights
-LOCATION:4455 Wightman St\, San Diego\, CA 92105\, USA
-DESCRIPTION:[MUTUAL AID] — Activist San Diego — (Monthly) — At Officer Jeremy Henwood Memorial Park 4455 Wightman Street  San Diego\, ca 92105   Flyer  Bagging begins at 10:30 Distribution at noon.
+UID:2fc30cb8b6da@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260913T230000Z
+DTEND:20260914T010000Z
+SUMMARY:DSA Book Club -How to Hide an Empire
+LOCATION:Logan Heights
+DESCRIPTION:[TEACH-IN] — Activist San Diego — (Monthly) — A History of the Greater United States by Daniel Immerwahr Chapters 9-12 - Feb 14\, Chapters 13-17 March 8\, Chapters 18-22 April 12.  All welcome\, <a href="https://www.google.com/url?q=https://dsasandiego.org/events&sa=D&source=calendar&usd=2&usg=AOvVaw2hKSKBk-N
 END:VEVENT
 BEGIN:VEVENT
-UID:86dd6e4bb953@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260819T013000Z
-DTEND:20260819T033000Z
-SUMMARY:Socialist Summer School: People vs Billionaires
-LOCATION:810 L Ave\, National City\, CA 91950\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Tuesday) — PSL San Diego and the San Diego Liberation Center present your schedule for the SD Socialist Summer School Study Hub!  Join us Tuesday and Thursday evenings as we learn and discuss how to best respond in this historical moment of historic inequality and imperial violence. F
+UID:a3fa9c594006@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260821T223000Z
+DTEND:20260822T003000Z
+SUMMARY:RALLY for JUSTICE in PALESTINE & EVERYWHERE\, WEEKLY OPPORTUNITIES in North County
+LOCATION:Encinitas Blvd & El Camino Real.\, Encinitas
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Friday)
 END:VEVENT
 BEGIN:VEVENT
-UID:50b42f113459@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260820T000000Z
-DTEND:20260820T020000Z
+UID:142e8dc839d2@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260818T233000Z
+DTEND:20260819T013000Z
+SUMMARY:Demonstrate for Democracy - Mira Mesa
+LOCATION:Mira Mesa Boulevard & Westview Parkway\, Mira Mesa Blvd & Westview Pkwy\, San Diego\, CA 92126\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Tuesday) — Make Good Trouble and Demonstrate for Democracy! Every Tuesday 4:30-6:30 Mira Mesa Blvd & Westview Parkway\, Mira Mesa. Bring your signs!  Flyer
+END:VEVENT
+BEGIN:VEVENT
+UID:ccb25ab67cc2@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260822T170000Z
+DTEND:20260822T190000Z
+SUMMARY:Ocean Beach Peace Vigil
+LOCATION:32.751084\, -117.242325
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Saturday) — The corner of West Point Loma Blvd and Sunset Cliffs Blvd\, San Diego\, CA  More Info
+END:VEVENT
+BEGIN:VEVENT
+UID:6fc3f3c80488@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260818T143000Z
+DTEND:20260818T163000Z
+SUMMARY:RALLY for JUSTICE in PALESTINE & EVERYWHERE\, WEEKLY OPPORTUNITIES in North County
+LOCATION:Rancho Santa Fe & San Marcos Blvd\, San Marcos
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Tuesday)
+END:VEVENT
+BEGIN:VEVENT
+UID:706d19769524@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260817T190000Z
+DTEND:20260817T210000Z
+SUMMARY:Activist San Diego Drop-In Volunteer Mondays
+LOCATION:4951 El Cajon Blvd\, San Diego\, CA 92115\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Monday) — It’s almost Monday again! Sign up for Activist San Diego’s Volunteer Drop-In day held every Monday from 12pm noon to 8pm @Pop Up Winona  Registration Required   Flyer
+END:VEVENT
+BEGIN:VEVENT
+UID:b323dc2f7ed0@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260919T210000Z
+DTEND:20260919T230000Z
+SUMMARY:San Diego Artists Unified Monthly Meeting
+LOCATION:Centro Cultural de la Raza\, 2004 Park Blvd\, San Diego\, CA 92101\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — (Monthly) — Flyer
+END:VEVENT
+BEGIN:VEVENT
+UID:3182373f341b@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260829T160000Z
+DTEND:20260829T180000Z
+SUMMARY:Growing & Glowing: Hands-on Cooking with a focus on pregnant and new-parents
+LOCATION:4061 Fairmount Ave\, San Diego\, CA 92105\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — (Every other Saturday) — Foodshed Coop is proud to present Growing & Glowing\, a series of hands-on cooking classes for pregnant and new parents. Every family that attends this free class gets a $15 voucher to our Saturday market\, because #farmersfoodismedicine.     🗓️ Saturdays 9-10am
+END:VEVENT
+BEGIN:VEVENT
+UID:f81156527e4f@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260816T190000Z
+DTEND:20260816T210000Z
+SUMMARY:RALLY for JUSTICE in PALESTINE & EVERYWHERE\, WEEKLY OPPORTUNITIES in North County
+LOCATION:Chesterfield Dr & S Coast Hwy 101\, Encinitas (Magic Carpet Ride statue)\, Cardiff by the Sea\, CA
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Sunday)
+END:VEVENT
+BEGIN:VEVENT
+UID:d1fd4e5aed28@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260822T010000Z
+DTEND:20260822T030000Z
+SUMMARY:Love City Heights Community Open Mic Night!
+LOCATION:4951 El Cajon Blvd\, San Diego\, CA 92115\, USA
+DESCRIPTION:[SHOW] — Activist San Diego — (Every Friday) — Come on out tonight! Open Mic Night. BYOM Bring your own mic\, optional. We have mics. Bring a voice\, bring a friend. Winona & El Cajon Blvd    Flyer
+END:VEVENT
+BEGIN:VEVENT
+UID:0ee440fd64f6@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260820T233000Z
+DTEND:20260821T013000Z
 SUMMARY:Rally Against Genocide\, Rally for Justice\, North County San Diego\, CA:
-LOCATION:N Coast Hwy & Mission Ave\, Oceanside\, CA 92054
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Wednesday)
+LOCATION:Palomar Airport Rd & El Camino Real\, Carlsbad
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Thursday)
 END:VEVENT
 BEGIN:VEVENT
-UID:af8d58436a6f@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260819T230000Z
-DTEND:20260820T010000Z
-SUMMARY:Block the Bombs Phonebank
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Wednesday) — Register for this virtual action   From BDS wins to historic votes in Congress\, 2026 has been a monumental year in the movement for Palestinian liberation\, as we keep fighting with all our strength to e
+UID:f5cef250a1d1@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260910T020000Z
+DTEND:20260910T040000Z
+SUMMARY:Let's Unpack Our Whiteness
+DESCRIPTION:[ACTION] — Activist San Diego — (Monthly) — Dialogues is a monthly practice of community care and political grounding—so whether we are in the heat of crisis\, planning a campaign\, or taking action in the streets\, we remain resourced and rooted in our values. By building resilience and relationships together\, we’re able to
 END:VEVENT
 BEGIN:VEVENT
-UID:8c100031dc57@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260821T000000Z
-DTEND:20260821T020000Z
-SUMMARY:North Park Banner Drop
-LOCATION:4371 Boundary St\, San Diego\, CA 92116\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — (Every Thursday) — Location: Meade Ave Bridge Over I-805. We provide large physical messaging in the real world to connect with and activate voters to demonstrate that resistance is possible. Bring a sign for cars on the bridge or just wave to the cars passing below. \n\nInfo/Register link: https://
+UID:8fb3e3b87ee9@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260820T173000Z
+DTEND:20260820T193000Z
+SUMMARY:ICE out of SD Rally
+LOCATION:Edward J.Schwartz federal Building\, 880 Front St\, San Diego\, CA 92101\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Thursday) — Join concerned residents\, activists\, and organizers outside the Edward J. Schwartz Federal Building in Downtown San Diego to demonstrate staunch opposition to ICE\, the mistreatment of human beings in their custody\, and the illegal detention of innocent people.
 END:VEVENT
 BEGIN:VEVENT
 UID:3b2b8c3ad40b@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260816T203000Z
 DTEND:20260816T223000Z
 SUMMARY:Occupy Otay Sunday Action
@@ -592,8 +422,53 @@ LOCATION:Otay Mesa Detention Center\, 7488 Calzada De La Fuente\, San Diego\, CA
 DESCRIPTION:[ACTION] — Activist San Diego — (Every Sunday) — Bring a sigh\, music\, friends\, your voice.\\  Flyer
 END:VEVENT
 BEGIN:VEVENT
+UID:799a1b39625c@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260816T203000Z
+DTEND:20260816T223000Z
+SUMMARY:Solidarity event at Otay Mesa Detention Center
+LOCATION:Otay Mesa Detention Center\, 7488 Calzada De La Fuente\, San Diego\, CA 92154\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Sunday) — San Diego Families for Justice.  See Flyer
+END:VEVENT
+BEGIN:VEVENT
+UID:50b42f113459@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260820T000000Z
+DTEND:20260820T020000Z
+SUMMARY:Rally Against Genocide\, Rally for Justice\, North County San Diego\, CA:
+LOCATION:N Coast Hwy & Mission Ave\, Oceanside\, CA 92054
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Wednesday)
+END:VEVENT
+BEGIN:VEVENT
+UID:9123134a7dfd@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260828T190000Z
+DTEND:20260828T210000Z
+SUMMARY:Care not Cages - Courthouse Rally
+LOCATION:1100 Union St\, San Diego\, CA 92101\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — (Monthly) — Where: San Diego County Courthouse  Demand CARE NOT CAGES and share stories of loved ones struggling with mental illness who are incarcerated and mistreated.  More Info
+END:VEVENT
+BEGIN:VEVENT
+UID:e3a74d87ce7c@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260911T173000Z
+DTEND:20260911T193000Z
+SUMMARY:Food Distribution and Clothing Swap City Heights
+LOCATION:4455 Wightman St\, San Diego\, CA 92105\, USA
+DESCRIPTION:[MUTUAL AID] — Activist San Diego — (Monthly) — At Officer Jeremy Henwood Memorial Park 4455 Wightman Street  San Diego\, ca 92105   Flyer  Bagging begins at 10:30 Distribution at noon.
+END:VEVENT
+BEGIN:VEVENT
+UID:691672f263c4@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260820T233000Z
+DTEND:20260821T013000Z
+SUMMARY:Kensington Neighborhood Banner Drop
+LOCATION:3938 Adams Ave\, San Diego\, CA 92116\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Thursday) — Adams Ave. Bridge over I-15. 3938 Adams Ave. 92116  Adams Ave. Neighbors United for Democracy  CONTACT PERSON: Susan (   adamsave2026@gmail.com )
+END:VEVENT
+BEGIN:VEVENT
 UID:0ebe0a95a7e3@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260820T143000Z
 DTEND:20260820T163000Z
 SUMMARY:RALLY for JUSTICE in PALESTINE & EVERYWHERE\, WEEKLY OPPORTUNITIES in North County
@@ -601,8 +476,53 @@ LOCATION:Palomar Airport Rd & El Camino Real\, Carlsbad
 DESCRIPTION:[ACTION] — Activist San Diego — (Every Thursday)
 END:VEVENT
 BEGIN:VEVENT
+UID:0731dcaf389a@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260912T010000Z
+DTEND:20260912T030000Z
+SUMMARY:Monthly Community Self-Defense Coalition
+LOCATION:2225 Commercial St San Diego CA 92113
+DESCRIPTION:[ACTION] — Activist San Diego — (Monthly) — Flyer   We invite community members to our monthly Community Self-Defense Coalition meeting. As ICE continues to terrorize our barrios\, the people organize to keep each other safe! Learn more about ongoing street safety pat
+END:VEVENT
+BEGIN:VEVENT
+UID:2b1a4461d24a@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260902T020000Z
+DTEND:20260902T040000Z
+SUMMARY:Veterans For Peace Meeting
+LOCATION:4170 Front St\, San Diego\, CA 92103\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — (Monthly) — Monthly meeting is at the Hillcrest First Unitarian Universalist Church 4170 Front St. Room 323 All are welcome.  Flyer      Zoom also available.      <a href="https://us02web.zoom.u
+END:VEVENT
+BEGIN:VEVENT
+UID:5decfc7427b0@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260816T210000Z
+DTEND:20260816T230000Z
+SUMMARY:Otay Mesa Vigil
+LOCATION:Otay Mesa Detention Center\, 7488 Calzada De La Fuente\, San Diego\, CA 92154\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Sunday) — Bring music\, drums\, kites\, signs\, friends.  This Sunday. And every Sunday. ✨ We gather to show up\, to bear witness\, and to offer hope + solidarity to the hostages inside.  We listen. We take direct information from the hostages about what they actually need. And
+END:VEVENT
+BEGIN:VEVENT
+UID:16a54579a50c@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260819T220000Z
+DTEND:20260820T000000Z
+SUMMARY:East County Banner Drop
+LOCATION:Severin/Fuerte overpass I-8 Severin Dr La Mesa\, CA 91941
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Wednesday) — Bridge Visibility Severin Overpass         Come with your large banners\, flags and word scrabble block signs.  Resist tyranny\, attacks on the Constitution and the rule of law!  Meet on the Severin/ Fuerte overpass.  Every Wednesday 3:00-4:30 pm.
+END:VEVENT
+BEGIN:VEVENT
+UID:bd0c27cb46c1@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260816T170000Z
+DTEND:20260816T190000Z
+SUMMARY:South Bay Banner Drop
+LOCATION:H Street & Interstate 5 Business Loop\, H St & I-5BL\, Chula Vista\, CA 91910\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Sunday) — H Street over I-5 in Chula Vista. Park at Trolley Station or on the street. Lead by Rev. Danny
+END:VEVENT
+BEGIN:VEVENT
 UID:749137c0eaa1@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260816T190000Z
 DTEND:20260816T210000Z
 SUMMARY:Palestine Vigil at Kook Statue Cardiff
@@ -610,159 +530,62 @@ LOCATION:South Coast Highway 101 & Chesterfield Drive\, S Coast Hwy 101 & Cheste
 DESCRIPTION:[ACTION] — Activist San Diego — (Every Sunday) — Chris is the lead.
 END:VEVENT
 BEGIN:VEVENT
-UID:8d90d4464668@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260818T003000Z
-DTEND:20260818T023000Z
-SUMMARY:Vista Jail Action Planning Meeting
-DESCRIPTION:[ACTION] — Activist San Diego — On Zoom. See  flyer  for details and contact info.
+UID:88ae877c8398@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260912T230000Z
+DTEND:20260913T010000Z
+SUMMARY:DSA Book Club -How to Hide an Empire
+LOCATION:Logan Heights
+DESCRIPTION:[TEACH-IN] — Activist San Diego — (Monthly) — A History of the Greater United States by Daniel Immerwahr Chapters 9-12 - Feb 14\, Chapters 13-17 March 8\, Chapters 18-22 April 12.  All welcome\,  RSVP  for location    Flyer
 END:VEVENT
 BEGIN:VEVENT
-UID:2980b4bf26c8@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260819T233000Z
-DTEND:20260820T013000Z
-SUMMARY:Effective Parent Communication For Teens
-LOCATION:Barrio Station\, 2175 Newton Ave\, San Diego\, CA 92113\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — You’re invited to join us for a FREE Family Communication Workshop designed for parents and caregivers of tweens and teens!  Raising adolescents can be both rewarding and challenging. This workshop will provide practical strategies to help you:  ✔️Strengthen communica
+UID:8c100031dc57@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260821T000000Z
+DTEND:20260821T020000Z
+SUMMARY:North Park Banner Drop
+LOCATION:4371 Boundary St\, San Diego\, CA 92116\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Thursday) — Location: Meade Ave Bridge Over I-805. We provide large physical messaging in the real world to connect with and activate voters to demonstrate that resistance is possible. Bring a sign for cars on the bridge or just wave to the cars passing below. \n\nInfo/Register link: https://
 END:VEVENT
 BEGIN:VEVENT
-UID:003e861b6358@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260828T010000Z
-DTEND:20260828T030000Z
-SUMMARY:Book Club: Pinkwashing Series-Hajab Butch Blues
-LOCATION:Mujeres Brew House\, 1983 Julian Ave\, San Diego\, CA 92113\, USA
-DESCRIPTION:[TEACH-IN] — Activist San Diego — PINKWASHING SERIES (2/2): NO RAINBOW FLAG CAN COVER OCCUPATION🔻💕🏳️‍🌈  📅 Thursday\, August 27th 🕕 6:00–8:00 PM 📍 Mujeres Brew House 📖 Reading not required! Come for the conversation\, stay for the community.  Lamya H’s Stonewall Award-winning memoir weaves toget
+UID:86dd6e4bb953@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260819T013000Z
+DTEND:20260819T033000Z
+SUMMARY:Socialist Summer School: People vs Billionaires
+LOCATION:810 L Ave\, National City\, CA 91950\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Tuesday) — PSL San Diego and the San Diego Liberation Center present your schedule for the SD Socialist Summer School Study Hub!  Join us Tuesday and Thursday evenings as we learn and discuss how to best respond in this historical moment of historic inequality and imperial violence. F
 END:VEVENT
 BEGIN:VEVENT
-UID:0f3af597101b@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260822T024500Z
-DTEND:20260822T044500Z
-SUMMARY:The Rise of Islamic Violence Lecture
-LOCATION:7050 Eckstrom Ave\, San Diego\, CA 92111\, USA
-DESCRIPTION:[TEACH-IN] — Activist San Diego — Hate crimes against Muslims are rising — and the ideology behind them isn’t random.  Join us as Dr. Amin Asfari\, Associate Professor and Law Foundation of Saskatchewan Chair in Police Studies at the University of Regina\, unpacks how white supremacist ideology\, conspiracy th
-END:VEVENT
-BEGIN:VEVENT
-UID:ee2eb9e8686a@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260818T020000Z
-DTEND:20260818T040000Z
-SUMMARY:Lawfare 101 - Educational Forum
-DESCRIPTION:[ACTION] — Activist San Diego — Join CODEPINK San Diego on zoom Monday\, August 17th from 7-8pm PT for an urgent educational teach-in for peace activists facing lawfare from Pro-Palestine and Anti-ICE organizing. Led by activists and attorneys\, this session will cover lawfare strategies and tactics\, court proced
-END:VEVENT
-BEGIN:VEVENT
-UID:849dab2c79ca@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260912T160000Z
-DTEND:20260912T180000Z
-SUMMARY:The 9th Annual San Diego Kale Fest
-LOCATION:San Diego Peace Campus 3850 Westgate Ave
-DESCRIPTION:[ACTION] — Activist San Diego — Save the Date:  Flyer
-END:VEVENT
-BEGIN:VEVENT
-UID:f8c06d501e2c@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260815T183000Z
-DTEND:20260815T203000Z
-SUMMARY:Black August: Teach in: The Attica Prison Uprising
-LOCATION:6325 Imperial Ave\, San Diego\, CA 92114\, USA
-DESCRIPTION:[TEACH-IN] — Activist San Diego — This August\, join us for a month of events commemorating the lives and struggles of freedom fighters and to advance the struggle for black liberation. What’s the call? FREE THEM ALL!! 📣  Film Screening: Akeelah and the Bee 📆 Saturday\, August 8th ⏱️ 2:00PM 📍 San Diego
-END:VEVENT
-BEGIN:VEVENT
-UID:42de99326f3d@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260823T010000Z
-DTEND:20260823T030000Z
-SUMMARY:The Efficient Activist Comedy Fundraiser
-LOCATION:4545 Park Blvd #101\, San Diego\, CA 92116\, USA
-DESCRIPTION:[SHOW] — Activist San Diego — Tickets : $100 early bird (price increases July 1st) — 100% of proceeds go to The Efficient Activist.   It's a night of comedy and cabaret hosted by the wonderful Mariam T.\, featurin
-END:VEVENT
-BEGIN:VEVENT
-UID:f0307c950a5d@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260919T170000Z
-DTEND:20260919T190000Z
-SUMMARY:Candidates' Community Forum
-LOCATION:5555 University Ave\, San Diego\, CA 92105
-DESCRIPTION:[ACTION] — Activist San Diego — The future of California’s public schools starts with our communities.\n\nJoin us for the California State Superintendent of Public Instruction Candidates’ Community Forum! This is your chance to hear directly from the candidates running to lead our schools\, ask the tough questions
-END:VEVENT
-BEGIN:VEVENT
-UID:828e3c5e4e19@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260822T020000Z
-DTEND:20260822T040000Z
-SUMMARY:Active Duty Social
-LOCATION:Arcade Monsters San Diego\, 704 J St\, San Diego\, CA 92101\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — Feeling conflicted about your service in the military? Are you questioning what our government is asking active duty service members like yourself to do? Then come through to talk with former active duty veterans who have been in your shoes and feel the same way.  There are
-END:VEVENT
-BEGIN:VEVENT
-UID:ab4cbfcaa7da@ragingcunt.com
-DTSTAMP:20260815T221934Z
+UID:10f4e8d207bb@ragingcunt.com
+DTSTAMP:20260816T141405Z
 DTSTART:20260818T230000Z
 DTEND:20260819T010000Z
-SUMMARY:Stand Up Hillcrest
-LOCATION:Sixth Avenue & University Avenue\, Sixth Ave & University Ave\, San Diego\, CA 92103\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — “Hope will never be silent.” 🗣️✨  Stand up and show up\, San Diego! Join us this **Tuesday\, August 18th** as we gather in Hillcrest to spread the message of democracy\, freedom\, and solidarity. Every generation has its moment—and this is ours. ✊🏳️‍🌈  📍 **Location:** 6th
+SUMMARY:Rally Against Genocide\, SdProJustice\, North County San Diego\, CA:
+LOCATION:\, Rancho Santa Fe & San Marcos Blvd\, San Marcos
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Tuesday)
 END:VEVENT
 BEGIN:VEVENT
-UID:4c0179607ada@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260815T210000Z
-DTEND:20260815T230000Z
-SUMMARY:Film Screening: Comparsa
-LOCATION:6663 El Cajon Blvd\, San Diego\, CA 92115\, USA
-DESCRIPTION:[TEACH-IN] — Activist San Diego — The documentary film\, “Comparsa”\, fully immerses audiences in the intense world of Ciudad Peronia\, Guatemala\, where sisters Lesli and Lupe use art and performance to inspire local youth and heal deep wounds. Bob and I are sponsoring a showing of this incredible film. The entire a
+UID:e710ebaa6cc5@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260822T000000Z
+DTEND:20260822T020000Z
+SUMMARY:Ocean Beach Peace Vigil
+LOCATION:Newport Ave & Abbott St\, San Diego\, CA 92107\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Friday) — Flyer
 END:VEVENT
 BEGIN:VEVENT
-UID:56396044f2e3@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260822T010000Z
-DTEND:20260822T030000Z
-SUMMARY:San Diego Community Self-Defense Coalition
-LOCATION:San Diego Made Factory\, Made Factory\, 2031 Commercial St #114\, San Diego\, CA 92113\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — csdc_northcounty's profile picture sdcommunityselfdefense's profile picture sdcommunityselfdefense and 5 others      Join us on August 14 for an evening of solidarity and resistance. We will be convening local groups and collectives who continue to build hyper-l
-END:VEVENT
-BEGIN:VEVENT
-UID:79cd73c19b69@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260827T010000Z
-DTEND:20260827T030000Z
-SUMMARY:Twilight Vigil: Repeal the One Big Bloated Bill
-LOCATION:Edward J. Schwartz Federal Courthouse\, 880 Front Street and\, 221 W Broadway\, San Diego\, CA 92101\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — Flyer
-END:VEVENT
-BEGIN:VEVENT
-UID:85d3ea074343@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260815T220000Z
-DTEND:20260816T000000Z
-SUMMARY:Surfin' DSA
-LOCATION:The Strand North\, The Strand N\, Oceanside\, CA 92054\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — Lifeguard Tower 8 Fl  Join San Diego DSA and other SoCal DSA chapters for a fun day at the beach! Meet other socialists while enjoying the great outdoors.  Bring sunscreen\, a hat\, chairs\, a cooler\, refreshments\, food\, and anything else you may want at the beach! We will
-END:VEVENT
-BEGIN:VEVENT
-UID:cb3c2fdeb15f@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260815T220000Z
-DTEND:20260816T000000Z
-SUMMARY:SoCAl DSA Beach Party
-LOCATION:Oceanside\, CA\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — Flyer
-END:VEVENT
-BEGIN:VEVENT
-UID:fb937b530e97@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260815T230000Z
-DTEND:20260816T010000Z
-SUMMARY:Detention Resistance-Ternura Radical Fundraiser
-LOCATION:Centro Cultural de la Raza\, 2004 Park Blvd\, San Diego\, CA 92101\, USA
-DESCRIPTION:[SHOW] — Activist San Diego — Flyer
+UID:1994f56f930a@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260821T233000Z
+DTEND:20260822T013000Z
+SUMMARY:Rally Against Genocide\, Rally for Justice\, North County San Diego\, CA:
+LOCATION:Encinitas Blvd & El Camino Real.\, Encinitas
+DESCRIPTION:[ACTION] — Activist San Diego — (Every Friday)
 END:VEVENT
 BEGIN:VEVENT
 UID:e51ac5a16585@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260816T190000Z
 DTEND:20260816T210000Z
 SUMMARY:Self-defense training
@@ -770,35 +593,26 @@ LOCATION:5280 Baltimore Dr\, La Mesa\, CA 91942\, USA
 DESCRIPTION:[TEACH-IN] — Activist San Diego — his Sunday August 16\; 12PM Join us for another Self-Defense Training!  5280 Baltimore Dr La Mesa CA 91942  This training is in collaboration with the project towards a Community Emergency Response line and Community Self-Defense Coalition efforts. However\, all a
 END:VEVENT
 BEGIN:VEVENT
-UID:baefaf936e1f@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260820T230000Z
-DTEND:20260821T010000Z
-SUMMARY:Who's Watching Us? Flock\, Workplace Surveillance\, AI and the fight for our rights
-LOCATION:Lincoln Senior High School\, 4777 Imperial Ave\, San Diego\, CA 92113\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — As part of the week of the National Week of Action against ALPRs\, August 16th - August 22nd\, we are hosting a workshop to discuss how bosses and governments are using technologies to watch and control us.  📍 Where: Lincoln High School Library\, 4777 Imperial Ave. San Diego\,
+UID:ab4cbfcaa7da@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260818T230000Z
+DTEND:20260819T010000Z
+SUMMARY:Stand Up Hillcrest
+LOCATION:Sixth Avenue & University Avenue\, Sixth Ave & University Ave\, San Diego\, CA 92103\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — “Hope will never be silent.” 🗣️✨  Stand up and show up\, San Diego! Join us this **Tuesday\, August 18th** as we gather in Hillcrest to spread the message of democracy\, freedom\, and solidarity. Every generation has its moment—and this is ours. ✊🏳️‍🌈  📍 **Location:** 6th
 END:VEVENT
 BEGIN:VEVENT
-UID:340c3456da05@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260828T190000Z
-DTEND:20260828T210000Z
-SUMMARY:El Cajon Courthouse Rally
-LOCATION:250 E Main St\, El Cajon\, CA 92020\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — ATTENTION - This month the 4th Friday Care Not Cages Rally will be held at the Courthouse in El Cajon.\n\nWe will be lifting up KHAYREE HENRY\, and all who COULD and SHOULD get mental health diversion instead of a puntative process without mental health care.\n\nBring your voices\, sig
-END:VEVENT
-BEGIN:VEVENT
-UID:52cd5d47b3dc@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260816T000000Z
-DTEND:20260816T020000Z
-SUMMARY:Loteria Night
-LOCATION:3815 Mission Ave\, Oceanside\, CA 92058\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — Join us for a fun night of playing loteria and raising funds for two impacted families in our community.  Entry to play for the evening will be a sliding scale of $5-$10. O’side Bakery will be open for full drink & pastry service and will be donating 100% of all prof
+UID:003e861b6358@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260828T010000Z
+DTEND:20260828T030000Z
+SUMMARY:Book Club: Pinkwashing Series-Hajab Butch Blues
+LOCATION:Mujeres Brew House\, 1983 Julian Ave\, San Diego\, CA 92113\, USA
+DESCRIPTION:[TEACH-IN] — Activist San Diego — PINKWASHING SERIES (2/2): NO RAINBOW FLAG CAN COVER OCCUPATION🔻💕🏳️‍🌈  📅 Thursday\, August 27th 🕕 6:00–8:00 PM 📍 Mujeres Brew House 📖 Reading not required! Come for the conversation\, stay for the community.  Lamya H’s Stonewall Award-winning memoir weaves toget
 END:VEVENT
 BEGIN:VEVENT
 UID:8513ab9d041f@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260912T230000Z
 DTEND:20260913T010000Z
 SUMMARY:Brighter Future Gala
@@ -806,17 +620,8 @@ LOCATION:3720 El Cajon Blvd\, San Diego\, CA 92105\, USA
 DESCRIPTION:[SHOW] — Activist San Diego — sandiego350 Let's celebrate local climate advocacy at our annual Brighter Future Gala on Saturday\, September 12th at 37ECB in central San Diego\, CA. Ticket info coming soon!  Flyer
 END:VEVENT
 BEGIN:VEVENT
-UID:4407b72baacc@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260822T170000Z
-DTEND:20260822T190000Z
-SUMMARY:Revolutionary Yoga + Letter writing to political prisoners
-LOCATION:Dr. Martin Luther King\, Jr. Community Park (MLK Park)\, 6401 Skyline Dr\, San Diego\, CA 92114\, USA
-DESCRIPTION:[ACTION] — Activist San Diego — Ground yourself for Black August. Get ready for an in-person event that combines the tenets of yoga and its relationship with liberation movements with the power of letter writing. Stretch your body\, clear your mind\, and then put pen to paper to connect with freedom fighters from
-END:VEVENT
-BEGIN:VEVENT
 UID:31578a42716e@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260829T170000Z
 DTEND:20260829T190000Z
 SUMMARY:Black August: Revolutionary Yoga
@@ -824,24 +629,139 @@ LOCATION:6401 Skyline Dr\, San Diego\, CA 92114\, USA
 DESCRIPTION:[ACTION] — Activist San Diego — This August\, join us for a month of events commemorating the lives and struggles of freedom fighters and to advance the struggle for black liberation. What’s the call? FREE THEM ALL!! 📣  Film Screening: Akeelah and the Bee 📆 Saturday\, August 8th ⏱️ 2:00PM 📍 San Diego
 END:VEVENT
 BEGIN:VEVENT
+UID:849dab2c79ca@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260912T160000Z
+DTEND:20260912T180000Z
+SUMMARY:The 9th Annual San Diego Kale Fest
+LOCATION:San Diego Peace Campus 3850 Westgate Ave
+DESCRIPTION:[ACTION] — Activist San Diego — Save the Date:  Flyer
+END:VEVENT
+BEGIN:VEVENT
+UID:2980b4bf26c8@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260819T233000Z
+DTEND:20260820T013000Z
+SUMMARY:Effective Parent Communication For Teens
+LOCATION:Barrio Station\, 2175 Newton Ave\, San Diego\, CA 92113\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — You’re invited to join us for a FREE Family Communication Workshop designed for parents and caregivers of tweens and teens!  Raising adolescents can be both rewarding and challenging. This workshop will provide practical strategies to help you:  ✔️Strengthen communica
+END:VEVENT
+BEGIN:VEVENT
+UID:340c3456da05@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260828T190000Z
+DTEND:20260828T210000Z
+SUMMARY:El Cajon Courthouse Rally
+LOCATION:250 E Main St\, El Cajon\, CA 92020\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — ATTENTION - This month the 4th Friday Care Not Cages Rally will be held at the Courthouse in El Cajon.\n\nWe will be lifting up KHAYREE HENRY\, and all who COULD and SHOULD get mental health diversion instead of a puntative process without mental health care.\n\nBring your voices\, sig
+END:VEVENT
+BEGIN:VEVENT
+UID:79cd73c19b69@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260827T010000Z
+DTEND:20260827T030000Z
+SUMMARY:Twilight Vigil: Repeal the One Big Bloated Bill
+LOCATION:Edward J. Schwartz Federal Courthouse\, 880 Front Street and\, 221 W Broadway\, San Diego\, CA 92101\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — Flyer
+END:VEVENT
+BEGIN:VEVENT
 UID:f002c10eb107@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260920T000000Z
 DTEND:20260920T020000Z
 SUMMARY:CAIR SD's 19th Annual Gala
 DESCRIPTION:[SHOW] — Activist San Diego — Location to be announced. Take advantage of early bird pricing! Purchase your discounted tickets today:  bit.ly/cairsdgala19   You're invited: join us on Saturday\, September 19 for CAIR-SD's 19th Annual Gala. Our gala brings togethe
 END:VEVENT
 BEGIN:VEVENT
-UID:365c5d7ebab0@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260819T023000Z
-DTEND:20260819T043000Z
-SUMMARY:Organizing Committee Meeting
-DESCRIPTION:[TENANT] — Tenant Councils of San Diego — (Every other Tuesday)
+UID:4407b72baacc@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260822T170000Z
+DTEND:20260822T190000Z
+SUMMARY:Revolutionary Yoga + Letter writing to political prisoners
+LOCATION:Dr. Martin Luther King\, Jr. Community Park (MLK Park)\, 6401 Skyline Dr\, San Diego\, CA 92114\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — Ground yourself for Black August. Get ready for an in-person event that combines the tenets of yoga and its relationship with liberation movements with the power of letter writing. Stretch your body\, clear your mind\, and then put pen to paper to connect with freedom fighters from
+END:VEVENT
+BEGIN:VEVENT
+UID:828e3c5e4e19@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260822T020000Z
+DTEND:20260822T040000Z
+SUMMARY:Active Duty Social
+LOCATION:Arcade Monsters San Diego\, 704 J St\, San Diego\, CA 92101\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — Feeling conflicted about your service in the military? Are you questioning what our government is asking active duty service members like yourself to do? Then come through to talk with former active duty veterans who have been in your shoes and feel the same way.  There are
+END:VEVENT
+BEGIN:VEVENT
+UID:f0307c950a5d@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260919T170000Z
+DTEND:20260919T190000Z
+SUMMARY:Candidates' Community Forum
+LOCATION:5555 University Ave\, San Diego\, CA 92105
+DESCRIPTION:[ACTION] — Activist San Diego — The future of California’s public schools starts with our communities.\n\nJoin us for the California State Superintendent of Public Instruction Candidates’ Community Forum! This is your chance to hear directly from the candidates running to lead our schools\, ask the tough questions
+END:VEVENT
+BEGIN:VEVENT
+UID:0f3af597101b@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260822T024500Z
+DTEND:20260822T044500Z
+SUMMARY:The Rise of Islamic Violence Lecture
+LOCATION:7050 Eckstrom Ave\, San Diego\, CA 92111\, USA
+DESCRIPTION:[TEACH-IN] — Activist San Diego — Hate crimes against Muslims are rising — and the ideology behind them isn’t random.  Join us as Dr. Amin Asfari\, Associate Professor and Law Foundation of Saskatchewan Chair in Police Studies at the University of Regina\, unpacks how white supremacist ideology\, conspiracy th
+END:VEVENT
+BEGIN:VEVENT
+UID:56396044f2e3@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260822T010000Z
+DTEND:20260822T030000Z
+SUMMARY:San Diego Community Self-Defense Coalition
+LOCATION:San Diego Made Factory\, Made Factory\, 2031 Commercial St #114\, San Diego\, CA 92113\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — csdc_northcounty's profile picture sdcommunityselfdefense's profile picture sdcommunityselfdefense and 5 others      Join us on August 14 for an evening of solidarity and resistance. We will be convening local groups and collectives who continue to build hyper-l
+END:VEVENT
+BEGIN:VEVENT
+UID:8d90d4464668@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260818T003000Z
+DTEND:20260818T023000Z
+SUMMARY:Vista Jail Action Planning Meeting
+DESCRIPTION:[ACTION] — Activist San Diego — On Zoom. See  flyer  for details and contact info.
+END:VEVENT
+BEGIN:VEVENT
+UID:ee2eb9e8686a@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260818T020000Z
+DTEND:20260818T040000Z
+SUMMARY:Lawfare 101 - Educational Forum
+DESCRIPTION:[ACTION] — Activist San Diego — Join CODEPINK San Diego on zoom Monday\, August 17th from 7-8pm PT for an urgent educational teach-in for peace activists facing lawfare from Pro-Palestine and Anti-ICE organizing. Led by activists and attorneys\, this session will cover lawfare strategies and tactics\, court proced
+END:VEVENT
+BEGIN:VEVENT
+UID:baefaf936e1f@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260820T230000Z
+DTEND:20260821T010000Z
+SUMMARY:Who's Watching Us? Flock\, Workplace Surveillance\, AI and the fight for our rights
+LOCATION:Lincoln Senior High School\, 4777 Imperial Ave\, San Diego\, CA 92113\, USA
+DESCRIPTION:[ACTION] — Activist San Diego — As part of the week of the National Week of Action against ALPRs\, August 16th - August 22nd\, we are hosting a workshop to discuss how bosses and governments are using technologies to watch and control us.  📍 Where: Lincoln High School Library\, 4777 Imperial Ave. San Diego\,
+END:VEVENT
+BEGIN:VEVENT
+UID:42de99326f3d@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260823T010000Z
+DTEND:20260823T030000Z
+SUMMARY:The Efficient Activist Comedy Fundraiser
+LOCATION:4545 Park Blvd #101\, San Diego\, CA 92116\, USA
+DESCRIPTION:[SHOW] — Activist San Diego — Tickets : $100 early bird (price increases July 1st) — 100% of proceeds go to The Efficient Activist.   It's a night of comedy and cabaret hosted by the wonderful Mariam T.\, featurin
+END:VEVENT
+BEGIN:VEVENT
+UID:068148a588a2@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260912T210000Z
+DTEND:20260912T230000Z
+SUMMARY:General Meeting
+DESCRIPTION:[TENANT] — Tenant Councils of San Diego — (Monthly) — Every second Saturday of the month at the City Heights Library!
 END:VEVENT
 BEGIN:VEVENT
 UID:abef732aff45@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260819T133000Z
 DTEND:20260819T153000Z
 SUMMARY:Tenant Organizing Ed Session 1 with DSA
@@ -849,58 +769,24 @@ LOCATION:1985 National Ave\, San Diego\, CA 92113\, USA
 DESCRIPTION:[TENANT] — Tenant Councils of San Diego — (Every Wednesday) — @Tiny Giant Taproom
 END:VEVENT
 BEGIN:VEVENT
-UID:068148a588a2@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260912T210000Z
-DTEND:20260912T230000Z
-SUMMARY:General Meeting
-DESCRIPTION:[TENANT] — Tenant Councils of San Diego — (Monthly) — Every second Saturday of the month at the City Heights Library!
+UID:365c5d7ebab0@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260819T023000Z
+DTEND:20260819T043000Z
+SUMMARY:Organizing Committee Meeting
+DESCRIPTION:[TENANT] — Tenant Councils of San Diego — (Every other Tuesday)
 END:VEVENT
 BEGIN:VEVENT
-UID:6b6cb16ce38b@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260815T170000Z
-DTEND:20260815T190000Z
+UID:aeae7ea4ea63@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260822T170000Z
+DTEND:20260822T190000Z
 SUMMARY:OB.PeaceVigil
 DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — (Every Saturday) — CodePink
 END:VEVENT
 BEGIN:VEVENT
-UID:da82414b04e9@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260825T013000Z
-DTEND:20260825T033000Z
-SUMMARY:Amn'styInt'rn'lMtg
-LOCATION:The Station\, 2204 Fern St.\, San Diego\, CA 92104
-DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — (Monthly) — Join us for our regularly-scheduled Amnesty International Group 137 meeting. We meet the second and fourth Mondays of every month from 6:30 - 8:30 pm. We'll be writing letters on urgent actions and discussing plans for future events. For more information\, please visit <a href
-END:VEVENT
-BEGIN:VEVENT
-UID:bd9b7d3b4e1a@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260818T010000Z
-DTEND:20260818T030000Z
-SUMMARY:ActvstSDCmUnityMtg
-DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — (Monthly) — ActivistSDCommUnityMeeting:\nPotluck at 6pm\, Meeting at 6:30
-END:VEVENT
-BEGIN:VEVENT
-UID:6e97ca16888d@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260819T070000Z
-DTEND:20260819T090000Z
-SUMMARY:PRC Bulletin
-LOCATION:Online
-DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — (Every Wednesday)
-END:VEVENT
-BEGIN:VEVENT
-UID:1453de2bb8f6@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260816T180000Z
-DTEND:20260816T200000Z
-SUMMARY:PeaceChurchWorship
-DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — (Every Sunday)
-END:VEVENT
-BEGIN:VEVENT
 UID:40a0848392e4@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260821T013000Z
 DTEND:20260821T033000Z
 SUMMARY:Soc'listAlternatvMtg
@@ -908,8 +794,16 @@ LOCATION:Peace Resource Center\, 3850 Westgate Pl\, San Diego\, CA 92105\, USA
 DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — (Every Thursday) — Who we are    socialistalternative.org         Facebook:   San Diego Socialist Alternative   Socialist Alternative is a national o
 END:VEVENT
 BEGIN:VEVENT
+UID:b97eeb268e88@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260919T160000Z
+DTEND:20260919T180000Z
+SUMMARY:PDAEndWar&Ocp'nZm
+DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — (Monthly)
+END:VEVENT
+BEGIN:VEVENT
 UID:bc5f3c5c6f5b@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260829T003000Z
 DTEND:20260829T023000Z
 SUMMARY:TrtMIDntMstrtMIMtg
@@ -917,8 +811,16 @@ LOCATION:Boys Club\, Imperial Ave.
 DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — (Monthly) — The families invite you to us for this second special social get-together of this month!  At the Boys Club on Imperial Ave.   Please RSVP.  Contact Cheryl Canson at  cheryl.canson2@gmail.com    Mothers Against
 END:VEVENT
 BEGIN:VEVENT
+UID:1453de2bb8f6@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260816T180000Z
+DTEND:20260816T200000Z
+SUMMARY:PeaceChurchWorship
+DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — (Every Sunday)
+END:VEVENT
+BEGIN:VEVENT
 UID:94528f1b1469@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260904T010000Z
 DTEND:20260904T030000Z
 SUMMARY:KNSJ.CmUnityRadioMtg
@@ -926,17 +828,42 @@ LOCATION:Friends Center Round Room
 DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — (Monthly) — General Meeting - Newcomers welcome!      At this time we are conducting virtual meetings the first Thursday of each month.  To join download the Zoom app\, send an email to  info@KNSJ.org  or text 619-283-1100\, and
 END:VEVENT
 BEGIN:VEVENT
-UID:f7d421b5731e@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260822T020000Z
-DTEND:20260822T040000Z
-SUMMARY:JVPShabbatBkClbFNPV
-LOCATION:The Gathering Place
+UID:da82414b04e9@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260825T013000Z
+DTEND:20260825T033000Z
+SUMMARY:Amn'styInt'rn'lMtg
+LOCATION:The Station\, 2204 Fern St.\, San Diego\, CA 92104
+DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — (Monthly) — Join us for our regularly-scheduled Amnesty International Group 137 meeting. We meet the second and fourth Mondays of every month from 6:30 - 8:30 pm. We'll be writing letters on urgent actions and discussing plans for future events. For more information\, please visit <a href
+END:VEVENT
+BEGIN:VEVENT
+UID:6e97ca16888d@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260819T070000Z
+DTEND:20260819T090000Z
+SUMMARY:PRC Bulletin
+LOCATION:Online
+DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — (Every Wednesday)
+END:VEVENT
+BEGIN:VEVENT
+UID:bd9b7d3b4e1a@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260818T010000Z
+DTEND:20260818T030000Z
+SUMMARY:ActvstSDCmUnityMtg
+DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — (Monthly) — ActivistSDCommUnityMeeting:\nPotluck at 6pm\, Meeting at 6:30
+END:VEVENT
+BEGIN:VEVENT
+UID:f4e42458edaf@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260825T013000Z
+DTEND:20260825T033000Z
+SUMMARY:LaborSldrtyAcnNtwkMtg
 DESCRIPTION:[ACTION] — Peace Resource Center of San Diego
 END:VEVENT
 BEGIN:VEVENT
 UID:e74a93451719@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260830T000000Z
 DTEND:20260830T020000Z
 SUMMARY:WAWGComedyShowFndrsr
@@ -945,7 +872,7 @@ DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — WeAllWeGot Mutua
 END:VEVENT
 BEGIN:VEVENT
 UID:695a34490d1f@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260912T160000Z
 DTEND:20260912T180000Z
 SUMMARY:KaleFestival
@@ -953,8 +880,17 @@ LOCATION:Peace Campus
 DESCRIPTION:[SHOW] — Peace Resource Center of San Diego
 END:VEVENT
 BEGIN:VEVENT
+UID:f7d421b5731e@ragingcunt.com
+DTSTAMP:20260816T141405Z
+DTSTART:20260822T020000Z
+DTEND:20260822T040000Z
+SUMMARY:JVPShabbatBkClbFNPV
+LOCATION:The Gathering Place
+DESCRIPTION:[ACTION] — Peace Resource Center of San Diego
+END:VEVENT
+BEGIN:VEVENT
 UID:0c0c211d834f@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260928T000000Z
 DTEND:20260928T020000Z
 SUMMARY:PRCSouperSupper&An'lMtg
@@ -962,16 +898,8 @@ LOCATION:San Diego First Church of the Brethren\, 3850 Westgate Pl\, San Diego\,
 DESCRIPTION:[ACTION] — Peace Resource Center of San Diego — https://www.prcsd.org/     Suggested Donation   $10.00 to $15.00      De
 END:VEVENT
 BEGIN:VEVENT
-UID:f4e42458edaf@ragingcunt.com
-DTSTAMP:20260815T221934Z
-DTSTART:20260825T013000Z
-DTEND:20260825T033000Z
-SUMMARY:LaborSldrtyAcnNtwkMtg
-DESCRIPTION:[ACTION] — Peace Resource Center of San Diego
-END:VEVENT
-BEGIN:VEVENT
 UID:516e8884e44c@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260819T230000Z
 DTEND:20260820T010000Z
 SUMMARY:Resist Trump Flash Banner Action – Downtown
@@ -981,7 +909,7 @@ URL:https://sandiego350.org/event/civi_event_1840/
 END:VEVENT
 BEGIN:VEVENT
 UID:850b03472ab4@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260820T190000Z
 DTEND:20260820T210000Z
 SUMMARY:Press Conference at the California Transportation Commission
@@ -991,7 +919,7 @@ URL:https://sandiego350.org/event/civi_event_1847/
 END:VEVENT
 BEGIN:VEVENT
 UID:beb779c3a8e6@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260906T170000Z
 DTEND:20260906T190000Z
 SUMMARY:Art Build: Gala decorations
@@ -1001,7 +929,7 @@ URL:https://sandiego350.org/event/civi_event_1846/
 END:VEVENT
 BEGIN:VEVENT
 UID:b16b9758f448@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20260912T230000Z
 DTEND:20260913T010000Z
 SUMMARY:2026 Brighter Future Gala
@@ -1011,7 +939,7 @@ URL:https://sandiego350.org/event/civi_event_1820/
 END:VEVENT
 BEGIN:VEVENT
 UID:660549d7f76e@ragingcunt.com
-DTSTAMP:20260815T221934Z
+DTSTAMP:20260816T141405Z
 DTSTART:20261205T210000Z
 DTEND:20261205T230000Z
 SUMMARY:Party 4 the Planet – volunteer fun!
