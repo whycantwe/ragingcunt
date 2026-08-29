@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T20:37:28.641090+00:00",
+  "generated": "2026-08-29T21:44:36.425566+00:00",
   "stale_after_misses": 2,
   "sources": {
     "sacramento|ics|https://calendar.google.com/calendar/ical/dsasacramento%40gmail.com/public/basic.ics": {
@@ -100,10 +100,10 @@
       "kind": "squarespace",
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-29",
-      "status": "empty",
-      "count": 0,
+      "status": "ok",
+      "count": 11,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "sacramento|squarespace|https://www.solcollective.org/calendar": {
@@ -113,10 +113,10 @@
       "kind": "squarespace",
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-29",
-      "status": "empty",
-      "count": 0,
+      "status": "ok",
+      "count": 4,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "sacramento|squarespace|https://www.sacact.org/events": {
@@ -126,10 +126,10 @@
       "kind": "squarespace",
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-29",
-      "status": "empty",
-      "count": 0,
+      "status": "ok",
+      "count": 3,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "sacramento|mobilize|6496": {
@@ -273,7 +273,7 @@
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://lapena.org/events/?ical=1",
       "last_ok": "2026-08-16",
-      "misses": 4
+      "misses": 5
     },
     "oakland|mobilize|32784": {
       "city": "oakland",
@@ -338,6 +338,58 @@
       "count": 1,
       "error": null,
       "last_ok": "2026-08-29",
+      "misses": 0
+    },
+    "oakland|squarespace|https://www.woodstreetcommons.org/events": {
+      "city": "oakland",
+      "label": "Wood Street Commons — https://www.woodstreetcommons.org/events",
+      "org": "Wood Street Commons",
+      "kind": "squarespace",
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "status": "ok",
+      "count": 3,
+      "error": null,
+      "last_ok": "2026-08-29",
+      "misses": 0
+    },
+    "oakland|ics|https://tockify.com/api/feeds/ics/oaklandprivacy": {
+      "city": "oakland",
+      "label": "Oakland Privacy — https://tockify.com/api/feeds/ics/oaklandprivacy",
+      "org": "Oakland Privacy",
+      "kind": "ics",
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "status": "ok",
+      "count": 1,
+      "error": null,
+      "last_ok": "2026-08-29",
+      "misses": 0
+    },
+    "oakland|tec|https://ellabakercenter.org": {
+      "city": "oakland",
+      "label": "Ella Baker Center for Human Rights — https://ellabakercenter.org",
+      "org": "Ella Baker Center for Human Rights",
+      "kind": "tec",
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
+      "error": null,
+      "last_ok": null,
+      "misses": 0
+    },
+    "oakland|tec|https://urbanpeacemovement.org": {
+      "city": "oakland",
+      "label": "Urban Peace Movement — https://urbanpeacemovement.org",
+      "org": "Urban Peace Movement",
+      "kind": "tec",
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
+      "error": null,
+      "last_ok": null,
       "misses": 0
     },
     "los-angeles|ics|https://dsa-la.org/events/?ical=1": {
@@ -412,10 +464,10 @@
       "kind": "squarespace",
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-29",
-      "status": "empty",
-      "count": 0,
+      "status": "ok",
+      "count": 1,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "los-angeles|mobilize|46521": {
@@ -516,10 +568,10 @@
       "kind": "squarespace",
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-29",
-      "status": "empty",
-      "count": 0,
+      "status": "ok",
+      "count": 10,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-francisco|ics|https://www.podersf.org/events/?ical=1": {
@@ -533,7 +585,7 @@
       "count": 0,
       "error": "404 Client Error: Not Found for url: https://podersf.org/events/?ical=1",
       "last_ok": "2026-08-23",
-      "misses": 3
+      "misses": 4
     },
     "san-francisco|squarespace|https://www.bayresistance.org/events": {
       "city": "san-francisco",
@@ -542,10 +594,10 @@
       "kind": "squarespace",
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-29",
-      "status": "empty",
-      "count": 0,
+      "status": "ok",
+      "count": 7,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-francisco|ics|https://calendar.google.com/calendar/ical/c_2adc475d711170518ba018ad03d14da354be77a160c11f21eb381b15a31220fd%40group.calendar.google.com/public/basic.ics": {
@@ -598,7 +650,7 @@
       "count": 0,
       "error": "404 Client Error: Not Found for url: https://galeriadelaraza.org/events/?ical=1",
       "last_ok": "2026-08-16",
-      "misses": 4
+      "misses": 5
     },
     "san-francisco|mobilize|6847": {
       "city": "san-francisco",
@@ -621,7 +673,33 @@
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 4,
+      "count": 5,
+      "error": null,
+      "last_ok": "2026-08-29",
+      "misses": 0
+    },
+    "san-francisco|ics|https://carecensf.org/events/?ical=1": {
+      "city": "san-francisco",
+      "label": "CARECEN SF — https://carecensf.org/events/?ical=1",
+      "org": "CARECEN SF",
+      "kind": "ics",
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "status": "ok",
+      "count": 1,
+      "error": null,
+      "last_ok": "2026-08-29",
+      "misses": 0
+    },
+    "san-francisco|ics|https://www.politicaleducation.org/events/?ical=1": {
+      "city": "san-francisco",
+      "label": "Center for Political Education — https://www.politicaleducation.org/events/?ical=1",
+      "org": "Center for Political Education",
+      "kind": "ics",
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "status": "ok",
+      "count": 1,
       "error": null,
       "last_ok": "2026-08-29",
       "misses": 0
@@ -756,6 +834,19 @@
       "last_ok": "2026-08-29",
       "misses": 0
     },
+    "san-diego|ics|https://calendar.google.com/calendar/ical/c_f4cab0fdb37c6f544eedea91d580ebb7455bdbce3fd0d7a0bea38a085af314f2%40group.calendar.google.com/public/basic.ics": {
+      "city": "san-diego",
+      "label": "San Diego Veterans For Peace — https://calendar.google.com/calendar/ical/c_f4cab0fdb37c6f544eedea91d580ebb7455bdbce3fd0d7a0bea38a085af314f2%40group.calendar.google.com/public/basic.ics",
+      "org": "San Diego Veterans For Peace",
+      "kind": "ics",
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "status": "ok",
+      "count": 3,
+      "error": null,
+      "last_ok": "2026-08-29",
+      "misses": 0
+    },
     "san-jose|ics|https://siliconvalleydsa.org/events/?ical=1": {
       "city": "san-jose",
       "label": "Silicon Valley DSA — https://siliconvalleydsa.org/events/?ical=1",
@@ -802,10 +893,10 @@
       "kind": "squarespace",
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-29",
-      "status": "empty",
-      "count": 0,
+      "status": "ok",
+      "count": 11,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-jose|ics|https://peaceandjustice.org/events/?ical=1": {
@@ -828,11 +919,11 @@
       "kind": "ics",
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-29",
-      "status": "failed",
-      "count": 0,
-      "error": "HTTPSConnectionPool(host='www.calendarwiz.com', port=443): Max retries exceeded with url: /CalendarWiz_iCal.php?crd=sanjosepeace (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.calendarwiz.com', port=443) at 0x7fc55a5ec7a0>, 'Connection to www.calendarwiz.com timed out. (connect timeout=30",
+      "status": "ok",
+      "count": 56,
+      "error": null,
       "last_ok": "2026-08-29",
-      "misses": 1
+      "misses": 0
     },
     "fresno|mobilize|19666": {
       "city": "fresno",
@@ -884,7 +975,7 @@
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.lgbtqfresno.com/?mec-ical-feed=1",
       "last_ok": null,
-      "misses": 6
+      "misses": 7
     },
     "fresno|mobilize|43151": {
       "city": "fresno",
@@ -897,6 +988,32 @@
       "count": 2,
       "error": null,
       "last_ok": "2026-08-29",
+      "misses": 0
+    },
+    "fresno|tec|https://faithinthevalley.org": {
+      "city": "fresno",
+      "label": "Faith in the Valley — https://faithinthevalley.org",
+      "org": "Faith in the Valley",
+      "kind": "tec",
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
+      "error": null,
+      "last_ok": null,
+      "misses": 0
+    },
+    "fresno|tec|https://ccejn.org": {
+      "city": "fresno",
+      "label": "CCEJN (Central California Environmental Justice Network) — https://ccejn.org",
+      "org": "CCEJN (Central California Environmental Justice Network)",
+      "kind": "tec",
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
+      "error": null,
+      "last_ok": null,
       "misses": 0
     },
     "riverside|ics|https://calendar.google.com/calendar/ical/419e4a3c3454c63590714082481f0c03563bc966625b90902cdde8415d3fcf9e%40group.calendar.google.com/public/basic.ics": {
@@ -932,10 +1049,36 @@
       "kind": "squarespace",
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-29",
+      "status": "ok",
+      "count": 5,
+      "error": null,
+      "last_ok": "2026-08-29",
+      "misses": 0
+    },
+    "riverside|tec|https://ic4ij.org": {
+      "city": "riverside",
+      "label": "Inland Coalition for Immigrant Justice (IC4IJ) — https://ic4ij.org",
+      "org": "Inland Coalition for Immigrant Justice (IC4IJ)",
+      "kind": "tec",
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
       "status": "empty",
       "count": 0,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": null,
+      "misses": 0
+    },
+    "riverside|tec|https://todec.org": {
+      "city": "riverside",
+      "label": "TODEC Legal Center — https://todec.org",
+      "org": "TODEC Legal Center",
+      "kind": "tec",
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
+      "error": null,
+      "last_ok": null,
       "misses": 0
     },
     "davis|mobilize|4362": {
