@@ -551,7 +551,11 @@ def fetch_squarespace(city_key, url, org=None, default_type="meeting"):
         api = f"{origin}/api/open/GetItemsByMonth?month={mon}&collectionId={cid}"
         items = http_get(api, timeout=30).json() or []
         for it in items:
-            sd = it.get("startDate")
+            # Squarespace event collections come in two shapes: some put the
+            # timestamp at the top level, "events-stacked" ones nest it under
+            # structuredContent. Read both (same for location below).
+            sc = it.get("structuredContent") or {}
+            sd = it.get("startDate") or sc.get("startDate")
             if not sd:
                 continue
             start = dt.datetime.fromtimestamp(sd / 1000, dt.timezone.utc)
@@ -566,7 +570,7 @@ def fetch_squarespace(city_key, url, org=None, default_type="meeting"):
     import html
     out = []
     for key, (start, it, wd) in earliest.items():
-        loc = it.get("location") or {}
+        loc = it.get("location") or (it.get("structuredContent") or {}).get("location") or {}
         venue = loc.get("addressTitle") or loc.get("addressLine1") or None
         full = it.get("fullUrl") or ""
         _title = html.unescape(str(it.get("title", "")))
@@ -581,7 +585,79 @@ def fetch_squarespace(city_key, url, org=None, default_type="meeting"):
             out.append(e)
     return out
 
-FETCHERS = {"mobilize": fetch_mobilize, "ics": fetch_ics, "squarespace": fetch_squarespace}
+def fetch_tec_rest(city_key, url, org=None, default_type="meeting", match=None, near_zips=None):
+    """The Events Calendar REST API (/wp-json/tribe/events/v1/events).
+
+    For TEC/WordPress orgs whose ?ical=1 export is WAF-walled or absent but whose
+    REST endpoint is open (e.g. IC4IJ, TODEC, Faith in the Valley). `url` may be the
+    site root OR the full REST endpoint. The API returns individual upcoming
+    occurrences server-side-filtered to [today, +RECUR_WINDOW_DAYS]; we collapse
+    repeats by title+weekday like the ICS fetcher. `match` (title/venue substring
+    whitelist) and `near_zips` (venue-zip prefix keep-list) filter multi-scope feeds."""
+    match = [m.lower() for m in match] if match else None
+    base = url.rstrip("/")
+    endpoint = base if "/wp-json/" in base else base + "/wp-json/tribe/events/v1/events"
+    start_day = NOW.date().isoformat()
+    end_day = (NOW + dt.timedelta(days=RECUR_WINDOW_DAYS)).date().isoformat()
+    floor = NOW - dt.timedelta(hours=6)
+
+    seen = {}
+    page, pages = 1, 1
+    while page <= pages and page <= 6:          # hard page cap (6 * 50 = 300 events)
+        data = http_get(endpoint, params={"page": page, "per_page": 50,
+                        "start_date": start_day, "end_date": end_day,
+                        "status": "publish"}, timeout=30).json() or {}
+        pages = int(data.get("total_pages") or 1)
+        for ev in data.get("events") or []:
+            title = _strip_tags(str(ev.get("title") or "")).strip()
+            iso = ev.get("utc_start_date") or ev.get("start_date")
+            if not title or not iso:
+                continue
+            try:
+                start_dt = dtparse.parse(iso)
+                start_dt = (start_dt.replace(tzinfo=dt.timezone.utc)
+                            if ev.get("utc_start_date")
+                            else (start_dt if start_dt.tzinfo else start_dt.replace(tzinfo=DEFAULT_TZ)))
+            except Exception:
+                continue
+            if start_dt < floor:
+                continue
+            venue = ev.get("venue") or {}
+            vname = venue.get("venue") or None
+            if match and not any(m in (title + " " + (vname or "")).lower() for m in match):
+                continue
+            if near_zips and not any(str(venue.get("zip") or "").startswith(z) for z in near_zips):
+                continue
+            o = ev.get("organizer")
+            org_name = org or (o[0].get("organizer") if isinstance(o, list) and o
+                               else o.get("organizer") if isinstance(o, dict) else None)
+            wd = start_dt.astimezone(DEFAULT_TZ).weekday()
+            key = (title.lower(), wd)
+            g = seen.get(key)
+            if g is None:
+                seen[key] = {"start": start_dt, "ev": ev, "vname": vname, "org": org_name, "count": 1}
+            else:
+                g["count"] += 1
+                if start_dt < g["start"]:
+                    g.update(start=start_dt, ev=ev, vname=vname)
+        page += 1
+
+    out = []
+    for (t, wd), g in seen.items():
+        ev = g["ev"]
+        title = _strip_tags(str(ev.get("title") or "")).strip()
+        e = norm_event(city_key, title=title, start=g["start"],
+                       type_=refine_type(title, default_type), org=g["org"], venue=g["vname"],
+                       url=ev.get("url") or None,
+                       blurb=_strip_tags(str(ev.get("description") or ev.get("excerpt") or ""))[:280],
+                       source="tec",
+                       recurrence=(f"Every {_WEEKDAY[wd]}" if g["count"] > 1 else None))
+        if e:
+            out.append(e)
+    return out
+
+FETCHERS = {"mobilize": fetch_mobilize, "ics": fetch_ics,
+            "squarespace": fetch_squarespace, "tec": fetch_tec_rest}
 
 
 # ─────────────────────────────── main loop ────────────────────────────────
