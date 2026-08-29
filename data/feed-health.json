@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23T14:14:29.035868+00:00",
+  "generated": "2026-08-29T20:13:31.445587+00:00",
   "stale_after_misses": 2,
   "sources": {
     "sacramento|ics|https://calendar.google.com/calendar/ical/dsasacramento%40gmail.com/public/basic.ics": {
@@ -8,11 +8,11 @@
       "org": "Sacramento DSA",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 25,
+      "count": 23,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "sacramento|ics|https://calendar.google.com/calendar/ical/c_182554b64da4c175a456432c76c4287b3aef3af1110a8abf58792ef0a36a9a44%40group.calendar.google.com/public/basic.ics": {
@@ -21,11 +21,11 @@
       "org": "NorCal Resist",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 19,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "sacramento|ics|https://calendar.google.com/calendar/ical/sacvalleytenants%40gmail.com/public/basic.ics": {
@@ -34,11 +34,11 @@
       "org": "Sacramento Valley Tenants Union",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 3,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "sacramento|ics|https://calendar.google.com/calendar/ical/events%40350sacramento.org/public/basic.ics": {
@@ -47,11 +47,11 @@
       "org": "350 Sacramento",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 5,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "sacramento|mobilize|40479": {
@@ -60,11 +60,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 20,
+      "count": 18,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "sacramento|ics|https://www.gsul.org/events/?ical=1": {
@@ -73,11 +73,11 @@
       "org": "Greater Sacramento Urban League",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 6,
+      "count": 4,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "sacramento|mobilize|40215": {
@@ -86,11 +86,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 2,
+      "count": 1,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "sacramento|squarespace|https://www.lavenderlibrary.com/events": {
@@ -99,9 +99,9 @@
       "org": "Lavender Library (LLACE)",
       "kind": "squarespace",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
-      "status": "ok",
-      "count": 11,
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
       "error": null,
       "last_ok": "2026-08-23",
       "misses": 0
@@ -112,9 +112,9 @@
       "org": "Sol Collective",
       "kind": "squarespace",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
-      "status": "ok",
-      "count": 4,
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
       "error": null,
       "last_ok": "2026-08-23",
       "misses": 0
@@ -125,9 +125,9 @@
       "org": "Sacramento ACT",
       "kind": "squarespace",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
-      "status": "ok",
-      "count": 5,
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
       "error": null,
       "last_ok": "2026-08-23",
       "misses": 0
@@ -138,11 +138,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 14,
+      "count": 15,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "sacramento|mobilize|47790": {
@@ -151,11 +151,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 3,
+      "count": 2,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "sacramento|mobilize|45411": {
@@ -164,9 +164,9 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
-      "status": "ok",
-      "count": 1,
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
       "error": null,
       "last_ok": "2026-08-23",
       "misses": 0
@@ -177,11 +177,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 1,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "oakland|ics|https://www.eastbaydsa.org/events/?ical=1": {
@@ -190,11 +190,11 @@
       "org": "East Bay DSA",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 70,
+      "count": 76,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "oakland|ics|https://calendar.google.com/calendar/ical/tenantorganizingeastbay%40gmail.com/public/basic.ics": {
@@ -203,11 +203,11 @@
       "org": "Tenant and Neighborhood Councils (TANC)",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 8,
+      "count": 9,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "oakland|squarespace|https://www.antipoliceterrorproject.org/new-events": {
@@ -216,9 +216,9 @@
       "org": "Anti Police-Terror Project",
       "kind": "squarespace",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
-      "status": "ok",
-      "count": 1,
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
       "error": null,
       "last_ok": "2026-08-23",
       "misses": 0
@@ -229,11 +229,11 @@
       "org": "East Oakland Collective",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 4,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "oakland|ics|https://calendar.google.com/calendar/ical/429c1964013f6170ff0cd8cdcd36df48c28a04e92e3b592ba7609a0a620d02c5%40group.calendar.google.com/public/basic.ics": {
@@ -242,11 +242,11 @@
       "org": "Oakland Tenants Union",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 1,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "oakland|ics|https://calendar.google.com/calendar/ical/b00109f5c3955e833d48084091f907abcd75987942c55fcd527385cdf1ba7cb5%40group.calendar.google.com/public/basic.ics": {
@@ -255,11 +255,11 @@
       "org": "Oakland Tenants Union",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 3,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "oakland|ics|https://lapena.org/events/?ical=1": {
@@ -268,12 +268,12 @@
       "org": "La Peña Cultural Center",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "failed",
       "count": 0,
-      "error": "Content line could not be parsed into parts: '<!DOCTYPE html>': <!DOCTYPEhtml>",
+      "error": "403 Client Error: Forbidden for url: https://lapena.org/events/?ical=1",
       "last_ok": "2026-08-16",
-      "misses": 1
+      "misses": 2
     },
     "oakland|mobilize|32784": {
       "city": "oakland",
@@ -281,11 +281,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 20,
+      "count": 21,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "oakland|mobilize|42967": {
@@ -294,11 +294,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 4,
+      "count": 6,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "oakland|mobilize|47687": {
@@ -307,11 +307,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 2,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "oakland|ics|https://oacc.cc/events/?ical=1": {
@@ -320,12 +320,12 @@
       "org": "Oakland Asian Cultural Center",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
-      "status": "failed",
-      "count": 0,
-      "error": "Content line could not be parsed into parts: '<!DOCTYPE html>': <!DOCTYPEhtml>",
-      "last_ok": "2026-08-16",
-      "misses": 1
+      "last_seen": "2026-08-29",
+      "status": "ok",
+      "count": 3,
+      "error": null,
+      "last_ok": "2026-08-29",
+      "misses": 0
     },
     "oakland|ics|https://fiaeastbay.org/events/?ical=1": {
       "city": "oakland",
@@ -333,11 +333,11 @@
       "org": "Faith in Action East Bay",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 3,
+      "count": 1,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "los-angeles|ics|https://dsa-la.org/events/?ical=1": {
@@ -346,11 +346,11 @@
       "org": "DSA Los Angeles",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 25,
+      "count": 8,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "los-angeles|ics|https://latenantsunion.org/events/?ical=1": {
@@ -359,11 +359,11 @@
       "org": "LA Tenants Union",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 13,
+      "count": 10,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "los-angeles|mobilize|39546": {
@@ -372,11 +372,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 1,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "los-angeles|mobilize|52372": {
@@ -385,11 +385,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 1,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "los-angeles|squarespace|https://www.awarela.org/allupcoming": {
@@ -398,7 +398,7 @@
       "org": "AWARE-LA (White People 4 Black Lives)",
       "kind": "squarespace",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "empty",
       "count": 0,
       "error": null,
@@ -411,9 +411,9 @@
       "org": "SELAH Neighborhood Homeless Coalition",
       "kind": "squarespace",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
-      "status": "ok",
-      "count": 1,
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
       "error": null,
       "last_ok": "2026-08-23",
       "misses": 0
@@ -424,11 +424,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 4,
+      "count": 1,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "los-angeles|mobilize|44285": {
@@ -437,11 +437,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 1,
+      "count": 2,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "los-angeles|mobilize|46181": {
@@ -450,11 +450,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 23,
+      "count": 30,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "los-angeles|mobilize|40824": {
@@ -463,11 +463,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 2,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "los-angeles|mobilize|51771": {
@@ -476,11 +476,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 2,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "los-angeles|mobilize|52344": {
@@ -489,11 +489,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 1,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-francisco|ics|https://calendar.google.com/calendar/ical/outreach%40dsasf.org/public/basic.ics": {
@@ -502,11 +502,11 @@
       "org": "DSA San Francisco",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 23,
+      "count": 26,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-francisco|squarespace|https://indivisiblesf.org/events": {
@@ -515,9 +515,9 @@
       "org": "Indivisible SF",
       "kind": "squarespace",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
-      "status": "ok",
-      "count": 11,
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
       "error": null,
       "last_ok": "2026-08-23",
       "misses": 0
@@ -528,12 +528,12 @@
       "org": "PODER",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
-      "status": "ok",
-      "count": 2,
-      "error": null,
+      "last_seen": "2026-08-29",
+      "status": "failed",
+      "count": 0,
+      "error": "404 Client Error: Not Found for url: https://podersf.org/events/?ical=1",
       "last_ok": "2026-08-23",
-      "misses": 0
+      "misses": 1
     },
     "san-francisco|squarespace|https://www.bayresistance.org/events": {
       "city": "san-francisco",
@@ -541,9 +541,9 @@
       "org": "Bay Resistance",
       "kind": "squarespace",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
-      "status": "ok",
-      "count": 4,
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
       "error": null,
       "last_ok": "2026-08-23",
       "misses": 0
@@ -554,11 +554,11 @@
       "org": "Senior & Disability Action",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 7,
+      "count": 4,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-francisco|squarespace|https://www.transgenderdistrictsf.com/events": {
@@ -567,9 +567,9 @@
       "org": "Transgender District",
       "kind": "squarespace",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
-      "status": "ok",
-      "count": 2,
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
       "error": null,
       "last_ok": "2026-08-23",
       "misses": 0
@@ -580,11 +580,11 @@
       "org": "SOMArts Cultural Center",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 2,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-francisco|ics|https://galeriadelaraza.org/events/?ical=1": {
@@ -593,12 +593,12 @@
       "org": "Galería de la Raza",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "failed",
       "count": 0,
-      "error": "Content line could not be parsed into parts: '<!DOCTYPE html>': <!DOCTYPEhtml>",
+      "error": "404 Client Error: Not Found for url: https://galeriadelaraza.org/events/?ical=1",
       "last_ok": "2026-08-16",
-      "misses": 1
+      "misses": 2
     },
     "san-francisco|mobilize|6847": {
       "city": "san-francisco",
@@ -606,7 +606,7 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "empty",
       "count": 0,
       "error": null,
@@ -619,11 +619,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 5,
+      "count": 4,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-diego|ics|https://calendar.google.com/calendar/ical/sddsacalendar%40gmail.com/public/basic.ics": {
@@ -632,11 +632,11 @@
       "org": "DSA San Diego",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 19,
+      "count": 7,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-diego|mobilize|46251": {
@@ -645,11 +645,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 6,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-diego|mobilize|48475": {
@@ -658,7 +658,7 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "empty",
       "count": 0,
       "error": null,
@@ -671,7 +671,7 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "empty",
       "count": 0,
       "error": null,
@@ -684,7 +684,7 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "empty",
       "count": 0,
       "error": null,
@@ -697,11 +697,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 1,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-diego|ics|https://calendar.google.com/calendar/ical/ak73hn991ctkr074mj40br54j8%40group.calendar.google.com/public/basic.ics": {
@@ -710,11 +710,11 @@
       "org": "Activist San Diego",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 45,
+      "count": 39,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-diego|ics|https://calendar.google.com/calendar/ical/tenantcouncilssandiego%40gmail.com/public/basic.ics": {
@@ -723,11 +723,11 @@
       "org": "Tenant Councils of San Diego",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 3,
+      "count": 2,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-diego|ics|https://calendar.google.com/calendar/ical/prcsandiego%40gmail.com/public/basic.ics": {
@@ -736,11 +736,11 @@
       "org": "Peace Resource Center of San Diego",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 14,
+      "count": 13,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-diego|ics|https://sandiego350.org/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true": {
@@ -749,11 +749,11 @@
       "org": "SanDiego350",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 5,
+      "count": 4,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-jose|ics|https://siliconvalleydsa.org/events/?ical=1": {
@@ -762,11 +762,11 @@
       "org": "Silicon Valley DSA",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 19,
+      "count": 10,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-jose|ics|https://pactsj.org/events/?ical=1": {
@@ -775,11 +775,11 @@
       "org": "PACT San José",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 1,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-jose|mobilize|5842": {
@@ -788,11 +788,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 1,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "san-jose|squarespace|https://surjsantaclaracounty.org/calendar": {
@@ -801,9 +801,9 @@
       "org": "SURJ Santa Clara County",
       "kind": "squarespace",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
-      "status": "ok",
-      "count": 12,
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
       "error": null,
       "last_ok": "2026-08-23",
       "misses": 0
@@ -814,12 +814,12 @@
       "org": "Peninsula Peace & Justice Center",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "failed",
       "count": 0,
-      "error": "HTTPSConnectionPool(host='peaceandjustice.org', port=443): Max retries exceeded with url: /events/?ical=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='peaceandjustice.org', port=443) at 0x7f7625421e20>, 'Connection to peaceandjustice.org timed out. (connect timeout=30)'))",
+      "error": "Content line could not be parsed into parts: '<html><head><link rel=\"icon\" href=\"data:;\"><meta http-equiv=\"refresh\" content=\"0;/.well-known/sgcaptcha/?r=%2Fevents%2F%3Fical%3D1&y=ipr:135.232.216.50:1788034518.693\"></meta></head></html>': <html><head><linkrel=\"icon\"href=\"data:;\"><metahttp-equiv=\"refr",
       "last_ok": "2026-08-16",
-      "misses": 1
+      "misses": 2
     },
     "san-jose|ics|https://www.calendarwiz.com/CalendarWiz_iCal.php?crd=sanjosepeace": {
       "city": "san-jose",
@@ -827,11 +827,11 @@
       "org": "San Jose Peace & Justice Center",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 62,
+      "count": 56,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "fresno|mobilize|19666": {
@@ -840,11 +840,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 9,
+      "count": 8,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "fresno|mobilize|47652": {
@@ -853,11 +853,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 2,
+      "count": 1,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "fresno|mobilize|45409": {
@@ -866,11 +866,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 1,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "fresno|ics|https://www.lgbtqfresno.com/?mec-ical-feed=1": {
@@ -879,12 +879,12 @@
       "org": "LGBTQ Fresno",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "failed",
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.lgbtqfresno.com/?mec-ical-feed=1",
       "last_ok": null,
-      "misses": 3
+      "misses": 4
     },
     "fresno|mobilize|43151": {
       "city": "fresno",
@@ -892,11 +892,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 2,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "riverside|ics|https://calendar.google.com/calendar/ical/419e4a3c3454c63590714082481f0c03563bc966625b90902cdde8415d3fcf9e%40group.calendar.google.com/public/basic.ics": {
@@ -905,11 +905,11 @@
       "org": "Inland Empire DSA",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
       "count": 20,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "riverside|ics|https://ielabor.org/events/?ical=1": {
@@ -918,11 +918,11 @@
       "org": "Inland Empire Labor Council",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 8,
+      "count": 7,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "riverside|squarespace|https://www.startingoverinc.org/events": {
@@ -931,9 +931,9 @@
       "org": "Starting Over Inc",
       "kind": "squarespace",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
-      "status": "ok",
-      "count": 5,
+      "last_seen": "2026-08-29",
+      "status": "empty",
+      "count": 0,
       "error": null,
       "last_ok": "2026-08-23",
       "misses": 0
@@ -944,11 +944,11 @@
       "org": "",
       "kind": "mobilize",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 7,
+      "count": 8,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     },
     "davis|ics|https://calendar.google.com/calendar/ical/mbvpc3flaoira9ba8ge6p7kmg0%40group.calendar.google.com/public/basic.ics": {
@@ -957,11 +957,11 @@
       "org": "Cool Davis",
       "kind": "ics",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-23",
+      "last_seen": "2026-08-29",
       "status": "ok",
-      "count": 9,
+      "count": 8,
       "error": null,
-      "last_ok": "2026-08-23",
+      "last_ok": "2026-08-29",
       "misses": 0
     }
   }

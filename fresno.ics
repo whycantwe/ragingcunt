@@ -6,54 +6,26 @@ METHOD:PUBLISH
 X-WR-CALNAME:RAGINGCUNT — Fresno
 X-WR-CALDESC:Real local organizing in Fresno\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
-UID:44e9e71c0226@ragingcunt.com
-DTSTAMP:20260823T141429Z
-DTSTART:20260826T010000Z
-DTEND:20260826T030000Z
-SUMMARY:Make Art\, Move People
-DESCRIPTION:[MUTUAL AID] — PowerCA Action — Join us for an inspiring session with our new staff member\, Natalie Bui! Natalie is a powerhouse illustrator\, organizer\, and movement artist who believes art is a vital tool for storytelling and political change. From supporting LA’s rent control campaigns to amplifying critical — https://www.mobilize.us/powercaaction/event/995462/
-URL:https://www.mobilize.us/powercaaction/event/995462/
-END:VEVENT
-BEGIN:VEVENT
-UID:2b3a968b6ba4@ragingcunt.com
-DTSTAMP:20260823T141429Z
-DTSTART:20260827T010000Z
-DTEND:20260827T030000Z
-SUMMARY:Lets Taco'bout it! Tulare Chapter Aug Meet up
-LOCATION:This event’s address is private. Sign up for more details
-DESCRIPTION:[MEETING] — PowerCA Action — We are keeping the momentum going on our data center and rising cost of Utilities conversation. We are going to come together and share Taco's and Chisme about what these Corporations are trying to do in our neighborhood. Bring a friend and join our young leaders in the fight bac — https://www.mobilize.us/powercaaction/event/1000526/
-URL:https://www.mobilize.us/powercaaction/event/1000526/
-END:VEVENT
-BEGIN:VEVENT
-UID:bedfa43577d6@ragingcunt.com
-DTSTAMP:20260823T141429Z
-DTSTART:20260828T010000Z
-DTEND:20260828T030000Z
-SUMMARY:Data Center Fight Back Panel Conversation -
-DESCRIPTION:[TEACH-IN] — PowerCA Action — Across California\, data centers are popping up with little to no community input—but residents are pushing back and winning.\n\nJoin our upcoming virtual panel featuring local organizers who successfully rallied their communities to stop data center projects in their cities. We’ll — https://www.mobilize.us/powercaaction/event/1000609/
-URL:https://www.mobilize.us/powercaaction/event/1000609/
-END:VEVENT
-BEGIN:VEVENT
-UID:2802db8b3377@ragingcunt.com
-DTSTAMP:20260823T141429Z
-DTSTART:20260823T170000Z
-DTEND:20260823T190000Z
+UID:15c66832cee9@ragingcunt.com
+DTSTAMP:20260829T201331Z
+DTSTART:20260830T170000Z
+DTEND:20260830T190000Z
 SUMMARY:Fresno Volunteer with Power California!
 DESCRIPTION:[ACTION] — PowerCA Action — (Recurring) — 🗳️ Your vote matters!! You have the power to change your future for the better.!! 🌟 The Voter Registration is the first step to that change. So\, Join us for Voter Registrations. 🎉✅ — https://www.mobilize.us/powercaaction/event/1002550/
 URL:https://www.mobilize.us/powercaaction/event/1002550/
 END:VEVENT
 BEGIN:VEVENT
-UID:02de9ffe53b3@ragingcunt.com
-DTSTAMP:20260823T141429Z
-DTSTART:20260823T170000Z
-DTEND:20260823T190000Z
+UID:a8a45fdf627e@ragingcunt.com
+DTSTAMP:20260829T201331Z
+DTSTART:20260830T170000Z
+DTEND:20260830T190000Z
 SUMMARY:Tulare Volunteer with Power California!
 DESCRIPTION:[ACTION] — PowerCA Action — (Recurring) — 🗳️ Your vote matters!! You have the power to change your future for the better.!! 🌟 The Voter Registration is the first step to that change. So\, Join us for Voter Registrations. 🎉✅ — https://www.mobilize.us/powercaaction/event/1002551/
 URL:https://www.mobilize.us/powercaaction/event/1002551/
 END:VEVENT
 BEGIN:VEVENT
 UID:ec1876943079@ragingcunt.com
-DTSTAMP:20260823T141429Z
+DTSTAMP:20260829T201331Z
 DTSTART:20260830T000000Z
 DTEND:20260830T020000Z
 SUMMARY:Sips and Spoken Word: Rhythm\, Rhyme & Register to Vote
@@ -62,27 +34,17 @@ DESCRIPTION:[MUTUAL AID] — PowerCA Action — Your voice is your power\, on th
 URL:https://www.mobilize.us/powercaaction/event/1011092/
 END:VEVENT
 BEGIN:VEVENT
-UID:07aab6ec16af@ragingcunt.com
-DTSTAMP:20260823T141429Z
-DTSTART:20260905T190000Z
-DTEND:20260905T210000Z
+UID:5aaaaba51b2d@ragingcunt.com
+DTSTAMP:20260829T201331Z
+DTSTART:20260906T000000Z
+DTEND:20260906T020000Z
 SUMMARY:Scoop The Vote: Karaoke Party
 DESCRIPTION:[SHOW] — PowerCA Action — Join us for Scoop the Vote: Karaoke Party\, presented by POWERCA in collaboration with HIP. We’re beating the heat with a high energy ice cream social packed with popsicles\, paletas\, and your favorite karaoke hits. Take the mic\, grab a sweet treat\, and hang out with the community. — https://www.mobilize.us/powercaaction/event/1012099/
 URL:https://www.mobilize.us/powercaaction/event/1012099/
 END:VEVENT
 BEGIN:VEVENT
-UID:3b7937cc600c@ragingcunt.com
-DTSTAMP:20260823T141429Z
-DTSTART:20260829T000000Z
-DTEND:20260829T020000Z
-SUMMARY:Tulare: Sips and Spoken Word: Rhythm\, Rhyme & Register to Vote
-LOCATION:Power California
-DESCRIPTION:[MUTUAL AID] — PowerCA Action — Your voice is your power\, on the mic and at the ballot box.\nLocal poets\, coffee lovers\, and changemakers are invited to join us for an interactive evening of rhythm\, rhyme\, and reflection. Grab a sip from our espresso bar\, get inspired by poetry performances\, and map out your goa — https://www.mobilize.us/powercaaction/event/1014638/
-URL:https://www.mobilize.us/powercaaction/event/1014638/
-END:VEVENT
-BEGIN:VEVENT
 UID:44bea0cd6b26@ragingcunt.com
-DTSTAMP:20260823T141429Z
+DTSTAMP:20260829T201331Z
 DTSTART:20260905T190000Z
 DTEND:20260905T210000Z
 SUMMARY:Tulare: Scoop The Vote: Karaoke Party
@@ -91,17 +53,35 @@ DESCRIPTION:[SHOW] — PowerCA Action — Join us for Scoop the Vote: Karaoke Pa
 URL:https://www.mobilize.us/powercaaction/event/1014642/
 END:VEVENT
 BEGIN:VEVENT
-UID:36c06a6828ee@ragingcunt.com
-DTSTAMP:20260823T141429Z
-DTSTART:20260828T140000Z
-DTEND:20260828T160000Z
-SUMMARY:Fresno Bridge Brigade
-DESCRIPTION:[ACTION] — Fresno Bridge Brigade — Morning rush hour Bridge Brigade protest.\nThe surveillance state is here and now.\nStand up\, speak out\, be heard.\nDemocracy is under attack.\nDo something before it’s too late. — https://www.mobilize.us/fresnobridgebrigade/event/983165/
-URL:https://www.mobilize.us/fresnobridgebrigade/event/983165/
+UID:060295f93ab6@ragingcunt.com
+DTSTAMP:20260829T201331Z
+DTSTART:20260916T010000Z
+DTEND:20260916T030000Z
+SUMMARY:Flock Off: Stopping Surveillance in Our Neighborhoods
+DESCRIPTION:[MUTUAL AID] — PowerCA Action — Our privacy is under attack. A growing network of surveillance cameras often powered by companies with deep ties to ICE and DHS  is expanding across our neighborhoods\, tracking our movements without our consent.\n\n\nBut we have the power to stop it.\n\n\nJoin Power California for an e — https://www.mobilize.us/powercaaction/event/1019032/
+URL:https://www.mobilize.us/powercaaction/event/1019032/
+END:VEVENT
+BEGIN:VEVENT
+UID:f21e42efd6e3@ragingcunt.com
+DTSTAMP:20260829T201331Z
+DTSTART:20260910T010000Z
+DTEND:20260910T030000Z
+SUMMARY:CV United Front- Emergency Meeting
+DESCRIPTION:[MUTUAL AID] — PowerCA Action — Join us for an emergency meeting regarding the upcoming midterm election in person in Fresno\, Bakersfield\, or online via Zoom. We are gathering our community to build hyperlocal coordination and ensure fair elections. \n\nMany other leaders\, organizers\, and residents from across th — https://www.mobilize.us/powercaaction/event/1020115/
+URL:https://www.mobilize.us/powercaaction/event/1020115/
+END:VEVENT
+BEGIN:VEVENT
+UID:3e95f609f00e@ragingcunt.com
+DTSTAMP:20260829T201331Z
+DTSTART:20260902T003000Z
+DTEND:20260902T023000Z
+SUMMARY:Moratorium on Data Centers Discussion 5:30pm Tulare City Council 9/1/26
+DESCRIPTION:[MEETING] — PowerCA Action — The council has agendized a discussion on a moratorium on Data Centers. Come let your council member hear your voice on this issues. \n\n\nTo Attend in Person\n\nCity Council meetings are held in the Council Chamber at 491 North M Street\, Tulare (located in the Tulare Public Library). — https://www.mobilize.us/powercaaction/event/1020792/
+URL:https://www.mobilize.us/powercaaction/event/1020792/
 END:VEVENT
 BEGIN:VEVENT
 UID:e6ad885a10f3@ragingcunt.com
-DTSTAMP:20260823T141429Z
+DTSTAMP:20260829T201331Z
 DTSTART:20260901T150000Z
 DTEND:20260901T170000Z
 SUMMARY:Fong Is Wrong
@@ -109,10 +89,10 @@ DESCRIPTION:[ACTION] — Fresno Bridge Brigade — (Recurring) — Alternate Tue
 URL:https://www.mobilize.us/fresnobridgebrigade/event/984101/
 END:VEVENT
 BEGIN:VEVENT
-UID:69bd0d8b6a74@ragingcunt.com
-DTSTAMP:20260823T141429Z
-DTSTART:20260827T010000Z
-DTEND:20260827T030000Z
+UID:88f191aadd24@ragingcunt.com
+DTSTAMP:20260829T201331Z
+DTSTART:20260924T010000Z
+DTEND:20260924T030000Z
 SUMMARY:Central Valley Indivisible Monthly Meeting
 LOCATION:The Big Red Church
 DESCRIPTION:[MEETING] — Central Valley Indivisible — (Recurring) — Join us for our monthly meeting where you will meet like minded people and take action. Plus\, there are snacks! — https://www.mobilize.us/centralvalleyindivisible/event/863765/
@@ -120,7 +100,7 @@ URL:https://www.mobilize.us/centralvalleyindivisible/event/863765/
 END:VEVENT
 BEGIN:VEVENT
 UID:fe7001eb48dc@ragingcunt.com
-DTSTAMP:20260823T141429Z
+DTSTAMP:20260829T201331Z
 DTSTART:20260917T180000Z
 DTEND:20260917T200000Z
 SUMMARY:Salt of the Earth Campaign Launch
@@ -129,7 +109,7 @@ URL:https://www.mobilize.us/afscpanvalleyinstitute/event/994460/
 END:VEVENT
 BEGIN:VEVENT
 UID:de9ee3bf2bf2@ragingcunt.com
-DTSTAMP:20260823T141429Z
+DTSTAMP:20260829T201331Z
 DTSTART:20260919T003000Z
 DTEND:20260919T023000Z
 SUMMARY:My Relationship With America Performance & Dialogue
