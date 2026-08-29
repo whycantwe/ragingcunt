@@ -7,7 +7,7 @@ X-WR-CALNAME:RAGINGCUNT — Davis
 X-WR-CALDESC:Real local organizing in Davis\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
 UID:a84d52d5b6dd@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260910T000000Z
 DTEND:20260910T020000Z
 SUMMARY:Woodland Activist Circle Monthly Meeting
@@ -17,7 +17,7 @@ URL:https://www.mobilize.us/indivisibleyolo/event/774543/
 END:VEVENT
 BEGIN:VEVENT
 UID:5ec8c8770ff8@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260830T160000Z
 DTEND:20260830T180000Z
 SUMMARY:Davis Visibility Brigade: I-80 Highway Bannering (Thursdays and Sundays)
@@ -27,7 +27,7 @@ URL:https://www.mobilize.us/indivisibleyolo/event/791515/
 END:VEVENT
 BEGIN:VEVENT
 UID:44eb0291ecca@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260831T160000Z
 DTEND:20260831T180000Z
 SUMMARY:WSAC Monday Morning Visibility Brigade
@@ -37,7 +37,7 @@ URL:https://www.mobilize.us/indivisibleyolo/event/810047/
 END:VEVENT
 BEGIN:VEVENT
 UID:4cf601c638c0@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260902T233000Z
 DTEND:20260903T013000Z
 SUMMARY:Disappeared in America Visibility Event - Davis (1st Wednesday)
@@ -47,7 +47,7 @@ URL:https://www.mobilize.us/indivisibleyolo/event/816339/
 END:VEVENT
 BEGIN:VEVENT
 UID:c63a92dca67f@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260902T150000Z
 DTEND:20260902T170000Z
 SUMMARY:WSAC Wednesday Morning Visibility Brigade
@@ -57,7 +57,7 @@ URL:https://www.mobilize.us/indivisibleyolo/event/855760/
 END:VEVENT
 BEGIN:VEVENT
 UID:07519631222f@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260902T150000Z
 DTEND:20260902T170000Z
 SUMMARY:Disappeared in America Visibility Event - West Sacramento (1st Wednesday)
@@ -67,7 +67,7 @@ URL:https://www.mobilize.us/indivisibleyolo/event/877694/
 END:VEVENT
 BEGIN:VEVENT
 UID:b6072192652a@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260902T233000Z
 DTEND:20260903T013000Z
 SUMMARY:Disappeared in America Visibility Event - Woodland (1st Wednesday)
@@ -77,7 +77,7 @@ URL:https://www.mobilize.us/indivisibleyolo/event/877695/
 END:VEVENT
 BEGIN:VEVENT
 UID:c3295d2870a2@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260916T010000Z
 DTEND:20260916T030000Z
 SUMMARY:Phone Bank for Mary Peltola for Senate with Indivisible Yolo
@@ -86,47 +86,39 @@ URL:https://www.mobilize.us/indivisibleyolo/event/1018391/
 END:VEVENT
 BEGIN:VEVENT
 UID:558a71186718@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260919T143000Z
 DTEND:20260919T163000Z
 SUMMARY:Cool Davis at Davis FARMERS MARKET - Ride Cool EV Pop-up withDEVA
 DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — Sign Up  Here !
 END:VEVENT
 BEGIN:VEVENT
-UID:c1599bf3f85f@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260915T190000Z
-DTEND:20260915T210000Z
-SUMMARY:CDTTF (Cool Davis Transportation Task Force) Meeting
-DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — The Cool Davis Transportation Task Force meets every month.    /AGENDA / Notes:    https://docs.google.com/document/d/1DqgagBVF0ohc3
-END:VEVENT
-BEGIN:VEVENT
-UID:060f0251a43e@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260925T000000Z
-DTEND:20260925T020000Z
-SUMMARY:VCE - Community Advisory Committee
-DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — Link to VCE Community Advisory Committee meeting agendas and minutes    https://valleycleanenergy.org/cac-meetings/
-END:VEVENT
-BEGIN:VEVENT
-UID:282d89ce5ad3@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260916T233000Z
-DTEND:20260917T013000Z
-SUMMARY:Cool Davis Coalition Steering Committee Meeting
-DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — Link to Meeting Notes:      https://docs.google.com/document/d/1RSQtqLoZyd3MTZB8gCzxLmKpsf5xq6C4M6ZQOu7cYa0/edit?usp=sharing   <br
-END:VEVENT
-BEGIN:VEVENT
 UID:5bdf14cc28db@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260929T010000Z
 DTEND:20260929T030000Z
 SUMMARY:C&EJC Meeting
 DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — The Climate & Environmental Justice Commission meets on the fourth Monday of each month at 6:00 p.m. in the Community Chambers  at City Hall\, located at 23 Russell Boulevard.       REGULAR MEETING TIME AND PLACE    The fourth Monday of t
 END:VEVENT
 BEGIN:VEVENT
+UID:c1599bf3f85f@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260915T190000Z
+DTEND:20260915T210000Z
+SUMMARY:CDTTF (Cool Davis Transportation Task Force) Meeting
+DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — The Cool Davis Transportation Task Force meets every month.    /AGENDA / Notes:    https://docs.google.com/document/d/1DqgagBVF0ohc3
+END:VEVENT
+BEGIN:VEVENT
+UID:282d89ce5ad3@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260916T233000Z
+DTEND:20260917T013000Z
+SUMMARY:Cool Davis Coalition Steering Committee Meeting
+DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — Link to Meeting Notes:      https://docs.google.com/document/d/1RSQtqLoZyd3MTZB8gCzxLmKpsf5xq6C4M6ZQOu7cYa0/edit?usp=sharing   <br
+END:VEVENT
+BEGIN:VEVENT
 UID:fe1676d03d3a@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260910T200000Z
 DTEND:20260910T220000Z
 SUMMARY:Interfaith Alliance for Climate Justice - Planning Committee
@@ -134,20 +126,28 @@ LOCATION:Now on Zoom
 DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — Topic: YIACJ Meeting Time: Dec 2\, 2021 01:00 PM Pacific Time (US and Canada)        Every month on the Second Thu\, until Nov 2\, 2023\, 24 occurrence(s)         Please download and import the following iCalendar (.ic
 END:VEVENT
 BEGIN:VEVENT
+UID:4914509c521c@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260904T190000Z
+DTEND:20260904T210000Z
+SUMMARY:Climate Strike Fridays for Future Davis
+LOCATION:5th Street & B Street\, 5th St & B St\, Davis\, CA 95616\, USA
+DESCRIPTION:[ACTION] — Cool Davis — (Every Friday) — https://www.instagram.com/fridaysforfuture_davis/
+END:VEVENT
+BEGIN:VEVENT
 UID:4fde26d1c637@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260926T143000Z
 DTEND:20260926T163000Z
 SUMMARY:Cool Davis Energy @FARMERS MARKET - Make A Plan for Your Clean Energy Home
 DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — 7:30  Set up    8:00 Start    1:00 End    1:30 Complete Take Down       Sign Up  Here !
 END:VEVENT
 BEGIN:VEVENT
-UID:4914509c521c@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260904T190000Z
-DTEND:20260904T210000Z
-SUMMARY:Climate Strike Fridays for Future Davis
-LOCATION:5th Street & B Street\, 5th St & B St\, Davis\, CA 95616\, USA
-DESCRIPTION:[ACTION] — Cool Davis — (Every Friday) — https://www.instagram.com/fridaysforfuture_davis/
+UID:060f0251a43e@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260925T000000Z
+DTEND:20260925T020000Z
+SUMMARY:VCE - Community Advisory Committee
+DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — Link to VCE Community Advisory Committee meeting agendas and minutes    https://valleycleanenergy.org/cac-meetings/
 END:VEVENT
 END:VCALENDAR

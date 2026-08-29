@@ -6,35 +6,26 @@ METHOD:PUBLISH
 X-WR-CALNAME:RAGINGCUNT — San Francisco
 X-WR-CALDESC:Real local organizing in San Francisco\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
-UID:332fb3fe27a6@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260915T010000Z
-DTEND:20260915T030000Z
-SUMMARY:🐣 Tenderloin Healing Circle
-LOCATION:Kelly Cullen Community\, 220 Golden Gate Ave\, San Francisco\, CA 94102\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — All are welcome to attend the Tenderloin Healing Circle. The healing circle is a great way to connect\, reflect and share food with other DSA members and folks in the Tenderloin community.\n\n6:00 pm - Food\n6:30 pm - Circle Begins\n\nHealing circle is like group therapy\, each week the
-END:VEVENT
-BEGIN:VEVENT
-UID:43014dfdc850@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260909T013000Z
-DTEND:20260909T033000Z
-SUMMARY:Ecosocialist Bi-Weekly Meeting
+UID:189b7264ae75@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260902T003000Z
+DTEND:20260902T023000Z
+SUMMARY:Social Housing Working Group🏘️
 LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — (Every other Tuesday) — Decarbonize\, decommodify\, decolonize\, and demand a radical Green New Deal! Join the Ecosocialist Working Group's bi-weekly meeting\, in-person at 1916 McAllister or on zoom.  Masks are recommended and encouraged  RSVP: <a href="https://dsasf.solidarity.tech/ecosocialis
+DESCRIPTION:[MEETING] — DSA San Francisco — (Every other Tuesday) — Help us make social housing a reality in San Francisco!    Social housing is permanently decommodified\, democratically controlled by residents\, sustainable\, accessible\, and for everyone - but especially for those who need it most.   This meeting is in person and
 END:VEVENT
 BEGIN:VEVENT
-UID:8d821bf30643@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260928T000000Z
-DTEND:20260928T020000Z
-SUMMARY:Tenderloin Healing Circle Working Group
-LOCATION:https://us02web.zoom.us/j/88952346288?pwd=a4ekbLCZZkV0PAbSq4mq1sCFJTAH00.1
-DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — Come share topic suggestions\, reading materials and other ideas for upcoming Healing Circles!\n\nAgenda: TBD
+UID:a34715da5818@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260922T020000Z
+DTEND:20260922T040000Z
+SUMMARY:SF EWOC Local Meeting
+LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
+DESCRIPTION:[MEETING] — DSA San Francisco — (Every 4 weeks) — Join organizers\, volunteers\, workers\, and interested comrades every four weeks on Monday for our San Francisco EWOC local meeting at 7PM in person (1916 McAllister) and on Zoom!  You don't need to be a volunteer or organizer with EWOC to attend. We have lots of projects going on
 END:VEVENT
 BEGIN:VEVENT
 UID:dcb1dbcbe2a7@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260910T014500Z
 DTEND:20260910T034500Z
 SUMMARY:🌹 DSA SF General Meeting
@@ -42,17 +33,8 @@ LOCATION:Kelly Cullen Community\, 220 Golden Gate Ave\, San Francisco\, CA 94102
 DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — Join us for our monthly DSA SF General Meeting! You'll hear the latest updates from our chapter priority campaigns\, socialize with socialists\, and take care of our chapter business.\n\nBusiness starts promptly at 7 pm so please arrive by 6:45 to check-in\, have a bite to eat\, chat w
 END:VEVENT
 BEGIN:VEVENT
-UID:0f45dcb67e1a@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260904T010000Z
-DTEND:20260904T030000Z
-SUMMARY:🍏 Education Board Open Meeting 🌹
-LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — An open meeting of the chapter Education Board\, which sets education policy for the chapter and develops educational and training resources.   This will be a hybrid meeting. Join in person or join remotely via Zoom:    <a href="https://us02web.zoo
-END:VEVENT
-BEGIN:VEVENT
 UID:0d63b08133da@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260901T013000Z
 DTEND:20260901T033000Z
 SUMMARY:Homelessness Working Group Regular Meeting
@@ -61,7 +43,7 @@ DESCRIPTION:[MEETING] — DSA San Francisco — (Every other Monday) — Join DS
 END:VEVENT
 BEGIN:VEVENT
 UID:6f3c95bcb7db@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260913T200000Z
 DTEND:20260913T220000Z
 SUMMARY:🐣 What is DSA?
@@ -69,35 +51,26 @@ LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
 DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — New members\, old members and the socialism-curious are welcome to join this orientation where we'll discuss some common useful terminology and DSA's theory of change\, and introduce you to some of our current projects.   When?   Monthly on the third Wednesday. <br
 END:VEVENT
 BEGIN:VEVENT
-UID:a34715da5818@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260922T020000Z
-DTEND:20260922T040000Z
-SUMMARY:SF EWOC Local Meeting
-LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — (Every 4 weeks) — Join organizers\, volunteers\, workers\, and interested comrades every four weeks on Monday for our San Francisco EWOC local meeting at 7PM in person (1916 McAllister) and on Zoom!  You don't need to be a volunteer or organizer with EWOC to attend. We have lots of projects going on
+UID:332fb3fe27a6@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260915T010000Z
+DTEND:20260915T030000Z
+SUMMARY:🐣 Tenderloin Healing Circle
+LOCATION:Kelly Cullen Community\, 220 Golden Gate Ave\, San Francisco\, CA 94102\, USA
+DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — All are welcome to attend the Tenderloin Healing Circle. The healing circle is a great way to connect\, reflect and share food with other DSA members and folks in the Tenderloin community.\n\n6:00 pm - Food\n6:30 pm - Circle Begins\n\nHealing circle is like group therapy\, each week the
 END:VEVENT
 BEGIN:VEVENT
-UID:1d98d6c5cc69@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260908T020000Z
-DTEND:20260908T040000Z
-SUMMARY:Labor Working Group Meeting
+UID:0f45dcb67e1a@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260904T010000Z
+DTEND:20260904T030000Z
+SUMMARY:🍏 Education Board Open Meeting 🌹
 LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — (Every 4 weeks) — Join the DSA SF Labor working group every 3rd Monday for our generalmeeting at 7PM in person (1916 McAllister) and on Zoom!  If you're joining via Zoom\, click  here .\n\nJoi
-END:VEVENT
-BEGIN:VEVENT
-UID:189b7264ae75@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260902T003000Z
-DTEND:20260902T023000Z
-SUMMARY:Social Housing Working Group🏘️
-LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — (Every other Tuesday) — Help us make social housing a reality in San Francisco!    Social housing is permanently decommodified\, democratically controlled by residents\, sustainable\, accessible\, and for everyone - but especially for those who need it most.   This meeting is in person and
+DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — An open meeting of the chapter Education Board\, which sets education policy for the chapter and develops educational and training resources.   This will be a hybrid meeting. Join in person or join remotely via Zoom:    <a href="https://us02web.zoo
 END:VEVENT
 BEGIN:VEVENT
 UID:e56aa1099acc@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260920T010000Z
 DTEND:20260920T030000Z
 SUMMARY:🐣HWG Food Service [NEW LOCATION]
@@ -105,17 +78,8 @@ LOCATION:Patricia’s Green Picnic Area\, 499 1/2 Hayes St\, San Francisco\, CA 
 DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — Join the DSA Homelessness Working Group for a food service in the Hayes Valley to serve food for our unhoused neighbors and hand out literature and flyers to passerby. We'll meet at the Patricia's Green picnic area.
 END:VEVENT
 BEGIN:VEVENT
-UID:de4cdb851d50@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260903T020000Z
-DTEND:20260903T040000Z
-SUMMARY:Tenant Organizing Working Group Meeting
-LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[TENANT] — DSA San Francisco — (Monthly) — Please RSVP for the meeting here   We meet to help tenants form tenant councils\, creating more security for tenants facing eviction and other oppressive conditions. All tenants and tenant all
-END:VEVENT
-BEGIN:VEVENT
 UID:132cc0de7249@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260924T010000Z
 DTEND:20260924T030000Z
 SUMMARY:🐣 What Is DSA?
@@ -123,25 +87,17 @@ LOCATION:San Francisco Main Public Library\, 100 Larkin St\, San Francisco\, CA 
 DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — New members\, old members and the socialism-curious are welcome to join this orientation where we'll discuss some common useful terminology and DSA's theory of change\, and introduce you to some of our current projects.    When?   Monthly on the third Wedn
 END:VEVENT
 BEGIN:VEVENT
-UID:f8960639251b@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260914T000000Z
-DTEND:20260914T020000Z
-SUMMARY:Tenderloin Healing Circle Working Group Meeting
-DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — Come share topic suggestions\, reading materials and other ideas for upcoming Healing Circles!  Agenda:  RSVP:  https://dsasf.solidarity.tech/tenderloin-healing-circle-working-group-
-END:VEVENT
-BEGIN:VEVENT
-UID:6b1873ab16ed@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260829T180000Z
-DTEND:20260829T200000Z
-SUMMARY:Fundamentals of Tenant Organizing [ETOC]
+UID:de4cdb851d50@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260903T020000Z
+DTEND:20260903T040000Z
+SUMMARY:Tenant Organizing Working Group Meeting
 LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[TENANT] — DSA San Francisco — (Every Saturday) — RSVP for the meeting here   Join DSA SF's Tenant Organizing Working Group for the Emergency Tenant Organizing Committee (ETOC) Fundamentals of Tenant Organizing course.   RSVP to join D
+DESCRIPTION:[TENANT] — DSA San Francisco — (Monthly) — Please RSVP for the meeting here   We meet to help tenants form tenant councils\, creating more security for tenants facing eviction and other oppressive conditions. All tenants and tenant all
 END:VEVENT
 BEGIN:VEVENT
 UID:162a476a3cd2@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260904T020000Z
 DTEND:20260904T040000Z
 SUMMARY:Immigrant Justice regular meeting
@@ -149,87 +105,52 @@ LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
 DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — This is a hybrid meeting. In-person attendance highly encouraged!   ZOOM LINK:  https://us02web.zoom.us/meeting/register/wtchJff6RYSYEN3GzjGVjw
 END:VEVENT
 BEGIN:VEVENT
-UID:672d7bafa5d9@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260830T180000Z
-DTEND:20260830T200000Z
-SUMMARY:Prop B Field Kickoff!
-LOCATION:Mission Playground Park\, 19th St & Linda St\, 36 Cunningham Pl\, San Francisco\, CA 94110\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — RSVP here:  https://partiful.com/e/BHGN74SnDBpsECh2aHn7
-END:VEVENT
-BEGIN:VEVENT
-UID:1b95801371cb@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260926T210000Z
-DTEND:20260926T230000Z
-SUMMARY:HWG Outreach and Outreach Training
+UID:6b1873ab16ed@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260829T180000Z
+DTEND:20260829T200000Z
+SUMMARY:Fundamentals of Tenant Organizing [ETOC]
 LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[TEACH-IN] — DSA San Francisco — Come get trained on outreach with Homelessness Working Group!  We'll be training chapter members about our specific approach to mutual aid and street solidarity\, then heading out to put the training into practice by doing mutual aid
+DESCRIPTION:[TENANT] — DSA San Francisco — (Every Saturday) — RSVP for the meeting here   Join DSA SF's Tenant Organizing Working Group for the Emergency Tenant Organizing Committee (ETOC) Fundamentals of Tenant Organizing course.   RSVP to join D
 END:VEVENT
 BEGIN:VEVENT
-UID:90a6f5bece41@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260915T020000Z
-DTEND:20260915T040000Z
-SUMMARY:Labor Education Committee Meeting
-DESCRIPTION:[MEETING] — DSA San Francisco — Meeting will be over  Zoom !
+UID:f8960639251b@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260914T000000Z
+DTEND:20260914T020000Z
+SUMMARY:Tenderloin Healing Circle Working Group Meeting
+DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — Come share topic suggestions\, reading materials and other ideas for upcoming Healing Circles!  Agenda:  RSVP:  https://dsasf.solidarity.tech/tenderloin-healing-circle-working-group-
 END:VEVENT
 BEGIN:VEVENT
-UID:09ae7d8e4532@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260914T010000Z
-DTEND:20260914T030000Z
-SUMMARY:Working Class Gender Liberation Meeting
+UID:1d98d6c5cc69@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260908T020000Z
+DTEND:20260908T040000Z
+SUMMARY:Labor Working Group Meeting
 LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — Join us for an idea mapping session as we discuss the scope of our response to state repression along gendered lines.   In the front room!     RSVP
+DESCRIPTION:[MEETING] — DSA San Francisco — (Every 4 weeks) — Join the DSA SF Labor working group every 3rd Monday for our generalmeeting at 7PM in person (1916 McAllister) and on Zoom!  If you're joining via Zoom\, click  here .\n\nJoi
 END:VEVENT
 BEGIN:VEVENT
-UID:78db55fc4c79@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260829T220000Z
-DTEND:20260830T000000Z
-SUMMARY:Decolonization Studies
+UID:43014dfdc850@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260909T013000Z
+DTEND:20260909T033000Z
+SUMMARY:Ecosocialist Bi-Weekly Meeting
 LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — (Every Saturday) — Come join your friendly neighborhood socialists for study time! We're reading from a collection of texts chosen to elevate our understanding of decolonization\, reading is done beforehand and participants are invited to the office for a monthly in-person facilitated discussion. Pl
+DESCRIPTION:[MEETING] — DSA San Francisco — (Every other Tuesday) — Decarbonize\, decommodify\, decolonize\, and demand a radical Green New Deal! Join the Ecosocialist Working Group's bi-weekly meeting\, in-person at 1916 McAllister or on zoom.  Masks are recommended and encouraged  RSVP: <a href="https://dsasf.solidarity.tech/ecosocialis
 END:VEVENT
 BEGIN:VEVENT
-UID:ced0f37bfd7d@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260829T210000Z
-DTEND:20260829T230000Z
-SUMMARY:PSWG and Friends Beach Day
-LOCATION:Ocean Beach\, San Francisco\, CA\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — Palestine solidarity working group and friends beach day! RSVP here:   https://partiful.com/e/3iDy6tszj6XYwWtHXDVG?c=jVl-DhfK
-END:VEVENT
-BEGIN:VEVENT
-UID:173f21ec52e1@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260905T180000Z
-DTEND:20260905T200000Z
-SUMMARY:🐣 No Appetite for Apartheid: Consumer Pledge Canvass
-DESCRIPTION:[ACTION] — DSA San Francisco — Come out to the next consumer canvass for No Appetite for Apartheid\; a boycott campaign to deshelve Israeli products from San Francisco stores which financially contribute to/perpetuate genocide and apartheid! We will be walking around Dolores Park on Saturday\, Sept 5 from 11am -
-END:VEVENT
-BEGIN:VEVENT
-UID:df268236b7e7@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260830T200000Z
-DTEND:20260830T220000Z
-SUMMARY:🐣 What Is DSA?
-LOCATION:Bayview / Linda Brooks-Burton Branch Library\, 5075 3rd St\, San Francisco\, CA 94124\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — New members\, old members and the socialism-curious are welcome to join this orientation where we'll discuss some common useful terminology and DSA's theory of change\, and introduce you to some of our current projects.   Where?  Bayview Branch Library 5075 3rd Str
-END:VEVENT
-BEGIN:VEVENT
-UID:727af517db3d@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260905T180000Z
-DTEND:20260905T200000Z
-SUMMARY:Yes on I x Yes on B Joint Lit Drop
-LOCATION:Alamo Square Park\, Hayes St\, San Francisco\, CA 94117\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — You are hosting this event. View the public page at  https://luma.com/sz0urmgd \n\nManage the event at <a href="https://www
+UID:8d821bf30643@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260928T000000Z
+DTEND:20260928T020000Z
+SUMMARY:Tenderloin Healing Circle Working Group
+LOCATION:https://us02web.zoom.us/j/88952346288?pwd=a4ekbLCZZkV0PAbSq4mq1sCFJTAH00.1
+DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — Come share topic suggestions\, reading materials and other ideas for upcoming Healing Circles!\n\nAgenda: TBD
 END:VEVENT
 BEGIN:VEVENT
 UID:06c00a1eff7b@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260829T180000Z
 DTEND:20260829T200000Z
 SUMMARY:Yes on I Lit Drop (Time Change!)
@@ -237,34 +158,95 @@ LOCATION:Douglass Playground\, Douglass St &\, 26th St\, San Francisco\, CA 9413
 DESCRIPTION:[MEETING] — DSA San Francisco — NOTE TIME CHANGE - Rescheduled to 11am (was originally 10)    Help us get the word out about Yes on I\, the DSA SF-endorsed  Affordable Housing Guarantee Act !   San Franciscans love Prop I when they hear
 END:VEVENT
 BEGIN:VEVENT
-UID:6e98045b7598@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260925T210000Z
-DTEND:20260925T230000Z
-SUMMARY:Transit Justice Meeting
-LOCATION:Contact mia@sdaction.org for details.
-DESCRIPTION:[MEETING] — Senior & Disability Action — (Monthly)
+UID:78db55fc4c79@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260829T220000Z
+DTEND:20260830T000000Z
+SUMMARY:Decolonization Studies
+LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
+DESCRIPTION:[MEETING] — DSA San Francisco — (Every Saturday) — Come join your friendly neighborhood socialists for study time! We're reading from a collection of texts chosen to elevate our understanding of decolonization\, reading is done beforehand and participants are invited to the office for a monthly in-person facilitated discussion. Pl
+END:VEVENT
+BEGIN:VEVENT
+UID:672d7bafa5d9@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260830T180000Z
+DTEND:20260830T200000Z
+SUMMARY:Prop B Field Kickoff!
+LOCATION:Mission Playground Park\, 19th St & Linda St\, 36 Cunningham Pl\, San Francisco\, CA 94110\, USA
+DESCRIPTION:[MEETING] — DSA San Francisco — RSVP here:  https://partiful.com/e/BHGN74SnDBpsECh2aHn7
+END:VEVENT
+BEGIN:VEVENT
+UID:ced0f37bfd7d@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260829T210000Z
+DTEND:20260829T230000Z
+SUMMARY:PSWG and Friends Beach Day
+LOCATION:Ocean Beach\, San Francisco\, CA\, USA
+DESCRIPTION:[MEETING] — DSA San Francisco — Palestine solidarity working group and friends beach day! RSVP here:   https://partiful.com/e/3iDy6tszj6XYwWtHXDVG?c=jVl-DhfK
+END:VEVENT
+BEGIN:VEVENT
+UID:90a6f5bece41@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260915T020000Z
+DTEND:20260915T040000Z
+SUMMARY:Labor Education Committee Meeting
+DESCRIPTION:[MEETING] — DSA San Francisco — Meeting will be over  Zoom !
+END:VEVENT
+BEGIN:VEVENT
+UID:727af517db3d@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260905T180000Z
+DTEND:20260905T200000Z
+SUMMARY:Yes on I x Yes on B Joint Lit Drop
+LOCATION:Alamo Square Park\, Hayes St\, San Francisco\, CA 94117\, USA
+DESCRIPTION:[MEETING] — DSA San Francisco — You are hosting this event. View the public page at  https://luma.com/sz0urmgd \n\nManage the event at <a href="https://www
+END:VEVENT
+BEGIN:VEVENT
+UID:1b95801371cb@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260926T210000Z
+DTEND:20260926T230000Z
+SUMMARY:HWG Outreach and Outreach Training
+LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
+DESCRIPTION:[TEACH-IN] — DSA San Francisco — Come get trained on outreach with Homelessness Working Group!  We'll be training chapter members about our specific approach to mutual aid and street solidarity\, then heading out to put the training into practice by doing mutual aid
+END:VEVENT
+BEGIN:VEVENT
+UID:09ae7d8e4532@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260914T010000Z
+DTEND:20260914T030000Z
+SUMMARY:Working Class Gender Liberation Meeting
+LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
+DESCRIPTION:[MEETING] — DSA San Francisco — Join us for an idea mapping session as we discuss the scope of our response to state repression along gendered lines.   In the front room!     RSVP
+END:VEVENT
+BEGIN:VEVENT
+UID:173f21ec52e1@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260905T180000Z
+DTEND:20260905T200000Z
+SUMMARY:🐣 No Appetite for Apartheid: Consumer Pledge Canvass
+DESCRIPTION:[ACTION] — DSA San Francisco — Come out to the next consumer canvass for No Appetite for Apartheid\; a boycott campaign to deshelve Israeli products from San Francisco stores which financially contribute to/perpetuate genocide and apartheid! We will be walking around Dolores Park on Saturday\, Sept 5 from 11am -
+END:VEVENT
+BEGIN:VEVENT
+UID:df268236b7e7@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260830T200000Z
+DTEND:20260830T220000Z
+SUMMARY:🐣 What Is DSA?
+LOCATION:Bayview / Linda Brooks-Burton Branch Library\, 5075 3rd St\, San Francisco\, CA 94124\, USA
+DESCRIPTION:[MEETING] — DSA San Francisco — New members\, old members and the socialism-curious are welcome to join this orientation where we'll discuss some common useful terminology and DSA's theory of change\, and introduce you to some of our current projects.   Where?  Bayview Branch Library 5075 3rd Str
 END:VEVENT
 BEGIN:VEVENT
 UID:0af6d97979bb@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260903T170000Z
 DTEND:20260903T190000Z
 SUMMARY:SDA in the East Bay Meeting
 DESCRIPTION:[MEETING] — Senior & Disability Action — (Every 3 months) — Contact itzel@sdaction.org if you’re interested in getting involved!
 END:VEVENT
 BEGIN:VEVENT
-UID:a8952e3cb1c1@ragingcunt.com
-DTSTAMP:20260829T201331Z
-DTSTART:20260916T200000Z
-DTEND:20260916T220000Z
-SUMMARY:Housing Collaborative Meeting
-LOCATION:Zoom
-DESCRIPTION:[MEETING] — Senior & Disability Action — (Monthly) — SDA’s  Housing Collaborative  is a group of tenants\, homeowners\, SRO residents\, and community advocates\, working to preserve and create quality\, affordable\, accessible housing in San Francisco\, by organizing to win change.  To join this meeting\, please reach out to itz
-END:VEVENT
-BEGIN:VEVENT
 UID:ec8f106eff1b@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260922T180000Z
 DTEND:20260922T200000Z
 SUMMARY:Masks for Equity Meeting
@@ -272,8 +254,26 @@ LOCATION:Zoom. Contact Itzel at itzel@sdaction.org for details.
 DESCRIPTION:[MEETING] — Senior & Disability Action — (Monthly) — Masks for Equity  is a group of SDA members advocating for COVID protections including mask requirements in healthcare and other essential places\, clean air standards\, and free testing and treatment. Since COVID disproportionally harms seniors\, disabled\, poor\, and BIPOC
 END:VEVENT
 BEGIN:VEVENT
+UID:a8952e3cb1c1@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260916T200000Z
+DTEND:20260916T220000Z
+SUMMARY:Housing Collaborative Meeting
+LOCATION:Zoom
+DESCRIPTION:[MEETING] — Senior & Disability Action — (Monthly) — SDA’s  Housing Collaborative  is a group of tenants\, homeowners\, SRO residents\, and community advocates\, working to preserve and create quality\, affordable\, accessible housing in San Francisco\, by organizing to win change.  To join this meeting\, please reach out to itz
+END:VEVENT
+BEGIN:VEVENT
+UID:6e98045b7598@ragingcunt.com
+DTSTAMP:20260829T201616Z
+DTSTART:20260925T210000Z
+DTEND:20260925T230000Z
+SUMMARY:Transit Justice Meeting
+LOCATION:Contact mia@sdaction.org for details.
+DESCRIPTION:[MEETING] — Senior & Disability Action — (Monthly)
+END:VEVENT
+BEGIN:VEVENT
 UID:6609e70ce98a@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260830T013000Z
 DTEND:20260830T033000Z
 SUMMARY:Luminesce Lounge: A Ballroom Function–Runway & Hand Performance Workshops\, Dance Party\, Live Performances & Exhibition Battle
@@ -283,7 +283,7 @@ URL:https://somarts.org/event/luminescelounge/
 END:VEVENT
 BEGIN:VEVENT
 UID:bbbcc598a546@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20261017T020000Z
 DTEND:20261017T040000Z
 SUMMARY:2026 Murphy & Cadogan Art Awards Ceremony and Opening Reception
@@ -293,7 +293,7 @@ URL:https://somarts.org/event/murphycadogan2026-opening/
 END:VEVENT
 BEGIN:VEVENT
 UID:8c5ade7cef94@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260902T013000Z
 DTEND:20260902T033000Z
 SUMMARY:States Win SF (formerly Sister District Project): 2026 Monthly Citywide Zooms
@@ -303,7 +303,7 @@ URL:https://www.mobilize.us/stateswinsanfrancisco/event/894050/
 END:VEVENT
 BEGIN:VEVENT
 UID:3deb9717f662@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20261001T013000Z
 DTEND:20261001T033000Z
 SUMMARY:States Win SF (formerly Sister District Project): Monthly Happy Hours
@@ -313,7 +313,7 @@ URL:https://www.mobilize.us/stateswinsanfrancisco/event/894081/
 END:VEVENT
 BEGIN:VEVENT
 UID:15c1a460ebad@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260901T220000Z
 DTEND:20260902T000000Z
 SUMMARY:2026 States Win & Partners National Phonebanks!
@@ -322,7 +322,7 @@ URL:https://www.mobilize.us/stateswinsanfrancisco/event/911600/
 END:VEVENT
 BEGIN:VEVENT
 UID:9becbca4c749@ragingcunt.com
-DTSTAMP:20260829T201331Z
+DTSTAMP:20260829T201616Z
 DTSTART:20260909T010000Z
 DTEND:20260909T030000Z
 SUMMARY:Phone Banks for Arizona
