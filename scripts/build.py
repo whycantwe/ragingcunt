@@ -18,7 +18,7 @@ but VERIFY endpoints/params against the current APIs before trusting them.
 Run locally:  python scripts/build.py
 """
 from __future__ import annotations
-import json, sys, time, hashlib, datetime as dt, pathlib, traceback
+import json, re, sys, time, hashlib, datetime as dt, pathlib, traceback
 
 import yaml
 import requests
@@ -56,7 +56,7 @@ NOW       = dt.datetime.now(dt.timezone.utc)
 # 2 = dark two Sundays running, so a single transient blip never cries wolf.
 STALE_AFTER_MISSES = 2
 
-TYPES = {"action", "meeting", "mutualaid", "show", "teachin", "tenant", "kyr"}
+TYPES = {"action", "meeting", "mutualaid", "culture", "teachin", "tenant", "kyr"}
 
 
 def log(*a): print("[build]", *a, file=sys.stderr)
@@ -204,8 +204,11 @@ def http_get(url, params=None, *, timeout=30, retries=3, backoff=2.0):
 
 # ─────────────────────── fetchers (VERIFY before trusting) ─────────────────
 def _guess_type(raw, default):
+    # NB: Mobilize's FUNDRAISER category is intentionally NOT mapped — pure
+    # galas/auctions are dropped by drop_offbrand(); a grassroots fundraiser
+    # falls to the source default rather than getting a culture tag.
     m = {"RALLY": "action", "CANVASS": "action", "MEETING": "meeting",
-         "COMMUNITY": "mutualaid", "FUNDRAISER": "show"}
+         "COMMUNITY": "mutualaid"}
     return m.get((raw or "").upper(), default)
 
 # Infer an event's type from its TITLE. ICS/Squarespace feeds stamp one
@@ -239,12 +242,16 @@ _TITLE_TYPE = [
                  "film screening", " panel", "panel discussion", "discussion group",
                  "lecture", "seminar", "study group", "skillshare", "skill share",
                  "academy", "political education", "know your history", "curriculum"]),
-    ("show", ["potluck", "mixer", "chapter social", "weekend social", "summer social",
+    # CULTURE = community & movement culture (socials, food, arts, performance).
+    # Deliberately NOT gala/fundraiser/auction — those institutional/electoral
+    # magnets are dropped outright by drop_offbrand(), not tagged.
+    ("culture", ["potluck", "mixer", "chapter social", "weekend social", "summer social",
               "holiday social", "game night", "trivia", "karaoke", "happy hour",
-              "night out", "open mic", "picnic", " bbq", "barbecue", "fundraiser",
-              "gala", "benefit show", "festival", "concert", "movie night",
+              "night out", "open mic", "picnic", " bbq", "barbecue",
+              "festival", "concert", "movie night", "storytime", "story time",
               "watch party", "block party", "dance party", "friendsgiving", "pow wow",
-              "powwow", "mercado", "choir", "cabaret", "drag show", "kickback"]),
+              "powwow", "mercado", "choir", "cabaret", "drag show", "art opening",
+              "exhibition", "gallery", "performance", "kickback"]),
     ("meeting", ["meeting", "committee", "general body", "steering", "assembly",
                  "caucus", "orientation", "new member", " gathering", "coffee klatch",
                  "klatch", "office hours", "delegate", "convening"]),
@@ -625,6 +632,29 @@ def dedupe(evs):
         seen.add(e["id"]); out.append(e)
     return out
 
+# Off-brand filter: institutional galas/auctions and electoral (candidate/GOTV)
+# events are not what the wall is for — drop them outright by title + org name,
+# whatever tag they'd otherwise land in. Word-boundaried so "gala" won't hit
+# "galaxy", etc. Tune this list as new leakage shows up in feed-health output.
+_OFFBRAND = [
+    r"\bgala\b", r"\bauction\b", r"bid bash", r"awards ceremony", r"awards gala",
+    r"\bgotv\b", r"get out the vote", r"scoop the vote", r"states win",
+    r"campaign fundraiser",
+    # candidate-for-office (federal/state/local) — electoral, not organizing
+    r"\bfor (u\.?s\.? )?(congress|senate|assembly|governor|mayor|president|"
+    r"state house|state senate|state assembly|city council|supervisor|da)\b",
+]
+_OFFBRAND_RE = re.compile("|".join(_OFFBRAND), re.I)
+
+def drop_offbrand(evs):
+    keep = []
+    for e in evs:
+        hay = f"{e.get('title','')} {e.get('org','')}"
+        if _OFFBRAND_RE.search(hay):
+            continue
+        keep.append(e)
+    return keep
+
 # ─────────────────────────── SEO: SSR + JSON-LD + sitemap ───────────────────
 # The front end renders events client-side, which crawlers index poorly. Each
 # build also bakes the current events into index.html as static HTML + schema.org
@@ -638,7 +668,7 @@ TYPE_META = {
     "action":   ("ACTION",         "t-action"),
     "meeting":  ("MEETING",        "t-meeting"),
     "mutualaid":("MUTUAL AID",     "t-mutualaid"),
-    "show":     ("SHOW",           "t-show"),
+    "culture":  ("CULTURE",        "t-culture"),
     "teachin":  ("TEACH-IN",       "t-teachin"),
     "tenant":   ("TENANT",         "t-tenant"),
     "kyr":      ("KNOW UR RIGHTS", "t-kyr"),
@@ -1018,7 +1048,7 @@ def main():
         if not collected and prev_events.get(city_key):
             log(f"[{city_key}] using last-good ({len(prev_events[city_key])} events)")
             collected = prev_events[city_key]
-        collected = dedupe(drop_past(collected))
+        collected = dedupe(drop_offbrand(drop_past(collected)))
         out_cities[city_key] = {"label": label, "events": collected}
         log(f"[{city_key}] {len(collected)} events")
 

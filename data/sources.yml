@@ -9,7 +9,7 @@
 #   - { kind: mobilize, org_id: 12345,       default_type: action }
 #
 # default_type is applied to a feed's events unless the fetcher infers better.
-# TYPES: action | meeting | mutualaid | show | teachin | tenant | kyr
+# TYPES: action | meeting | mutualaid | culture | teachin | tenant | kyr
 #
 # HOW TO FIND FEEDS
 #   • WordPress + "The Events Calendar" sites usually expose an ICS at
@@ -51,7 +51,7 @@ cities:
       - { kind: squarespace, url: "https://www.lavenderlibrary.com/events", org: "Lavender Library (LLACE)", default_type: meeting }
       # Added 2026-08-07 (Squarespace fetcher unlocks two more — POC/Indigenous
       # arts & culture, and faith-based justice organizing):
-      - { kind: squarespace, url: "https://www.solcollective.org/calendar", org: "Sol Collective", default_type: show }
+      - { kind: squarespace, url: "https://www.solcollective.org/calendar", org: "Sol Collective", default_type: culture }
       - { kind: squarespace, url: "https://www.sacact.org/events", org: "Sacramento ACT", default_type: action }
       # Electoral/resistance 2026-08-11 (verified clean of Dem-party sponsors; near_zips floodguard).
       # Skipped Indivisible Sacramento 34947 — redundant aggregator (dups existing Coalition/Indivisible) + rate-limits.
@@ -91,7 +91,7 @@ cities:
       # Deeper pass 2026-08-11 (dedicated tenant org + clinics, arts/culture):
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/429c1964013f6170ff0cd8cdcd36df48c28a04e92e3b592ba7609a0a620d02c5%40group.calendar.google.com/public/basic.ics", org: "Oakland Tenants Union", default_type: meeting }
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/b00109f5c3955e833d48084091f907abcd75987942c55fcd527385cdf1ba7cb5%40group.calendar.google.com/public/basic.ics", org: "Oakland Tenants Union", default_type: kyr }
-      - { kind: ics, url: "https://lapena.org/events/?ical=1", org: "La Peña Cultural Center", default_type: show }
+      - { kind: ics, url: "https://lapena.org/events/?ical=1", org: "La Peña Cultural Center", default_type: culture }
       - { kind: mobilize, org_id: 32784, default_type: action, near_zips: ["945", "946", "947", "948"] }  # Indivisible East Bay (resistance/GOTV, Tri-Valley-heavy)
       # Electoral/resistance 2026-08-11 (per user — local resistance chapters only).
       # Swing Left (159) REMOVED: it's a Democratic GOTV aggregator whose events are
@@ -100,7 +100,7 @@ cities:
       - { kind: mobilize, org_id: 42967, default_type: action }   # Eden Area Indivisible (Castro Valley/Hayward, own-local)
       - { kind: mobilize, org_id: 47687, default_type: action }   # Together We Will Albany Berkeley (own-local)
       # Added 2026-08-12 (alt-platform sweep): AAPI cultural-justice venue, Oakland Chinatown.
-      - { kind: ics, url: "https://oacc.cc/events/?ical=1", org: "Oakland Asian Cultural Center", default_type: show }
+      - { kind: ics, url: "https://oacc.cc/events/?ical=1", org: "Oakland Asian Cultural Center", default_type: culture }
       - { kind: ics, url: "https://fiaeastbay.org/events/?ical=1", org: "Faith in Action East Bay", default_type: action }  # immigrant rights/faith (server 406s a bare curl but accepts our browser UA)
     # Skipped: 350 Bay Area (ics) — regional (EB+SF+Benicia), no zip data to filter,
     #   would duplicate across cities. Critical Resistance (ics) — after Oakland-only
@@ -143,9 +143,9 @@ cities:
       - { kind: squarespace, url: "https://www.bayresistance.org/events", org: "Bay Resistance", default_type: action }
       - { kind: ics, url: "https://calendar.google.com/calendar/ical/c_2adc475d711170518ba018ad03d14da354be77a160c11f21eb381b15a31220fd%40group.calendar.google.com/public/basic.ics", org: "Senior & Disability Action", default_type: meeting }
       # Deeper pass 2026-08-11 (LGBTQ+/trans, arts/culture):
-      - { kind: squarespace, url: "https://www.transgenderdistrictsf.com/events", org: "Transgender District", default_type: show }
-      - { kind: ics, url: "https://somarts.org/events/?ical=1", org: "SOMArts Cultural Center", default_type: show }
-      - { kind: ics, url: "https://galeriadelaraza.org/events/?ical=1", org: "Galería de la Raza", default_type: show }
+      - { kind: squarespace, url: "https://www.transgenderdistrictsf.com/events", org: "Transgender District", default_type: culture }
+      - { kind: ics, url: "https://somarts.org/events/?ical=1", org: "SOMArts Cultural Center", default_type: culture }
+      - { kind: ics, url: "https://galeriadelaraza.org/events/?ical=1", org: "Galería de la Raza", default_type: culture }
       # Electoral/resistance 2026-08-11 (per user — local resistance only; Swing Left removed, see Oakland note):
       - { kind: mobilize, org_id: 6847, default_type: action }   # SF Rising Action Fund (own-local)
       - { kind: mobilize, org_id: 6523, default_type: action }   # States Win SF / Sister District SF (own-local)
