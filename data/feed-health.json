@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T20:16:16.127492+00:00",
+  "generated": "2026-08-29T20:37:28.641090+00:00",
   "stale_after_misses": 2,
   "sources": {
     "sacramento|ics|https://calendar.google.com/calendar/ical/dsasacramento%40gmail.com/public/basic.ics": {
@@ -273,7 +273,7 @@
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://lapena.org/events/?ical=1",
       "last_ok": "2026-08-16",
-      "misses": 3
+      "misses": 4
     },
     "oakland|mobilize|32784": {
       "city": "oakland",
@@ -533,7 +533,7 @@
       "count": 0,
       "error": "404 Client Error: Not Found for url: https://podersf.org/events/?ical=1",
       "last_ok": "2026-08-23",
-      "misses": 2
+      "misses": 3
     },
     "san-francisco|squarespace|https://www.bayresistance.org/events": {
       "city": "san-francisco",
@@ -598,7 +598,7 @@
       "count": 0,
       "error": "404 Client Error: Not Found for url: https://galeriadelaraza.org/events/?ical=1",
       "last_ok": "2026-08-16",
-      "misses": 3
+      "misses": 4
     },
     "san-francisco|mobilize|6847": {
       "city": "san-francisco",
@@ -828,11 +828,11 @@
       "kind": "ics",
       "first_seen": "2026-08-15",
       "last_seen": "2026-08-29",
-      "status": "ok",
-      "count": 56,
-      "error": null,
+      "status": "failed",
+      "count": 0,
+      "error": "HTTPSConnectionPool(host='www.calendarwiz.com', port=443): Max retries exceeded with url: /CalendarWiz_iCal.php?crd=sanjosepeace (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.calendarwiz.com', port=443) at 0x7fc55a5ec7a0>, 'Connection to www.calendarwiz.com timed out. (connect timeout=30",
       "last_ok": "2026-08-29",
-      "misses": 0
+      "misses": 1
     },
     "fresno|mobilize|19666": {
       "city": "fresno",
@@ -884,7 +884,7 @@
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.lgbtqfresno.com/?mec-ical-feed=1",
       "last_ok": null,
-      "misses": 5
+      "misses": 6
     },
     "fresno|mobilize|43151": {
       "city": "fresno",
