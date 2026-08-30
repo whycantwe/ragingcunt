@@ -6,47 +6,18 @@ METHOD:PUBLISH
 X-WR-CALNAME:RAGINGCUNT — Los Angeles
 X-WR-CALDESC:Real local organizing in Los Angeles\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
-UID:8a8dc3690185@ragingcunt.com
-DTSTAMP:20260829T214436Z
-DTSTART:20260829T170000Z
-DTEND:20260829T190000Z
-SUMMARY:Canvass for Estuardo and Marissa! - South Central
-LOCATION:Vermont Square Park\, 1248 W 47th St\, Los Angeles\, CA\, 90037\, United States
-DESCRIPTION:[ACTION] — DSA Los Angeles — After our most successful primary cycle yet\, we have the opportunity to elect two more democratic socialists in Los Angeles this November. \nWe can win\, but *only* if all of us come together and knock on thousands of doors. Come canvass for Marissa Roy and Estuardo Mazariegos in S — https://dsa-la.org/event/canvass-for-estuardo-and-marissa-south-central-5-2/
-URL:https://dsa-la.org/event/canvass-for-estuardo-and-marissa-south-central-5-2/
-END:VEVENT
-BEGIN:VEVENT
-UID:204821ba62e5@ragingcunt.com
-DTSTAMP:20260829T214436Z
-DTSTART:20260829T180000Z
-DTEND:20260829T200000Z
-SUMMARY:Central Canvass Kickoff For Marissa Roy
-LOCATION:Bellevue Recreation Center\, 826 Lucile Ave\, Los Angeles\, CA\, 90026
-DESCRIPTION:[ACTION] — DSA Los Angeles — Come out and continue the momentum of Marissa Roy’s primary by knocking on doors to help her win in November! We’ll be meeting at Bellevue Recreation Center to go out into the community to discuss with voters why Marissa Roy is best City Attorney candidate for working people. \nBe — https://dsa-la.org/event/central-canvass-kickoff-for-marissa-roy/
-URL:https://dsa-la.org/event/central-canvass-kickoff-for-marissa-roy/
-END:VEVENT
-BEGIN:VEVENT
-UID:cd9a8bee57ee@ragingcunt.com
-DTSTAMP:20260829T214436Z
-DTSTART:20260829T180000Z
-DTEND:20260829T200000Z
-SUMMARY:Skill Share Fair - Learn a New Skill!
-DESCRIPTION:[TEACH-IN] — DSA Los Angeles — https://dsa-la.org/event/skill-share-fair/
-URL:https://dsa-la.org/event/skill-share-fair/
-END:VEVENT
-BEGIN:VEVENT
-UID:78ba09a5af97@ragingcunt.com
-DTSTAMP:20260829T214436Z
+UID:c0b532d2ce3f@ragingcunt.com
+DTSTAMP:20260830T175108Z
 DTSTART:20260830T180000Z
 DTEND:20260830T200000Z
 SUMMARY:Canvass for Estuardo and Marissa! - South Central
-LOCATION:Gilbert Lindsay Recreation Center\, 425 E 42nd Pl\, Los Angeles\, CA\, 90011\, United States
+LOCATION:South Park Recreation Center\, 5000 S San Pedro St\, Los Angeles\, 90011\, United States
 DESCRIPTION:[ACTION] — DSA Los Angeles — After our most successful primary cycle yet\, we have the opportunity to elect two more democratic socialists in Los Angeles this November. \nWe can win\, but *only* if all of us come together and knock on thousands of doors. Come canvass for Marissa Roy and Estuardo Mazariegos in S — https://dsa-la.org/event/canvass-for-estuardo-and-marissa-south-central-8/
 URL:https://dsa-la.org/event/canvass-for-estuardo-and-marissa-south-central-8/
 END:VEVENT
 BEGIN:VEVENT
 UID:c12c4f64ba40@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260830T183000Z
 DTEND:20260830T203000Z
 SUMMARY:Westside Social at Tiny's Hi-Dive (Marissa Roy Canvass After)
@@ -56,7 +27,7 @@ URL:https://dsa-la.org/event/pre-marissa-roy-canvass-social/
 END:VEVENT
 BEGIN:VEVENT
 UID:c90591bd3293@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260830T190000Z
 DTEND:20260830T210000Z
 SUMMARY:Petitioning for Block the Bombs\, Echo Park Rising
@@ -65,7 +36,7 @@ URL:https://dsa-la.org/event/petitioning-for-block-the-bombs-echo-park-rising/
 END:VEVENT
 BEGIN:VEVENT
 UID:8e79874188ab@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260830T190000Z
 DTEND:20260830T210000Z
 SUMMARY:Eastside/SGV Walk the Block
@@ -74,7 +45,7 @@ URL:https://dsa-la.org/event/eastside-sgv-walk-the-block/
 END:VEVENT
 BEGIN:VEVENT
 UID:3ebb65fabfa8@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260830T210000Z
 DTEND:20260830T230000Z
 SUMMARY:Westside Branch Canvass for Marissa Roy
@@ -83,7 +54,7 @@ URL:https://dsa-la.org/event/westside-branch-canvass-for-marissa-roy/
 END:VEVENT
 BEGIN:VEVENT
 UID:ece7e1f02f54@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260902T020000Z
 DTEND:20260902T040000Z
 SUMMARY:Koreatown - Misa Popular
@@ -92,7 +63,7 @@ URL:https://latenantsunion.org/event/koreatown-misa-popular-3/
 END:VEVENT
 BEGIN:VEVENT
 UID:39eaee0bda03@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260903T013000Z
 DTEND:20260903T033000Z
 SUMMARY:Westside Local
@@ -102,7 +73,7 @@ URL:https://latenantsunion.org/event/westside-local-5/
 END:VEVENT
 BEGIN:VEVENT
 UID:966bd037e553@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260903T020000Z
 DTEND:20260903T040000Z
 SUMMARY:Downtown Local
@@ -112,7 +83,7 @@ URL:https://latenantsunion.org/event/downtown-local-87/
 END:VEVENT
 BEGIN:VEVENT
 UID:efeacf0dc2f0@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260903T020000Z
 DTEND:20260903T040000Z
 SUMMARY:Lincoln Heights
@@ -122,7 +93,7 @@ URL:https://latenantsunion.org/event/lincoln-heights-38/
 END:VEVENT
 BEGIN:VEVENT
 UID:d64f80b6f224@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260904T010000Z
 DTEND:20260904T030000Z
 SUMMARY:VyBe Local
@@ -132,7 +103,7 @@ URL:https://latenantsunion.org/event/vybe-local-45/
 END:VEVENT
 BEGIN:VEVENT
 UID:51eed19c5b6c@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260905T210000Z
 DTEND:20260905T230000Z
 SUMMARY:East Hollywood Local
@@ -142,7 +113,7 @@ URL:https://latenantsunion.org/event/east-hollywood-local-3/
 END:VEVENT
 BEGIN:VEVENT
 UID:bf351ce521a7@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260910T013000Z
 DTEND:20260910T033000Z
 SUMMARY:Echo Park Local
@@ -151,7 +122,7 @@ URL:https://latenantsunion.org/event/echo-park-local-4/
 END:VEVENT
 BEGIN:VEVENT
 UID:ab4b2d21368d@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260910T020000Z
 DTEND:20260910T040000Z
 SUMMARY:Highland Park Local
@@ -159,8 +130,17 @@ DESCRIPTION:[TENANT] — LA Tenants Union — (Every Wednesday) — Local Meetin
 URL:https://latenantsunion.org/event/highland-park-local-6/
 END:VEVENT
 BEGIN:VEVENT
+UID:7d13777fbbae@ragingcunt.com
+DTSTAMP:20260830T175108Z
+DTSTART:20260912T180000Z
+DTEND:20260912T200000Z
+SUMMARY:Koreatown - March Against the Rent Increase
+DESCRIPTION:[TENANT] — LA Tenants Union — https://latenantsunion.org/event/koreatown-march-against-the-rent-increase/
+URL:https://latenantsunion.org/event/koreatown-march-against-the-rent-increase/
+END:VEVENT
+BEGIN:VEVENT
 UID:73e4a1257ecf@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260915T020000Z
 DTEND:20260915T040000Z
 SUMMARY:Hollywood Local
@@ -170,7 +150,7 @@ URL:https://latenantsunion.org/event/hollywood-local-4/
 END:VEVENT
 BEGIN:VEVENT
 UID:98cb752b3214@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260917T020000Z
 DTEND:20260917T040000Z
 SUMMARY:Lincoln Heights Local
@@ -179,8 +159,36 @@ DESCRIPTION:[TENANT] — LA Tenants Union — Church of the Epiphany2808 Altura 
 URL:https://latenantsunion.org/event/lincoln-heights-local-3/
 END:VEVENT
 BEGIN:VEVENT
+UID:95980bba8337@ragingcunt.com
+DTSTAMP:20260830T175108Z
+DTSTART:20260920T180000Z
+DTEND:20260920T200000Z
+SUMMARY:Pico Union - Misa Popular
+LOCATION:1430 Wright St\, Los Angeles\, CA 90015\, USA
+DESCRIPTION:[TENANT] — LA Tenants Union — Hosted by Inquilinos Unidos de Wright St\nPopular street mass in Spanish\nEveryone welcome — https://latenantsunion.org/event/pico-union-misa-popular/
+URL:https://latenantsunion.org/event/pico-union-misa-popular/
+END:VEVENT
+BEGIN:VEVENT
+UID:cf4f8476ba4e@ragingcunt.com
+DTSTAMP:20260830T175108Z
+DTSTART:20260923T020000Z
+DTEND:20260923T040000Z
+SUMMARY:Ban RUBS Meeting on Zoom
+DESCRIPTION:[TENANT] — LA Tenants Union — Online meeting on Zoom\, register here.All tenants with RUBS (Ratio Utility Billing Systems) charges in their buildings are welcome to join! RUBS is a scam that landlords use to charge tenants hundreds of dollars for utilities like water\, sewer and trash each month. LATU members a — https://latenantsunion.org/event/ban-rubs-meeting-on-zoom-2/
+URL:https://latenantsunion.org/event/ban-rubs-meeting-on-zoom-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:d6cef45e9934@ragingcunt.com
+DTSTAMP:20260830T175108Z
+DTSTART:20260927T220000Z
+DTEND:20260928T000000Z
+SUMMARY:Pico Union General Meeting
+DESCRIPTION:[TENANT] — LA Tenants Union — https://latenantsunion.org/event/pico-union-general-meeting/
+URL:https://latenantsunion.org/event/pico-union-general-meeting/
+END:VEVENT
+BEGIN:VEVENT
 UID:94cbcc9b6b45@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260909T013000Z
 DTEND:20260909T033000Z
 SUMMARY:Initiate Justice Action General Meeting
@@ -189,7 +197,7 @@ URL:https://www.mobilize.us/ijaction/event/810465/
 END:VEVENT
 BEGIN:VEVENT
 UID:e62ad7625d8a@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260912T210000Z
 DTEND:20260912T230000Z
 SUMMARY:Teach In: Building Pasadena\, A History of Immigrant Workers and the Pasadena Community Job Center
@@ -198,7 +206,7 @@ URL:https://www.mobilize.us/pasadenamigrantsolidaritycollective/event/1002764/
 END:VEVENT
 BEGIN:VEVENT
 UID:ec0a757a89b4@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260918T010000Z
 DTEND:20260918T030000Z
 SUMMARY:We Work Weekends 2026
@@ -208,7 +216,7 @@ URL:https://www.selahnhc.org/upcoming-events/we-work-weekends-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:7d43e39ba104@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260906T003000Z
 DTEND:20260906T023000Z
 SUMMARY:New Site Informational Session @ Fox & Laurel Park
@@ -218,7 +226,7 @@ URL:https://www.mobilize.us/blackthumbfarm/event/995259/
 END:VEVENT
 BEGIN:VEVENT
 UID:36ebb659477f@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260904T150000Z
 DTEND:20260904T170000Z
 SUMMARY:Mano a Mano Food Distribution Volunteer Sign Up
@@ -228,7 +236,7 @@ URL:https://www.mobilize.us/ndlon/event/867935/
 END:VEVENT
 BEGIN:VEVENT
 UID:518f5378b1f2@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260905T200000Z
 DTEND:20260905T220000Z
 SUMMARY:The Americanos Reading at The Los Angeles Theater Center
@@ -238,7 +246,7 @@ URL:https://www.mobilize.us/ndlon/event/1019268/
 END:VEVENT
 BEGIN:VEVENT
 UID:e02f36236aa1@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260905T170000Z
 DTEND:20260905T190000Z
 SUMMARY:Tropical Meme Society bridge drop
@@ -248,7 +256,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/869465/
 END:VEVENT
 BEGIN:VEVENT
 UID:3b27f7fb041e@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260926T200000Z
 DTEND:20260926T220000Z
 SUMMARY:Tropical Meme Society monthly mtg
@@ -258,7 +266,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/874885/
 END:VEVENT
 BEGIN:VEVENT
 UID:3c5c8dd418c7@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260906T170000Z
 DTEND:20260906T190000Z
 SUMMARY:tropical meme society POSTCARDS from the junction
@@ -268,7 +276,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/955749/
 END:VEVENT
 BEGIN:VEVENT
 UID:b7036a620960@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260919T150000Z
 DTEND:20260919T170000Z
 SUMMARY:{BEVERLY MA} Says Fix It\, Fedex!
@@ -278,7 +286,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/968699/
 END:VEVENT
 BEGIN:VEVENT
 UID:baf1075d6b75@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20261017T150000Z
 DTEND:20261017T170000Z
 SUMMARY:[BEVERLY MA] Says Fix It\, Fedex!
@@ -288,7 +296,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/968701/
 END:VEVENT
 BEGIN:VEVENT
 UID:a3c09ec73fe7@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260906T160000Z
 DTEND:20260906T180000Z
 SUMMARY:Coachella Valley Labor Day 2026: Workers Over Billionaires
@@ -298,7 +306,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1009553/
 END:VEVENT
 BEGIN:VEVENT
 UID:7325f27b32a5@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260907T200000Z
 DTEND:20260907T220000Z
 SUMMARY:[Saginaw\, MI] Labor Day 2026: Workers Over Billionaires
@@ -308,7 +316,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1009588/
 END:VEVENT
 BEGIN:VEVENT
 UID:806fb97525a6@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260907T160000Z
 DTEND:20260907T180000Z
 SUMMARY:Ardmore Labor Day 2026: Workers Over Billionaires
@@ -317,7 +325,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1009647/
 END:VEVENT
 BEGIN:VEVENT
 UID:e8fdad195792@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260907T160000Z
 DTEND:20260907T180000Z
 SUMMARY:Williamsburg\, Virginia Labor Day 2026: Workers Over Billionaires
@@ -327,7 +335,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1010179/
 END:VEVENT
 BEGIN:VEVENT
 UID:9074fc59a5f2@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260907T220000Z
 DTEND:20260908T000000Z
 SUMMARY:Yoga & Social Justice Virtual Circle for Labor Day 2026: Workers Over Billionaires
@@ -337,7 +345,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1010198/
 END:VEVENT
 BEGIN:VEVENT
 UID:8150323357fc@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260905T150000Z
 DTEND:20260905T170000Z
 SUMMARY:[BEVERLY MA] Labor Day 2026 Part 2: Workers Over Billionaires [Rally + Standout]
@@ -347,7 +355,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1010335/
 END:VEVENT
 BEGIN:VEVENT
 UID:2c4a6811cbe6@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260912T140000Z
 DTEND:20260912T160000Z
 SUMMARY:San Antonio Solidarity School: The Road to November 2026
@@ -357,7 +365,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1010519/
 END:VEVENT
 BEGIN:VEVENT
 UID:e73253e8f280@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260905T170000Z
 DTEND:20260905T190000Z
 SUMMARY:Mt Kisco Labor Day 2026: Workers Over Billionaires
@@ -366,7 +374,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1011046/
 END:VEVENT
 BEGIN:VEVENT
 UID:65c91e96117e@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260907T140000Z
 DTEND:20260907T160000Z
 SUMMARY:West County Labor Day 2026: Workers Over Billionaires
@@ -376,7 +384,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1011117/
 END:VEVENT
 BEGIN:VEVENT
 UID:be31e5d57a77@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260907T160000Z
 DTEND:20260907T180000Z
 SUMMARY:Ardmore\, PA Labor Day 2026: Workers Over Billionaires
@@ -385,7 +393,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1011604/
 END:VEVENT
 BEGIN:VEVENT
 UID:60d89977d7a2@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260905T190000Z
 DTEND:20260905T210000Z
 SUMMARY:Longmont\, Colorado Labor Day 2026: Workers Over Billionaires
@@ -394,7 +402,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1011946/
 END:VEVENT
 BEGIN:VEVENT
 UID:04371d2da2e8@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260907T230000Z
 DTEND:20260908T010000Z
 SUMMARY:Santa Cruz Labor Day 2026: Workers Over Billionaires
@@ -404,7 +412,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1012398/
 END:VEVENT
 BEGIN:VEVENT
 UID:4a06f93e1ade@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260907T223000Z
 DTEND:20260908T003000Z
 SUMMARY:Iowa City Labor Day 2026: Workers Over Billionaires
@@ -414,7 +422,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1012441/
 END:VEVENT
 BEGIN:VEVENT
 UID:a81328e6bb46@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260907T160000Z
 DTEND:20260907T180000Z
 SUMMARY:Placerville CA Labor Day 2026: Workers Over Billionaires
@@ -424,7 +432,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1013497/
 END:VEVENT
 BEGIN:VEVENT
 UID:45c23aef7658@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260905T143000Z
 DTEND:20260905T163000Z
 SUMMARY:Two Rivers Area Labor Day 2026: Workers Over Billionaires
@@ -434,7 +442,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1013514/
 END:VEVENT
 BEGIN:VEVENT
 UID:21569d7de521@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260907T170000Z
 DTEND:20260907T190000Z
 SUMMARY:Chesapeake\, VA Labor Day 2026: Workers Over Billionaires Home Depot & Lowe's Rally
@@ -443,7 +451,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1014308/
 END:VEVENT
 BEGIN:VEVENT
 UID:97e77c273409@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260907T150000Z
 DTEND:20260907T170000Z
 SUMMARY:Jersey City - Knitty Gritty Labor Day 2026: Workers Over Billionaires
@@ -453,7 +461,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1014414/
 END:VEVENT
 BEGIN:VEVENT
 UID:727013d42208@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260907T140000Z
 DTEND:20260907T160000Z
 SUMMARY:OAK PARK\, MI - Labor Day 2026: Workers Over Billionaires
@@ -462,7 +470,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1015754/
 END:VEVENT
 BEGIN:VEVENT
 UID:8b23dd6a199d@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260905T190000Z
 DTEND:20260905T210000Z
 SUMMARY:POINT ARENA Labor Day 2026: Workers Over Billionaires
@@ -472,7 +480,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1015842/
 END:VEVENT
 BEGIN:VEVENT
 UID:a354d10a023a@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260905T143000Z
 DTEND:20260905T163000Z
 SUMMARY:Bethlehem Twp PA Labor Day 2026: Workers Over Billionaires
@@ -482,7 +490,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1016255/
 END:VEVENT
 BEGIN:VEVENT
 UID:a642ee104613@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260907T160000Z
 DTEND:20260907T180000Z
 SUMMARY:Bethlehem Twp PA Labor Day 2026: Workers Over Billionaires Labor Day 2026: Workers Over Billionaires
@@ -492,7 +500,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1016262/
 END:VEVENT
 BEGIN:VEVENT
 UID:84b0e9246d95@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260905T133000Z
 DTEND:20260905T153000Z
 SUMMARY:Bradenton-Cortez Rd\, Florida\, Labor Day 2026: Workers Over Billionaires
@@ -502,7 +510,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1016761/
 END:VEVENT
 BEGIN:VEVENT
 UID:67b93937baa1@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260905T170000Z
 DTEND:20260905T190000Z
 SUMMARY:Seneca Falls Labor Day 2026: Workers Over Billionaires
@@ -512,7 +520,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1018838/
 END:VEVENT
 BEGIN:VEVENT
 UID:50372fa1cf23@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260906T180000Z
 DTEND:20260906T200000Z
 SUMMARY:Brockton Indivisible MA Labor Day 2026: Workers Over Billionaires
@@ -522,7 +530,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1019788/
 END:VEVENT
 BEGIN:VEVENT
 UID:4d875dc6bdeb@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260903T000000Z
 DTEND:20260903T020000Z
 SUMMARY:Our May Day Strong Movement
@@ -531,7 +539,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/1020077/
 END:VEVENT
 BEGIN:VEVENT
 UID:bec0dafc2c04@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260903T144500Z
 DTEND:20260903T164500Z
 SUMMARY:West LA Freeway Brigade
@@ -540,7 +548,7 @@ URL:https://www.mobilize.us/indivisiblewestsidela/event/804561/
 END:VEVENT
 BEGIN:VEVENT
 UID:e14995265b87@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260903T230000Z
 DTEND:20260904T010000Z
 SUMMARY:Venice & Santa Monica   Let's Take Back Our Streets Weekly Protest NEW LOCATION!!
@@ -550,7 +558,7 @@ URL:https://www.mobilize.us/indivisiblewestsidela/event/893106/
 END:VEVENT
 BEGIN:VEVENT
 UID:10d85862aa75@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260905T160000Z
 DTEND:20260905T180000Z
 SUMMARY:Election Defenders Weekly Hangout
@@ -560,7 +568,7 @@ URL:https://www.mobilize.us/resisttrumpcampaign/event/1006328/
 END:VEVENT
 BEGIN:VEVENT
 UID:beadd8eb2ce0@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260901T180000Z
 DTEND:20260901T200000Z
 SUMMARY:Podcasting for Democracy Weekly Hangout
@@ -569,7 +577,7 @@ URL:https://www.mobilize.us/resisttrumpcampaign/event/1010704/
 END:VEVENT
 BEGIN:VEVENT
 UID:afb7a3e525eb@ragingcunt.com
-DTSTAMP:20260829T214436Z
+DTSTAMP:20260830T175108Z
 DTSTART:20260903T010000Z
 DTEND:20260903T030000Z
 SUMMARY:West Hollywood-Fairfax Indivisible - Weekly Meeting
