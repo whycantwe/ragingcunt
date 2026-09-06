@@ -6,71 +6,16 @@ METHOD:PUBLISH
 X-WR-CALNAME:RAGINGCUNT — San Francisco
 X-WR-CALDESC:Real local organizing in San Francisco\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
-UID:0d63b08133da@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260901T013000Z
-DTEND:20260901T033000Z
-SUMMARY:Homelessness Working Group Regular Meeting
-LOCATION:1916 McAllister St\, San Francisco\, CA / Zoom
-DESCRIPTION:[MEETING] — DSA San Francisco — (Every other Monday) — Join DSA SF's Homelessness Working Group for our bi-monthly meeting\, in person and on Zoom. We'll be discussing our ongoing work and organizing\, as well as planning for the future.           DSA SF A is invitin
-END:VEVENT
-BEGIN:VEVENT
-UID:43014dfdc850@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260909T013000Z
-DTEND:20260909T033000Z
-SUMMARY:Ecosocialist Bi-Weekly Meeting
-LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — (Every other Tuesday) — Decarbonize\, decommodify\, decolonize\, and demand a radical Green New Deal! Join the Ecosocialist Working Group's bi-weekly meeting\, in-person at 1916 McAllister or on zoom.  Masks are recommended and encouraged  RSVP: <a href="https://dsasf.solidarity.tech/ecosocialis
-END:VEVENT
-BEGIN:VEVENT
-UID:189b7264ae75@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260902T003000Z
-DTEND:20260902T023000Z
-SUMMARY:Social Housing Working Group🏘️
-LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — (Every other Tuesday) — Help us make social housing a reality in San Francisco!    Social housing is permanently decommodified\, democratically controlled by residents\, sustainable\, accessible\, and for everyone - but especially for those who need it most.   This meeting is in person and
-END:VEVENT
-BEGIN:VEVENT
-UID:0f45dcb67e1a@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260904T010000Z
-DTEND:20260904T030000Z
-SUMMARY:🍏 Education Board Open Meeting 🌹
-LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — An open meeting of the chapter Education Board\, which sets education policy for the chapter and develops educational and training resources.   This will be a hybrid meeting. Join in person or join remotely via Zoom:    <a href="https://us02web.zoo
-END:VEVENT
-BEGIN:VEVENT
-UID:de4cdb851d50@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260903T020000Z
-DTEND:20260903T040000Z
-SUMMARY:Tenant Organizing Working Group Meeting
-LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[TENANT] — DSA San Francisco — (Monthly) — Please RSVP for the meeting here   We meet to help tenants form tenant councils\, creating more security for tenants facing eviction and other oppressive conditions. All tenants and tenant all
-END:VEVENT
-BEGIN:VEVENT
-UID:dcb1dbcbe2a7@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260910T014500Z
-DTEND:20260910T034500Z
-SUMMARY:🌹 DSA SF General Meeting
-LOCATION:Kelly Cullen Community\, 220 Golden Gate Ave\, San Francisco\, CA 94102\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — Join us for our monthly DSA SF General Meeting! You'll hear the latest updates from our chapter priority campaigns\, socialize with socialists\, and take care of our chapter business.\n\nBusiness starts promptly at 7 pm so please arrive by 6:45 to check-in\, have a bite to eat\, chat w
-END:VEVENT
-BEGIN:VEVENT
-UID:162a476a3cd2@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260904T020000Z
-DTEND:20260904T040000Z
-SUMMARY:Immigrant Justice regular meeting
-LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — This is a hybrid meeting. In-person attendance highly encouraged!   ZOOM LINK:  https://us02web.zoom.us/meeting/register/wtchJff6RYSYEN3GzjGVjw
+UID:f8960639251b@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260914T000000Z
+DTEND:20260914T020000Z
+SUMMARY:Tenderloin Healing Circle Working Group Meeting
+DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — Come share topic suggestions\, reading materials and other ideas for upcoming Healing Circles!  Agenda:  RSVP:  https://dsasf.solidarity.tech/tenderloin-healing-circle-working-group-
 END:VEVENT
 BEGIN:VEVENT
 UID:6f3c95bcb7db@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260913T200000Z
 DTEND:20260913T220000Z
 SUMMARY:🐣 What is DSA?
@@ -78,25 +23,26 @@ LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
 DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — New members\, old members and the socialism-curious are welcome to join this orientation where we'll discuss some common useful terminology and DSA's theory of change\, and introduce you to some of our current projects.   When?   Monthly on the third Wednesday. <br
 END:VEVENT
 BEGIN:VEVENT
-UID:f8960639251b@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260914T000000Z
-DTEND:20260914T020000Z
-SUMMARY:Tenderloin Healing Circle Working Group Meeting
-DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — Come share topic suggestions\, reading materials and other ideas for upcoming Healing Circles!  Agenda:  RSVP:  https://dsasf.solidarity.tech/tenderloin-healing-circle-working-group-
+UID:733a361e2098@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260918T010000Z
+DTEND:20260918T030000Z
+SUMMARY:🍏 Education Board Open Meeting 🌹
+LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
+DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — An open meeting of the chapter Education Board\, which sets education policy for the chapter and develops educational and training resources.   This will be a hybrid meeting. Join in person or join remotely via Zoom!        <b
 END:VEVENT
 BEGIN:VEVENT
-UID:8d821bf30643@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260928T000000Z
-DTEND:20260928T020000Z
-SUMMARY:Tenderloin Healing Circle Working Group
-LOCATION:https://us02web.zoom.us/j/88952346288?pwd=a4ekbLCZZkV0PAbSq4mq1sCFJTAH00.1
-DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — Come share topic suggestions\, reading materials and other ideas for upcoming Healing Circles!\n\nAgenda: TBD
+UID:132cc0de7249@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260924T010000Z
+DTEND:20260924T030000Z
+SUMMARY:🐣 What Is DSA?
+LOCATION:San Francisco Main Public Library\, 100 Larkin St\, San Francisco\, CA 94102\, USA
+DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — New members\, old members and the socialism-curious are welcome to join this orientation where we'll discuss some common useful terminology and DSA's theory of change\, and introduce you to some of our current projects.    When?   Monthly on the third Wedn
 END:VEVENT
 BEGIN:VEVENT
 UID:332fb3fe27a6@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260915T010000Z
 DTEND:20260915T030000Z
 SUMMARY:🐣 Tenderloin Healing Circle
@@ -105,7 +51,7 @@ DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — All are welcome to
 END:VEVENT
 BEGIN:VEVENT
 UID:a34715da5818@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260922T020000Z
 DTEND:20260922T040000Z
 SUMMARY:SF EWOC Local Meeting
@@ -113,17 +59,44 @@ LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
 DESCRIPTION:[MEETING] — DSA San Francisco — (Every 4 weeks) — Join organizers\, volunteers\, workers\, and interested comrades every four weeks on Monday for our San Francisco EWOC local meeting at 7PM in person (1916 McAllister) and on Zoom!  You don't need to be a volunteer or organizer with EWOC to attend. We have lots of projects going on
 END:VEVENT
 BEGIN:VEVENT
-UID:132cc0de7249@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260924T010000Z
-DTEND:20260924T030000Z
-SUMMARY:🐣 What Is DSA?
-LOCATION:San Francisco Main Public Library\, 100 Larkin St\, San Francisco\, CA 94102\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — New members\, old members and the socialism-curious are welcome to join this orientation where we'll discuss some common useful terminology and DSA's theory of change\, and introduce you to some of our current projects.    When?   Monthly on the third Wedn
+UID:43014dfdc850@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260909T013000Z
+DTEND:20260909T033000Z
+SUMMARY:Ecosocialist Bi-Weekly Meeting
+LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
+DESCRIPTION:[MEETING] — DSA San Francisco — (Every other Tuesday) — Decarbonize\, decommodify\, decolonize\, and demand a radical Green New Deal! Join the Ecosocialist Working Group's bi-weekly meeting\, in-person at 1916 McAllister or on zoom.  Masks are recommended and encouraged  RSVP: <a href="https://dsasf.solidarity.tech/ecosocialis
+END:VEVENT
+BEGIN:VEVENT
+UID:4dac201ed83c@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260916T003000Z
+DTEND:20260916T023000Z
+SUMMARY:Social Housing Working Group🏘️
+LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
+DESCRIPTION:[MEETING] — DSA San Francisco — (Every other Tuesday) — Help us make social housing a reality in San Francisco!    Social housing is permanently decommodified\, democratically controlled by residents\, sustainable\, accessible\, and for everyone - but especially for those who need it most.   This meeting is in person and
+END:VEVENT
+BEGIN:VEVENT
+UID:8d821bf30643@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260928T000000Z
+DTEND:20260928T020000Z
+SUMMARY:Tenderloin Healing Circle Working Group
+LOCATION:https://us02web.zoom.us/j/88952346288?pwd=a4ekbLCZZkV0PAbSq4mq1sCFJTAH00.1
+DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — Come share topic suggestions\, reading materials and other ideas for upcoming Healing Circles!\n\nAgenda: TBD
+END:VEVENT
+BEGIN:VEVENT
+UID:3145455d9ac3@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260915T013000Z
+DTEND:20260915T033000Z
+SUMMARY:Homelessness Working Group Regular Meeting
+LOCATION:1916 McAllister St\, San Francisco\, CA / Zoom
+DESCRIPTION:[MEETING] — DSA San Francisco — (Every other Monday) — Join DSA SF's Homelessness Working Group for our bi-monthly meeting\, in person and on Zoom. We'll be discussing our ongoing work and organizing\, as well as planning for the future.           DSA SF A is inviting you to
 END:VEVENT
 BEGIN:VEVENT
 UID:e56aa1099acc@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260920T010000Z
 DTEND:20260920T030000Z
 SUMMARY:🐣HWG Food Service [NEW LOCATION]
@@ -131,8 +104,17 @@ LOCATION:Patricia’s Green Picnic Area\, 499 1/2 Hayes St\, San Francisco\, CA 
 DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — Join the DSA Homelessness Working Group for a food service in the Hayes Valley to serve food for our unhoused neighbors and hand out literature and flyers to passerby. We'll meet at the Patricia's Green picnic area.
 END:VEVENT
 BEGIN:VEVENT
+UID:ea585fd41367@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260917T020000Z
+DTEND:20260917T040000Z
+SUMMARY:Tenant Organizing Working Group Meeting
+LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
+DESCRIPTION:[TENANT] — DSA San Francisco — (Monthly) — Please RSVP for the meeting here    We meet to help tenants form tenant councils\, creating more security for tenants facing eviction and other oppressive conditions. All tenants and ten
+END:VEVENT
+BEGIN:VEVENT
 UID:1d98d6c5cc69@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260908T020000Z
 DTEND:20260908T040000Z
 SUMMARY:Labor Working Group Meeting
@@ -140,8 +122,34 @@ LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
 DESCRIPTION:[MEETING] — DSA San Francisco — (Every 4 weeks) — Join the DSA SF Labor working group every 3rd Monday for our generalmeeting at 7PM in person (1916 McAllister) and on Zoom!  If you're joining via Zoom\, click  here .\n\nJoi
 END:VEVENT
 BEGIN:VEVENT
+UID:dcb1dbcbe2a7@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260910T014500Z
+DTEND:20260910T034500Z
+SUMMARY:🌹 DSA SF General Meeting
+LOCATION:Kelly Cullen Community\, 220 Golden Gate Ave\, San Francisco\, CA 94102\, USA
+DESCRIPTION:[MEETING] — DSA San Francisco — (Monthly) — RSVP here  !   Join us for our monthly DSA SF General Meeting! You'll hear the latest updates from our chapter priority campaigns\, socialize with socialists\, and take care of our chapter business.  Busin
+END:VEVENT
+BEGIN:VEVENT
+UID:6857a00dd4d4@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260918T020000Z
+DTEND:20260918T040000Z
+SUMMARY:🐣 Organizing Mindset Training Series
+LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
+DESCRIPTION:[TEACH-IN] — DSA San Francisco — (Every Thursday) — RSVP TBD  Talking to people is central to effective organizing\, but how do you embark on an organizing conversation? The  Organizing Mindset Training  is a four-part event series that goes in depth into every aspect of the organizing conversa
+END:VEVENT
+BEGIN:VEVENT
+UID:90a6f5bece41@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260915T020000Z
+DTEND:20260915T040000Z
+SUMMARY:Labor Education Committee Meeting
+DESCRIPTION:[MEETING] — DSA San Francisco — Meeting will be over  Zoom !
+END:VEVENT
+BEGIN:VEVENT
 UID:a3b6a2c5ec3f@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260926T220000Z
 DTEND:20260927T000000Z
 SUMMARY:Decolonization Studies
@@ -149,8 +157,42 @@ LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
 DESCRIPTION:[MEETING] — DSA San Francisco — (Every Saturday) — Come join your friendly neighborhood socialists for study time! We're reading from a collection of texts chosen to elevate our understanding of decolonization\, reading is done beforehand and participants are invited to the office for a monthly in-person facilitated discussion. Pl
 END:VEVENT
 BEGIN:VEVENT
+UID:54b3a978e111@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260919T003000Z
+DTEND:20260919T023000Z
+SUMMARY:🐣 Movie night: The Battle of Chile Part One
+LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
+DESCRIPTION:[CULTURE] — DSA San Francisco — RSVP  https://dsasf.solidarity.tech/movie-night-the-battle-of-chile-series     Join DSA SF for screenings of  The Battle of Chile \, a seminal documentaries series covering the re
+END:VEVENT
+BEGIN:VEVENT
+UID:1e8ba946dc39@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260920T220000Z
+DTEND:20260921T000000Z
+SUMMARY:🐣 Canvass Workers with SF EWOC!
+LOCATION:William McKinley Monument\, San Francisco\, CA 94117\, USA
+DESCRIPTION:[ACTION] — DSA San Francisco — The SF local of the Emergency Workplace Organizing Committee (EWOC) wants more workers to be aware of their power and potential for collective organizing! Join us as we do some direct canvassing with workers. We'll be meeting at the William McKinley Monument in the Panhandle\, wal
+END:VEVENT
+BEGIN:VEVENT
+UID:72c51e4401af@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20261003T003000Z
+DTEND:20261003T023000Z
+SUMMARY:🐣 Movie night: The Battle of Chile Part Three
+DESCRIPTION:[CULTURE] — DSA San Francisco — RSVP  https://dsasf.solidarity.tech/movie-night-the-battle-of-chile-series     Join DSA SF for screenings of  The Battle of Chile \, a seminal documentaries se
+END:VEVENT
+BEGIN:VEVENT
+UID:da9e4687d012@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260912T200000Z
+DTEND:20260912T220000Z
+SUMMARY:🐣 Immigrant Justice KYR Canvassing (Inner Sunset)
+DESCRIPTION:[KNOW UR RIGHTS] — DSA San Francisco — RSVP here:  https://dsasf.solidarity.tech/immigrant-justice-kyr-canvassing-inner-sunset?r=OeNWWUQq   Join the Immigrant Justice Working Group for Know Your Rights (KYR) canvas
+END:VEVENT
+BEGIN:VEVENT
 UID:09ae7d8e4532@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260914T010000Z
 DTEND:20260914T030000Z
 SUMMARY:Working Class Gender Liberation Meeting
@@ -158,51 +200,8 @@ LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
 DESCRIPTION:[MEETING] — DSA San Francisco — Join us for an idea mapping session as we discuss the scope of our response to state repression along gendered lines.   In the front room!     RSVP
 END:VEVENT
 BEGIN:VEVENT
-UID:672d7bafa5d9@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260830T180000Z
-DTEND:20260830T200000Z
-SUMMARY:Prop B Field Kickoff!
-LOCATION:Mission Playground Park\, 19th St & Linda St\, 36 Cunningham Pl\, San Francisco\, CA 94110\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — RSVP here:  https://partiful.com/e/BHGN74SnDBpsECh2aHn7
-END:VEVENT
-BEGIN:VEVENT
-UID:173f21ec52e1@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260905T180000Z
-DTEND:20260905T200000Z
-SUMMARY:🐣 No Appetite for Apartheid: Consumer Pledge Canvass
-DESCRIPTION:[ACTION] — DSA San Francisco — Come out to the next consumer canvass for No Appetite for Apartheid\; a boycott campaign to deshelve Israeli products from San Francisco stores which financially contribute to/perpetuate genocide and apartheid! We will be walking around Dolores Park on Saturday\, Sept 5 from 11am -
-END:VEVENT
-BEGIN:VEVENT
-UID:727af517db3d@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260905T180000Z
-DTEND:20260905T200000Z
-SUMMARY:Yes on I x Yes on B Joint Lit Drop
-LOCATION:Alamo Square Park\, Hayes St\, San Francisco\, CA 94117\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — You are hosting this event. View the public page at  https://luma.com/sz0urmgd \n\nManage the event at <a href="https://www
-END:VEVENT
-BEGIN:VEVENT
-UID:90a6f5bece41@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260915T020000Z
-DTEND:20260915T040000Z
-SUMMARY:Labor Education Committee Meeting
-DESCRIPTION:[MEETING] — DSA San Francisco — Meeting will be over  Zoom !
-END:VEVENT
-BEGIN:VEVENT
-UID:df268236b7e7@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260830T200000Z
-DTEND:20260830T220000Z
-SUMMARY:🐣 What Is DSA?
-LOCATION:Bayview / Linda Brooks-Burton Branch Library\, 5075 3rd St\, San Francisco\, CA 94124\, USA
-DESCRIPTION:[MEETING] — DSA San Francisco — New members\, old members and the socialism-curious are welcome to join this orientation where we'll discuss some common useful terminology and DSA's theory of change\, and introduce you to some of our current projects.   Where?  Bayview Branch Library 5075 3rd Str
-END:VEVENT
-BEGIN:VEVENT
 UID:1b95801371cb@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260926T210000Z
 DTEND:20260926T230000Z
 SUMMARY:HWG Outreach and Outreach Training
@@ -210,28 +209,37 @@ LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
 DESCRIPTION:[TEACH-IN] — DSA San Francisco — Come get trained on outreach with Homelessness Working Group!  We'll be training chapter members about our specific approach to mutual aid and street solidarity\, then heading out to put the training into practice by doing mutual aid
 END:VEVENT
 BEGIN:VEVENT
-UID:2e54c06f1642@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260831T193000Z
-DTEND:20260831T213000Z
-SUMMARY:No Monarch Mondays
-LOCATION:In front of the Tesla Showroom
-DESCRIPTION:[ACTION] — Indivisible SF — (Every Monday) — Join us to stand up for democracy\, civil liberties\, and the planet\, and against the fascist/authoritarian Trump Regime! ABOLISH ICE! NO WAR ON IRAN! — https://indivisiblesf.org/events/2026/08/31/no-monarch-mondays
-URL:https://indivisiblesf.org/events/2026/08/31/no-monarch-mondays
+UID:fc0d3437a0b0@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260926T003000Z
+DTEND:20260926T023000Z
+SUMMARY:🐣 Movie night: The Battle of Chile Part Two
+LOCATION:1916 McAllister St\, San Francisco\, CA 94115\, USA
+DESCRIPTION:[CULTURE] — DSA San Francisco — RSVP  https://dsasf.solidarity.tech/movie-night-the-battle-of-chile-series     Join DSA SF for screenings of  The Battle of Chile \, a seminal documentaries se
 END:VEVENT
 BEGIN:VEVENT
-UID:72e73cd4a844@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260901T210000Z
-DTEND:20260901T230000Z
+UID:59ad730d9db9@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260908T210000Z
+DTEND:20260908T230000Z
 SUMMARY:20-Minute Tuesdays at 2pm ~ in Mission Bernal
 LOCATION:Mission St @ Virginia Ave  (btwn 29th & 30th)
-DESCRIPTION:[ACTION] — Indivisible SF — (Every Tuesday) — Come join us every Tuesday for a quick 20 minutes of fun sign-waving protest at Mission and Virginia.  Get those drivers honking! — https://indivisiblesf.org/events/2026/09/01/twenty-minute-tuesdays-at-mission-and-virginia
-URL:https://indivisiblesf.org/events/2026/09/01/twenty-minute-tuesdays-at-mission-and-virginia
+DESCRIPTION:[ACTION] — Indivisible SF — (Every Tuesday) — Come join us every Tuesday for a quick 20 minutes of fun sign-waving protest at Mission and Virginia.  Get those drivers honking! — https://indivisiblesf.org/events/2026/09/08/twenty-minute-tuesdays-at-mission-and-virginia
+URL:https://indivisiblesf.org/events/2026/09/08/twenty-minute-tuesdays-at-mission-and-virginia
+END:VEVENT
+BEGIN:VEVENT
+UID:47ea8c3d4aef@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260907T193000Z
+DTEND:20260907T213000Z
+SUMMARY:No Monarch Mondays
+LOCATION:In front of the Tesla Showroom
+DESCRIPTION:[ACTION] — Indivisible SF — (Every Monday) — Join us to stand up for democracy\, civil liberties\, and the planet\, and against the fascist/authoritarian Trump Regime! ABOLISH ICE! NO WAR ON IRAN! — https://indivisiblesf.org/events/2026/09/07/no-monarch-mondays
+URL:https://indivisiblesf.org/events/2026/09/07/no-monarch-mondays
 END:VEVENT
 BEGIN:VEVENT
 UID:63c107a39af5@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260927T230000Z
 DTEND:20260928T010000Z
 SUMMARY:Pints and Postcards
@@ -240,58 +248,58 @@ DESCRIPTION:[ACTION] — Indivisible SF — Pints and Postcards is back! Join us
 URL:https://indivisiblesf.org/events/2026/09/27/pints-and-postcards
 END:VEVENT
 BEGIN:VEVENT
-UID:95807065cbe5@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260905T190000Z
-DTEND:20260905T210000Z
+UID:93437d089e09@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260912T190000Z
+DTEND:20260912T210000Z
 SUMMARY:Trump Regime Takedown: Every Saturday
 LOCATION:Tesla San Francisco
-DESCRIPTION:[ACTION] — Indivisible SF — (Every Saturday) — Join us at Van Ness and O’Farrell every Saturday at noon. Formerly Tesla Takedown. — https://indivisiblesf.org/events/2026/09/05/trump-regime-takedown-every-saturday
-URL:https://indivisiblesf.org/events/2026/09/05/trump-regime-takedown-every-saturday
+DESCRIPTION:[ACTION] — Indivisible SF — (Every Saturday) — Join us at Van Ness and O’Farrell every Saturday at noon. Formerly Tesla Takedown. — https://indivisiblesf.org/events/2026/09/12/trump-regime-takedown-every-saturday
+URL:https://indivisiblesf.org/events/2026/09/12/trump-regime-takedown-every-saturday
 END:VEVENT
 BEGIN:VEVENT
-UID:fd188af995d0@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260905T000000Z
-DTEND:20260905T020000Z
+UID:07e4019131c6@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260912T000000Z
+DTEND:20260912T020000Z
 SUMMARY:Weekly Protest Vigil in Bernal Heights
 LOCATION:Bernal Heights Branch Library
-DESCRIPTION:[ACTION] — Indivisible SF — (Every Friday) — https://indivisiblesf.org/events/2026/09/04/weekly-protest-vigil-in-bernal-heights
-URL:https://indivisiblesf.org/events/2026/09/04/weekly-protest-vigil-in-bernal-heights
+DESCRIPTION:[ACTION] — Indivisible SF — (Every Friday) — https://indivisiblesf.org/events/2026/09/11/weekly-protest-vigil-in-bernal-heights
+URL:https://indivisiblesf.org/events/2026/09/11/weekly-protest-vigil-in-bernal-heights
 END:VEVENT
 BEGIN:VEVENT
-UID:7abc2a95e818@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260904T233000Z
-DTEND:20260905T013000Z
+UID:17872c828bb0@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260911T233000Z
+DTEND:20260912T013000Z
 SUMMARY:Cheer on Democracy at the Vermont St Overpass - Every Friday!
 LOCATION:Vermont Street Overpass (over US 101)
-DESCRIPTION:[ACTION] — Indivisible SF — (Every Friday) — Come join us for a spirited hour of joyful resistance as we dance\, wave\, cheer and make our voices heard!  (Plenty of parking!) — https://indivisiblesf.org/events/2026/09/04/weekly-friday-cheer-on-democracy-vermont-st-overpass
-URL:https://indivisiblesf.org/events/2026/09/04/weekly-friday-cheer-on-democracy-vermont-st-overpass
+DESCRIPTION:[ACTION] — Indivisible SF — (Every Friday) — Come join us for a spirited hour of joyful resistance as we dance\, wave\, cheer and make our voices heard!  (Plenty of parking!) — https://indivisiblesf.org/events/2026/09/11/weekly-friday-cheer-on-democracy-vermont-st-overpass
+URL:https://indivisiblesf.org/events/2026/09/11/weekly-friday-cheer-on-democracy-vermont-st-overpass
 END:VEVENT
 BEGIN:VEVENT
-UID:db7b848fd088@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260903T230000Z
-DTEND:20260904T010000Z
+UID:9479708e2d5e@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260910T230000Z
+DTEND:20260911T010000Z
 SUMMARY:Tell Target to Stand Up to ICE
 LOCATION:Metreon Target
-DESCRIPTION:[ACTION] — Indivisible SF — (Every Thursday) — Each Thursday\, we gather to tell Target: we will boycott until they stand up to ICE!  Bring a sign if you have one. We will hold signs and hand out flyers. Additional creativity also welcome! — https://indivisiblesf.org/events/2026/09/03/tell-target-to-stand-up-to-ice
-URL:https://indivisiblesf.org/events/2026/09/03/tell-target-to-stand-up-to-ice
+DESCRIPTION:[ACTION] — Indivisible SF — (Every Thursday) — Each Thursday\, we gather to tell Target: we will boycott until they stand up to ICE!  Bring a sign if you have one. We will hold signs and hand out flyers. Additional creativity also welcome! — https://indivisiblesf.org/events/2026/09/10/tell-target-to-stand-up-to-ice
+URL:https://indivisiblesf.org/events/2026/09/10/tell-target-to-stand-up-to-ice
 END:VEVENT
 BEGIN:VEVENT
-UID:694cedd76906@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260903T190000Z
-DTEND:20260903T210000Z
+UID:25d3222d040e@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260910T190000Z
+DTEND:20260910T210000Z
 SUMMARY:We Won't Stand For This: Pro Peace Vigil with Spiritual Friends Sangha
 LOCATION:San Francisco City Hall
-DESCRIPTION:[ACTION] — Indivisible SF — (Every Thursday) — 20 minute\, minimally guided meditation\, followed by a supportive gathering to connect\, as desired. All who wish to ground in peace are welcome. — https://indivisiblesf.org/events/2026/09/03/we-wont-stand-for-this-pro-peace-vigil-with-spiritual-friends
-URL:https://indivisiblesf.org/events/2026/09/03/we-wont-stand-for-this-pro-peace-vigil-with-spiritual-friends
+DESCRIPTION:[ACTION] — Indivisible SF — (Every Thursday) — 20 minute\, minimally guided meditation\, followed by a supportive gathering to connect\, as desired. All who wish to ground in peace are welcome. — https://indivisiblesf.org/events/2026/09/10/we-wont-stand-for-this-pro-peace-vigil-with-spiritual-friends
+URL:https://indivisiblesf.org/events/2026/09/10/we-wont-stand-for-this-pro-peace-vigil-with-spiritual-friends
 END:VEVENT
 BEGIN:VEVENT
 UID:613e69bdff82@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260920T210000Z
 DTEND:20260920T230000Z
 SUMMARY:Indivisible SF General Meeting
@@ -301,7 +309,7 @@ URL:https://indivisiblesf.org/events/2026/08/16/indivisible-sf-general-meeting-r
 END:VEVENT
 BEGIN:VEVENT
 UID:29f8046aedb0@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260907T180000Z
 DTEND:20260907T200000Z
 SUMMARY:Freedom From Want\, Freedom From Fear! Labor Day Rally
@@ -310,8 +318,37 @@ DESCRIPTION:[ACTION] — Indivisible SF — Indivisible SF\, 50501SF\, NARFE\, a
 URL:https://indivisiblesf.org/events/2026/9/7/freedom-from-want-freedom-from-fear-labor-day-rally
 END:VEVENT
 BEGIN:VEVENT
+UID:0075dc8ccac4@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20261009T010000Z
+DTEND:20261009T030000Z
+SUMMARY:Money in San Francisco politics: Who’s spending big on the election? Hosted by the League of Women Voters and San Francisco Public Press
+LOCATION:Internet Archive
+DESCRIPTION:[ACTION] — Indivisible SF — ​Join   local journalists for an in-depth look at who is spending millions on San Francisco's November 2026 ballot propositions in an effort to influence your vote. — https://indivisiblesf.org/events/2026/10/8/money-in-san-francisco-politics-whos-spending-big-on-the-election-hosted-by-the-league-of-women-voters-and-san-francisco-public-press
+URL:https://indivisiblesf.org/events/2026/10/8/money-in-san-francisco-politics-whos-spending-big-on-the-election-hosted-by-the-league-of-women-voters-and-san-francisco-public-press
+END:VEVENT
+BEGIN:VEVENT
+UID:25a0aefea9a7@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260908T160000Z
+DTEND:20260908T180000Z
+SUMMARY:Mission Bicis Shop Day
+LOCATION:1950 Mission Street\, 1950 Mission Street\, San Francisco\, California\, 94110
+DESCRIPTION:[MUTUAL AID] — PODER — (Every Tuesday) — Saludos bicicomunidad👋🏽! ¡Estamos emocionados de recibir otro año lleno de paseos\, convivios y rodadas en la lucha hacia comunidades justas y saludables! ¡Este año ofreceremos noches de taller SEMANALES en AMBAS ubicaciones\, 1950 Mission (cerca de la estación BART de la calle 16) — https://podersf.org/event/mission-bicis-shop-day-47/
+URL:https://podersf.org/event/mission-bicis-shop-day-47/
+END:VEVENT
+BEGIN:VEVENT
+UID:03ff325120bd@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260910T160000Z
+DTEND:20260910T180000Z
+SUMMARY:Excelsior Bicis Shop Day
+DESCRIPTION:[MUTUAL AID] — PODER — (Every Thursday) — Saludos bicicomunidad👋🏽! ¡Estamos emocionados de recibir otro año lleno de paseos\, convivios y rodadas en la lucha hacia comunidades justas y saludables! ¡Este año ofreceremos noches de taller SEMANALES en AMBAS ubicaciones\, 1950 Mission (cerca de la estación BART de la calle 16) — https://podersf.org/event/excelsior-bicis-shop-day-32/
+URL:https://podersf.org/event/excelsior-bicis-shop-day-32/
+END:VEVENT
+BEGIN:VEVENT
 UID:4fcd46093c33@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260922T013000Z
 DTEND:20260922T033000Z
 SUMMARY:Bay Resistance Orientation for New Pod Members and New Facilitators
@@ -320,7 +357,7 @@ URL:https://www.bayresistance.org/events/6yw5mbabnas0gt74x61slyhz49t4vs-5ngmk-lt
 END:VEVENT
 BEGIN:VEVENT
 UID:ef3744ea0bb5@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260915T010000Z
 DTEND:20260915T030000Z
 SUMMARY:Monthly Resistance Meeting - East Bay
@@ -328,26 +365,35 @@ DESCRIPTION:[ACTION] — Bay Resistance — Resist attacks on our communities! O
 URL:https://www.bayresistance.org/events/monthly-resistance-meeting-east-bay-1-k425s-72y44-2l6bw-mkl7k-kygsw-msk75-t548a
 END:VEVENT
 BEGIN:VEVENT
-UID:25906d7fd61f@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260905T220000Z
-DTEND:20260906T000000Z
+UID:ebaaf18b4558@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260912T220000Z
+DTEND:20260913T000000Z
 SUMMARY:Ice Out of Dublin Residential Canvass
-DESCRIPTION:[ACTION] — Bay Resistance — (Every Saturday) — https://www.bayresistance.org/events/nauwyh1zvl8a0eavi4xcjbdabve7xt-8y5dt
-URL:https://www.bayresistance.org/events/nauwyh1zvl8a0eavi4xcjbdabve7xt-8y5dt
+DESCRIPTION:[ACTION] — Bay Resistance — https://www.bayresistance.org/events/nauwyh1zvl8a0eavi4xcjbdabve7xt-8y5dt-kwxtr
+URL:https://www.bayresistance.org/events/nauwyh1zvl8a0eavi4xcjbdabve7xt-8y5dt-kwxtr
+END:VEVENT
+BEGIN:VEVENT
+UID:0bd082881f8a@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260911T013000Z
+DTEND:20260911T033000Z
+SUMMARY:Community Forum on Palantir (Oakland)
+DESCRIPTION:[ACTION] — Bay Resistance — Join us at Oakstop in the Broadway Gallery Suite for a fascinating program and important dialogue about Palantir's role in providing the technology to ICE to terrorize immigrants\, creating a surveillance state\, erasing regulations on the tech industry\, and destroying the social s — https://www.bayresistance.org/events/community-forum-on-palantir
+URL:https://www.bayresistance.org/events/community-forum-on-palantir
 END:VEVENT
 BEGIN:VEVENT
 UID:82ee97d1e8e0@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260911T010000Z
 DTEND:20260911T030000Z
 SUMMARY:Monthly Resistance Meeting - SF
-DESCRIPTION:[ACTION] — Bay Resistance — https://www.bayresistance.org/events/monthly-resistance-meeting-sf-1-8d6kx-8dktj-a9lbg-tzh98-yyrec-g7emx-c4kk4
+DESCRIPTION:[ACTION] — Bay Resistance — (Every Thursday) — https://www.bayresistance.org/events/monthly-resistance-meeting-sf-1-8d6kx-8dktj-a9lbg-tzh98-yyrec-g7emx-c4kk4
 URL:https://www.bayresistance.org/events/monthly-resistance-meeting-sf-1-8d6kx-8dktj-a9lbg-tzh98-yyrec-g7emx-c4kk4
 END:VEVENT
 BEGIN:VEVENT
 UID:3857fb1c4662@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260911T010000Z
 DTEND:20260911T030000Z
 SUMMARY:Ice Out of Tech Art Build
@@ -355,36 +401,43 @@ DESCRIPTION:[ACTION] — Bay Resistance — https://www.bayresistance.org/events
 URL:https://www.bayresistance.org/events/ice-out-of-tech-art-build
 END:VEVENT
 BEGIN:VEVENT
-UID:d5139625951d@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260901T190000Z
-DTEND:20260901T210000Z
-SUMMARY:Our Data\, Our Work\, Our Future Press Conference & Rally
-LOCATION:San Jose City Hall
-DESCRIPTION:[ACTION] — Bay Resistance — https://www.bayresistance.org/events/ewo0p5q33ugeekcqqr5jxucrx8u6ok
-URL:https://www.bayresistance.org/events/ewo0p5q33ugeekcqqr5jxucrx8u6ok
+UID:70c51914b552@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260908T233000Z
+DTEND:20260909T013000Z
+SUMMARY:Rally to Save TPS
+DESCRIPTION:[ACTION] — Bay Resistance — Gather to demand that Congressional representatives do all that they can to save Temporary Protected Status (TPS)\, a program that provides protection from deportation to people when it is unsafe to return to their home countries.   Don’t miss your chance to make a difference! — https://www.bayresistance.org/events/rally-to-save-tps
+URL:https://www.bayresistance.org/events/rally-to-save-tps
 END:VEVENT
 BEGIN:VEVENT
-UID:ec8f106eff1b@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260922T180000Z
-DTEND:20260922T200000Z
-SUMMARY:Masks for Equity Meeting
-LOCATION:Zoom. Contact Itzel at itzel@sdaction.org for details.
-DESCRIPTION:[MEETING] — Senior & Disability Action — (Monthly) — Masks for Equity  is a group of SDA members advocating for COVID protections including mask requirements in healthcare and other essential places\, clean air standards\, and free testing and treatment. Since COVID disproportionally harms seniors\, disabled\, poor\, and BIPOC
+UID:28d9b1a145ac@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260908T194500Z
+DTEND:20260908T214500Z
+SUMMARY:ICE Out of Gilroy Press Conference & Rally
+DESCRIPTION:[ACTION] — Bay Resistance — On September 8\, the Court will hear Santa Clara County’s case against DHS to stop the construction of an ICE processing center in Gilroy! Join us for a press conference and rally outside the courthouse. Let’s mobilize and support our attorneys to say ICE Out of Gilroy and ICE OUT — https://www.bayresistance.org/events/ice-out-of-gilroy-press-conference-rally
+URL:https://www.bayresistance.org/events/ice-out-of-gilroy-press-conference-rally
 END:VEVENT
 BEGIN:VEVENT
-UID:6e98045b7598@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260925T210000Z
-DTEND:20260925T230000Z
-SUMMARY:Transit Justice Meeting
-LOCATION:Contact mia@sdaction.org for details.
-DESCRIPTION:[MEETING] — Senior & Disability Action — (Monthly)
+UID:a7bb5494bfb4@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260907T180000Z
+DTEND:20260907T200000Z
+SUMMARY:Freedom From Want\, Freedom From Fear! Labor Day Rally
+DESCRIPTION:[ACTION] — Bay Resistance — Indivisible SF\, 50501SF\, NARFE\, and other groups are working together on a Labor Day rally to encourage folks to vote and bolster the progressive tidal wave challenging the Democratic establishment. — https://www.bayresistance.org/events/freedom-from-want-freedom-from-fear-labor-day-rally
+URL:https://www.bayresistance.org/events/freedom-from-want-freedom-from-fear-labor-day-rally
+END:VEVENT
+BEGIN:VEVENT
+UID:a22e1bfe8b5a@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20261008T170000Z
+DTEND:20261008T190000Z
+SUMMARY:General Meeting
+DESCRIPTION:[MEETING] — Senior & Disability Action — (Monthly) — Contact info@sdaction.org for access information.
 END:VEVENT
 BEGIN:VEVENT
 UID:a8952e3cb1c1@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260916T200000Z
 DTEND:20260916T220000Z
 SUMMARY:Housing Collaborative Meeting
@@ -392,16 +445,45 @@ LOCATION:Zoom
 DESCRIPTION:[MEETING] — Senior & Disability Action — (Monthly) — SDA’s  Housing Collaborative  is a group of tenants\, homeowners\, SRO residents\, and community advocates\, working to preserve and create quality\, affordable\, accessible housing in San Francisco\, by organizing to win change.  To join this meeting\, please reach out to itz
 END:VEVENT
 BEGIN:VEVENT
-UID:0af6d97979bb@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260903T170000Z
-DTEND:20260903T190000Z
-SUMMARY:SDA in the East Bay Meeting
-DESCRIPTION:[MEETING] — Senior & Disability Action — (Every 3 months) — Contact itzel@sdaction.org if you’re interested in getting involved!
+UID:6e98045b7598@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260925T210000Z
+DTEND:20260925T230000Z
+SUMMARY:Transit Justice Meeting
+LOCATION:Contact mia@sdaction.org for details.
+DESCRIPTION:[MEETING] — Senior & Disability Action — (Monthly)
+END:VEVENT
+BEGIN:VEVENT
+UID:ec8f106eff1b@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260922T180000Z
+DTEND:20260922T200000Z
+SUMMARY:Masks for Equity Meeting
+LOCATION:Zoom. Contact Itzel at itzel@sdaction.org for details.
+DESCRIPTION:[MEETING] — Senior & Disability Action — (Monthly) — Masks for Equity  is a group of SDA members advocating for COVID protections including mask requirements in healthcare and other essential places\, clean air standards\, and free testing and treatment. Since COVID disproportionally harms seniors\, disabled\, poor\, and BIPOC
+END:VEVENT
+BEGIN:VEVENT
+UID:cd3b2df37a47@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20261014T170000Z
+DTEND:20261014T190000Z
+SUMMARY:SDA General Meeting
+LOCATION:San Francisco Disability Cultural Center\, 165 Grove St\, San Francisco\, CA 94102\, USA
+DESCRIPTION:[MEETING] — Senior & Disability Action — Details to come.
+END:VEVENT
+BEGIN:VEVENT
+UID:a8101c35cbdd@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260912T180000Z
+DTEND:20260912T200000Z
+SUMMARY:Am I Next? Community Photo Session
+LOCATION:Festival de las Américas\, Harrison St. between 23rd St. and 24th St.\, San Francisco\, California\, 94110
+DESCRIPTION:[CULTURE] — Galería de la Raza — Am I Next? is a public declaration against repression and silence in the face of growing injustice in the United States. What began as a response to immigration raids has become a broader stand against racialized targeting and the erosion of civil liberties. \n\n\n\nAm I Next? is col — https://galeriadelaraza.org/calendar/galeria-de-la-raza-x-am-i-next/
+URL:https://galeriadelaraza.org/calendar/galeria-de-la-raza-x-am-i-next/
 END:VEVENT
 BEGIN:VEVENT
 UID:c95d3c699d05@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260928T230000Z
 DTEND:20260929T010000Z
 SUMMARY:Marxism 101 - Fall 2026 Cohort

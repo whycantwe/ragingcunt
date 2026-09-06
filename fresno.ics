@@ -6,26 +6,26 @@ METHOD:PUBLISH
 X-WR-CALNAME:RAGINGCUNT — Fresno
 X-WR-CALDESC:Real local organizing in Fresno\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
-UID:9f18b4897e48@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260831T170000Z
-DTEND:20260831T190000Z
+UID:70909b5a5401@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260906T170000Z
+DTEND:20260906T190000Z
 SUMMARY:Fresno Volunteer with Power California!
 DESCRIPTION:[ACTION] — PowerCA Action — (Recurring) — 🗳️ Your vote matters!! You have the power to change your future for the better.!! 🌟 The Voter Registration is the first step to that change. So\, Join us for Voter Registrations. 🎉✅ — https://www.mobilize.us/powercaaction/event/1002550/
 URL:https://www.mobilize.us/powercaaction/event/1002550/
 END:VEVENT
 BEGIN:VEVENT
-UID:ea5d9f5682ec@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260831T170000Z
-DTEND:20260831T190000Z
+UID:ccdbb4f58299@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260906T210000Z
+DTEND:20260906T230000Z
 SUMMARY:Tulare Volunteer with Power California!
 DESCRIPTION:[ACTION] — PowerCA Action — (Recurring) — 🗳️ Your vote matters!! You have the power to change your future for the better.!! 🌟 The Voter Registration is the first step to that change. So\, Join us for Voter Registrations. 🎉✅ — https://www.mobilize.us/powercaaction/event/1002551/
 URL:https://www.mobilize.us/powercaaction/event/1002551/
 END:VEVENT
 BEGIN:VEVENT
 UID:060295f93ab6@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260916T010000Z
 DTEND:20260916T030000Z
 SUMMARY:Flock Off: Stopping Surveillance in Our Neighborhoods
@@ -34,7 +34,7 @@ URL:https://www.mobilize.us/powercaaction/event/1019032/
 END:VEVENT
 BEGIN:VEVENT
 UID:f21e42efd6e3@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260910T010000Z
 DTEND:20260910T030000Z
 SUMMARY:CV United Front- Emergency Meeting
@@ -42,26 +42,36 @@ DESCRIPTION:[MUTUAL AID] — PowerCA Action — Join us for an emergency meeting
 URL:https://www.mobilize.us/powercaaction/event/1020115/
 END:VEVENT
 BEGIN:VEVENT
-UID:3e95f609f00e@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260902T003000Z
-DTEND:20260902T023000Z
-SUMMARY:Moratorium on Data Centers Discussion 5:30pm Tulare City Council 9/1/26
-DESCRIPTION:[MEETING] — PowerCA Action — The council has agendized a discussion on a moratorium on Data Centers. Come let your council member hear your voice on this issues. \n\n\nTo Attend in Person\n\nCity Council meetings are held in the Council Chamber at 491 North M Street\, Tulare (located in the Tulare Public Library). — https://www.mobilize.us/powercaaction/event/1020792/
-URL:https://www.mobilize.us/powercaaction/event/1020792/
+UID:e6fc2db9cfbf@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260925T010000Z
+DTEND:20260925T030000Z
+SUMMARY:Movement Makers: The Survival Guide to Careers in Social Change
+DESCRIPTION:[MEETING] — PowerCA Action — Are you passionate about social change but looking for your niche off the front lines? Join us on September 24th for a comprehensive survival guide to finding your place in the movement.\n\nOften\, the essential work that powers grassroots organizations happens behind the scenes. We — https://www.mobilize.us/powercaaction/event/1023728/
+URL:https://www.mobilize.us/powercaaction/event/1023728/
 END:VEVENT
 BEGIN:VEVENT
-UID:e6ad885a10f3@ragingcunt.com
-DTSTAMP:20260830T175108Z
-DTSTART:20260901T150000Z
-DTEND:20260901T170000Z
+UID:270177af887d@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20261003T160000Z
+DTEND:20261003T180000Z
+SUMMARY:Meeting the Moment: Non-Cooperation Training
+LOCATION:This event’s address is private. Sign up for more details
+DESCRIPTION:[TEACH-IN] — PowerCA Action — We invite you to join local community organizations\, leaders\, and residents from across the CV as we gather to build hyperlocal coordination to support our communities and ensure safe and fair elections.\n\n\nLight breakfast and lunch provided. — https://www.mobilize.us/powercaaction/event/1027282/
+URL:https://www.mobilize.us/powercaaction/event/1027282/
+END:VEVENT
+BEGIN:VEVENT
+UID:7cad0ec257cf@ragingcunt.com
+DTSTAMP:20260906T163452Z
+DTSTART:20260915T150000Z
+DTEND:20260915T170000Z
 SUMMARY:Fong Is Wrong
 DESCRIPTION:[ACTION] — Fresno Bridge Brigade — (Recurring) — Alternate Tuesdays protesting Republican Congressman Fong.\nSpeak out against his support for right wing Republican policies. — https://www.mobilize.us/fresnobridgebrigade/event/984101/
 URL:https://www.mobilize.us/fresnobridgebrigade/event/984101/
 END:VEVENT
 BEGIN:VEVENT
 UID:88f191aadd24@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260924T010000Z
 DTEND:20260924T030000Z
 SUMMARY:Central Valley Indivisible Monthly Meeting
@@ -71,7 +81,7 @@ URL:https://www.mobilize.us/centralvalleyindivisible/event/863765/
 END:VEVENT
 BEGIN:VEVENT
 UID:fe7001eb48dc@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260917T180000Z
 DTEND:20260917T200000Z
 SUMMARY:Salt of the Earth Campaign Launch
@@ -80,7 +90,7 @@ URL:https://www.mobilize.us/afscpanvalleyinstitute/event/994460/
 END:VEVENT
 BEGIN:VEVENT
 UID:de9ee3bf2bf2@ragingcunt.com
-DTSTAMP:20260830T175108Z
+DTSTAMP:20260906T163452Z
 DTSTART:20260919T003000Z
 DTEND:20260919T023000Z
 SUMMARY:My Relationship With America Performance & Dialogue
