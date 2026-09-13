@@ -6,44 +6,26 @@ METHOD:PUBLISH
 X-WR-CALNAME:RAGINGCUNT — Fresno
 X-WR-CALDESC:Real local organizing in Fresno\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
-UID:70909b5a5401@ragingcunt.com
-DTSTAMP:20260906T163452Z
-DTSTART:20260906T170000Z
-DTEND:20260906T190000Z
-SUMMARY:Fresno Volunteer with Power California!
-DESCRIPTION:[ACTION] — PowerCA Action — (Recurring) — 🗳️ Your vote matters!! You have the power to change your future for the better.!! 🌟 The Voter Registration is the first step to that change. So\, Join us for Voter Registrations. 🎉✅ — https://www.mobilize.us/powercaaction/event/1002550/
-URL:https://www.mobilize.us/powercaaction/event/1002550/
-END:VEVENT
-BEGIN:VEVENT
-UID:ccdbb4f58299@ragingcunt.com
-DTSTAMP:20260906T163452Z
-DTSTART:20260906T210000Z
-DTEND:20260906T230000Z
+UID:0b901d8940bb@ragingcunt.com
+DTSTAMP:20260913T170833Z
+DTSTART:20260914T170000Z
+DTEND:20260914T190000Z
 SUMMARY:Tulare Volunteer with Power California!
-DESCRIPTION:[ACTION] — PowerCA Action — (Recurring) — 🗳️ Your vote matters!! You have the power to change your future for the better.!! 🌟 The Voter Registration is the first step to that change. So\, Join us for Voter Registrations. 🎉✅ — https://www.mobilize.us/powercaaction/event/1002551/
+DESCRIPTION:[ACTION] — PowerCA Action — 🗳️ Your vote matters!! You have the power to change your future for the better.!! 🌟 The Voter Registration is the first step to that change. So\, Join us for Voter Registrations. 🎉✅ — https://www.mobilize.us/powercaaction/event/1002551/
 URL:https://www.mobilize.us/powercaaction/event/1002551/
 END:VEVENT
 BEGIN:VEVENT
 UID:060295f93ab6@ragingcunt.com
-DTSTAMP:20260906T163452Z
+DTSTAMP:20260913T170833Z
 DTSTART:20260916T010000Z
 DTEND:20260916T030000Z
 SUMMARY:Flock Off: Stopping Surveillance in Our Neighborhoods
-DESCRIPTION:[MUTUAL AID] — PowerCA Action — Our privacy is under attack. A growing network of surveillance cameras often powered by companies with deep ties to ICE and DHS  is expanding across our neighborhoods\, tracking our movements without our consent.\n\n\nBut we have the power to stop it.\n\n\nJoin Power California for an e — https://www.mobilize.us/powercaaction/event/1019032/
+DESCRIPTION:[MUTUAL AID] — PowerCA Action — Our privacy is under attack. A growing network of surveillance cameras often powered by companies with deep ties to ICE and DHS  is expanding across our neighborhoods\, tracking our movements without our consent.\n\n\nJoin us as we decode how surveillance tech like Flock is infiltrat — https://www.mobilize.us/powercaaction/event/1019032/
 URL:https://www.mobilize.us/powercaaction/event/1019032/
 END:VEVENT
 BEGIN:VEVENT
-UID:f21e42efd6e3@ragingcunt.com
-DTSTAMP:20260906T163452Z
-DTSTART:20260910T010000Z
-DTEND:20260910T030000Z
-SUMMARY:CV United Front- Emergency Meeting
-DESCRIPTION:[MUTUAL AID] — PowerCA Action — Join us for an emergency meeting regarding the upcoming midterm election in person in Fresno\, Bakersfield\, or online via Zoom. We are gathering our community to build hyperlocal coordination and ensure fair elections. \n\nMany other leaders\, organizers\, and residents from across th — https://www.mobilize.us/powercaaction/event/1020115/
-URL:https://www.mobilize.us/powercaaction/event/1020115/
-END:VEVENT
-BEGIN:VEVENT
 UID:e6fc2db9cfbf@ragingcunt.com
-DTSTAMP:20260906T163452Z
+DTSTAMP:20260913T170833Z
 DTSTART:20260925T010000Z
 DTEND:20260925T030000Z
 SUMMARY:Movement Makers: The Survival Guide to Careers in Social Change
@@ -52,7 +34,7 @@ URL:https://www.mobilize.us/powercaaction/event/1023728/
 END:VEVENT
 BEGIN:VEVENT
 UID:270177af887d@ragingcunt.com
-DTSTAMP:20260906T163452Z
+DTSTAMP:20260913T170833Z
 DTSTART:20261003T160000Z
 DTEND:20261003T180000Z
 SUMMARY:Meeting the Moment: Non-Cooperation Training
@@ -61,8 +43,18 @@ DESCRIPTION:[TEACH-IN] — PowerCA Action — We invite you to join local commun
 URL:https://www.mobilize.us/powercaaction/event/1027282/
 END:VEVENT
 BEGIN:VEVENT
+UID:085708dc1e45@ragingcunt.com
+DTSTAMP:20260913T170833Z
+DTSTART:20260916T020000Z
+DTEND:20260916T040000Z
+SUMMARY:Call on Hanford City Council to Support a Permanent County Wide Ban
+LOCATION:Hanford Civic Auditorium
+DESCRIPTION:[MEETING] — PowerCA Action — Join us Tuesday\, September 15 at Hanford City Hall and tell City Council: to advocate on behalf of their constituents for a county wide permanent ban on data centers.\n\n📍 City Hall — 400 N Douty St  🕖 Regular meeting: 7 PM 📣 Public comment during Regular Agenda Session\n\nCome ready — https://www.mobilize.us/powercaaction/event/1029010/
+URL:https://www.mobilize.us/powercaaction/event/1029010/
+END:VEVENT
+BEGIN:VEVENT
 UID:7cad0ec257cf@ragingcunt.com
-DTSTAMP:20260906T163452Z
+DTSTAMP:20260913T170833Z
 DTSTART:20260915T150000Z
 DTEND:20260915T170000Z
 SUMMARY:Fong Is Wrong
@@ -70,8 +62,17 @@ DESCRIPTION:[ACTION] — Fresno Bridge Brigade — (Recurring) — Alternate Tue
 URL:https://www.mobilize.us/fresnobridgebrigade/event/984101/
 END:VEVENT
 BEGIN:VEVENT
+UID:39693d2262b7@ragingcunt.com
+DTSTAMP:20260913T170833Z
+DTSTART:20260918T140000Z
+DTEND:20260918T160000Z
+SUMMARY:Fearless Fridays
+DESCRIPTION:[ACTION] — Fresno Bridge Brigade — (Recurring) — Every Friday morning rush hour from 7am to 9am.\nProtesting the tRump regime policies and promoting the upcoming Indivisible No Kings protest on October 17.\nBig emphasis on Vote Early — https://www.mobilize.us/fresnobridgebrigade/event/1033689/
+URL:https://www.mobilize.us/fresnobridgebrigade/event/1033689/
+END:VEVENT
+BEGIN:VEVENT
 UID:88f191aadd24@ragingcunt.com
-DTSTAMP:20260906T163452Z
+DTSTAMP:20260913T170833Z
 DTSTART:20260924T010000Z
 DTEND:20260924T030000Z
 SUMMARY:Central Valley Indivisible Monthly Meeting
@@ -81,7 +82,7 @@ URL:https://www.mobilize.us/centralvalleyindivisible/event/863765/
 END:VEVENT
 BEGIN:VEVENT
 UID:fe7001eb48dc@ragingcunt.com
-DTSTAMP:20260906T163452Z
+DTSTAMP:20260913T170833Z
 DTSTART:20260917T180000Z
 DTEND:20260917T200000Z
 SUMMARY:Salt of the Earth Campaign Launch
@@ -90,7 +91,7 @@ URL:https://www.mobilize.us/afscpanvalleyinstitute/event/994460/
 END:VEVENT
 BEGIN:VEVENT
 UID:de9ee3bf2bf2@ragingcunt.com
-DTSTAMP:20260906T163452Z
+DTSTAMP:20260913T170833Z
 DTSTART:20260919T003000Z
 DTEND:20260919T023000Z
 SUMMARY:My Relationship With America Performance & Dialogue
