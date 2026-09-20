@@ -6,18 +6,17 @@ METHOD:PUBLISH
 X-WR-CALNAME:RAGINGCUNT — Oakland
 X-WR-CALDESC:Real local organizing in Oakland\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
-UID:3706ab7a36b6@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260915T013000Z
-DTEND:20260915T033000Z
-SUMMARY:🌹 Stop Cop Nation Packing Medical Kits & Art Build!
-LOCATION:1610 Harrison Street\, Suite D\, Oakland\, CA\, 94612
-DESCRIPTION:[MEETING] — East Bay DSA — We're distributing medical kits to our houseless neighbors later this month\, but first we need to package them! Come for a chill and impactful time\, where we'll assemble packets together. We'll also make art for Tuesday's City Council! — https://www.eastbaydsa.org/events/5766/2026-09-14-stop-cop-nation-packing-medical-kits-art-build/
-URL:https://www.eastbaydsa.org/events/5766/2026-09-14-stop-cop-nation-packing-medical-kits-art-build/
+UID:aeda1a127443@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261003T170000Z
+DTEND:20261003T190000Z
+SUMMARY:🌹Universal Childcare: Canvass
+DESCRIPTION:[ACTION] — East Bay DSA — (Every Saturday) — https://www.eastbaydsa.org/events/5789/2026-10-03-universal-childcare-canvass/
+URL:https://www.eastbaydsa.org/events/5789/2026-10-03-universal-childcare-canvass/
 END:VEVENT
 BEGIN:VEVENT
 UID:3ba3195eec45@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260926T180000Z
 DTEND:20260926T200000Z
 SUMMARY:Candidate Debate - Nate Adams🌹
@@ -27,7 +26,7 @@ URL:https://www.eastbaydsa.org/events/5753/2026-09-26-candidate-debate-nate-adam
 END:VEVENT
 BEGIN:VEVENT
 UID:5f0ca8969f39@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260925T000000Z
 DTEND:20260925T020000Z
 SUMMARY:🌹 Stop Cop Nation Medpack Distribution
@@ -36,17 +35,17 @@ DESCRIPTION:[MUTUAL AID] — East Bay DSA — Come help Stop Cop Nation distribu
 URL:https://www.eastbaydsa.org/events/5767/2026-09-24-stop-cop-nation-medpack-distribution/
 END:VEVENT
 BEGIN:VEVENT
-UID:6a3b00a0b0aa@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260915T010000Z
-DTEND:20260915T030000Z
+UID:a7967c9436ce@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260929T010000Z
+DTEND:20260929T030000Z
 SUMMARY:Palantir out of PG&E Meeting
-DESCRIPTION:[MEETING] — East Bay DSA — (Every Monday) — Join the Divest from Apartheid campaign as we plan our work to pressure PG&E to end their contract with Palantir — https://www.eastbaydsa.org/events/5400/2026-09-14-palantir-out-of-pg-e-meeting/
-URL:https://www.eastbaydsa.org/events/5400/2026-09-14-palantir-out-of-pg-e-meeting/
+DESCRIPTION:[MEETING] — East Bay DSA — (Every Monday) — Join the Divest from Apartheid campaign as we plan our work to pressure PG&E to end their contract with Palantir — https://www.eastbaydsa.org/events/5462/2026-09-28-palantir-out-of-pg-e-meeting/
+URL:https://www.eastbaydsa.org/events/5462/2026-09-28-palantir-out-of-pg-e-meeting/
 END:VEVENT
 BEGIN:VEVENT
 UID:94e1910f75f0@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260925T013000Z
 DTEND:20260925T033000Z
 SUMMARY:⚓️SoNaR Monthly Branch Meeting
@@ -54,38 +53,17 @@ DESCRIPTION:[MEETING] — East Bay DSA — Please join us this Thursday\, Septem
 URL:https://www.eastbaydsa.org/events/5768/2026-09-24-sonar-monthly-branch-meeting/
 END:VEVENT
 BEGIN:VEVENT
-UID:c6070a468b7d@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T033000Z
-DTEND:20260918T053000Z
-SUMMARY:🌹 Labor Social!
-LOCATION:355 19th St\, Oakland\, CA\, 94609
-DESCRIPTION:[MEETING] — East Bay DSA — Come join us for our regularly scheduled Labor Social! All are welcome to come and grab a drink with us. (Look for the tables with DSA signage/swag/etc.) — https://www.eastbaydsa.org/events/5769/2026-09-17-labor-social/
-URL:https://www.eastbaydsa.org/events/5769/2026-09-17-labor-social/
-END:VEVENT
-BEGIN:VEVENT
-UID:ad4ae70a1a81@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T010000Z
-DTEND:20260917T030000Z
-SUMMARY:🌹 Taxing the Rich in American History
-LOCATION:1610 Harrison St Suite D\, Oakland\, CA\, 94612
-DESCRIPTION:[MEETING] — East Bay DSA — Come to the EBDSA office or tune in on Zoom at 6 pm on Wednesday\, September 16\, to hear a  talk on the vibrant history of progressive taxation by author and tax expert Vanessa Williamson.  Williamson’s recent book\, The Price of Democracy: The Revolutionary — https://www.eastbaydsa.org/events/5578/2026-09-16-taxing-the-rich-in-american-history/
-URL:https://www.eastbaydsa.org/events/5578/2026-09-16-taxing-the-rich-in-american-history/
-END:VEVENT
-BEGIN:VEVENT
-UID:63c8542fd661@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T010000Z
-DTEND:20260918T030000Z
-SUMMARY:🌹 Tri-Valley Reading Group
-LOCATION: 100 Civic Plaza\, Dublin\, CA\, 94568
-DESCRIPTION:[TEACH-IN] — East Bay DSA — What is the  Imperial Boomerang ?   Originally a term used to describe colonial violence returning to Nazi Germany\, in the modern United States it appeared in the 1970 Kent State Massacre during the Vietnam War\, and continued with the creation of SWAT\, the — https://www.eastbaydsa.org/events/5672/2026-09-17-tri-valley-reading-group/
-URL:https://www.eastbaydsa.org/events/5672/2026-09-17-tri-valley-reading-group/
+UID:f86ac7ed5307@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260923T003000Z
+DTEND:20260923T023000Z
+SUMMARY:🌹 Alameda Labor Council Tax the Rich Phone Bank
+DESCRIPTION:[ACTION] — East Bay DSA — (Every Tuesday) — Join the Tax the Rich working group in partnership with the Alameda Labor Council to phonebank union members in Alameda County to Vote Yes on Propositions 3 and 40 and No on Propositions 41\, 42\, and 42. Help tax the billionaires and support our healthcare workers and teachers. — https://www.eastbaydsa.org/events/5799/2026-09-22-alameda-labor-council-tax-the-rich-phone-bank/
+URL:https://www.eastbaydsa.org/events/5799/2026-09-22-alameda-labor-council-tax-the-rich-phone-bank/
 END:VEVENT
 BEGIN:VEVENT
 UID:a7cb26c41587@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261106T023000Z
 DTEND:20261106T043000Z
 SUMMARY:Labor Committee monthly meeting
@@ -95,7 +73,7 @@ URL:https://www.eastbaydsa.org/events/5735/2026-11-05-labor-committee-monthly-me
 END:VEVENT
 BEGIN:VEVENT
 UID:2ff55f3ccbdb@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261120T020000Z
 DTEND:20261120T040000Z
 SUMMARY:🌹 Tax the Rich: The Price of Democracy Book Group Week 6
@@ -105,7 +83,7 @@ URL:https://www.eastbaydsa.org/events/5637/2026-11-19-tax-the-rich-the-price-of-
 END:VEVENT
 BEGIN:VEVENT
 UID:030843c305b1@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261008T013000Z
 DTEND:20261008T033000Z
 SUMMARY:Labor Committee (monthly meeting)
@@ -115,7 +93,7 @@ URL:https://www.eastbaydsa.org/events/5736/2026-10-07-labor-committee-monthly-me
 END:VEVENT
 BEGIN:VEVENT
 UID:d8e257a3b2da@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260923T010000Z
 DTEND:20260923T030000Z
 SUMMARY:🌹 People's Transit Alliance - Fix Our Schedules! campaign meeting
@@ -123,17 +101,17 @@ DESCRIPTION:[MEETING] — East Bay DSA — (Every Tuesday) — The People's Tran
 URL:https://www.eastbaydsa.org/events/5609/2026-09-22-people-s-transit-alliance-fix-our-schedules-campaign-meeting/
 END:VEVENT
 BEGIN:VEVENT
-UID:135e96877f73@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260926T230000Z
-DTEND:20260927T010000Z
-SUMMARY:🌹 Disability Justice (DJ) Team Meeting
-DESCRIPTION:[MEETING] — East Bay DSA — Disability Justice is now part of the Chapter Coordination Committee! Join this meeting to catch up on what we’ve been up to\, and to help guide our future work!   Accessibility information:   This meeting will be held virtually on Zoom with ASL inte — https://www.eastbaydsa.org/events/5770/2026-09-26-disability-justice-dj-team-meeting/
-URL:https://www.eastbaydsa.org/events/5770/2026-09-26-disability-justice-dj-team-meeting/
+UID:62a6ea29c4fb@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T170000Z
+DTEND:20260926T190000Z
+SUMMARY:🌹Canvass: Claudia 4 Mayor 🗳️
+DESCRIPTION:[ACTION] — East Bay DSA — (Every Saturday) — Claudia Jimenez is running for Mayor of Richmond. She’s a great candidate that has already helped win over half a billion dollars from Chevron and now wants to work with the people of Richmond to decide on how to use the money to transition Richmond from being a refinery — https://www.eastbaydsa.org/events/5631/2026-09-26-canvass-claudia-4-mayor/
+URL:https://www.eastbaydsa.org/events/5631/2026-09-26-canvass-claudia-4-mayor/
 END:VEVENT
 BEGIN:VEVENT
 UID:2d7d47109c05@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261122T200000Z
 DTEND:20261122T220000Z
 SUMMARY:⚓️ The Fiction Faction 11/22
@@ -143,7 +121,7 @@ URL:https://www.eastbaydsa.org/events/5277/2026-11-22-the-fiction-faction-11-22/
 END:VEVENT
 BEGIN:VEVENT
 UID:27664fc8bc0a@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261015T020000Z
 DTEND:20261015T040000Z
 SUMMARY:🌹 Chochenyo Baylands and Valley Branch Monthly General Meeting
@@ -152,7 +130,7 @@ URL:https://www.eastbaydsa.org/events/5411/2026-10-14-chochenyo-baylands-and-val
 END:VEVENT
 BEGIN:VEVENT
 UID:c33388d9b110@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261119T030000Z
 DTEND:20261119T050000Z
 SUMMARY:🌹 Housing Committee Monthly Meeting - November
@@ -162,7 +140,7 @@ URL:https://www.eastbaydsa.org/events/5308/2026-11-18-housing-committee-monthly-
 END:VEVENT
 BEGIN:VEVENT
 UID:86dee4295476@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261022T020000Z
 DTEND:20261022T040000Z
 SUMMARY:🌹 Housing Committee Monthly Meeting - October
@@ -171,18 +149,8 @@ DESCRIPTION:[MEETING] — East Bay DSA — Join us for the Housing Committee's M
 URL:https://www.eastbaydsa.org/events/5309/2026-10-21-housing-committee-monthly-meeting-october/
 END:VEVENT
 BEGIN:VEVENT
-UID:c8131fa71835@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T020000Z
-DTEND:20260917T040000Z
-SUMMARY:🌹 Housing Committee Monthly Meeting - September
-LOCATION:1610 Harrison St Suite D\, Oakland\, CA\, 94612
-DESCRIPTION:[MEETING] — East Bay DSA — Join us for the Housing Committee's Monthly Meeting hybrid meeting (in office and  zoom ) where we will discuss current campaigns to create an Oakland Public Lands Policy and to help organize tenants in Berkeley! — https://www.eastbaydsa.org/events/5310/2026-09-16-housing-committee-monthly-meeting-september/
-URL:https://www.eastbaydsa.org/events/5310/2026-09-16-housing-committee-monthly-meeting-september/
-END:VEVENT
-BEGIN:VEVENT
 UID:e0c4be23966c@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260926T213000Z
 DTEND:20260926T233000Z
 SUMMARY:Stop Cop Nation Community Cookout
@@ -192,7 +160,7 @@ URL:https://www.eastbaydsa.org/events/5771/2026-09-26-stop-cop-nation-community-
 END:VEVENT
 BEGIN:VEVENT
 UID:e4f37711c151@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261003T190000Z
 DTEND:20261003T210000Z
 SUMMARY:🌹⚓️ Left Margin Book Club 10/3
@@ -202,7 +170,7 @@ URL:https://www.eastbaydsa.org/events/5583/2026-10-03-left-margin-book-club-10-3
 END:VEVENT
 BEGIN:VEVENT
 UID:5747815a9824@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261113T020000Z
 DTEND:20261113T040000Z
 SUMMARY:🌹 Tax the Rich: The Price of Democracy Book Group Week 5
@@ -212,7 +180,7 @@ URL:https://www.eastbaydsa.org/events/5638/2026-11-12-tax-the-rich-the-price-of-
 END:VEVENT
 BEGIN:VEVENT
 UID:be130e0bea04@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260925T013000Z
 DTEND:20260925T033000Z
 SUMMARY:🌹Anti-Imperialism Committee Meeting
@@ -222,7 +190,7 @@ URL:https://www.eastbaydsa.org/events/5692/2026-09-24-anti-imperialism-committee
 END:VEVENT
 BEGIN:VEVENT
 UID:8cf898053968@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261106T020000Z
 DTEND:20261106T040000Z
 SUMMARY:🌹 Tax the Rich: The Price of Democracy Book Group Week 4
@@ -232,7 +200,7 @@ URL:https://www.eastbaydsa.org/events/5639/2026-11-05-tax-the-rich-the-price-of-
 END:VEVENT
 BEGIN:VEVENT
 UID:e3b93c5f1d96@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260923T003000Z
 DTEND:20260923T023000Z
 SUMMARY:Chapter Town Hall: CADSA Voter Guide Feedback Session
@@ -240,17 +208,17 @@ DESCRIPTION:[MEETING] — East Bay DSA — California DSA delegates will be voti
 URL:https://www.eastbaydsa.org/events/5757/2026-09-22-chapter-town-hall-cadsa-voter-guide-feedback-session/
 END:VEVENT
 BEGIN:VEVENT
-UID:d26a41bb8c6d@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T010000Z
-DTEND:20260916T030000Z
+UID:d2c1338beb7c@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260930T010000Z
+DTEND:20260930T030000Z
 SUMMARY:🌹 Tax the Rich Working Group
-DESCRIPTION:[MEETING] — East Bay DSA — (Every Tuesday) — Please join the biweekly meeting of the Tax the Rich Working Group. Help us pass the two tax-the-rich ballot measures in November\, targeting billionaires\, millionaires\, and corporations for taxation to fund working class needs.  Please RSVP for the Zoom link! — https://www.eastbaydsa.org/events/5332/2026-09-15-tax-the-rich-working-group/
-URL:https://www.eastbaydsa.org/events/5332/2026-09-15-tax-the-rich-working-group/
+DESCRIPTION:[MEETING] — East Bay DSA — (Every Tuesday) — Please join the biweekly meeting of the Tax the Rich Working Group. Help us pass the two tax-the-rich ballot measures in November\, targeting billionaires\, millionaires\, and corporations for taxation to fund working class needs.  Please RSVP for the Zoom link! — https://www.eastbaydsa.org/events/5476/2026-09-29-tax-the-rich-working-group/
+URL:https://www.eastbaydsa.org/events/5476/2026-09-29-tax-the-rich-working-group/
 END:VEVENT
 BEGIN:VEVENT
 UID:69b51aa66f32@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260922T020000Z
 DTEND:20260922T040000Z
 SUMMARY:Divest from Apartheid Media Team Meeting
@@ -259,7 +227,7 @@ URL:https://www.eastbaydsa.org/events/5551/2026-09-21-divest-from-apartheid-medi
 END:VEVENT
 BEGIN:VEVENT
 UID:8d3e1b7d9aca@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261030T010000Z
 DTEND:20261030T030000Z
 SUMMARY:🌹 Tax the Rich: The Price of Democracy Book Group Week 3
@@ -269,7 +237,7 @@ URL:https://www.eastbaydsa.org/events/5634/2026-10-29-tax-the-rich-the-price-of-
 END:VEVENT
 BEGIN:VEVENT
 UID:4c816e86e607@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261023T010000Z
 DTEND:20261023T030000Z
 SUMMARY:🌹 Tax the Rich: The Price of Democracy Book Group Week 2
@@ -279,7 +247,7 @@ URL:https://www.eastbaydsa.org/events/5635/2026-10-22-tax-the-rich-the-price-of-
 END:VEVENT
 BEGIN:VEVENT
 UID:fa9aa875c87a@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261014T013000Z
 DTEND:20261014T033000Z
 SUMMARY:🌹 Socialism Beats Fascism! Planning Meeting ⚘
@@ -288,8 +256,27 @@ DESCRIPTION:[MEETING] — East Bay DSA — (Every Tuesday) — Join us on  Octob
 URL:https://www.eastbaydsa.org/events/5390/2026-10-13-socialism-beats-fascism-planning-meeting/
 END:VEVENT
 BEGIN:VEVENT
+UID:dbfd93bcc4c6@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261015T013000Z
+DTEND:20261015T033000Z
+SUMMARY:How The Ruling Class Rules
+LOCATION:1610 Harrison St Suite D\, Oakland\, CA\, 94609
+DESCRIPTION:[MEETING] — East Bay DSA — The American capitalist class is a tiny minority of the population of the United States.  Depending on who you include\, it makes up approximately 1% of the population and has at least 20% of the country’s wealth.  Wages have barely gone up for the last 50 years even though the — https://www.eastbaydsa.org/events/5778/2026-10-14-how-the-ruling-class-rules/
+URL:https://www.eastbaydsa.org/events/5778/2026-10-14-how-the-ruling-class-rules/
+END:VEVENT
+BEGIN:VEVENT
+UID:1d0c1b4cb0cc@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260923T010000Z
+DTEND:20260923T030000Z
+SUMMARY:🌹Universal Childcare: Turnout Phonebank ☎️
+DESCRIPTION:[ACTION] — East Bay DSA — (Every Tuesday) — Join the movement to fight for Universal Childcare\, strong educator contracts\, and building beautiful social housing by knocking on doors for Valarie Bachelor. We want to show the charters\, privatizers and money-interest opposed to our campaign that Oakland school have Oakland — https://www.eastbaydsa.org/events/5690/2026-09-22-universal-childcare-turnout-phonebank/
+URL:https://www.eastbaydsa.org/events/5690/2026-09-22-universal-childcare-turnout-phonebank/
+END:VEVENT
+BEGIN:VEVENT
 UID:b306dcaf6d21@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261016T010000Z
 DTEND:20261016T030000Z
 SUMMARY:🌹 Tax the Rich: The Price of Democracy Book Group Week 1
@@ -298,18 +285,18 @@ DESCRIPTION:[MEETING] — East Bay DSA — Book study\,  The Price of Democracy\
 URL:https://www.eastbaydsa.org/events/5636/2026-10-15-tax-the-rich-the-price-of-democracy-book-group-week-1/
 END:VEVENT
 BEGIN:VEVENT
-UID:c4705dd3022d@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260927T213000Z
-DTEND:20260927T233000Z
-SUMMARY:Migrants Defense Strategy Session!
-LOCATION:9825 International Boulevard\, Oakland\, CA\, 94603
-DESCRIPTION:[MEETING] — East Bay DSA — The Migrants Defense Committee will be having a Strategy Session in East Oakland! Join us to talk about what ideas to bring to the next Committee Meeting & other thoughts! \n Come grab a bite and share big ideas! \n El comité de la Defensa de Migrantes va a — https://www.eastbaydsa.org/events/5765/2026-09-27-migrants-defense-strategy-session/
-URL:https://www.eastbaydsa.org/events/5765/2026-09-27-migrants-defense-strategy-session/
+UID:d7ca721f6501@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260920T200000Z
+DTEND:20260920T220000Z
+SUMMARY:🌹Canvass: Claudia 4 Mayor 🗳️
+LOCATION:12929 San Pablo Avenue\, Richmond\, CA\, 94804
+DESCRIPTION:[ACTION] — East Bay DSA — (Every Sunday) — Claudia Jimenez is running for Mayor of Richmond. She’s a great candidate that has already helped win over half a billion dollars from Chevron and now wants to work with the people of Richmond to decide on how to use the money to transition Richmond from being a refinery — https://www.eastbaydsa.org/events/5764/2026-09-20-canvass-claudia-4-mayor/
+URL:https://www.eastbaydsa.org/events/5764/2026-09-20-canvass-claudia-4-mayor/
 END:VEVENT
 BEGIN:VEVENT
 UID:bd8a74dca5b6@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261003T170000Z
 DTEND:20261003T190000Z
 SUMMARY:⚓️Marx Communist Manifesto Reading Group 10/3
@@ -319,7 +306,7 @@ URL:https://www.eastbaydsa.org/events/5480/2026-10-03-marx-communist-manifesto-r
 END:VEVENT
 BEGIN:VEVENT
 UID:a89f01f3dd8d@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260926T170000Z
 DTEND:20260926T190000Z
 SUMMARY:⚓️Marx Communist Manifesto Reading Group 9/26
@@ -328,77 +315,66 @@ DESCRIPTION:[TEACH-IN] — East Bay DSA — The Marx Reading Group’s next pick
 URL:https://www.eastbaydsa.org/events/5481/2026-09-26-marx-communist-manifesto-reading-group-9-26/
 END:VEVENT
 BEGIN:VEVENT
-UID:04e52f1cc8fe@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T010000Z
-DTEND:20260916T030000Z
+UID:5219dd72d910@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T000000Z
+DTEND:20260924T020000Z
+SUMMARY:🌹Universal Childcare: Canvass
+LOCATION:4618 Allendale Avenue\, Oakland\, CA\, 94619
+DESCRIPTION:[ACTION] — East Bay DSA — https://www.eastbaydsa.org/events/5791/2026-09-23-universal-childcare-canvass/
+URL:https://www.eastbaydsa.org/events/5791/2026-09-23-universal-childcare-canvass/
+END:VEVENT
+BEGIN:VEVENT
+UID:d4e77d9e8af2@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261004T190000Z
+DTEND:20261004T210000Z
+SUMMARY:🌹Universal Childcare: Canvass
+DESCRIPTION:[ACTION] — East Bay DSA — (Every Sunday) — https://www.eastbaydsa.org/events/5788/2026-10-04-universal-childcare-canvass/
+URL:https://www.eastbaydsa.org/events/5788/2026-10-04-universal-childcare-canvass/
+END:VEVENT
+BEGIN:VEVENT
+UID:e7cd0803bd1c@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260930T010000Z
+DTEND:20260930T030000Z
 SUMMARY:Propaganda Committee Meeting
 LOCATION:1610 Harrison Street\, Oakland\, CA\, 94611
-DESCRIPTION:[MEETING] — East Bay DSA — (Every Tuesday) — Biweekly meeting of the Propaganda Committee.  Please RSVP for the Zoom link and so we can get an accurate headcount for dinner! — https://www.eastbaydsa.org/events/5498/2026-09-15-propaganda-committee-meeting/
-URL:https://www.eastbaydsa.org/events/5498/2026-09-15-propaganda-committee-meeting/
+DESCRIPTION:[MEETING] — East Bay DSA — (Every Tuesday) — Biweekly meeting of the Propaganda Committee.  Please RSVP for the Zoom link and so we can get an accurate headcount for dinner! — https://www.eastbaydsa.org/events/5500/2026-09-29-propaganda-committee-meeting/
+URL:https://www.eastbaydsa.org/events/5500/2026-09-29-propaganda-committee-meeting/
 END:VEVENT
 BEGIN:VEVENT
-UID:d7ca721f6501@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260920T200000Z
-DTEND:20260920T220000Z
-SUMMARY:🌹Canvass: Claudia 4 Mayor 🗳️
-LOCATION:12929 San Pablo Avenue\, Richmond\, CA\, 94804
-DESCRIPTION:[ACTION] — East Bay DSA — (Every Sunday) — Claudia Jimenez is running for Mayor of Richmond. She’s a great candidate that has already helped win over half a billion dollars from Chevron and now wants to work with the people of Richmond to decide on how to use the money to transition Richmond from being a refinery — https://www.eastbaydsa.org/events/5764/2026-09-20-canvass-claudia-4-mayor/
-URL:https://www.eastbaydsa.org/events/5764/2026-09-20-canvass-claudia-4-mayor/
-END:VEVENT
-BEGIN:VEVENT
-UID:5f13858b5137@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T210000Z
-DTEND:20260913T230000Z
-SUMMARY:🌹 September General Meeting
-LOCATION:4799 Shattuck Avenue\, Oakland\, CA\, 94609
-DESCRIPTION:[MEETING] — East Bay DSA — East Bay DSA’s fight for a socialist future flows through our General Membership Meetings\, and your voice is needed in the room.   Join us this September as we debate\, vote\, and organize around the pivotal decisions facing our chapter.  Bring your organizin — https://www.eastbaydsa.org/events/5461/2026-09-13-september-general-meeting/
-URL:https://www.eastbaydsa.org/events/5461/2026-09-13-september-general-meeting/
-END:VEVENT
-BEGIN:VEVENT
-UID:cec4f66e549f@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T190000Z
-DTEND:20260913T210000Z
-SUMMARY:🌹Universal Childcare: Door-to-Door For Valarie Bachelor
-LOCATION:4618 Allendale Avenue\, Oakland\, CA\, 94619
-DESCRIPTION:[MEETING] — East Bay DSA — (Every Sunday) — Join the movement to fight for Universal Childcare\, strong educator contracts\, and building beautiful social housing by knocking on doors for Valarie Bachelor and Jennifer Brouhard. We want to show the charters\, privatizers and money-interest opposed to our campaign that Oakla — https://www.eastbaydsa.org/events/5641/2026-09-13-universal-childcare-door-to-door-for-valarie-bachelor/
-URL:https://www.eastbaydsa.org/events/5641/2026-09-13-universal-childcare-door-to-door-for-valarie-bachelor/
-END:VEVENT
-BEGIN:VEVENT
-UID:e21a89457ee2@ragingcunt.com
-DTSTAMP:20260913T170833Z
+UID:fcbaf4b97e58@ragingcunt.com
+DTSTAMP:20260920T170931Z
 DTSTART:20260923T013000Z
 DTEND:20260923T033000Z
+SUMMARY:🌹 Community Meeting - A Socialist Ballot in the East Bay!
+LOCATION:507 55th St\, Oakland\, CA\, 94612
+DESCRIPTION:[MEETING] — East Bay DSA — Do you go to protests and feel that something is missing? Do you feel like *so much* is happening in the world right now\, and we need a place to process & t — https://www.eastbaydsa.org/events/5259/2026-09-22-community-meeting-a-socialist-ballot-in-the-east-bay/
+URL:https://www.eastbaydsa.org/events/5259/2026-09-22-community-meeting-a-socialist-ballot-in-the-east-bay/
+END:VEVENT
+BEGIN:VEVENT
+UID:b9658f05c546@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T031000Z
+DTEND:20260924T051000Z
+SUMMARY:CalSTRS Divest! Campaign Meeting
+DESCRIPTION:[MEETING] — East Bay DSA — (Every Wednesday) — Join us as we plan our campaign to help California teachers get their pension fund to divest from companies complicit in human rights abuses in Palestine.  Divest from Apartheid!  Retire Genocide!   \n More info <a href="https://linktr.ee/ebdsa_calstrs_ — https://www.eastbaydsa.org/events/5595/2026-09-23-calstrs-divest-campaign-meeting/
+URL:https://www.eastbaydsa.org/events/5595/2026-09-23-calstrs-divest-campaign-meeting/
+END:VEVENT
+BEGIN:VEVENT
+UID:54989cc0890a@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261028T013000Z
+DTEND:20261028T033000Z
 SUMMARY:🌹 Community Meeting - Socialism Beats Fascism! ⚘
 LOCATION:507 55th St\, Oakland\, CA\, 94612
-DESCRIPTION:[MEETING] — East Bay DSA — (Every Tuesday) — Do you go to protests and feel that something is missing? Do you feel like *so much* is happening in the world right now\, and we need a place to process & t — https://www.eastbaydsa.org/events/5259/2026-09-22-community-meeting-socialism-beats-fascism/
-URL:https://www.eastbaydsa.org/events/5259/2026-09-22-community-meeting-socialism-beats-fascism/
-END:VEVENT
-BEGIN:VEVENT
-UID:1fa8bc49cf81@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T031000Z
-DTEND:20260917T051000Z
-SUMMARY:CalSTRS Divest! Campaign Meeting
-DESCRIPTION:[MEETING] — East Bay DSA — (Every Wednesday) — Join us as we plan our campaign to help California teachers get their pension fund to divest from companies complicit in human rights abuses in Palestine.  Divest from Apartheid!  Retire Genocide!   \n More info <a href="https://linktr.ee/ebdsa_calstrs_ — https://www.eastbaydsa.org/events/5594/2026-09-16-calstrs-divest-campaign-meeting/
-URL:https://www.eastbaydsa.org/events/5594/2026-09-16-calstrs-divest-campaign-meeting/
-END:VEVENT
-BEGIN:VEVENT
-UID:08904fab3805@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T170000Z
-DTEND:20260919T190000Z
-SUMMARY:⚓️Marx Communist Manifesto Reading Group 9/19
-LOCATION:1200 Marin St\, Vallejo\, CA\, 94591
-DESCRIPTION:[TEACH-IN] — East Bay DSA — The Marx Reading Group’s next pick is none other than  The Communist Manifesto . Unlike Marx's denser economic volumes\, this fiery 1848 pamphlet was written explicitly for a broad audience.  The Manifesto breaks down the engine of capitalism\, the reality of class c — https://www.eastbaydsa.org/events/5482/2026-09-19-marx-communist-manifesto-reading-group-9-19/
-URL:https://www.eastbaydsa.org/events/5482/2026-09-19-marx-communist-manifesto-reading-group-9-19/
+DESCRIPTION:[MEETING] — East Bay DSA — (Every Tuesday) — Do you go to protests and feel that something is missing? Do you feel like *so much* is happening in the world right now\, and we need a place to process & t — https://www.eastbaydsa.org/events/5262/2026-10-27-community-meeting-socialism-beats-fascism/
+URL:https://www.eastbaydsa.org/events/5262/2026-10-27-community-meeting-socialism-beats-fascism/
 END:VEVENT
 BEGIN:VEVENT
 UID:abd704a19d0a@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261227T200000Z
 DTEND:20261227T220000Z
 SUMMARY:⚓️ The Fiction Faction 12/27
@@ -408,7 +384,7 @@ URL:https://www.eastbaydsa.org/events/5276/2026-12-27-the-fiction-faction-12-27/
 END:VEVENT
 BEGIN:VEVENT
 UID:4917922d669d@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261025T190000Z
 DTEND:20261025T210000Z
 SUMMARY:⚓️ The Fiction Faction 10/25
@@ -418,7 +394,7 @@ URL:https://www.eastbaydsa.org/events/5273/2026-10-25-the-fiction-faction-10-25/
 END:VEVENT
 BEGIN:VEVENT
 UID:33c3f28bc8e9@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260927T190000Z
 DTEND:20260927T210000Z
 SUMMARY:⚓️ The Fiction Faction 9/27
@@ -427,17 +403,8 @@ DESCRIPTION:[MEETING] — East Bay DSA — The Solano Napa branch of EBDSA invit
 URL:https://www.eastbaydsa.org/events/5274/2026-09-27-the-fiction-faction-9-27/
 END:VEVENT
 BEGIN:VEVENT
-UID:c2709788c40f@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T010000Z
-DTEND:20260918T030000Z
-SUMMARY:🌹Universal Childcare: Turnout Phonebank ☎️
-DESCRIPTION:[ACTION] — East Bay DSA — (Every Thursday) — Join the movement to fight for Universal Childcare\, strong educator contracts\, and building beautiful social housing by knocking on doors for Valarie Bachelor. We want to show the charters\, privatizers and money-interest opposed to our campaign that Oakland school have Oakland — https://www.eastbaydsa.org/events/5661/2026-09-17-universal-childcare-turnout-phonebank/
-URL:https://www.eastbaydsa.org/events/5661/2026-09-17-universal-childcare-turnout-phonebank/
-END:VEVENT
-BEGIN:VEVENT
 UID:d39abeb54d35@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260929T013000Z
 DTEND:20260929T033000Z
 SUMMARY:May Day Working Group Public Meeting
@@ -447,7 +414,7 @@ URL:https://www.eastbaydsa.org/events/5559/2026-09-28-may-day-working-group-publ
 END:VEVENT
 BEGIN:VEVENT
 UID:9bb8abb1bc25@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20270117T220000Z
 DTEND:20270118T000000Z
 SUMMARY:🌹 January General Meeting
@@ -457,7 +424,7 @@ URL:https://www.eastbaydsa.org/events/5569/2027-01-17-january-general-meeting/
 END:VEVENT
 BEGIN:VEVENT
 UID:e71209edaa67@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261115T220000Z
 DTEND:20261116T000000Z
 SUMMARY:🌹 November General Meeting
@@ -467,7 +434,7 @@ URL:https://www.eastbaydsa.org/events/5570/2026-11-15-november-general-meeting/
 END:VEVENT
 BEGIN:VEVENT
 UID:f66c2106c053@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261018T210000Z
 DTEND:20261018T230000Z
 SUMMARY:🌹 October General Meeting
@@ -476,17 +443,8 @@ DESCRIPTION:[MEETING] — East Bay DSA — East Bay DSA’s fight for a socialis
 URL:https://www.eastbaydsa.org/events/5571/2026-10-18-october-general-meeting/
 END:VEVENT
 BEGIN:VEVENT
-UID:b6570ce40ffa@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T170000Z
-DTEND:20260919T190000Z
-SUMMARY:🌹Canvass: Claudia 4 Mayor 🗳️
-DESCRIPTION:[ACTION] — East Bay DSA — (Every Saturday) — Claudia Jimenez is running for Mayor of Richmond. She’s a great candidate that has already helped win over half a billion dollars from Chevron and now wants to work with the people of Richmond to decide on how to use the money to transition Richmond from being a refinery — https://www.eastbaydsa.org/events/5576/2026-09-19-canvass-claudia-4-mayor/
-URL:https://www.eastbaydsa.org/events/5576/2026-09-19-canvass-claudia-4-mayor/
-END:VEVENT
-BEGIN:VEVENT
 UID:3aa93798f4e4@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260922T020000Z
 DTEND:20260922T040000Z
 SUMMARY:🌹 Stop Cop Nation General Meeting
@@ -495,18 +453,18 @@ DESCRIPTION:[MEETING] — East Bay DSA — (Every Monday) — The goal of the St
 URL:https://www.eastbaydsa.org/events/5601/2026-09-21-stop-cop-nation-general-meeting/
 END:VEVENT
 BEGIN:VEVENT
-UID:d483a5b489fa@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T003000Z
-DTEND:20260917T023000Z
+UID:c142ca303465@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T003000Z
+DTEND:20260924T023000Z
 SUMMARY:🌹 CANVASS - Nate for Oakland City Council
 LOCATION:1850 Lakeshore Ave\, Oakland\, CA\, 94606
-DESCRIPTION:[ACTION] — East Bay DSA — (Every Wednesday) — IT'S GIVING SLASH THE RENT ⚔️ Let's make this a Socialist Summer by keeping up the momentum we've seen across the country\, and bringing a big win to Oakland! Meet comrades new and old to talk with our Oakland neighbors about how DSA plans to help them make our city more livabl — https://www.eastbaydsa.org/events/5648/2026-09-16-canvass-nate-for-oakland-city-council/
-URL:https://www.eastbaydsa.org/events/5648/2026-09-16-canvass-nate-for-oakland-city-council/
+DESCRIPTION:[ACTION] — East Bay DSA — (Every Wednesday) — IT'S GIVING SLASH THE RENT ⚔️ Let's make this a Socialist Summer by keeping up the momentum we've seen across the country\, and bringing a big win to Oakland! Meet comrades new and old to talk with our Oakland neighbors about how DSA plans to help them make our city more livabl — https://www.eastbaydsa.org/events/5647/2026-09-23-canvass-nate-for-oakland-city-council/
+URL:https://www.eastbaydsa.org/events/5647/2026-09-23-canvass-nate-for-oakland-city-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:5d15ef5ca58b@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260922T010000Z
 DTEND:20260922T030000Z
 SUMMARY:🌹 Stop Cop Nation Strategy Session
@@ -515,18 +473,8 @@ DESCRIPTION:[MEETING] — East Bay DSA — (Every Monday) — The goal of the St
 URL:https://www.eastbaydsa.org/events/5603/2026-09-21-stop-cop-nation-strategy-session/
 END:VEVENT
 BEGIN:VEVENT
-UID:a93813f7a037@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T170000Z
-DTEND:20260913T190000Z
-SUMMARY:⚓️ SONAR DSA Garden Autumn Prep and Plant
-LOCATION:1200 Marin St.\, Vallejo\, CA\, 94590
-DESCRIPTION:[MEETING] — East Bay DSA — Please join us on Sunday 13 Sep for our Autumn Prep and plant from 10 am to 12 Pm.  At St. Vinneys Community Garden. 1200 Marin St. Vallejo CA.  We will be planting new crops so donated produce plants and seeds are welcome! — https://www.eastbaydsa.org/events/5671/2026-09-13-sonar-dsa-garden-autumn-prep-and-plant/
-URL:https://www.eastbaydsa.org/events/5671/2026-09-13-sonar-dsa-garden-autumn-prep-and-plant/
-END:VEVENT
-BEGIN:VEVENT
 UID:6549400be585@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260927T170000Z
 DTEND:20260927T190000Z
 SUMMARY:Steering Committee Meeting
@@ -535,18 +483,18 @@ DESCRIPTION:[MEETING] — East Bay DSA — (Every Sunday) — This is the monthl
 URL:https://www.eastbaydsa.org/events/5574/2026-09-27-steering-committee-meeting/
 END:VEVENT
 BEGIN:VEVENT
-UID:e7c1a0521d2b@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T173000Z
-DTEND:20260919T193000Z
+UID:c0110dcae1b9@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T173000Z
+DTEND:20260926T193000Z
 SUMMARY:🌹 CANVASS - Nate for Oakland City Council
 LOCATION:1850 Lakeshore Ave\, Oakland\, CA\, 94606
-DESCRIPTION:[ACTION] — East Bay DSA — (Every Saturday) — IT'S GIVING SLASH THE RENT ⚔️ Let's make this a Socialist Summer by keeping up the momentum we've seen across the country\, and bringing a big win to Oakland! Meet comrades new and old to talk with our Oakland neighbors about how DSA plans to help them make our city more livabl — https://www.eastbaydsa.org/events/5650/2026-09-19-canvass-nate-for-oakland-city-council/
-URL:https://www.eastbaydsa.org/events/5650/2026-09-19-canvass-nate-for-oakland-city-council/
+DESCRIPTION:[ACTION] — East Bay DSA — IT'S GIVING SLASH THE RENT ⚔️ Let's make this a Socialist Summer by keeping up the momentum we've seen across the country\, and bringing a big win to Oakland! Meet comrades new and old to talk with our Oakland neighbors about how DSA plans to help them make our city more livabl — https://www.eastbaydsa.org/events/5649/2026-09-26-canvass-nate-for-oakland-city-council/
+URL:https://www.eastbaydsa.org/events/5649/2026-09-26-canvass-nate-for-oakland-city-council/
 END:VEVENT
 BEGIN:VEVENT
 UID:e0d4657f9717@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260920T200000Z
 DTEND:20260920T220000Z
 SUMMARY:Bay Area DSA Picnic 🌹
@@ -555,27 +503,8 @@ DESCRIPTION:[CULTURE] — East Bay DSA — Ever wondered what's beyond the confi
 URL:https://www.eastbaydsa.org/events/5382/2026-09-20-bay-area-dsa-picnic/
 END:VEVENT
 BEGIN:VEVENT
-UID:d8f07e9f1781@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T180000Z
-DTEND:20260913T200000Z
-SUMMARY:Art Build to Keep Coal Out
-LOCATION:4th Street and Hearst Avenue\, Berkeley \, CA\, 94710 
-DESCRIPTION:[MEETING] — East Bay DSA — Come help make art for our effort to get the City of Berkeley to go on record for clean air\, climate protection and a healthy community.  \n     We will be working outdoors making signs\, banners and patches. \n     In cooperation with @Sogorea Te' Land Trust and Lisjan — https://www.eastbaydsa.org/events/5675/2026-09-13-art-build-to-keep-coal-out/
-URL:https://www.eastbaydsa.org/events/5675/2026-09-13-art-build-to-keep-coal-out/
-END:VEVENT
-BEGIN:VEVENT
-UID:0333d4db265a@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T023000Z
-DTEND:20260916T043000Z
-SUMMARY:New Member Cohort Meeting
-DESCRIPTION:[MEETING] — East Bay DSA — Join our bimonthly online meetings to discuss new member onboarding\, planning cohorts and mixers\, and find effective ways to help our new members navigate East Bay DSA.  Please join us and learn about what we are up to as well as share your ideas!  All are welcome! < — https://www.eastbaydsa.org/events/5615/2026-09-15-new-member-cohort-meeting/
-URL:https://www.eastbaydsa.org/events/5615/2026-09-15-new-member-cohort-meeting/
-END:VEVENT
-BEGIN:VEVENT
 UID:9d9a3ad1781f@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260922T020000Z
 DTEND:20260922T040000Z
 SUMMARY:🌹 Socials Team Meeting
@@ -584,8 +513,18 @@ DESCRIPTION:[MEETING] — East Bay DSA — Wish East Bay DSA had a bit more oppo
 URL:https://www.eastbaydsa.org/events/5676/2026-09-21-socials-team-meeting/
 END:VEVENT
 BEGIN:VEVENT
+UID:3c77bc6e076b@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260921T003000Z
+DTEND:20260921T023000Z
+SUMMARY:🌹Dekada '70 Movie Night Fundraiser for OAK-CHRP
+LOCATION:1610 Harrison Street\, Oakland\, CA\, 94612
+DESCRIPTION:[CULTURE] — East Bay DSA — Join EBDSA's Anti-Imperialism Committee and the Oakland-Committee for Human Rights in the Philippines (OAK-CHRP) for a fundraiser movie night! On the 54th anniversary of the martial law declaration\, we'll be watching — https://www.eastbaydsa.org/events/5779/2026-09-20-dekada-70-movie-night-fundraiser-for-oak-chrp/
+URL:https://www.eastbaydsa.org/events/5779/2026-09-20-dekada-70-movie-night-fundraiser-for-oak-chrp/
+END:VEVENT
+BEGIN:VEVENT
 UID:5dc7d9bed0e2@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261011T204500Z
 DTEND:20261011T224500Z
 SUMMARY:🌹🏔️ October CoCo Branch General Meeting
@@ -594,27 +533,17 @@ DESCRIPTION:[MEETING] — East Bay DSA — Join us for our monthly branch genera
 URL:https://www.eastbaydsa.org/events/5628/2026-10-11-october-coco-branch-general-meeting/
 END:VEVENT
 BEGIN:VEVENT
-UID:655c7b3c31b7@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T000000Z
-DTEND:20260918T020000Z
+UID:3bede65ed27c@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260925T000000Z
+DTEND:20260925T020000Z
 SUMMARY:🌹Canvass: Claudia 4 Mayor 🗳️  2
-DESCRIPTION:[ACTION] — East Bay DSA — (Every Thursday) — Claudia Jimenez is running for Mayor of Richmond. She’s a great candidate that has already helped win over half a billion dollars from Chevron and now wants to work with the people of Richmond to decide on how to use the money to transition Richmond from being a refinery — https://www.eastbaydsa.org/events/5626/2026-09-17-canvass-claudia-4-mayor-2/
-URL:https://www.eastbaydsa.org/events/5626/2026-09-17-canvass-claudia-4-mayor-2/
-END:VEVENT
-BEGIN:VEVENT
-UID:a5233f1a3091@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T160000Z
-DTEND:20260919T180000Z
-SUMMARY:🌹Alameda Labor Council Canvass for Val\, Jennifer and Tax the Rich
-LOCATION:7701 Krause Avenue\, Oakland\, CA\, 94605
-DESCRIPTION:[ACTION] — East Bay DSA — Join the movement to fight for Universal Childcare\, strong educator contracts\, and taxing the rich by knocking on doors for Valarie Bachelor and Jennifer Brouhard. We want to show the charters\, privatizers and money-interest opposed to our campaign that Oakland schools have Oa — https://www.eastbaydsa.org/events/5655/2026-09-19-alameda-labor-council-canvass-for-val-jennifer-and-tax-the-rich/
-URL:https://www.eastbaydsa.org/events/5655/2026-09-19-alameda-labor-council-canvass-for-val-jennifer-and-tax-the-rich/
+DESCRIPTION:[ACTION] — East Bay DSA — (Every Thursday) — Claudia Jimenez is running for Mayor of Richmond. She’s a great candidate that has already helped win over half a billion dollars from Chevron and now wants to work with the people of Richmond to decide on how to use the money to transition Richmond from being a refinery — https://www.eastbaydsa.org/events/5660/2026-09-24-canvass-claudia-4-mayor-2/
+URL:https://www.eastbaydsa.org/events/5660/2026-09-24-canvass-claudia-4-mayor-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:dfb5dc056869@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260926T170000Z
 DTEND:20260926T190000Z
 SUMMARY:🌹Universal Childcare: Door-to-Door For Valarie Bachelor
@@ -624,7 +553,7 @@ URL:https://www.eastbaydsa.org/events/5656/2026-09-26-universal-childcare-door-t
 END:VEVENT
 BEGIN:VEVENT
 UID:e741f1265e51@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260927T180000Z
 DTEND:20260927T200000Z
 SUMMARY:🌹Divest From Apartheid Campaign Meeting🌹
@@ -633,38 +562,28 @@ DESCRIPTION:[MEETING] — East Bay DSA — (Every Sunday) — Please join us for
 URL:https://www.eastbaydsa.org/events/5564/2026-09-27-divest-from-apartheid-campaign-meeting/
 END:VEVENT
 BEGIN:VEVENT
-UID:14adc3e3ce05@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T170000Z
-DTEND:20260913T190000Z
-SUMMARY:🌹🏔️ September CoCo Branch General Meeting
-LOCATION:2380 Salvio St Unit 301 \, Concord \, CA\, 94520
-DESCRIPTION:[MEETING] — East Bay DSA — Join us for our monthly branch general meeting via zoom\,   and discuss how we can create a more equitable and fair Contra Costa.    We are holding this meeting earlier\, — https://www.eastbaydsa.org/events/5629/2026-09-13-september-coco-branch-general-meeting/
-URL:https://www.eastbaydsa.org/events/5629/2026-09-13-september-coco-branch-general-meeting/
+UID:76bb3e14530d@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260920T230000Z
+DTEND:20260921T010000Z
+SUMMARY:🌹Mixer with Berkeley DSA Candidates!
+LOCATION:2022 Blake Street\, Berkeley\, CA\, 94704
+DESCRIPTION:[CULTURE] — East Bay DSA — Join East Bay DSA and the Berkeley Tenants Union for a fundraiser and mixer for our endorsed candidates\, including Syrak Micael for Berkeley City Council\, the Right to Housing Slate (Vylma Ortiz\, Avery Arbaugh\, Derek Rodriguez\, Ida Martinac\, and Nathan Mizell) and Berkeley's P — https://www.eastbaydsa.org/events/5780/2026-09-20-mixer-with-berkeley-dsa-candidates/
+URL:https://www.eastbaydsa.org/events/5780/2026-09-20-mixer-with-berkeley-dsa-candidates/
 END:VEVENT
 BEGIN:VEVENT
-UID:ac3dff9ca868@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T010000Z
-DTEND:20260916T030000Z
-SUMMARY:🌹Rally to Keep Coal Out of Berkeley
-LOCATION:1231 Addison St. \, Berkeley \, CA\, 94702
-DESCRIPTION:[ACTION] — East Bay DSA — On\nSeptember 15\, the Berkeley City Council will vote on a resolution\nopposing the handling\, storage and transport of coal in the San\nFrancisco Bay Region.  \n \nThe Keep Coal Out Coalition will\n rally outside the\nBerkeley City Council meeting  while the coun — https://www.eastbaydsa.org/events/5734/2026-09-15-rally-to-keep-coal-out-of-berkeley/
-URL:https://www.eastbaydsa.org/events/5734/2026-09-15-rally-to-keep-coal-out-of-berkeley/
-END:VEVENT
-BEGIN:VEVENT
-UID:36812a01f195@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T010000Z
-DTEND:20260916T030000Z
-SUMMARY:Phone Bank our Members\, let's go canvass!
-LOCATION:1610 Harrison St Suite D\, Oakland\, CA\, 94612
-DESCRIPTION:[ACTION] — East Bay DSA — The chapter's electoral work is in  full swing!  Let's make sure all our members know about it and see if they want to sign up for an upcoming canvass.  We'll be calling up EBDSA members who have been less active and inviting them to upcoming electoral canv — https://www.eastbaydsa.org/events/5773/2026-09-15-phone-bank-our-members-let-s-go-canvass/
-URL:https://www.eastbaydsa.org/events/5773/2026-09-15-phone-bank-our-members-let-s-go-canvass/
+UID:64d8e4ddb2e0@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T020000Z
+DTEND:20260924T040000Z
+SUMMARY:CBVB September Social
+LOCATION:Available Upon RSVP\, Available Upon RSVP\, CA\, Available Upon RSVP
+DESCRIPTION:[MEETING] — East Bay DSA — Want to find out more about what the DSA is about in a casual setting? Want to catch up on the latest happenings with members? This is what the CBVB monthly social is for!  Join for a local trivia night within the CBVB area from 7 - 9 pm. The address for the event will be — https://www.eastbaydsa.org/events/5781/2026-09-23-cbvb-september-social/
+URL:https://www.eastbaydsa.org/events/5781/2026-09-23-cbvb-september-social/
 END:VEVENT
 BEGIN:VEVENT
 UID:8349a949de9c@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260926T010000Z
 DTEND:20260926T030000Z
 SUMMARY:🌹 Screening of “When ICE Melts – Testimonies from The Front Lines”
@@ -674,7 +593,7 @@ URL:https://www.eastbaydsa.org/events/5659/2026-09-25-screening-of-when-ice-melt
 END:VEVENT
 BEGIN:VEVENT
 UID:1af8bd130d85@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261010T210000Z
 DTEND:20261010T230000Z
 SUMMARY:🌹 Clothing Swap!
@@ -683,27 +602,8 @@ DESCRIPTION:[MEETING] — East Bay DSA — Need to do a closet clean-out\, or ho
 URL:https://www.eastbaydsa.org/events/5681/2026-10-10-clothing-swap/
 END:VEVENT
 BEGIN:VEVENT
-UID:1211ed2de981@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260924T010000Z
-DTEND:20260924T030000Z
-SUMMARY:Universal Childcare Mass Meeting:
-DESCRIPTION:[MEETING] — East Bay DSA — Come join us as we talk about what it will take to win universal childcare in the city of Oakland. Well discus some of the hurdles in the way of winning Childcare for All\, chart a path to win this demand\, and then call other DSA members to get them involved in the campaign!</p — https://www.eastbaydsa.org/events/5654/2026-09-23-universal-childcare-mass-meeting/
-URL:https://www.eastbaydsa.org/events/5654/2026-09-23-universal-childcare-mass-meeting/
-END:VEVENT
-BEGIN:VEVENT
-UID:2d8e834c55fc@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T020000Z
-DTEND:20260918T040000Z
-SUMMARY:🌹Socialists of Color (SoC) Meeting
-LOCATION:1610 Harrison Street\, Oakland\, CA\, 94612
-DESCRIPTION:[MEETING] — East Bay DSA — Join us for the second official meeting of the Socialists of Color Working Group😱🎉 We — https://www.eastbaydsa.org/events/5774/2026-09-17-socialists-of-color-soc-meeting/
-URL:https://www.eastbaydsa.org/events/5774/2026-09-17-socialists-of-color-soc-meeting/
-END:VEVENT
-BEGIN:VEVENT
 UID:6960d6d5fdaa@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261017T200000Z
 DTEND:20261017T220000Z
 SUMMARY:🌹Fall New Member Cohort-Session 2
@@ -713,7 +613,7 @@ URL:https://www.eastbaydsa.org/events/5682/2026-10-17-fall-new-member-cohort-ses
 END:VEVENT
 BEGIN:VEVENT
 UID:feca9c34ee3b@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261004T200000Z
 DTEND:20261004T220000Z
 SUMMARY:🌹 Fall New Member Cohort-Session 1
@@ -722,8 +622,17 @@ DESCRIPTION:[MEETING] — East Bay DSA — Are you new to DSA? Wondering what is
 URL:https://www.eastbaydsa.org/events/5683/2026-10-04-fall-new-member-cohort-session-1/
 END:VEVENT
 BEGIN:VEVENT
+UID:1211ed2de981@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T010000Z
+DTEND:20260924T030000Z
+SUMMARY:Universal Childcare Mass Meeting:
+DESCRIPTION:[MEETING] — East Bay DSA — Come join us as we talk about what it will take to win universal childcare in the city of Oakland. Well discus some of the hurdles in the way of winning Childcare for All\, chart a path to win this demand\, and then call other DSA members to get them involved in the campaign!</p — https://www.eastbaydsa.org/events/5654/2026-09-23-universal-childcare-mass-meeting/
+URL:https://www.eastbaydsa.org/events/5654/2026-09-23-universal-childcare-mass-meeting/
+END:VEVENT
+BEGIN:VEVENT
 UID:e8587a8531b3@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261025T200000Z
 DTEND:20261025T220000Z
 SUMMARY:🌹Fall New Member Cohort- Session 3
@@ -733,7 +642,7 @@ URL:https://www.eastbaydsa.org/events/5684/2026-10-25-fall-new-member-cohort-ses
 END:VEVENT
 BEGIN:VEVENT
 UID:ab0388514816@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261002T010000Z
 DTEND:20261002T030000Z
 SUMMARY:Socialist Night School: Unions
@@ -742,18 +651,18 @@ DESCRIPTION:[MEETING] — East Bay DSA — What are unions\, and why do socialis
 URL:https://www.eastbaydsa.org/events/5687/2026-10-01-socialist-night-school-unions/
 END:VEVENT
 BEGIN:VEVENT
-UID:51e286c36fee@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20261001T010000Z
-DTEND:20261001T030000Z
-SUMMARY:🌹Comrades y Conversaciones: Spanish Speakers of EBDSA
-LOCATION:1610 Harrison St\, Oakland\, CA\, 94612
-DESCRIPTION:[MEETING] — East Bay DSA — Do you speak Spanish? Want to help make East Bay DSA a welcoming place for Spanish speakers?   We’re meeting to discuss how to make East Bay DSA a political home for Spanish speakers. Our goal for this meeting is to uplift and build up a group of Spanish speakers within D — https://www.eastbaydsa.org/events/5686/2026-09-30-comrades-y-conversaciones-spanish-speakers-of-ebdsa/
-URL:https://www.eastbaydsa.org/events/5686/2026-09-30-comrades-y-conversaciones-spanish-speakers-of-ebdsa/
+UID:c4705dd3022d@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260927T213000Z
+DTEND:20260927T233000Z
+SUMMARY:Migrants Defense Strategy Session!
+LOCATION:9825 International Boulevard\, Oakland\, CA\, 94603
+DESCRIPTION:[MEETING] — East Bay DSA — The Migrants Defense Committee will be having a Strategy Session in East Oakland! Join us to talk about what ideas to bring to the next Committee Meeting & other thoughts! \n Come grab a bite and share big ideas! \n El comité de la Defensa de Migrantes va a — https://www.eastbaydsa.org/events/5765/2026-09-27-migrants-defense-strategy-session/
+URL:https://www.eastbaydsa.org/events/5765/2026-09-27-migrants-defense-strategy-session/
 END:VEVENT
 BEGIN:VEVENT
 UID:d7e6ce4d9ecd@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260924T010000Z
 DTEND:20260924T030000Z
 SUMMARY:🌹Climate Action Committee Meeting: Keep Coal Out
@@ -762,18 +671,28 @@ DESCRIPTION:[MEETING] — East Bay DSA — The fight to Keep Coal Out continues.
 URL:https://www.eastbaydsa.org/events/5699/2026-09-23-climate-action-committee-meeting-keep-coal-out/
 END:VEVENT
 BEGIN:VEVENT
-UID:493cd6b25279@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T230000Z
-DTEND:20260920T010000Z
-SUMMARY:Electoral Strategy Working Group Meeting
-LOCATION:1610 Harrison Street\, Oakland\, CA\, 94612
-DESCRIPTION:[MEETING] — East Bay DSA — <p style="box-sizing: border-box\; margin-top: 0px\; margin-bottom: 10px\; line-height: 1.5\; color: #212529\; font-family: system-ui\, -apple-system\, 'Segoe UI'\, Roboto\, 'Helvetica Neue'\, 'Noto Sans'\, 'Liberation Sans'\, Arial\, sans-serif\, 'Apple Color Emoji'\, 'Segoe UI Emoji'\, 'Segoe — https://www.eastbaydsa.org/events/5697/2026-09-19-electoral-strategy-working-group-meeting/
-URL:https://www.eastbaydsa.org/events/5697/2026-09-19-electoral-strategy-working-group-meeting/
+UID:660f4eb611ad@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260927T190000Z
+DTEND:20260927T210000Z
+SUMMARY:🌹Universal Childcare: Door-to-Door For Valarie Bachelor
+LOCATION:4618 Allendale Avenue\, Oakland\, CA\, 94619
+DESCRIPTION:[MEETING] — East Bay DSA — Join the movement to fight for Universal Childcare\, strong educator contracts\, and building beautiful social housing by knocking on doors for Valarie Bachelor and Jennifer Brouhard. We want to show the charters\, privatizers and money-interest opposed to our campaign that Oakla — https://www.eastbaydsa.org/events/5703/2026-09-27-universal-childcare-door-to-door-for-valarie-bachelor/
+URL:https://www.eastbaydsa.org/events/5703/2026-09-27-universal-childcare-door-to-door-for-valarie-bachelor/
+END:VEVENT
+BEGIN:VEVENT
+UID:a393e5112269@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261108T214500Z
+DTEND:20261108T234500Z
+SUMMARY:🌹🏔️ November CoCo Branch General Meeting
+LOCATION:2380 Salvio St Unit 301 \, Concord \, CA\, 94520
+DESCRIPTION:[MEETING] — East Bay DSA — Join us for our monthly branch general meeting at the Concord Rainbow Community Center\, and discuss how we can create a more equitable and fair Contra Costa.   If you live\, work\, or learn in Co Co\, join the coali — https://www.eastbaydsa.org/events/5775/2026-11-08-november-coco-branch-general-meeting/
+URL:https://www.eastbaydsa.org/events/5775/2026-11-08-november-coco-branch-general-meeting/
 END:VEVENT
 BEGIN:VEVENT
 UID:7a6374d409a9@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260926T220000Z
 DTEND:20260927T000000Z
 SUMMARY:🌹 Reunión Comunitaria en Español
@@ -782,8 +701,64 @@ DESCRIPTION:[MEETING] — East Bay DSA — El Comité en Defensa de los Inmigran
 URL:https://www.eastbaydsa.org/events/5733/2026-09-26-reunion-comunitaria-en-espanol/
 END:VEVENT
 BEGIN:VEVENT
+UID:e9b9c82ce756@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260927T190000Z
+DTEND:20260927T210000Z
+SUMMARY:🌹 George Syrop Campaign Canvass
+DESCRIPTION:[ACTION] — East Bay DSA — Join us Sunday\, September 27 to help re-elect a cadre socialist candidate to Hayward City Council!  George Syrop is running for Hayward City Council District 1. He has an opponent now so it's time to step up the canvassing! \n Spend some time outdoors with — https://www.eastbaydsa.org/events/5805/2026-09-27-george-syrop-campaign-canvass/
+URL:https://www.eastbaydsa.org/events/5805/2026-09-27-george-syrop-campaign-canvass/
+END:VEVENT
+BEGIN:VEVENT
+UID:35b846f5658c@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261014T010000Z
+DTEND:20261014T030000Z
+SUMMARY:Tech Team Monthly Meeting
+DESCRIPTION:[MEETING] — East Bay DSA — Join our tech committee to support chapter functions and find ways to use tech for good in supporting other committee's work — https://www.eastbaydsa.org/events/5777/2026-10-13-tech-team-monthly-meeting/
+URL:https://www.eastbaydsa.org/events/5777/2026-10-13-tech-team-monthly-meeting/
+END:VEVENT
+BEGIN:VEVENT
+UID:a5f83f15f780@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261001T010000Z
+DTEND:20261001T030000Z
+SUMMARY:🌹Camaradas y Conversaciones: Spanish Speakers of EBDSA
+LOCATION:1610 Harrison St\, Oakland\, CA\, 94612
+DESCRIPTION:[MEETING] — East Bay DSA — Do you speak Spanish? Want to help make East Bay DSA a welcoming place for Spanish speakers?   We’re meeting to discuss how to make East Bay DSA a political home for Spanish speakers. Our goal for this meeting is to uplift and build up a group of Spanish speakers within D — https://www.eastbaydsa.org/events/5686/2026-09-30-camaradas-y-conversaciones-spanish-speakers-of-ebdsa/
+URL:https://www.eastbaydsa.org/events/5686/2026-09-30-camaradas-y-conversaciones-spanish-speakers-of-ebdsa/
+END:VEVENT
+BEGIN:VEVENT
+UID:497bd84e423c@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261003T013000Z
+DTEND:20261003T033000Z
+SUMMARY:🌹 Socialist Fundamentals 8: Fascism
+LOCATION:685 14th St\, Oakland\, CA\, 94612
+DESCRIPTION:[MEETING] — East Bay DSA — Around the world and here at home\, the far right is responding to the crises of capitalism by doubling down on racism\, xenophobia\, antidemocratic politics\, and authoritarianism. What is our role as socialists in fighting back?   On October 2 at 6:30 pm\, join us at — https://www.eastbaydsa.org/events/5790/2026-10-02-socialist-fundamentals-8-fascism/
+URL:https://www.eastbaydsa.org/events/5790/2026-10-02-socialist-fundamentals-8-fascism/
+END:VEVENT
+BEGIN:VEVENT
+UID:c2980d5750f6@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261007T010000Z
+DTEND:20261007T030000Z
+SUMMARY:West-North Oakland Local Meeting
+LOCATION:Oakland Public Library: Temescal Branch\, 5205 Telegraph Ave\, Oakland\, CA 94609\, USA
+DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Monthly) — West-North Oakland Local Meeting   All tenants are welcome to attend TANC's West-North Oakland Local meeting. Bring any organizing or landlord issue you have.    Zoom Meeting Info:              Message <a href="m
+END:VEVENT
+BEGIN:VEVENT
+UID:ad37137cf30a@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261008T010000Z
+DTEND:20261008T030000Z
+SUMMARY:Central Oakland Local Meeting
+LOCATION:Tamarack\, 1501 Harrison St\, Oakland\, CA 94612\, USA
+DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Monthly) — The Central Oakland Local of Tenant and Neighborhood Councils meets to coordinate our organizing every other Wednesday at Tamarack\, 6pm\, with optional Zoom attendance.   Join Zoom Meeting <a href="https://us02web.zoom.us/j/86547624862?pwd=WVBFL01FeDBvUy9iYVJYVy9RanV
+END:VEVENT
+BEGIN:VEVENT
 UID:9cc968713cfc@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260927T220000Z
 DTEND:20260928T000000Z
 SUMMARY:TANC Assembly
@@ -791,52 +766,16 @@ LOCATION:Oakland Public Library\, 125 14th St\, Oakland\, CA 94612\, USA
 DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Every 2 months) — Let's get organized together. All welcome!     For proposal writing support\,     e      mail     the Membe
 END:VEVENT
 BEGIN:VEVENT
-UID:2d701a9fb5e1@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T010000Z
-DTEND:20260916T030000Z
-SUMMARY:East of Lake Local Meeting (Hybrid)
-LOCATION:Oakland Public Library: César E. Chávez Branch\, 3301 E 12th St #271\, Oakland\, CA 94601\, USA
-DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Every Tuesday) — East of the Lake includes the area east of Lake Merritt through East Oakland. Is this where you live? Join the East of the Lake meeting! Email   TANCEastOfLake@protonmail.com   for Zoom link.
-END:VEVENT
-BEGIN:VEVENT
-UID:c4e4243d9f5a@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20261011T020000Z
-DTEND:20261011T040000Z
-SUMMARY:Spanish Language Exchange Mixer
-LOCATION:Two Pitchers Brewing Company\, 2344 Webster St\, Oakland\, CA 94612\, USA
-DESCRIPTION:[CULTURE] — Tenant and Neighborhood Councils (TANC) — (Every 2 months) — Hosted by TANC's Language Justice Committee
-END:VEVENT
-BEGIN:VEVENT
-UID:31a0012fe54b@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T010000Z
-DTEND:20260917T030000Z
-SUMMARY:Central Oakland Local Meeting
-LOCATION:Tamarack\, 1501 Harrison St\, Oakland\, CA 94612\, USA
-DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Monthly) — The Central Oakland Local of Tenant and Neighborhood Councils meets to coordinate our organizing every other Wednesday at Tamarack\, 6pm\, with optional Zoom attendance.   Join Zoom Meeting <a href="https://www.google.com/url?q=https://us02web.zoom.us/j/86547624862?pwd%3DW
-END:VEVENT
-BEGIN:VEVENT
-UID:eb2d9172843e@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T030000Z
-DTEND:20260916T050000Z
-SUMMARY:South Bay Local Meeting
-DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Monthly) — SB Local’s meeting for tenants in San Jose and the surrounding cities. Meetings feature updates on our current projects\, outreach and organizing planning\, and political education in all facets of the tenant movement.   We meet first Tuesdays on Zoom and third Tuesday is
-END:VEVENT
-BEGIN:VEVENT
-UID:16700244b3fd@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260924T020000Z
-DTEND:20260924T040000Z
-SUMMARY:Berkeley Local Meeting
-LOCATION:The Grassroots House\, 2022 Blake St\, Berkeley\, CA 94704\, USA
-DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Monthly) — All tenants are welcome to attend TANC's Berkeley Local meeting. Bring any organizing or landlord issue you have. Reach out to   tancberkeley@gmail.com   to get plugged in!
+UID:38492990334e@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260923T003000Z
+DTEND:20260923T023000Z
+SUMMARY:TANC Office Hours
+DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Every Tuesday) — TANC Office Hours! Give us a call at (510) 671-5747 if you want to talk through any landlord issues or get connected to the union. Or come in person to the office at 2940 West St and ring the doorbell to come in!
 END:VEVENT
 BEGIN:VEVENT
 UID:d8011daa19a9@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260922T020000Z
 DTEND:20260922T040000Z
 SUMMARY:SF Local Meeting
@@ -844,82 +783,109 @@ LOCATION:Adobe Books & Arts Cooperative\, 3130 24th St\, San Francisco\, CA 9411
 DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Monthly) — All tenants are welcome to attend TANC's SF Local meeting. Bring any organizing or landlord issue you have.    Zoom Meeting Info:            Message   info@sftanc.com     for meeting link
 END:VEVENT
 BEGIN:VEVENT
-UID:865348ea7868@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T010000Z
-DTEND:20260916T030000Z
-SUMMARY:West-North Oakland Local Meeting
-LOCATION:Oakland Public Library: Temescal Branch\, 5205 Telegraph Ave\, Oakland\, CA 94609\, USA
-DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Monthly) — West-North Oakland Local Meeting   All tenants are welcome to attend TANC's West-North Oakland Local meeting. Bring any organizing or landlord issue you have.    Zoom Meeting Info:              Message <a hre
+UID:16700244b3fd@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T020000Z
+DTEND:20260924T040000Z
+SUMMARY:Berkeley Local Meeting
+LOCATION:The Grassroots House\, 2022 Blake St\, Berkeley\, CA 94704\, USA
+DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Monthly) — All tenants are welcome to attend TANC's Berkeley Local meeting. Bring any organizing or landlord issue you have. Reach out to   tancberkeley@gmail.com   to get plugged in!
 END:VEVENT
 BEGIN:VEVENT
-UID:ccd53fc5d6cf@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T010000Z
-DTEND:20260918T030000Z
+UID:20d09b155896@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261007T030000Z
+DTEND:20261007T050000Z
+SUMMARY:South Bay Local Meeting
+DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Monthly) — SB Local’s meeting for tenants in San Jose and the surrounding cities. Meetings feature updates on our current projects\, outreach and organizing planning\, and political education in all facets of the tenant movement.        We meet first Tuesd
+END:VEVENT
+BEGIN:VEVENT
+UID:c3eb26ca0642@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261016T010000Z
+DTEND:20261016T030000Z
 SUMMARY:Marin Local Meeting
 DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Monthly) — Join Zoom Meeting   https://zoom.us/join  Meeting ID: 886 7373 8947 Email marintenants@gmail.com for password \n\nJoin with Google Meet: https://meet.google.com/gmy-mojb-rmm\n\nLearn more about Meet at: https://support.google.c
 END:VEVENT
 BEGIN:VEVENT
-UID:df4dd8941d2e@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T003000Z
-DTEND:20260916T023000Z
-SUMMARY:TANC Office Hours
-DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Every Tuesday) — TANC Office Hours! Give us a call at (510) 671-5747 if you want to talk through any landlord issues or get connected to the union. Or come in person to the office at 2940 West St and ring the doorbell to come in!
+UID:c4e4243d9f5a@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261011T020000Z
+DTEND:20261011T040000Z
+SUMMARY:Spanish Language Exchange Mixer
+LOCATION:Two Pitchers Brewing Company\, 2344 Webster St\, Oakland\, CA 94612\, USA
+DESCRIPTION:[CULTURE] — Tenant and Neighborhood Councils (TANC) — (Every 2 months) — Hosted by TANC's Language Justice Committee
 END:VEVENT
 BEGIN:VEVENT
-UID:9c8f73c516c3@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260915T163000Z
-DTEND:20260915T183000Z
+UID:87d2694cfd6a@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260923T010000Z
+DTEND:20260923T030000Z
+SUMMARY:East of Lake Local Meeting (Hybrid)
+LOCATION:Oakland Public Library: César E. Chávez Branch\, 3301 E 12th St #271\, Oakland\, CA 94601\, USA
+DESCRIPTION:[TENANT] — Tenant and Neighborhood Councils (TANC) — (Every Tuesday) — East of the Lake includes the area east of Lake Merritt through East Oakland. Is this where you live? Join the East of the Lake meeting! Email   TANCEastOfLake@protonmail.com   for Zoom link.
+END:VEVENT
+BEGIN:VEVENT
+UID:1df011158d7e@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260922T163000Z
+DTEND:20260922T183000Z
 SUMMARY:Keep People Housed Oakland - Drop In Hours (Tuesday's)
 LOCATION:East Oakland Collective\,7800 MacArthur Blvd\, Oakland\, CA 94605\, USA
-DESCRIPTION:[MUTUAL AID] — East Oakland Collective — (Every Tuesday) — East Oakland Collective has partnered with Keep People Housed – Oakland (KPH)\, to help prevent Oakland residents at-risk of homelessness and displacement from losing their housing.\n\nKPH is a collaborative led by Bay Area Community Services (BACS)\, partnering with many non-profit — https://tockify.com/eastoaklandcollective/detail/402/1789489800000
-URL:https://tockify.com/eastoaklandcollective/detail/402/1789489800000
+DESCRIPTION:[MUTUAL AID] — East Oakland Collective — (Every Tuesday) — East Oakland Collective has partnered with Keep People Housed – Oakland (KPH)\, to help prevent Oakland residents at-risk of homelessness and displacement from losing their housing.\n\nKPH is a collaborative led by Bay Area Community Services (BACS)\, partnering with many non-profit — https://tockify.com/eastoaklandcollective/detail/402/1790094600000
+URL:https://tockify.com/eastoaklandcollective/detail/402/1790094600000
 END:VEVENT
 BEGIN:VEVENT
-UID:9612639bda0b@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T163000Z
-DTEND:20260917T183000Z
-SUMMARY:Older Adult Coffee Hour
-LOCATION:The East Oakland Collective\,7800 MacArthur Blvd\, Oakland\, CA 94605\, USA
-DESCRIPTION:[MUTUAL AID] — East Oakland Collective — (Every Thursday) — Learn. Enjoy. Meet.\n\nEvery first and third Thursday of the month\, older adults ages 50+ can join us for a nutritious breakfast\, resources\, workshops and more! — https://tockify.com/eastoaklandcollective/detail/427/1789662600000
-URL:https://tockify.com/eastoaklandcollective/detail/427/1789662600000
-END:VEVENT
-BEGIN:VEVENT
-UID:a80f319c11d0@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T163000Z
-DTEND:20260917T183000Z
+UID:44e9b8cbc11b@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T163000Z
+DTEND:20260924T183000Z
 SUMMARY:Keep People Housed Oakland - Drop In Hours (Thursday's)
 LOCATION:East Oakland Collective\,7800 MacArthur Blvd\, Oakland\, CA 94605\, USA
-DESCRIPTION:[MUTUAL AID] — East Oakland Collective — (Every Thursday) — East Oakland Collective has partnered with Keep People Housed – Oakland (KPH)\, to help prevent Oakland residents at-risk of homelessness and displacement from losing their housing.\n\nKPH is a collaborative led by Bay Area Community Services (BACS)\, partnering with many non-profit — https://tockify.com/eastoaklandcollective/detail/405/1789662600000
-URL:https://tockify.com/eastoaklandcollective/detail/405/1789662600000
+DESCRIPTION:[MUTUAL AID] — East Oakland Collective — (Every Thursday) — East Oakland Collective has partnered with Keep People Housed – Oakland (KPH)\, to help prevent Oakland residents at-risk of homelessness and displacement from losing their housing.\n\nKPH is a collaborative led by Bay Area Community Services (BACS)\, partnering with many non-profit — https://tockify.com/eastoaklandcollective/detail/405/1790267400000
+URL:https://tockify.com/eastoaklandcollective/detail/405/1790267400000
 END:VEVENT
 BEGIN:VEVENT
-UID:bae5c89eca3a@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T180000Z
-DTEND:20260917T200000Z
+UID:2b1f8a0ae5c6@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T180000Z
+DTEND:20260924T200000Z
 SUMMARY:Food & Supply Distribution - Grocery Day
 LOCATION:EOC Distribution Hub\,7800 MacArthur Blvd\, Oakland\, CA 94605\, USA
-DESCRIPTION:[MUTUAL AID] — East Oakland Collective — (Every Thursday) — Experiencing food insecurity? In need of * FREE * groceries? Stop by our distribution hub for free\, fresh and healthy catered meals from local restaurants and groceries. Come shop our market for fresh groceries-- produce\, meat\, and shelf stable goods.\n\nRegistration required onsit — https://tockify.com/eastoaklandcollective/detail/370/1789668000000
-URL:https://tockify.com/eastoaklandcollective/detail/370/1789668000000
+DESCRIPTION:[MUTUAL AID] — East Oakland Collective — (Every Thursday) — Experiencing food insecurity? In need of * FREE * groceries? Stop by our distribution hub for free\, fresh and healthy catered meals from local restaurants and groceries. Come shop our market for fresh groceries-- produce\, meat\, and shelf stable goods.\n\nRegistration required onsit — https://tockify.com/eastoaklandcollective/detail/370/1790272800000
+URL:https://tockify.com/eastoaklandcollective/detail/370/1790272800000
 END:VEVENT
 BEGIN:VEVENT
-UID:66d9365d4a6c@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260915T020000Z
-DTEND:20260915T040000Z
+UID:aa889ccbbe26@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261001T163000Z
+DTEND:20261001T183000Z
+SUMMARY:Older Adult Coffee Hour
+LOCATION:The East Oakland Collective\,7800 MacArthur Blvd\, Oakland\, CA 94605\, USA
+DESCRIPTION:[MUTUAL AID] — East Oakland Collective — (Every Thursday) — Learn. Enjoy. Meet.\n\nEvery first and third Thursday of the month\, older adults ages 50+ can join us for a nutritious breakfast\, resources\, workshops and more! — https://tockify.com/eastoaklandcollective/detail/427/1790872200000
+URL:https://tockify.com/eastoaklandcollective/detail/427/1790872200000
+END:VEVENT
+BEGIN:VEVENT
+UID:9e5336809f5d@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261013T020000Z
+DTEND:20261013T040000Z
 SUMMARY:OTU General Meeting
 LOCATION:https://us02web.zoom.us/meeting/register/tZApd-6ppz4jE90XilA-hhyY8zygeYRF43bR
 DESCRIPTION:[MEETING] — Oakland Tenants Union — (Monthly)
 END:VEVENT
 BEGIN:VEVENT
+UID:8e4d7a08832e@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260927T220000Z
+DTEND:20260928T000000Z
+SUMMARY:Virtual Tenant Clinic
+LOCATION:https://www.eventbrite.com/e/virtual-tenant-clinic-tickets-1979257475389
+DESCRIPTION:[TENANT] — Oakland Tenants Union — (Monthly) — Problems with your landlord? Join OTU's Community Counselors on Zoom to get solutions! This event is free and open to all Oakland tenants.    Register here    or call (5
+END:VEVENT
+BEGIN:VEVENT
 UID:9ecacd85bd90@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261004T220000Z
 DTEND:20261005T000000Z
 SUMMARY:Main Library Tenant Clinic
@@ -927,141 +893,132 @@ LOCATION:Oakland Public Library\, 125 14th St\, Oakland\, CA 94612\, USA
 DESCRIPTION:[TENANT] — Oakland Tenants Union — (Monthly) — Problems with your landlord? Learn your rights at our in-person tenant clinic at the Oakland Main Library! Appointments are first-come\, first-served. Bring your lease and/or any other relevant documents.
 END:VEVENT
 BEGIN:VEVENT
-UID:3e13fb4de838@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T010000Z
-DTEND:20260916T030000Z
+UID:2620669e5f71@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261021T010000Z
+DTEND:20261021T030000Z
 SUMMARY:West Oakland Tenants Rights Clinic
 LOCATION:West Oakland Branch | Oakland Public Library:\, 1801 Adeline St\, Oakland\, CA 94607\, USA
 DESCRIPTION:[TENANT] — Oakland Tenants Union — (Monthly) — Problems with your landlord? OTU's Community Counselors will be at the Oakland Main Library to answer your tenants rights questions. This event is free and open to all Oakland tenants. Make an appointment <a href="https://www.eventbrite.com/e/west-oakland-tenants-rights-clinic-ti
 END:VEVENT
 BEGIN:VEVENT
-UID:042c03f99ad3@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T220000Z
-DTEND:20260914T000000Z
-SUMMARY:Virtual Tenant Clinic
-LOCATION:https://www.eventbrite.com/e/virtual-tenant-clinic-tickets-1979257475389
-DESCRIPTION:[TENANT] — Oakland Tenants Union — (Monthly) — Problems with your landlord? Join OTU's Community Counselors on Zoom to get solutions! This event is free and open to all Oakland tenants.   Register here     <spa
-END:VEVENT
-BEGIN:VEVENT
-UID:de0b612d21de@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T190000Z
-DTEND:20260919T210000Z
+UID:928e305c42e2@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T190000Z
+DTEND:20260926T210000Z
 SUMMARY:Fight Fascism: Protest outside Tesla
 LOCATION:Tesla Dealership
 DESCRIPTION:[ACTION] — Indivisible East Bay — (Recurring) — This is a weekly gathering of protestors.  We are non-violent and passionate about the ways in which this administration has attacked every meaningful institution and value we hold dear. \nWe started with Tesla\, Musk\, and Doge.  We continued as they assaulted the Rule of Law\, Immi — https://www.mobilize.us/indivisible-east-bay/event/782224/
 URL:https://www.mobilize.us/indivisible-east-bay/event/782224/
 END:VEVENT
 BEGIN:VEVENT
-UID:468f80a0c9ab@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T190000Z
-DTEND:20260919T210000Z
+UID:a7ba224aa618@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T190000Z
+DTEND:20260926T210000Z
 SUMMARY:Defend Democracy at the Pleasanton Peace Corner
 LOCATION:Pleasanton Tennis and Community Park
-DESCRIPTION:[ACTION] — Indivisible Tri-Valley — (Recurring) — Join us every Saturday and speak up for our democracy and community.\n\nBe sure to register each week to stay up to date with rally locations.\n\n**Starting July 11 and through the summer\, the weekly Defend Democracy Rally is shifting to Pleasanton**   \n\nThe rally will be located at — https://www.mobilize.us/indivisible-east-bay/event/795295/
+DESCRIPTION:[ACTION] — Indivisible Tri-Valley — Join us every Saturday and speak up for our democracy and community.\n\nBe sure to register each week to stay up to date with rally locations.\n\n**Starting July 11 and through the summer\, the weekly Defend Democracy Rally is shifting to Pleasanton**   \n\nThe rally will be located at — https://www.mobilize.us/indivisible-east-bay/event/795295/
 URL:https://www.mobilize.us/indivisible-east-bay/event/795295/
 END:VEVENT
 BEGIN:VEVENT
-UID:d8ad203f4e6c@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260915T000000Z
-DTEND:20260915T020000Z
+UID:97117f73c5b2@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260922T000000Z
+DTEND:20260922T020000Z
 SUMMARY:MacArthur & High St Weekly Resistance Protest
 DESCRIPTION:[ACTION] — Indivisible East Bay — (Recurring) — Join us as we stand in solidarity to highlight the many harms caused by the Trump administration’s authoritarian regime. Local neighbors have held this street corner of Oakland since the inauguration and we invite you to stand with us! \n\nWe use signs and the power of community to — https://www.mobilize.us/indivisible-east-bay/event/809205/
 URL:https://www.mobilize.us/indivisible-east-bay/event/809205/
 END:VEVENT
 BEGIN:VEVENT
-UID:d6b7dd3b25c4@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T223000Z
-DTEND:20260914T003000Z
+UID:669975a22428@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260927T223000Z
+DTEND:20260928T003000Z
 SUMMARY:Overpass Visibility Brigade: Bridge of Solidarity I-80 Berkeley
 LOCATION:i80 Pedestrian/Bike Overpass Berkeley @ University Ave
 DESCRIPTION:[MUTUAL AID] — Indivisible East Bay — (Recurring) — Every other Sunday\, check the listing dates.\nBerkeley is the birthplace of the Free Speech Movement. We use large letters to spell out messages in support of human rights to cars passing below. Messages are responsive to current events. \n\nWe estimate nearly 17\,000 people pass und — https://www.mobilize.us/indivisible-east-bay/event/812461/
 URL:https://www.mobilize.us/indivisible-east-bay/event/812461/
 END:VEVENT
 BEGIN:VEVENT
-UID:4850f5a0082d@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T233000Z
-DTEND:20260918T013000Z
+UID:5d9e405c27d6@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T233000Z
+DTEND:20260925T013000Z
 SUMMARY:Overpass Visibility Brigade Action: Adams St. on I-580 Oakland
 DESCRIPTION:[MUTUAL AID] — Indivisible East Bay — (Recurring) — ### Join us for an overpass visibility event on 580 in Oakland!\n\nWe’ll use huge letters to spell out a timely\, inspiring message for passing drivers. Our goal is to welcome folks into the resistance. During commute traffic\, we typically reach more than 10\,000 cars! You can help s — https://www.mobilize.us/indivisible-east-bay/event/817664/
 URL:https://www.mobilize.us/indivisible-east-bay/event/817664/
 END:VEVENT
 BEGIN:VEVENT
-UID:489865d13774@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T000000Z
-DTEND:20260917T020000Z
+UID:2c245a101219@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T000000Z
+DTEND:20260924T020000Z
 SUMMARY:Overpass Visibility Brigade Action: I-580 @Keller
 LOCATION:I-580 Overpass @ Keller
 DESCRIPTION:[MUTUAL AID] — Indivisible East Bay — (Recurring) — Join us as we message to commuters over 580 in Oakland\, now at a later time slot to let you get in on the action! Each week we display banners to let others know they are not alone in the fight for justice and human rights for all! \n\nWe’ll use huge letters to spell out an inspiri — https://www.mobilize.us/indivisible-east-bay/event/824106/
 URL:https://www.mobilize.us/indivisible-east-bay/event/824106/
 END:VEVENT
 BEGIN:VEVENT
-UID:41b93b996f47@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T000000Z
-DTEND:20260917T020000Z
+UID:aa40fd389077@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261008T000000Z
+DTEND:20261008T020000Z
 SUMMARY:Overpass Visibility Brigade Action: I-80 Richmond
 LOCATION:Sacramento Avenue pedestrian overpass\, I-80
-DESCRIPTION:[MUTUAL AID] — Indivisible East Bay — (Recurring) — ### Join us for an overpass visibility action!\n\nWe’ll use huge letters to spell out an inspiring message for passing cars (message TBD in response to current events). Every First and Third Wednesday of the month!\n\nBring snacks\, bring kids\, let's make this a fun\, family-friendly c — https://www.mobilize.us/indivisible-east-bay/event/835810/
+DESCRIPTION:[MUTUAL AID] — Indivisible East Bay — ### Join us for an overpass visibility action!\n\nWe’ll use huge letters to spell out an inspiring message for passing cars (message TBD in response to current events). Every First and Third Wednesday of the month!\n\nBring snacks\, bring kids\, let's make this a fun\, family-friendly c — https://www.mobilize.us/indivisible-east-bay/event/835810/
 URL:https://www.mobilize.us/indivisible-east-bay/event/835810/
 END:VEVENT
 BEGIN:VEVENT
-UID:070d12355096@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T224500Z
-DTEND:20260917T004500Z
+UID:62d043ee3fdf@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260923T224500Z
+DTEND:20260924T004500Z
 SUMMARY:Pleasanton Overpass Brigade
 LOCATION:Santa Rita Rd 580 Overpass
-DESCRIPTION:[MUTUAL AID] — Indivisible Tri-Valley — (Recurring) — Overpass messages are seen by over 10\,000 vehicles during commute hours. Meet and join the team to make creative messages reflecting current political environment and calling for actions!\n\nJoin us for big message on the overpass as well as passerbys!\n\n*Please note:* **A core prin — https://www.mobilize.us/indivisible-east-bay/event/873210/
+DESCRIPTION:[MUTUAL AID] — Indivisible Tri-Valley — (Recurring) — Overpass messages are seen by over 10\,000 vehicles during commute hours. Meet and join the team to make creative messages reflecting current political environment and calling for actions!\n\nJoin us for big message on the overpass as well as passerbys!\n\nWendy's Challenge: Help to f — https://www.mobilize.us/indivisible-east-bay/event/873210/
 URL:https://www.mobilize.us/indivisible-east-bay/event/873210/
 END:VEVENT
 BEGIN:VEVENT
-UID:78f5fcc8b05d@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260915T144500Z
-DTEND:20260915T164500Z
+UID:41806a62de9b@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260922T144500Z
+DTEND:20260922T164500Z
 SUMMARY:Overpass Visibility Brigade Action: Boston Ave. on I-580 Oakland
 DESCRIPTION:[MUTUAL AID] — Indivisible East Bay — (Recurring) — ### Join us for a morning commute overpass visibility event on 580 in Oakland!\n\nWe’ll use huge letters to spell out a timely\, inspiring message for passing drivers. Our goal is to welcome folks into the resistance. During the morning commute\, we can expect to reach people in over — https://www.mobilize.us/indivisible-east-bay/event/873399/
 URL:https://www.mobilize.us/indivisible-east-bay/event/873399/
 END:VEVENT
 BEGIN:VEVENT
-UID:8eca6b52b8b2@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260914T143000Z
-DTEND:20260914T163000Z
+UID:ab0f4fc3ff46@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260921T143000Z
+DTEND:20260921T163000Z
 SUMMARY:Overpass Visibility Brigade Action: Hwy 13 Oakland
 DESCRIPTION:[MUTUAL AID] — Indivisible East Bay — (Recurring) — Start your week off getting in "Some Good Trouble"! Join us for an overpass visibility event in Oakland over Hwy-13 @Joaquin Miller/Lincoln Mountain/Monterey.\n\nWe’ll use huge letters to spell out an inspiring message for passing cars during the morning commute and wave to cars ho — https://www.mobilize.us/indivisible-east-bay/event/878266/
 URL:https://www.mobilize.us/indivisible-east-bay/event/878266/
 END:VEVENT
 BEGIN:VEVENT
-UID:f35c47eb0773@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260914T193000Z
-DTEND:20260914T213000Z
+UID:561ceb624e18@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261109T203000Z
+DTEND:20261109T223000Z
 SUMMARY:Volunteer at Open Heart Kitchen
 DESCRIPTION:[MUTUAL AID] — Indivisible Tri-Valley — (Recurring) — Volunteer with us at Open Heart Kitchen in Livermore. We will be at OHK's food bank sorting and packing fresh produce that will go out to one or more of the 18 organizations throughout the Tri-Valley that OHK provides food to. You can have a positive impact on addressing food ins — https://www.mobilize.us/indivisible-east-bay/event/879477/
 URL:https://www.mobilize.us/indivisible-east-bay/event/879477/
 END:VEVENT
 BEGIN:VEVENT
-UID:236e9e34dce9@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T020000Z
-DTEND:20260919T040000Z
+UID:524e8ef3782c@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261017T013000Z
+DTEND:20261017T033000Z
 SUMMARY:Overpass Visibility Dance Party I-80 Berkeley 🪩
 LOCATION:i80 Pedestrian/Bike Overpass Berkeley @ University Ave
-DESCRIPTION:[CULTURE] — Indivisible East Bay — (Recurring) — ***NOTE: DANCE PARTY IS ON HIATUS FOR THE SUMMER -- SEE YOU IN SEPTEMBER!***\n\nFind your bliss while fighting for human rights. \n\nJoin us as we dance and wave while shining a light on injustice and the human rights violations being committed by the US government. This all-ages eve — https://www.mobilize.us/indivisible-east-bay/event/888460/
+DESCRIPTION:[CULTURE] — Indivisible East Bay — ***NOTE: DANCE PARTY OVERPASS IS BACK! SEPTEMBER 18th IS OUR TRIUMPHANT RETURN AFTER A HIATUS FOR THE SUMMER!***\n\nFind your bliss while fighting for human rights. \n\nJoin us as we dance and wave while shining a light on injustice and the human rights violations being committed by — https://www.mobilize.us/indivisible-east-bay/event/888460/
 URL:https://www.mobilize.us/indivisible-east-bay/event/888460/
 END:VEVENT
 BEGIN:VEVENT
 UID:eabaa6624bc7@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261025T200000Z
 DTEND:20261025T220000Z
 SUMMARY:IEB's 2026 All-Member Meetings on Zoom!
@@ -1071,7 +1028,7 @@ URL:https://www.mobilize.us/indivisible-east-bay/event/890176/
 END:VEVENT
 BEGIN:VEVENT
 UID:634977a4256c@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260927T211500Z
 DTEND:20260927T231500Z
 SUMMARY:IEB's 2026 in-person All-Member Meetings!
@@ -1080,38 +1037,28 @@ DESCRIPTION:[MUTUAL AID] — Indivisible East Bay — Join us in person during t
 URL:https://www.mobilize.us/indivisible-east-bay/event/890303/
 END:VEVENT
 BEGIN:VEVENT
-UID:9bd212d78b26@ragingcunt.com
-DTSTAMP:20260913T170833Z
+UID:5c8904070c2e@ragingcunt.com
+DTSTAMP:20260920T170931Z
 DTSTART:20261009T230000Z
 DTEND:20261010T010000Z
-SUMMARY:ITV Readers Unite Book Club
+SUMMARY:Book Club
 LOCATION:This event’s address is private. Sign up for more details
-DESCRIPTION:[TEACH-IN] — Indivisible Tri-Valley — (Recurring) — Welcome to the ITV Book Club. This space is all about exploring marginalized America—centering the lives and experiences of people and communities whose stories have too often been left out of the history many of us were taught.  \n\nWe come together with curiosity\, openness\, and a — https://www.mobilize.us/indivisible-east-bay/event/905177/
+DESCRIPTION:[TEACH-IN] — Indivisible Tri-Valley — (Recurring) — October 9\, 2026 -  Paper Girl by Beth Macy\n\nFrom one of the most acclaimed chroniclers of the forces eroding America’s social fabric\, her most personal and powerful work: a reckoning with the changes that have rocked her own beloved Ohio hometown.\nhttps://www.penguinrandomhouse.c — https://www.mobilize.us/indivisible-east-bay/event/905177/
 URL:https://www.mobilize.us/indivisible-east-bay/event/905177/
 END:VEVENT
 BEGIN:VEVENT
-UID:c3291ac81f6f@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T010000Z
-DTEND:20260919T030000Z
+UID:e96ce7bbc99f@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261016T010000Z
+DTEND:20261016T030000Z
 SUMMARY:ITV Immigration Justice Workgroup Meeting
-LOCATION:94588
-DESCRIPTION:[MEETING] — Indivisible Tri-Valley — (Recurring) — Following up from our brainstorming session last week\, view a portion of the IJS Call #2 regarding “Get Aligned” with local immigrant-led groups. Llink to the video below\, and there is a great intro helping us ground us all on our role in this effort. \n\nWe recommend that everyone — https://www.mobilize.us/indivisible-east-bay/event/1007765/
+LOCATION:This event’s address is private. Sign up for more details
+DESCRIPTION:[MEETING] — Indivisible Tri-Valley — (Recurring) — We are back to the in-person meeting in September.\n\nIn August meeting we created the list of organizations in the Bay Area following [Immigration Justice Summer workbook](https://indivisible.org/wp-content/uploads/2026/07/Indivisible_ImmigrationJusticeSummer_Workbook_2026.pdf). — https://www.mobilize.us/indivisible-east-bay/event/1007765/
 URL:https://www.mobilize.us/indivisible-east-bay/event/1007765/
 END:VEVENT
 BEGIN:VEVENT
-UID:897f417cc96a@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T203000Z
-DTEND:20260913T223000Z
-SUMMARY:ITV General Meeting September: Local Candidates Mixer!
-LOCATION:Shannon Park
-DESCRIPTION:[CULTURE] — Indivisible Tri-Valley — The decisions that touch our daily lives happen right here in our neighborhood\, not in D.C. When we focus on local politics\, we rediscover our agency\, our community\, and our collective power. Let us get engaged because ALL POLITICS IS LOCAL and real change starts right in our bac — https://www.mobilize.us/indivisible-east-bay/event/1015148/
-URL:https://www.mobilize.us/indivisible-east-bay/event/1015148/
-END:VEVENT
-BEGIN:VEVENT
 UID:511e1acbc1c0@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260920T200000Z
 DTEND:20260920T220000Z
 SUMMARY:Youth Action Caucus September Meet-Up!
@@ -1121,7 +1068,7 @@ URL:https://www.mobilize.us/indivisible-east-bay/event/1015591/
 END:VEVENT
 BEGIN:VEVENT
 UID:d031ce832d8b@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261009T233000Z
 DTEND:20261010T013000Z
 SUMMARY:How to Use AI to Build a Better Democracy
@@ -1131,7 +1078,7 @@ URL:https://www.mobilize.us/indivisible-east-bay/event/1016395/
 END:VEVENT
 BEGIN:VEVENT
 UID:fc6721349f5d@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260928T000000Z
 DTEND:20260928T020000Z
 SUMMARY:El Cerrito Flip the Vote Party
@@ -1140,98 +1087,48 @@ DESCRIPTION:[MUTUAL AID] — Indivisible East Bay — The midterms are our best 
 URL:https://www.mobilize.us/indivisible-east-bay/event/1021457/
 END:VEVENT
 BEGIN:VEVENT
-UID:d83f77d460a3@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T200000Z
-DTEND:20260913T220000Z
-SUMMARY:Friendbank to Battleground States
-LOCATION:This event’s address is private. Sign up for more details
-DESCRIPTION:[MUTUAL AID] — Indivisible East Bay — (Recurring) — The most important way we will **win and defend** the election is to **get out the early vote!** (BONUS: friendbank events are low-pressure and fun - and at this one there are snacks!)\n\nThe early vote is *especially* important in battleground states. Here in the Bay Area have the — https://www.mobilize.us/indivisible-east-bay/event/1021584/
-URL:https://www.mobilize.us/indivisible-east-bay/event/1021584/
-END:VEVENT
-BEGIN:VEVENT
-UID:4208aa880068@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T220000Z
-DTEND:20260919T000000Z
+UID:5df493b287a4@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260925T220000Z
+DTEND:20260926T000000Z
 SUMMARY:ITV Singing Resistance - Practice in the park
 LOCATION:This event’s address is private. Sign up for more details
-DESCRIPTION:[MUTUAL AID] — Indivisible Tri-Valley — (Recurring) — This is a group for people in the Tri-Valley area to sing together and participate in the nationwide Singing Resistance movement.  \n\nWe are a newly formed group and will hold in person practices\, learn songs and sing at No Kings and other protests\, rallies\, community events\, Over — https://www.mobilize.us/indivisible-east-bay/event/1023833/
+DESCRIPTION:[MUTUAL AID] — Indivisible Tri-Valley — This is a group for people in the Tri-Valley area to sing together and participate in the nationwide Singing Resistance movement.  \n\nWe are a newly formed group and will hold in person practices\, learn songs and sing at No Kings and other protests\, rallies\, community events\, Over — https://www.mobilize.us/indivisible-east-bay/event/1023833/
 URL:https://www.mobilize.us/indivisible-east-bay/event/1023833/
 END:VEVENT
 BEGIN:VEVENT
-UID:86ac2a034e16@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T160000Z
-DTEND:20260919T180000Z
+UID:5b94548592b0@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T160000Z
+DTEND:20260926T180000Z
 SUMMARY:ITV Pleasanton Saturday Farmers' Market Tabling
 LOCATION:Pleasanton Farmers' Market
 DESCRIPTION:[MUTUAL AID] — Indivisible Tri-Valley — (Recurring) — Join us to register and inform voters on candidates and ballot measures for Nov 3 General Election.\n\nWe will promote Voting Early and drop the ballot at the drop box or vote center.\n\nWe will have materials\, please bring your smile and enthusiasm in voting. — https://www.mobilize.us/indivisible-east-bay/event/1029745/
 URL:https://www.mobilize.us/indivisible-east-bay/event/1029745/
 END:VEVENT
 BEGIN:VEVENT
-UID:a7224cbd4b26@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T230000Z
-DTEND:20260918T010000Z
+UID:dcdd6bba573b@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T230000Z
+DTEND:20260925T010000Z
 SUMMARY:ITV Dublin Thursday Farmers' Market Tabling
 LOCATION:Dublin Farmers' Market
-DESCRIPTION:[MUTUAL AID] — Indivisible Tri-Valley — (Recurring) — Join us to register and inform voters on candidates and ballot measures for Nov 3 General Election.\n\nWe will promote Voting Early and drop the ballot at the drop box or vote center.\n\nWe will have materials\, please bring your smile and enthusiasm in voting. — https://www.mobilize.us/indivisible-east-bay/event/1029751/
+DESCRIPTION:[MUTUAL AID] — Indivisible Tri-Valley — Join us to register and inform voters on candidates and ballot measures for Nov 3 General Election.\n\nWe will promote Voting Early and drop the ballot at the drop box or vote center.\n\nWe will have materials\, please bring your smile and enthusiasm in voting. — https://www.mobilize.us/indivisible-east-bay/event/1029751/
 URL:https://www.mobilize.us/indivisible-east-bay/event/1029751/
 END:VEVENT
 BEGIN:VEVENT
-UID:2575dc5c909d@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T003000Z
-DTEND:20260919T023000Z
-SUMMARY:GROUNDSWELL Game Night!
-LOCATION:This event’s address is private. Sign up for more details
-DESCRIPTION:[CULTURE] — Indivisible East Bay — **Join us for a game night to play Groundswell: A Cooperative Game about Noncooperation.** \n\n[Groundswell](https://groundswellgames.itch.io/groundswell) was created by three IEB members: Gwen Rino and Jess Beebe designed the game\, with art by Shelley (xeleworld). \n\n_Groundswell_ — https://www.mobilize.us/indivisible-east-bay/event/1030560/
-URL:https://www.mobilize.us/indivisible-east-bay/event/1030560/
-END:VEVENT
-BEGIN:VEVENT
-UID:43df55644d86@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T180000Z
-DTEND:20260916T200000Z
+UID:6b8d1b808b68@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260923T180000Z
+DTEND:20260923T200000Z
 SUMMARY:ITV Las Positas College Civic Engagement
 LOCATION:Las Positas College
 DESCRIPTION:[MUTUAL AID] — Indivisible Tri-Valley — (Recurring) — Join us to register and encourage students to vote!\n\nVoting is a habit and it is best to develop the habit when we are young. This is where we are coming in! — https://www.mobilize.us/indivisible-east-bay/event/1030779/
 URL:https://www.mobilize.us/indivisible-east-bay/event/1030779/
 END:VEVENT
 BEGIN:VEVENT
-UID:46bacb872ba2@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260915T170000Z
-DTEND:20260915T190000Z
-SUMMARY:Small biz democracy pledge canvass (9/15)
-LOCATION:Jaffa Coffee Roasters
-DESCRIPTION:[ACTION] — Indivisible East Bay — IEB is taking part in the national **Democracy Pledge Campaign.**\n\nAs part of this campaign\, we're canvassing small businesses in the East Bay and asking them to put a sign in the window saying they support free elections\, and also ask them to sign a democracy pledge! \n\nCheck out — https://www.mobilize.us/indivisible-east-bay/event/1030961/
-URL:https://www.mobilize.us/indivisible-east-bay/event/1030961/
-END:VEVENT
-BEGIN:VEVENT
-UID:53e783633ba0@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T210000Z
-DTEND:20260917T230000Z
-SUMMARY:Small biz democracy pledge canvass (9/17)
-LOCATION:Cafenated Coffee
-DESCRIPTION:[ACTION] — Indivisible East Bay — IEB is taking part in the national **Democracy Pledge Campaign.**\n\nAs part of this campaign\, we're canvassing small businesses in the East Bay and asking them to put a sign in the window saying they support free elections\, and also ask them to sign a democracy pledge! \n\nCheck out — https://www.mobilize.us/indivisible-east-bay/event/1030963/
-URL:https://www.mobilize.us/indivisible-east-bay/event/1030963/
-END:VEVENT
-BEGIN:VEVENT
-UID:78adfa33a365@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T200000Z
-DTEND:20260913T220000Z
-SUMMARY:Friendbank to Battleground States (virtual/hybrid participants)
-LOCATION:This event’s address is private. Sign up for more details
-DESCRIPTION:[MUTUAL AID] — Indivisible East Bay — (Recurring) — The most important way we will **win and defend** the election is to **get out the early vote!** (BONUS: friendbank events are low-pressure and fun - and at this one there are snacks!)\n\n(*NOTE: while this event was primarily conceived as in-person in Oakland\, we are also adding t — https://www.mobilize.us/indivisible-east-bay/event/1033773/
-URL:https://www.mobilize.us/indivisible-east-bay/event/1033773/
-END:VEVENT
-BEGIN:VEVENT
 UID:478839f56cdd@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260926T200000Z
 DTEND:20260926T220000Z
 SUMMARY:Virtual Friendbank to Battleground States
@@ -1240,44 +1137,63 @@ DESCRIPTION:[MUTUAL AID] — Indivisible East Bay — (Recurring) — The most e
 URL:https://www.mobilize.us/indivisible-east-bay/event/1033789/
 END:VEVENT
 BEGIN:VEVENT
-UID:ff9fda5a3803@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T233000Z
-DTEND:20260919T013000Z
+UID:1c63b8c58657@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261017T210000Z
+DTEND:20261017T230000Z
+SUMMARY:NO KINGS: Vote Early - Democracy Corner @ College Ave & Keith Ave. in Oakland
+DESCRIPTION:[MUTUAL AID] — Indivisible East Bay — **Join us to celebrate early voting and election defense!** \n\nStockpiling the early vote is a powerful form of election protection. On NO KINGS Day\, Oct 17\, we’ll spread the message that everyone needs to vote early\, everyone needs to tell their *friends* to vote early\, and we *a — https://www.mobilize.us/indivisible-east-bay/event/1037407/
+URL:https://www.mobilize.us/indivisible-east-bay/event/1037407/
+END:VEVENT
+BEGIN:VEVENT
+UID:0362d1400201@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261017T210000Z
+DTEND:20261017T230000Z
+SUMMARY:Overpass Visibility Brigade: ❌ 👑 Vote Early I-80 Berkeley
+LOCATION:i80 Pedestrian/Bike Overpass Berkeley @ University Ave
+DESCRIPTION:[MUTUAL AID] — Indivisible East Bay — **Join us to celebrate early voting and election defense!** \n\nStockpiling the early vote is a powerful form of election protection. On NO KINGS Day\, Oct 17\, we’ll spread the message that everyone needs to vote early\, everyone needs to tell their *friends* to vote early\, and we *a — https://www.mobilize.us/indivisible-east-bay/event/1038668/
+URL:https://www.mobilize.us/indivisible-east-bay/event/1038668/
+END:VEVENT
+BEGIN:VEVENT
+UID:6f6ea56dae1f@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260925T233000Z
+DTEND:20260926T013000Z
 SUMMARY:Peace Corner Castro Valley Friday Demonstrations
 DESCRIPTION:[ACTION] — Eden Area Indivisible — (Recurring) — This a local Indivisible event! Every Friday from 4:00 to 5:30 pm at the corner of Redwood Rd and Castro Valley Blvd. Join us as we say NO to fascism and the MAGA attempt to dismantle our democracy. Supported by Eden Area Indivisible\, Castro Valley Democratic Club and other local — https://www.mobilize.us/edenareaindivisible/event/794558/
 URL:https://www.mobilize.us/edenareaindivisible/event/794558/
 END:VEVENT
 BEGIN:VEVENT
-UID:3327116c1da0@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T233000Z
-DTEND:20260917T013000Z
+UID:2cfbd4aaa9a0@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260923T233000Z
+DTEND:20260924T013000Z
 SUMMARY:Peace Corner Castro Valley Wednesday Demonstration
 DESCRIPTION:[ACTION] — Eden Area Indivisible — (Recurring) — Join us as we say NO to fascism and the MAGA attempt to dismantle our democracy. Note new times!\nEvery Wednesday from 4:00 to 5:30 pm \nCorner of Redwood Rd and Castro Valley Blvd. \n\nSupported by Eden Area Indivisible\, Castro Valley Democratic Club and other local groups. — https://www.mobilize.us/edenareaindivisible/event/794560/
 URL:https://www.mobilize.us/edenareaindivisible/event/794560/
 END:VEVENT
 BEGIN:VEVENT
-UID:2a67855864ba@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T163000Z
-DTEND:20260919T183000Z
+UID:d8fd87573187@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T163000Z
+DTEND:20260926T183000Z
 SUMMARY:Hayward Farmers Market Rally
 DESCRIPTION:[ACTION] — Eden Area Indivisible — (Recurring) — Join us at the Hayward Farmers Market as we say NO to fascism and NO to ICE in our community. This a local Indivisible and Hands Off event every Saturday from 9:00 AM to 1:30 PM at the Hayward Civic Center Plaza. \n\nJust visit and say “Hi” or select one of our many signs that deli — https://www.mobilize.us/edenareaindivisible/event/870900/
 URL:https://www.mobilize.us/edenareaindivisible/event/870900/
 END:VEVENT
 BEGIN:VEVENT
 UID:e8328d8ffa31@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261008T190000Z
 DTEND:20261008T210000Z
 SUMMARY:DIE-IN
-DESCRIPTION:[ACTION] — Eden Area Indivisible — DIE-IN\nDate: Thursday\, Oct. 8th\nTime: 12 PM to 1:30 PM\nPlace: St. Rose Hospital 27200 Calaroga Ave\, Hayward\nJoin us stand\, sit or die-in as we protest budget cuts that are killing us!\nThe health care cuts will force 300 million people to lose health insurance over the next five y — https://www.mobilize.us/edenareaindivisible/event/1020830/
+DESCRIPTION:[ACTION] — Eden Area Indivisible — DIE-IN\nDate: Thursday\, Oct. 8th \nTime: 12 PM to 1:30 PM \nPlace: St. Rose Hospital 27200 Calaroga Ave\, Hayward\, CA 94541\n\nHurry! Space is limited. Please register to attend the Die-In. RSVP Here\n\n Join us as we stand\, sit or lie down to protest budget cuts that are killing us! The — https://www.mobilize.us/edenareaindivisible/event/1020830/
 URL:https://www.mobilize.us/edenareaindivisible/event/1020830/
 END:VEVENT
 BEGIN:VEVENT
 UID:cc5744c163af@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260926T180000Z
 DTEND:20260926T200000Z
 SUMMARY:Postcard Party!
@@ -1285,83 +1201,57 @@ DESCRIPTION:[MUTUAL AID] — Eden Area Indivisible — (Recurring) — Postcard 
 URL:https://www.mobilize.us/edenareaindivisible/event/1033631/
 END:VEVENT
 BEGIN:VEVENT
-UID:9555f7705269@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T000000Z
-DTEND:20260919T020000Z
+UID:8dc04d39eb56@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T000000Z
+DTEND:20260926T020000Z
 SUMMARY:Face Down Fascism
 DESCRIPTION:[MUTUAL AID] — Together We Will Albany Berkeley — (Recurring) — Join your neighbors every Friday\, 5-6pm for a peaceful protest for all ages on Gilman Street at Santa Fe during the busy rush hour. \n\nWhy protest? Because it's easier than hiding a family in your attic!\n\nBring signs and noisemakers! — https://www.mobilize.us/togetherwewillalbanyberkeley/event/906141/
 URL:https://www.mobilize.us/togetherwewillalbanyberkeley/event/906141/
 END:VEVENT
 BEGIN:VEVENT
-UID:1aab584fce92@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T233000Z
-DTEND:20260917T013000Z
+UID:5df8205d6d8a@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260923T233000Z
+DTEND:20260924T013000Z
 SUMMARY:Berkeley Rush Hour Resistance
 LOCATION:Berkeley University Ave. Pedestrian Bridge over I-80
 DESCRIPTION:[ACTION] — Together We Will Albany Berkeley — (Recurring) — Join us every Wednesday from 4:30 to 6pm. We're on the bike/pedestrian overpass on I-80\, just south of University Avenue to help peacefully display one large sign in each direction during evening rush hour.\n\nParking is easiest on the bay side of the bridge at Brickyard Cove Park — https://www.mobilize.us/togetherwewillalbanyberkeley/event/974678/
 URL:https://www.mobilize.us/togetherwewillalbanyberkeley/event/974678/
 END:VEVENT
 BEGIN:VEVENT
-UID:69edb943efd6@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T173000Z
-DTEND:20260919T193000Z
-SUMMARY:Tea & Tiles: A Saturday Social With 13 Orphans
-LOCATION:Oakland Asian Cultural Center\, 388 9th St. #290\, Oakland\, CA\, 94607\, United States
-DESCRIPTION:[CULTURE] — Oakland Asian Cultural Center — Friday\, October 212 noon–1:30 pmFREE								\n				\n					\n		\n					\n		\n				\n				\n							\n			\n		\n						\n				\n				\n				\n									Do you have socks that need repair? Are you curious about visible mending? Do you like keeping clothing out of landfills? If you answered yes to any of thes — https://oacc.cc/event/tea-tiles-sep2026/
-URL:https://oacc.cc/event/tea-tiles-sep2026/
-END:VEVENT
-BEGIN:VEVENT
 UID:87c89ebeea62@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261002T190000Z
 DTEND:20261002T210000Z
 SUMMARY:October Mending Circle
 LOCATION:Oakland Asian Cultural Center\, 388 9th St. #290\, Oakland\, CA\, 94607\, United States
-DESCRIPTION:[CULTURE] — Oakland Asian Cultural Center — Friday\, October 212 noon–1:30 pmFREE								\n				\n					\n		\n					\n		\n				\n				\n							\n			\n		\n						\n				\n				\n				\n									Do you have socks that need repair? Are you curious about visible mending? Do you like keeping clothing out of landfills? If you answered yes to any of thes — https://oacc.cc/event/oct2026-mending-circle/
+DESCRIPTION:[CULTURE] — Oakland Asian Cultural Center — Closing performance by SambaFunk! — 								\n				\n				\n				\n									Sunday\, November 15\, 202612-2 pmFREE 								\n				\n					\n		\n					\n		\n				\n				\n							\n			\n		\n						\n				\n				\n				\n									Join us for a conversation with Umi Vaughan\, Tiffany Yap\, and Robert Liu-Trujillo\, thr — https://oacc.cc/event/oct2026-mending-circle/
 URL:https://oacc.cc/event/oct2026-mending-circle/
 END:VEVENT
 BEGIN:VEVENT
-UID:760f14879f74@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260915T010000Z
-DTEND:20260915T030000Z
-SUMMARY:2nd Illegal Dumping Community Accountability Session
-DESCRIPTION:[ACTION] — Faith in Action East Bay — REGISTER\n \nREGISTER — https://fiaeastbay.org/event/2nd-illegal-dumping-community-accountability-session/
-URL:https://fiaeastbay.org/event/2nd-illegal-dumping-community-accountability-session/
+UID:6025788d63be@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261003T210000Z
+DTEND:20261003T230000Z
+SUMMARY:Bilingual Chinese Storytime: Celebrating the Mid-Autumn Festival
+LOCATION:Online
+DESCRIPTION:[CULTURE] — Oakland Asian Cultural Center — Closing performance by SambaFunk! — 								\n				\n				\n				\n									Sunday\, November 15\, 202612-2 pmFREE 								\n				\n					\n		\n					\n		\n				\n				\n							\n			\n		\n						\n				\n				\n				\n									Join us for a conversation with Umi Vaughan\, Tiffany Yap\, and Robert Liu-Trujillo\, thr — https://oacc.cc/event/bilingual-storytime-oct26/
+URL:https://oacc.cc/event/bilingual-storytime-oct26/
 END:VEVENT
 BEGIN:VEVENT
-UID:409c24910760@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T003000Z
-DTEND:20260917T023000Z
-SUMMARY:Immigration ACILEP Enforcement Updates Series
-DESCRIPTION:[ACTION] — Faith in Action East Bay — REGISTER — https://fiaeastbay.org/event/immigration-acilep-enforcement-updates-series-4/
-URL:https://fiaeastbay.org/event/immigration-acilep-enforcement-updates-series-4/
-END:VEVENT
-BEGIN:VEVENT
-UID:0088745d045f@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T000000Z
-DTEND:20260919T020000Z
-SUMMARY:Union City Candidates Forum
-DESCRIPTION:[ACTION] — Faith in Action East Bay — REGISTER\n \nREGISTER — https://fiaeastbay.org/event/union-city-candidates-forum/
-URL:https://fiaeastbay.org/event/union-city-candidates-forum/
-END:VEVENT
-BEGIN:VEVENT
-UID:48c7189263c6@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T010000Z
-DTEND:20260919T030000Z
-SUMMARY:Ceasefire Night Walk
-DESCRIPTION:[ACTION] — Faith in Action East Bay — (Every Friday) — Location: Williams Chapel BC\, 1410 10th Ave.\, Oakland\, CA \n\nNight walks:\n6pm: Gathering for pre-walk/corners process\n6:30pm: walk or stand on corners\n7:30pm: returned back to starting location or completed from the corners\nBy 7:45pm\, walk process completed\nFor more information\, p — https://fiaeastbay.org/event/ceasefire-night-walk-157/
-URL:https://fiaeastbay.org/event/ceasefire-night-walk-157/
+UID:5c3b1eebc369@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261115T200000Z
+DTEND:20261115T220000Z
+SUMMARY:Ecologies of Resistance: A Conversation with Authors Umi Vaughan\, Tiffany Yap and Robert Liu-Trujillo
+LOCATION:Oakland Asian Cultural Center\, 388 9th St. #290\, Oakland\, CA\, 94607\, United States
+DESCRIPTION:[CULTURE] — Oakland Asian Cultural Center — Closing performance by SambaFunk! — 								\n				\n				\n				\n									Sunday\, November 15\, 202612-2 pmFREE 								\n				\n					\n		\n					\n		\n				\n				\n							\n			\n		\n						\n				\n				\n				\n									Join us for a conversation with Umi Vaughan\, Tiffany Yap\, and Robert Liu-Trujillo\, thr — https://oacc.cc/event/ecologies-resist/
+URL:https://oacc.cc/event/ecologies-resist/
 END:VEVENT
 BEGIN:VEVENT
 UID:25df10693e18@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260922T210000Z
 DTEND:20260922T230000Z
 SUMMARY:Community Listening Session with District Attorney Ursula Jones Dickson
@@ -1369,8 +1259,17 @@ DESCRIPTION:[ACTION] — Faith in Action East Bay — District Attorney Ursula J
 URL:https://fiaeastbay.org/event/community-listening-session-with-district-attorney-ursula-jones-dickson/
 END:VEVENT
 BEGIN:VEVENT
+UID:1593c8913ef6@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T010000Z
+DTEND:20260926T030000Z
+SUMMARY:Ceasefire Night Walk
+DESCRIPTION:[ACTION] — Faith in Action East Bay — Location: At Thy Word\, 8915 International Blvd.\, Oakland\, CA \n\nNight walks:\n6pm: Gathering for pre-walk/corners process\n6:30pm: walk or stand on corners\n7:30pm: returned back to starting location or completed from the corners\nBy 7:45pm\, walk process completed\nFor more information — https://fiaeastbay.org/event/ceasefire-night-walk-158/
+URL:https://fiaeastbay.org/event/ceasefire-night-walk-158/
+END:VEVENT
+BEGIN:VEVENT
 UID:4fd5c90f95f2@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260929T160000Z
 DTEND:20260929T180000Z
 SUMMARY:Walk for Life 2026
@@ -1379,7 +1278,7 @@ URL:https://fiaeastbay.org/event/walk-for-life-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:fb7d2bec286e@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260927T114500Z
 DTEND:20260927T134500Z
 SUMMARY:Wood Street Film screening
@@ -1388,18 +1287,8 @@ DESCRIPTION:[TEACH-IN] — Wood Street Commons — https://www.woodstreetcommons
 URL:https://www.woodstreetcommons.org/events/wood-street-film-premier-mk29w-m5psl-myklj-dbrfz-7t5gb-krlj3-ss448
 END:VEVENT
 BEGIN:VEVENT
-UID:bbab2ab06bea@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260915T163000Z
-DTEND:20260915T183000Z
-SUMMARY:Wood Street Movie Night Fundraiser
-LOCATION:New Parkway Theater
-DESCRIPTION:[CULTURE] — Wood Street Commons — https://www.woodstreetcommons.org/events/wood-street-film-premier-mk29w-m5psl-myklj-dbrfz-7t5gb-krlj3-77md7-hmrt8
-URL:https://www.woodstreetcommons.org/events/wood-street-film-premier-mk29w-m5psl-myklj-dbrfz-7t5gb-krlj3-77md7-hmrt8
-END:VEVENT
-BEGIN:VEVENT
 UID:f813f410df93@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261002T080000Z
 DTEND:20261002T100000Z
 SUMMARY:5th Annual Solidarity Bike Ride
@@ -1407,78 +1296,8 @@ DESCRIPTION:[ACTION] — Wood Street Commons — https://www.woodstreetcommons.o
 URL:https://www.woodstreetcommons.org/events/5th-annual-solidarity-bike-ride
 END:VEVENT
 BEGIN:VEVENT
-UID:b4e319f693d6@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260915T020000Z
-DTEND:20260915T040000Z
-SUMMARY:Civil Rights and Structural Attacks
-LOCATION:https://citylights.com/events/walter-riley-civil-rights-and-structural-attacks/
-DESCRIPTION:[ACTION] — Oakland Privacy — Raised among the entrails of chattel slavery in Durham\, North Carolina\, Walter shares political reflections and lessons from decades of movement experience. This includes 1950s and early 1960s mobilizations against Jim Crow apartheid laws and welcoming Freedom Riders to Durham\, f — https://tockify.com/oaklandprivacy/detail/845/1789437600000
-URL:https://tockify.com/oaklandprivacy/detail/845/1789437600000
-END:VEVENT
-BEGIN:VEVENT
-UID:72a5bcd258d8@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T010000Z
-DTEND:20260916T030000Z
-SUMMARY:53 Days: How Hitler Dismantled a Democracy
-LOCATION:https://citylights.com/events/timothy-ryback-53-days-how-hitler-dismantled-a-democracy/
-DESCRIPTION:[ACTION] — Oakland Privacy — On September 25\, 1930\, Adolf Hitler appeared before Germany’s Supreme Court and outlined his plans to destroy the Weimar Republic through democratic means. The judge asked\, “So\, only through constitutional means?” Hitler replied\, “Jawohl!”\n\nBarely two years later\, on January 30\, — https://tockify.com/oaklandprivacy/detail/846/1789520400000
-URL:https://tockify.com/oaklandprivacy/detail/846/1789520400000
-END:VEVENT
-BEGIN:VEVENT
-UID:44d4add4e13d@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T010000Z
-DTEND:20260916T030000Z
-SUMMARY:Berkeley City Council - Tear Gas
-LOCATION:https://berkeleyca.gov/city-council-regular-meeting-eagenda-september-15-2026
-DESCRIPTION:[ACTION] — Oakland Privacy — 21a. -Resolution Reinstating the Berkeley Police Department’s Ability to Use Tear Gas for Critical Life-Threatening Incidents Only and Lifting the COVID-19 Moratorium on Smoke and Oleoresin Capsicum (OC) Spray https://berkeleyca.gov/sites/default/files/2026-09-15%20Item%2021a%20 — https://tockify.com/oaklandprivacy/detail/843/1789520400000
-URL:https://tockify.com/oaklandprivacy/detail/843/1789520400000
-END:VEVENT
-BEGIN:VEVENT
-UID:620e6e6c2b82@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T000000Z
-DTEND:20260917T020000Z
-SUMMARY:ACLU Know Your Voting Rights
-LOCATION:https://www.mobilize.us/aclu/event/996672/?ms=eskyreml090326&emci=f7d0c2d6-caa7-f111-9b33-0022482a933b&emdi=fed9c31f-d3a7-f111-9b33-0022482a933b&ceid=7281922
-DESCRIPTION:[ACTION] — Oakland Privacy — As we move closer to this year's National Voter Registration Day (NVRD)\, we’re reminding our leaders: The right to vote is fundamental to our democracy\, and we’ll always work to protect it for every eligible American.\n\nAfter you’ve registered to vote\, checked your registration\, o — https://tockify.com/oaklandprivacy/detail/847/1789603200000
-URL:https://tockify.com/oaklandprivacy/detail/847/1789603200000
-END:VEVENT
-BEGIN:VEVENT
-UID:a449b4d58d2a@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T010000Z
-DTEND:20260917T030000Z
-SUMMARY:Rooted and Rising: A 30 Year Celebration of the Ella Baker Center for Human Rights
-LOCATION:https://secure.actblue.com/donate/ebc30yearscommunity?link_id=3&can_id=6928bde3160f0b17e52966a813d4585d&source=email-rooted-rising-join-us-on-september-16&email_referrer=email_3386082&email_subject=rooted-rising-join-us-on-september-16&refcodeEmailReferrer=email_3386082
-DESCRIPTION:[ACTION] — Oakland Privacy — Join the Ella Baker Center for Human Rights as we celebrate 30 years of transformation\, resilience\, joy\, and collective action. — https://tockify.com/oaklandprivacy/detail/848/1789606800000
-URL:https://tockify.com/oaklandprivacy/detail/848/1789606800000
-END:VEVENT
-BEGIN:VEVENT
-UID:8bdcab467f34@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T180000Z
-DTEND:20260917T200000Z
-SUMMARY:How to Build a Decentralized Web That Truly Works for All
-LOCATION:https://join.eff.org/Additional-donation/?readableEventId=EFFecting_Change_Livestream_How_to_Build_a_Decentralized_Web_That_Truly_Works_for_All3394082567&link=email
-DESCRIPTION:[ACTION] — Oakland Privacy — Freedom\, openness\, interoperability\, and the ability to connect without a single gatekeeper defined the internet's core promise 25 years ago. Today\, most of our online life happens on centralized platforms that control our data\, shape our experiences\, and set the rules for commun — https://tockify.com/oaklandprivacy/detail/849/1789668000000
-URL:https://tockify.com/oaklandprivacy/detail/849/1789668000000
-END:VEVENT
-BEGIN:VEVENT
-UID:6bee6075a048@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T010000Z
-DTEND:20260918T030000Z
-SUMMARY:Community Meeting Regarding Flock Cameras
-LOCATION:https://www.srcity.org/m/newsflash/Home/Detail/3285
-DESCRIPTION:[ACTION] — Oakland Privacy — The Santa Rosa Police Department invites community members to attend a public meeting regarding the use of Flock Automated License Plate Reader (ALPR) cameras.\n\nWhen: Thursday\, September 17\, 6:00 p.m.\nWhere: Utility Field Office\, 35 Stony Point Road\n\nFlock cameras are a public s — https://tockify.com/oaklandprivacy/detail/853/1789693200000
-URL:https://tockify.com/oaklandprivacy/detail/853/1789693200000
-END:VEVENT
-BEGIN:VEVENT
 UID:8814eb5cef53@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260921T170000Z
 DTEND:20260921T190000Z
 SUMMARY:AAPI Immigrant Justice
@@ -1488,7 +1307,7 @@ URL:https://tockify.com/oaklandprivacy/detail/850/1790010000000
 END:VEVENT
 BEGIN:VEVENT
 UID:5330d50016b5@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260929T200000Z
 DTEND:20260929T220000Z
 SUMMARY:A Beautiful Oakland: A Civic Tech Idea-A-Thon
@@ -1498,7 +1317,7 @@ URL:https://tockify.com/oaklandprivacy/detail/851/1790712000000
 END:VEVENT
 BEGIN:VEVENT
 UID:f84e263a4c91@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260930T010000Z
 DTEND:20260930T030000Z
 SUMMARY:Ghost in the Machine.
@@ -1508,7 +1327,7 @@ URL:https://tockify.com/oaklandprivacy/detail/854/1790730000000
 END:VEVENT
 BEGIN:VEVENT
 UID:b3fd2b22e377@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261002T020000Z
 DTEND:20261002T040000Z
 SUMMARY:Against Tech Oligarchy
@@ -1518,7 +1337,7 @@ URL:https://tockify.com/oaklandprivacy/detail/852/1790906400000
 END:VEVENT
 BEGIN:VEVENT
 UID:d0517b30226c@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260926T190000Z
 DTEND:20260926T210000Z
 SUMMARY:That’s Oakland\, Baby! Millsmont Seminary Block Party

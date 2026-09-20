@@ -6,61 +6,35 @@ METHOD:PUBLISH
 X-WR-CALNAME:RAGINGCUNT — Sacramento
 X-WR-CALDESC:Real local organizing in Sacramento\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
-UID:67aaa5e37b9b@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260915T003000Z
-DTEND:20260915T023000Z
-SUMMARY:Mutual Aid Distro
-LOCATION:910 I St\, Sacramento\, CA 95814
-DESCRIPTION:[MUTUAL AID] — Sacramento DSA — (Every other Monday) — We start set-up at 5:30pm and start serving at 6pm. You don’t need any special skills or knowledge to participate. Just show up! We’ll teach you what to do.\n\nWe also hang out at a local restaurant or brewery after each distro. So if you’re looking for opportunities to meet other
-END:VEVENT
-BEGIN:VEVENT
-UID:ccffcfacdfad@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T013000Z
-DTEND:20260917T033000Z
+UID:b12328072728@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T013000Z
+DTEND:20260924T033000Z
 SUMMARY:Anti-Imperialism Summer Reading Group
 LOCATION:Hop Gardens\, 2904 Franklin Blvd\, Sacramento\, CA 95818\, USA
 DESCRIPTION:[TEACH-IN] — Sacramento DSA — (Every Wednesday)
 END:VEVENT
 BEGIN:VEVENT
-UID:c215272724da@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T000000Z
-DTEND:20260916T020000Z
-SUMMARY:International Committee Working Meeting
-LOCATION:Temple Coffee\, 2829 S St\, Sacramento\, CA 95816\, USA
-DESCRIPTION:[MEETING] — Sacramento DSA — (Every Tuesday)
+UID:983a1e3f077a@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261001T010000Z
+DTEND:20261001T030000Z
+SUMMARY:Communications Committee Meeting
+LOCATION:https://us06web.zoom.us/j/88045295332?pwd=QN5PsPx2qXNVdUZbbSWiuyPWrCfPxl.1
+DESCRIPTION:[MEETING] — Sacramento DSA — (Every other Wednesday) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting. Join Zoom Meeting https://us06web.zoom.us/j/88045295332?pwd=QN5PsPx2qXNVdUZbbSWiuyPWrCfPxl.1  Meeting ID: 880 4529 5332 Passcode: 886248  ---  One tap mobile +166
 END:VEVENT
 BEGIN:VEVENT
-UID:c90487670738@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260926T193000Z
-DTEND:20260926T213000Z
-SUMMARY:Membership Organizing Committee Meeting (Hybrid)
-LOCATION:Mattie Groves Brewery\, 1716 L St\, Sacramento\, CA 95811\;https://us06web.zoom.us/j/86060792184?pwd=xHnzYCGD6GeV6VmF8ZQaJuCQql126m.1
-DESCRIPTION:[MEETING] — Sacramento DSA — (Every other Saturday) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting. Join Zoom Meeting https://us06web.zoom.us/j/86060792184?pwd=xHnzYCGD6GeV6VmF8ZQaJuCQql126m.1  Meeting ID: 860 6079 2184 Passcode: 494672  ---  One tap mobile +166
-END:VEVENT
-BEGIN:VEVENT
-UID:5aa10b0902e6@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260915T013000Z
-DTEND:20260915T033000Z
-SUMMARY:Healthcare Committee Meeting (In-person)
-LOCATION:Raley's\, 4690 Freeport Blvd\, Sacramento\, CA 95822\, USA
-DESCRIPTION:[MEETING] — Sacramento DSA — (Monthly)
-END:VEVENT
-BEGIN:VEVENT
-UID:ef8291468dc7@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20261015T023000Z
-DTEND:20261015T043000Z
-SUMMARY:Labor Committee Meeting (ONLINE)
-DESCRIPTION:[MEETING] — Sacramento DSA — (Monthly) — https://us06web.zoom.us/j/83883060398?pwd=Q4ihm4adMi0Wb5U3BEOsKfarOhwMWv.1
+UID:438630b5a617@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261003T003000Z
+DTEND:20261003T023000Z
+SUMMARY:International Committee Meeting
+LOCATION:https://us06web.zoom.us/j/81635648342?pwd=7SKjTHrs46XI7RenHvsXVrxJsHpAa5.1
+DESCRIPTION:[MEETING] — Sacramento DSA — (Every other Friday) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting. Join Zoom Meeting https://us06web.zoom.us/j/81635648342?pwd=7SKjTHrs46XI7RenHvsXVrxJsHpAa5.1  Meeting ID: 816 3564 8342 Passcode: 457937  --- <br
 END:VEVENT
 BEGIN:VEVENT
 UID:47d69d8d01c1@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261003T013000Z
 DTEND:20261003T033000Z
 SUMMARY:Beer & Roses Chapter Social
@@ -68,17 +42,17 @@ LOCATION:Mattie Groves Brewery\, 1716 L St\, Sacramento\, CA 95811\, USA
 DESCRIPTION:[CULTURE] — Sacramento DSA — (Monthly)
 END:VEVENT
 BEGIN:VEVENT
-UID:e3cc6ef8aecc@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T013000Z
-DTEND:20260916T033000Z
-SUMMARY:Electoral Committee Meeting
-LOCATION:https://us06web.zoom.us/j/86137060927?pwd=NbkqHbv5GxJs6ErUVFGd6BgJie2NVb.1
-DESCRIPTION:[MEETING] — Sacramento DSA — (Every other Tuesday) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting. Join Zoom Meeting https://us06web.zoom.us/j/86137060927?pwd=NbkqHbv5GxJs6ErUVFGd6BgJie2NVb.1  Meeting chat link https://us06web.zoom.us/launch/jc/86137060927  Meeting ID: 861
+UID:3d56238fabb1@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260923T000000Z
+DTEND:20260923T020000Z
+SUMMARY:International Committee Working Meeting
+LOCATION:Temple Coffee\, 2829 S St\, Sacramento\, CA 95816\, USA
+DESCRIPTION:[MEETING] — Sacramento DSA — (Every Tuesday)
 END:VEVENT
 BEGIN:VEVENT
 UID:f993bca6c6ac@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260923T013000Z
 DTEND:20260923T033000Z
 SUMMARY:Healthcare Committee Meeting (Virtual)
@@ -86,53 +60,8 @@ LOCATION:https://us06web.zoom.us/j/86389165026?pwd=o9dc5xR9gB3INLtvQLU3AY1747M6F
 DESCRIPTION:[MEETING] — Sacramento DSA — (Monthly) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting. Join Zoom Meeting https://us06web.zoom.us/j/86389165026?pwd=o9dc5xR9gB3INLtvQLU3AY1747M6Fi.1  Meeting ID: 863 8916 5026 Passcode: 831717  ---  One tap mobile +166
 END:VEVENT
 BEGIN:VEVENT
-UID:061160d0679f@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T010000Z
-DTEND:20260917T030000Z
-SUMMARY:Communications Committee Meeting
-LOCATION:https://us06web.zoom.us/j/88045295332?pwd=QN5PsPx2qXNVdUZbbSWiuyPWrCfPxl.1
-DESCRIPTION:[MEETING] — Sacramento DSA — (Every other Wednesday) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting. Join Zoom Meeting https://us06web.zoom.us/j/88045295332?pwd=QN5PsPx2qXNVdUZbbSWiuyPWrCfPxl.1  Meeting ID: 880 4529 5332 Passcode: 886248  ---  One tap mobile +166
-END:VEVENT
-BEGIN:VEVENT
-UID:f700fce1fd16@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T003000Z
-DTEND:20260919T023000Z
-SUMMARY:International Committee Meeting
-LOCATION:https://us06web.zoom.us/j/81635648342?pwd=7SKjTHrs46XI7RenHvsXVrxJsHpAa5.1
-DESCRIPTION:[MEETING] — Sacramento DSA — (Every other Friday) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting. Join Zoom Meeting https://us06web.zoom.us/j/81635648342?pwd=7SKjTHrs46XI7RenHvsXVrxJsHpAa5.1  Meeting ID: 816 3564 8342 Passcode: 457937  --- <br
-END:VEVENT
-BEGIN:VEVENT
-UID:ecd88e2bbdbb@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260920T200000Z
-DTEND:20260920T220000Z
-SUMMARY:Boycott Chevron Block Party
-LOCATION:1828 Broadway\, Sacramento\, CA 95818\, USA
-DESCRIPTION:[ACTION] — Sacramento DSA — (Every Sunday) — Join Sacramento DSA to meet your comrades\, talk to and hand out flyers to drivers and pedestrians about Chevron's ties to the ongoing genocide in Gaza! No experience necessary\, bring a friend and some food to share if you can. There will be a social at a local bar afterward!
-END:VEVENT
-BEGIN:VEVENT
-UID:7c9c639e843e@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260922T010000Z
-DTEND:20260922T030000Z
-SUMMARY:Public Banking Campaign Working Group Meeting
-LOCATION:https://us06web.zoom.us/j/82586654491?pwd=2KbwCN4rPIEAyjS3ijO5V4kaHQeP5q.1
-DESCRIPTION:[MEETING] — Sacramento DSA — (Every other Monday) — DSA Sacramento is inviting you to a scheduled Zoom meeting.\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/82586654491?pwd=2KbwCN4rPIEAyjS3ijO5V4kaHQeP5q.1\n\nMeeting ID: 825 8665 4491\nPasscode: 820635\n\n---\n\nOne tap mobile\n+15074734847\,\,82586654491#\,\,\,\,*820635# US\n+15642172000\,\,825866
-END:VEVENT
-BEGIN:VEVENT
-UID:dd1451bd88b3@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260925T003000Z
-DTEND:20260925T023000Z
-SUMMARY:AFROSOC Caucus Meeting
-LOCATION:https://us06web.zoom.us/j/84708094608?pwd=lXOLqwLrmJ2PMdrGyi29EeNVkWaVhp.1
-DESCRIPTION:[MEETING] — Sacramento DSA — (Every other Thursday) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting. Join Zoom Meeting https://us06web.zoom.us/j/84708094608?pwd=lXOLqwLrmJ2PMdrGyi29EeNVkWaVhp.1  Meeting ID: 847 0809 4608 Passcode: 356753  ---  One tap mobile +166
-END:VEVENT
-BEGIN:VEVENT
 UID:f0c154df7983@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261008T013000Z
 DTEND:20261008T033000Z
 SUMMARY:Socialist Education Committee Meeting
@@ -140,8 +69,43 @@ LOCATION:https://us06web.zoom.us/j/82795104071?pwd=azwwltlu3gLzbEWLQ6fhcfpSlWdr7
 DESCRIPTION:[MEETING] — Sacramento DSA — (Monthly) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting. Join Zoom Meeting https://us06web.zoom.us/j/82795104071?pwd=azwwltlu3gLzbEWLQ6fhcfpSlWdr7T.1  Meeting ID: 827 9510 4071 Passcode: 202095  ---  One tap mobile +166
 END:VEVENT
 BEGIN:VEVENT
+UID:ef8291468dc7@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261015T023000Z
+DTEND:20261015T043000Z
+SUMMARY:Labor Committee Meeting (ONLINE)
+DESCRIPTION:[MEETING] — Sacramento DSA — (Monthly) — https://us06web.zoom.us/j/83883060398?pwd=Q4ihm4adMi0Wb5U3BEOsKfarOhwMWv.1
+END:VEVENT
+BEGIN:VEVENT
+UID:36ae8f6e78da@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260930T030000Z
+DTEND:20260930T050000Z
+SUMMARY:Steering Committee Meeting
+LOCATION:https://us06web.zoom.us/j/81424086329?pwd=673IaXU0vQn2nHMRpuDbx5nv3H8jmt.1
+DESCRIPTION:[MEETING] — Sacramento DSA — (Every Tuesday) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting.  Join Zoom Meeting https://us06web.zoom.us/j/81424086329?pwd=673IaXU0vQn2nHMRpuDbx5nv3H8jmt.1  Meeting ID: 814 2408 6329 Passcode: cb98wM  ---  One tap mobile<br/
+END:VEVENT
+BEGIN:VEVENT
+UID:ffa58109ad9e@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260930T013000Z
+DTEND:20260930T033000Z
+SUMMARY:Electoral Committee Meeting
+LOCATION:https://us06web.zoom.us/j/86137060927?pwd=NbkqHbv5GxJs6ErUVFGd6BgJie2NVb.1
+DESCRIPTION:[MEETING] — Sacramento DSA — (Every other Tuesday) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting. Join Zoom Meeting https://us06web.zoom.us/j/86137060927?pwd=NbkqHbv5GxJs6ErUVFGd6BgJie2NVb.1  Meeting chat link https://us06web.zoom.us/launch/jc/86137060927  Meeting ID: 861
+END:VEVENT
+BEGIN:VEVENT
+UID:ecd88e2bbdbb@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260920T200000Z
+DTEND:20260920T220000Z
+SUMMARY:Boycott Chevron Block Party
+LOCATION:1828 Broadway\, Sacramento\, CA 95818\, USA
+DESCRIPTION:[ACTION] — Sacramento DSA — (Every Sunday) — Join Sacramento DSA to meet your comrades\, talk to and hand out flyers to drivers and pedestrians about Chevron's ties to the ongoing genocide in Gaza! No experience necessary\, bring a friend and some food to share if you can. There will be a social at a local bar afterward!
+END:VEVENT
+BEGIN:VEVENT
 UID:040c60c1010b@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260924T023000Z
 DTEND:20260924T043000Z
 SUMMARY:Labor Committee Meeting (Virtual)
@@ -149,133 +113,70 @@ LOCATION:https://us06web.zoom.us/j/83883060398?pwd=Q4ihm4adMi0Wb5U3BEOsKfarOhwMW
 DESCRIPTION:[MEETING] — Sacramento DSA — (Monthly) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting. Join Zoom Meeting https://us06web.zoom.us/j/83883060398?pwd=Q4ihm4adMi0Wb5U3BEOsKfarOhwMWv.1  Meeting ID: 838 8306 0398 Passcode: 033183  --- <br
 END:VEVENT
 BEGIN:VEVENT
-UID:0ba1114d07d9@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T030000Z
-DTEND:20260916T050000Z
-SUMMARY:Steering Committee Meeting
-LOCATION:https://us06web.zoom.us/j/81424086329?pwd=673IaXU0vQn2nHMRpuDbx5nv3H8jmt.1
-DESCRIPTION:[MEETING] — Sacramento DSA — (Every Tuesday) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting.  Join Zoom Meeting https://us06web.zoom.us/j/81424086329?pwd=673IaXU0vQn2nHMRpuDbx5nv3H8jmt.1  Meeting ID: 814 2408 6329 Passcode: cb98wM  ---  One tap mobile<br/
+UID:c90487670738@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T193000Z
+DTEND:20260926T213000Z
+SUMMARY:Membership Organizing Committee Meeting (Hybrid)
+LOCATION:Mattie Groves Brewery\, 1716 L St\, Sacramento\, CA 95811\;https://us06web.zoom.us/j/86060792184?pwd=xHnzYCGD6GeV6VmF8ZQaJuCQql126m.1
+DESCRIPTION:[MEETING] — Sacramento DSA — (Every other Saturday) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting. Join Zoom Meeting https://us06web.zoom.us/j/86060792184?pwd=xHnzYCGD6GeV6VmF8ZQaJuCQql126m.1  Meeting ID: 860 6079 2184 Passcode: 494672  ---  One tap mobile +166
 END:VEVENT
 BEGIN:VEVENT
-UID:6111fd6599e0@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T233000Z
-DTEND:20260920T013000Z
-SUMMARY:September 2026 Chapter Weekend Social
-LOCATION:Hop Gardens\, 2904 Franklin Blvd\, Sacramento\, CA 95818
-DESCRIPTION:[CULTURE] — Sacramento DSA
+UID:dd1451bd88b3@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260925T003000Z
+DTEND:20260925T023000Z
+SUMMARY:AFROSOC Caucus Meeting
+LOCATION:https://us06web.zoom.us/j/84708094608?pwd=lXOLqwLrmJ2PMdrGyi29EeNVkWaVhp.1
+DESCRIPTION:[MEETING] — Sacramento DSA — (Every other Thursday) — ────────── DSA Sacramento is inviting you to a scheduled Zoom meeting. Join Zoom Meeting https://us06web.zoom.us/j/84708094608?pwd=lXOLqwLrmJ2PMdrGyi29EeNVkWaVhp.1  Meeting ID: 847 0809 4608 Passcode: 356753  ---  One tap mobile +166
 END:VEVENT
 BEGIN:VEVENT
-UID:30d795aae0ad@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T170000Z
-DTEND:20260913T190000Z
-SUMMARY:DSA International Committee: Boycott Chevron Canvass
-LOCATION:1828 Broadway\, Sacramento\, CA 95818\, USA
-DESCRIPTION:[ACTION] — Sacramento DSA — Join Sac DSA's International Committee to go door to door and talk to our neighbors about our Boycott Chevron campaign! We will provide snacks in the morning\, lunch in the afternoon\, and training on how to canvass at 10:30AM before we head out to knock doors. <a href="https://act
+UID:7c9c639e843e@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260922T010000Z
+DTEND:20260922T030000Z
+SUMMARY:Public Banking Campaign Working Group Meeting
+LOCATION:https://us06web.zoom.us/j/82586654491?pwd=2KbwCN4rPIEAyjS3ijO5V4kaHQeP5q.1
+DESCRIPTION:[MEETING] — Sacramento DSA — (Every other Monday) — DSA Sacramento is inviting you to a scheduled Zoom meeting.\nJoin Zoom Meeting\nhttps://us06web.zoom.us/j/82586654491?pwd=2KbwCN4rPIEAyjS3ijO5V4kaHQeP5q.1\n\nMeeting ID: 825 8665 4491\nPasscode: 820635\n\n---\n\nOne tap mobile\n+15074734847\,\,82586654491#\,\,\,\,*820635# US\n+15642172000\,\,825866
 END:VEVENT
 BEGIN:VEVENT
-UID:d2872fa6f3c1@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T203000Z
-DTEND:20260919T223000Z
-SUMMARY:September 2026 General Membership Meeting
-LOCATION:Colonial Heights Library\, 4799 Stockton Blvd\, Sacramento\, CA 95820\, USA
-DESCRIPTION:[MEETING] — Sacramento DSA — RSVP here !     Join Sacramento DSA for our September 2026 General Membership Meeti
+UID:24305a613fae@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261013T013000Z
+DTEND:20261013T033000Z
+SUMMARY:Healthcare Committee Meeting (In-person)
+LOCATION:Raley's\, 4690 Freeport Blvd\, Sacramento\, CA 95822\, USA
+DESCRIPTION:[MEETING] — Sacramento DSA — (Monthly)
 END:VEVENT
 BEGIN:VEVENT
-UID:082fde4a7412@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T020000Z
-DTEND:20260919T040000Z
-SUMMARY:Letter Writing to Political Prisoners
-LOCATION:2775 Cottage Way #15\, Sacramento\, CA 95825\, USA
-DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Monthly) — Join us for letter writing to political prisoners
+UID:879f6ccb30ad@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260929T003000Z
+DTEND:20260929T023000Z
+SUMMARY:Mutual Aid Distro
+LOCATION:910 I St\, Sacramento\, CA 95814
+DESCRIPTION:[MUTUAL AID] — Sacramento DSA — (Every other Monday) — We start set-up at 5:30pm and start serving at 6pm. You don’t need any special skills or knowledge to participate. Just show up! We’ll teach you what to do.\n\nWe also hang out at a local restaurant or brewery after each distro. So if you’re looking for opportunities to meet other
 END:VEVENT
 BEGIN:VEVENT
-UID:fcc99adaee05@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T170000Z
-DTEND:20260917T190000Z
-SUMMARY:Food and Diaper Distro!
-LOCATION:Sacramento Japanese United Methodist Church\, 6929 Franklin Blvd\, Sacramento\, CA 95823\, USA
-DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Monthly) — All are welcome\; no ID required. No RSVP or paperwork requirements.
+UID:a856e21cf0fa@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261011T200000Z
+DTEND:20261011T220000Z
+SUMMARY:Jobapalooza: Socialist Job Fair
+DESCRIPTION:[MEETING] — Sacramento DSA — Join the Labor Committee and several other organizers and unions for Jobapalooza - The Socialist Job Fair!  This event will be a good chance to learn about labor organizing and get involved\, apply for a job with an ongoing salting campaign\, or pot
 END:VEVENT
 BEGIN:VEVENT
-UID:583c2aba58f4@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T010000Z
-DTEND:20260917T030000Z
-SUMMARY:English Classes (All Levels)
-DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Every Wednesday) — Free English as a second language classes\, all are welcome to learn with us!   Online at  https://tinyurl.com/NorCalEnglish    Zoom Meeting Id 869 1415 7822 Passcode 456700
-END:VEVENT
-BEGIN:VEVENT
-UID:78253a2cf456@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T013000Z
-DTEND:20260916T033000Z
-SUMMARY:Becoming Ungovernable- AntiAuthoritarian Reading Circle
-LOCATION:HATCH Workshop\, 40 S Union St\, Stockton\, CA 95205\, USA
-DESCRIPTION:[TEACH-IN] — NorCal Resist — (Monthly) — Becoming Ungovernable is a zine reading circle based in the 209 centered around weeding out all forms of authoritarianism that creep their way into our lives in big and small ways. We gather weekly to read\, discuss\, and organize ways to keep each other safe!
-END:VEVENT
-BEGIN:VEVENT
-UID:912be281c2bd@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T160000Z
-DTEND:20260913T180000Z
-SUMMARY:Seeds of Solidarity Workday!
-LOCATION:8484 Lake Forest Dr\, Sacramento\, CA 95826\, USA
-DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Every Sunday) — Join us in growing food for the community! Bring gardening tools if you can
-END:VEVENT
-BEGIN:VEVENT
-UID:36783153ec02@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T003000Z
-DTEND:20260918T023000Z
-SUMMARY:Seeds of Solidarity Work Evenings
-LOCATION:8484 Lake Forest Dr\, Sacramento\, CA 95826\, USA
-DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Every Thursday) — Join us at Seeds of Solidarity at 8484 Lake Forest Drive in Sacramento for our evening work day\, Thursdays from 5:30-8:30pm. It's a good idea to bring water\, sunscreen\, a hat\, work gloves and a seat if you need one. Your own tools can be handy but are not required.
-END:VEVENT
-BEGIN:VEVENT
-UID:82b152ed6e85@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20261003T170000Z
-DTEND:20261003T190000Z
-SUMMARY:FREE Auto Light Repair Clinic
-LOCATION:2775 Cottage Way\, Sacramento\, CA 95825
-DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Monthly) — FREE twice-monthly brake light check and repair clinic. Rain or shine! Bring your car\, and we'll fix your auto lights free of charge\, including head lights! Volunteers are welcome to come help out.
-END:VEVENT
-BEGIN:VEVENT
-UID:3653ff0509e8@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T190000Z
-DTEND:20260913T210000Z
-SUMMARY:Community Self Defense Seminar
-LOCATION:3749 Stockton Blvd\, Unit A\, Sacramento
-DESCRIPTION:[TEACH-IN] — NorCal Resist — (Every Saturday) — Free and fun community self defense class courtesy of Toro Z Muay Thai!
-END:VEVENT
-BEGIN:VEVENT
-UID:9fb86a75a25a@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T010000Z
-DTEND:20260918T030000Z
-SUMMARY:Self Defense!
-LOCATION:2775 Cottage Way #15\, Sacramento\, CA 95825\, USA
-DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Every Thursday) — Join us Thursdays at 6pm for a self defense course from the All-African Peoples Revolutionary Party. All kinds of bodies are welcome!
-END:VEVENT
-BEGIN:VEVENT
-UID:66e3e0fe7661@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T203000Z
-DTEND:20260913T223000Z
-SUMMARY:Farmers Market Scavenger Hunt!
-LOCATION:5750 Grant Ave\, Carmichael\, CA 95608
-DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Every Sunday) — Help provide meals to community members while at the same time reducing your food waste and meeting the requirements of SB 1383\, which requires commercial edible food generators to donate the maximum amount of their edible food that would otherwise be disposed of. By partnering u
+UID:a446c9d4403e@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T190000Z
+DTEND:20260924T210000Z
+SUMMARY:Sacramento City College YDSA Social
+LOCATION:Sacramento City College\, Rodda Hall South\, RHS-263\, 3835 Freeport Blvd\, Sacramento\, CA 95822 
+DESCRIPTION:[MEETING] — Sacramento DSA
 END:VEVENT
 BEGIN:VEVENT
 UID:43769c3ba2b1@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261010T150000Z
 DTEND:20261010T170000Z
 SUMMARY:Food Donation Drop-off
@@ -283,35 +184,133 @@ LOCATION:2775 Cottage Way #16\, Sacramento\, CA 95825\, USA
 DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Monthly) — Help us feed our community! Every day\, families in our community go to bed hungry. Your donation helps us provide fresh groceries to folks in need!   How to help:    Drop off pantry staples\, pre-packaged meals\, or fresh produce on the second Saturday of every
 END:VEVENT
 BEGIN:VEVENT
-UID:e0c9d09d6340@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T190000Z
-DTEND:20260919T210000Z
-SUMMARY:Farmers Market Scavenger Hunt!
-LOCATION:20th Street & K Street\, 20th St & K St\, Sacramento\, CA 95811\, USA
-DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Every Saturday) — Help provide meals to community members while at the same time reducing your food waste and meeting the requirements of SB 1383\, which requires commercial edible food generators to donate the maximum amount of their edible food that would otherwise be disposed of. By partnering u
-END:VEVENT
-BEGIN:VEVENT
-UID:74c8154af5e3@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T170000Z
-DTEND:20260919T190000Z
+UID:69a6d34b70c7@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261017T170000Z
+DTEND:20261017T190000Z
 SUMMARY:Free Auto Light Repairs
 LOCATION:2775 Cottage Way #15\, Sacramento
 DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Monthly) — Every first and third Saturday of the month we check and fix auto lights at 2775 Cottage Way #15\, from 10am to noon. No RSVP\, just show up and get that light checked and fixed\, or to help out-- or both!
 END:VEVENT
 BEGIN:VEVENT
-UID:f14ed6c1fa66@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T010000Z
-DTEND:20260917T030000Z
+UID:dae996c0084b@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261016T170000Z
+DTEND:20261016T190000Z
+SUMMARY:Food and Diaper Distro!
+LOCATION:Field Of Hope UCC\, 9624 Melrose Ave\, Elk Grove\, CA 95624\, USA
+DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Monthly) — All are welcome\; no ID required. No RSVP or paperwork requirements.
+END:VEVENT
+BEGIN:VEVENT
+UID:48b135a511dd@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260920T160000Z
+DTEND:20260920T180000Z
+SUMMARY:Seeds of Solidarity Workday!
+LOCATION:8484 Lake Forest Dr\, Sacramento\, CA 95826\, USA
+DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Every Sunday) — Join us in growing food for the community! Bring gardening tools if you can
+END:VEVENT
+BEGIN:VEVENT
+UID:18ff04d6d066@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T010000Z
+DTEND:20260924T030000Z
+SUMMARY:English Classes (All Levels)
+DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Every Wednesday) — Free English as a second language classes\, all are welcome to learn with us!   Online at  https://tinyurl.com/NorCalEnglish    Zoom Meeting Id 869 1415 7822 Passcode 456700
+END:VEVENT
+BEGIN:VEVENT
+UID:3f4dda9c7648@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260923T013000Z
+DTEND:20260923T033000Z
+SUMMARY:Becoming Ungovernable- AntiAuthoritarian Reading Circle
+LOCATION:Tuleburg Press\, 343 E Main St\, Stockton\, CA 95202\, USA
+DESCRIPTION:[TEACH-IN] — NorCal Resist — (Monthly) — Becoming Ungovernable is a zine reading circle based in the 209 centered around weeding out all forms of authoritarianism that creep their way into our lives in big and small ways. We gather weekly to read\, discuss\, and organize ways to keep each other safe!
+END:VEVENT
+BEGIN:VEVENT
+UID:90f943968824@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261003T020000Z
+DTEND:20261003T040000Z
+SUMMARY:Letter Writing to Political Prisoners
+LOCATION:2775 Cottage Way #15\, Sacramento\, CA 95825\, USA
+DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Monthly) — Join us for letter writing to political prisoners
+END:VEVENT
+BEGIN:VEVENT
+UID:df034bd80879@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260920T203000Z
+DTEND:20260920T223000Z
+SUMMARY:Farmers Market Scavenger Hunt!
+LOCATION:5750 Grant Ave\, Carmichael\, CA 95608
+DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Every Sunday) — Help provide meals to community members while at the same time reducing your food waste and meeting the requirements of SB 1383\, which requires commercial edible food generators to donate the maximum amount of their edible food that would otherwise be disposed of. By partnering u
+END:VEVENT
+BEGIN:VEVENT
+UID:0f04b19d835d@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T190000Z
+DTEND:20260926T210000Z
+SUMMARY:Farmers Market Scavenger Hunt!
+LOCATION:20th Street & K Street\, 20th St & K St\, Sacramento\, CA 95811\, USA
+DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Every Saturday) — Help provide meals to community members while at the same time reducing your food waste and meeting the requirements of SB 1383\, which requires commercial edible food generators to donate the maximum amount of their edible food that would otherwise be disposed of. By partnering u
+END:VEVENT
+BEGIN:VEVENT
+UID:b0ec0caad032@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260925T003000Z
+DTEND:20260925T023000Z
+SUMMARY:Seeds of Solidarity Work Evenings
+LOCATION:8484 Lake Forest Dr\, Sacramento\, CA 95826\, USA
+DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Every Thursday) — Join us at Seeds of Solidarity at 8484 Lake Forest Drive in Sacramento for our evening work day\, Thursdays from 5:30-8:30pm. It's a good idea to bring water\, sunscreen\, a hat\, work gloves and a seat if you need one. Your own tools can be handy but are not required.
+END:VEVENT
+BEGIN:VEVENT
+UID:75dbc1dbbe09@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260920T190000Z
+DTEND:20260920T210000Z
+SUMMARY:Community Self Defense Seminar
+LOCATION:3749 Stockton Blvd\, Unit A\, Sacramento
+DESCRIPTION:[TEACH-IN] — NorCal Resist — (Every Saturday) — Free and fun community self defense class courtesy of Toro Z Muay Thai!
+END:VEVENT
+BEGIN:VEVENT
+UID:456737ab9b5b@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260924T010000Z
+DTEND:20260924T030000Z
 SUMMARY:Weekly Anarchist Reading Group
 LOCATION:2775 Cottage Way #15\, Sacramento\, CA 95825\, USA
 DESCRIPTION:[TEACH-IN] — NorCal Resist — (Every Wednesday) — Join us for a weekly anarchist reading group.\n\nThis is a drop-in space\, copies of readings will be available at the door\, and we will  go over texts and discuss-- you do not need to do any reading/homework in advance!
 END:VEVENT
 BEGIN:VEVENT
+UID:82b152ed6e85@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261003T170000Z
+DTEND:20261003T190000Z
+SUMMARY:FREE Auto Light Repair Clinic
+LOCATION:2775 Cottage Way\, Sacramento\, CA 95825
+DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Monthly) — FREE twice-monthly brake light check and repair clinic. Rain or shine! Bring your car\, and we'll fix your auto lights free of charge\, including head lights! Volunteers are welcome to come help out.
+END:VEVENT
+BEGIN:VEVENT
+UID:2f39f42ae102@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260925T010000Z
+DTEND:20260925T030000Z
+SUMMARY:Self Defense!
+LOCATION:2775 Cottage Way #15\, Sacramento\, CA 95825\, USA
+DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Every Thursday) — Join us Thursdays at 6pm for a self defense course from the All-African Peoples Revolutionary Party. All kinds of bodies are welcome!
+END:VEVENT
+BEGIN:VEVENT
+UID:f31b23bcdac1@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261011T220000Z
+DTEND:20261012T000000Z
+SUMMARY:Open Meeting!
+LOCATION:2775 Cottage Way #15\, Sacramento\, CA 95825\, USA
+DESCRIPTION:[MUTUAL AID] — NorCal Resist
+END:VEVENT
+BEGIN:VEVENT
 UID:860239d33199@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260927T160000Z
 DTEND:20260927T180000Z
 SUMMARY:Sac IWW Organizer Training 101
@@ -319,25 +318,24 @@ LOCATION:2775 Cottage Way #15\, Sacramento\, CA 95825\, USA
 DESCRIPTION:[TEACH-IN] — NorCal Resist
 END:VEVENT
 BEGIN:VEVENT
-UID:fb73bcd57fe6@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T150000Z
-DTEND:20260919T170000Z
+UID:9f3ff8cbd20a@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261014T010000Z
+DTEND:20261014T030000Z
+SUMMARY:Migra & Court Watch Training
+DESCRIPTION:[TEACH-IN] — NorCal Resist — NorCal Resist is inviting you to a scheduled Zoom meeting.  Topic: Migra & Court Watch Time: Oct 13\, 2026 06:00 PM Pacific Time (US and Canada) Join Zoom Meeting  https://us02web.zoom.us/j/87298724885   Me
+END:VEVENT
+BEGIN:VEVENT
+UID:c97220367335@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261024T150000Z
+DTEND:20261024T170000Z
 SUMMARY:Pro Se Asylum Clinic
 DESCRIPTION:[MUTUAL AID] — NorCal Resist — (Every Saturday) — If you're interested in volunteering\, email  norcalresist@gmail.com   To get on the waiting list\, please fill out this form: <a href="https://www.google.com/url?q=https://www.norcalr
 END:VEVENT
 BEGIN:VEVENT
-UID:be9243457e73@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T230000Z
-DTEND:20260920T010000Z
-SUMMARY:Raza & Rolas
-LOCATION:Latino Center of Art and Culture\, 2700 Front St\, Sacramento\, CA 95818\, USA
-DESCRIPTION:[MUTUAL AID] — NorCal Resist — Live Art\, Silent Art Auction Exhibit\, Food Vendors\, Cultural Art Vendors\, Informational Booths\, & Community Resources  Purchase Tickets  Here
-END:VEVENT
-BEGIN:VEVENT
 UID:9094840baded@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260926T160000Z
 DTEND:20260926T180000Z
 SUMMARY:Sac IWW Organizer Training 101
@@ -345,17 +343,16 @@ LOCATION:2775 Cottage Way #15\, Sacramento\, CA 95825\, USA
 DESCRIPTION:[TEACH-IN] — NorCal Resist
 END:VEVENT
 BEGIN:VEVENT
-UID:5ed136530562@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T170000Z
-DTEND:20260919T190000Z
-SUMMARY:Free Auto Light Repair and Community Table
-LOCATION:850 Gray Ave\, Yuba City\, CA 95991\, USA
-DESCRIPTION:[MUTUAL AID] — NorCal Resist — No RSVP\, just show up and get that light checked and fixed\, or to help out-- or both!
+UID:0847af2c1631@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261021T003000Z
+DTEND:20261021T023000Z
+SUMMARY:Accompaniment & Court Watch Training
+DESCRIPTION:[TEACH-IN] — NorCal Resist — NorCal Resist is inviting you to a scheduled Zoom meeting. No RSVP required.  Topic: Accompaniment Training Time: Oct 20\, 2026 05:30 PM Pacific Time (US and Canada) Join Zoom Meeting  https://us02web.zoom.us/j/83843774
 END:VEVENT
 BEGIN:VEVENT
 UID:c392223a5fb8@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260923T200000Z
 DTEND:20260923T220000Z
 SUMMARY:KYR for Domestic Workers
@@ -364,7 +361,7 @@ DESCRIPTION:[MUTUAL AID] — NorCal Resist — This Know-Your-Rights presentatio
 END:VEVENT
 BEGIN:VEVENT
 UID:130aebafcdbc@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260923T013000Z
 DTEND:20260923T033000Z
 SUMMARY:Arden Local Tenant Solidarity Meeting
@@ -372,17 +369,8 @@ LOCATION:3532 Whitney Ave\, Sacramento\, CA 95821\, USA
 DESCRIPTION:[TENANT] — Sacramento Valley Tenants Union — (Monthly) — Facing a landlord problem? Join us a Tenant Solidarity Meeting! These meetings are all about collective learning and problem-solving — we’ll talk through things like rent hikes\, eviction threats and lack of repairs as well as what steps we can take to stand up to our landlords an
 END:VEVENT
 BEGIN:VEVENT
-UID:fd4410cb05e0@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T180000Z
-DTEND:20260919T200000Z
-SUMMARY:South Sac Tenant Solidarity Meeting
-LOCATION:Emanuel United Methodist Church\, 5954 44th St\, Sacramento\, CA 95824\, USA
-DESCRIPTION:[TENANT] — Sacramento Valley Tenants Union — (Monthly) — Facing a landlord problem? Join us at a Tenant Solidarity Meeting! These meetings are all about collective learning and problem-solving — we’ll talk through things like rent hikes\, eviction threats and lack of repairs as well as what steps we can take to stand up to our landlords
-END:VEVENT
-BEGIN:VEVENT
 UID:b465c039f8ce@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261008T013000Z
 DTEND:20261008T033000Z
 SUMMARY:SVTU General Meeting
@@ -390,8 +378,17 @@ LOCATION:Organize Sacramento\, 1714 Broadway\, Sacramento\, CA 95818\, USA
 DESCRIPTION:[TENANT] — Sacramento Valley Tenants Union — (Monthly)
 END:VEVENT
 BEGIN:VEVENT
+UID:6a58fba99e3d@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261017T180000Z
+DTEND:20261017T200000Z
+SUMMARY:South Sac Tenant Solidarity Meeting
+LOCATION:Emanuel United Methodist Church\, 5954 44th St\, Sacramento\, CA 95824\, USA
+DESCRIPTION:[TENANT] — Sacramento Valley Tenants Union — (Monthly) — Facing a landlord problem? Join us at a Tenant Solidarity Meeting! These meetings are all about collective learning and problem-solving — we’ll talk through things like rent hikes\, eviction threats and lack of repairs as well as what steps we can take to stand up to our landlords
+END:VEVENT
+BEGIN:VEVENT
 UID:7465f17da9ec@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260922T010000Z
 DTEND:20260922T030000Z
 SUMMARY:Third Act Sacramento meeting
@@ -400,7 +397,7 @@ DESCRIPTION:[ACTION] — 350 Sacramento — (Monthly) — Monthly meeting with g
 END:VEVENT
 BEGIN:VEVENT
 UID:b889619b0b8b@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261006T010000Z
 DTEND:20261006T030000Z
 SUMMARY:General Meeting
@@ -408,50 +405,50 @@ LOCATION:ON ZOOM
 DESCRIPTION:[ACTION] — 350 Sacramento — (Monthly) — 350 Sacramento is inviting you to a scheduled Zoom meeting.  Topic: General Meeting Time: Sep 7\, 2026 06:00 PM Pacific Time (US and Canada)         Every month on the First Mon\, 6 occurrence(s) Please download and import the following iCalendar (.ics) files to your
 END:VEVENT
 BEGIN:VEVENT
-UID:0f87e40a76e2@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T230000Z
-DTEND:20260919T010000Z
+UID:1bf7e0261ae6@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260925T230000Z
+DTEND:20260926T010000Z
 SUMMARY:Join 48th/51st Street RESISTANCE Overpass Fridays
 LOCATION:This event’s address is private. Sign up for more details
-DESCRIPTION:[ACTION] — Coalition Against Project 2025 — (Recurring) — Join us  - every Friday Rush Hour! \n\nWe are two sister decks*  in the RESISTANCE! \nThis is a crisis\, and the time to act is now. We have misters and stuff to stay cool! \n\n4:00pm -5:30pm  during the summer\n\nWe demand justice for those detained by ice. Our message to the world that — https://www.mobilize.us/eldoradoprogressives/event/776124/
+DESCRIPTION:[ACTION] — Coalition Against Project 2025 — Join us  - every Friday Rush Hour! \n\nWe are two sister decks*  in the RESISTANCE! \nThis is a crisis\, and the time to act is now. We have misters and stuff to stay cool! \n\n4:00pm -5:30pm  during the summer\n\nWe demand justice for those detained by ice. Our message to the world that — https://www.mobilize.us/eldoradoprogressives/event/776124/
 URL:https://www.mobilize.us/eldoradoprogressives/event/776124/
 END:VEVENT
 BEGIN:VEVENT
-UID:874044baf7d3@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T183000Z
-DTEND:20260916T203000Z
+UID:407bf491a916@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260923T183000Z
+DTEND:20260923T203000Z
 SUMMARY:Wednesday Lunch Hour @ the Capitol - Resist Fascism &  Medicare for All
 LOCATION:On the corner
 DESCRIPTION:[ACTION] — Coalition Against Project 2025 — (Recurring) — Resist and Rise! Every Wednesday - lunch hour\nEvery Wednesday.\n15th and L st.\n11:30 to 1:00\n\nJoin us! \nWe rise up to speak out against the CRUEL and UNCONSTITUTIONAL ACTIONS OF THE TRUMP REGIME and ICE!!! \nWe rise up to demand Healthcare for All and People over Billionaires!\nStop — https://www.mobilize.us/eldoradoprogressives/event/813753/
 URL:https://www.mobilize.us/eldoradoprogressives/event/813753/
 END:VEVENT
 BEGIN:VEVENT
-UID:6fdca1daeb2f@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T210000Z
-DTEND:20260913T230000Z
+UID:aada2e21ba8f@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261011T210000Z
+DTEND:20261011T230000Z
 SUMMARY:A Pint of Politics and #DoingSomething
 LOCATION:Oak Park Brewing Co.
 DESCRIPTION:[MUTUAL AID] — Coalition Against Project 2025 — (Recurring) — Second Sundays\n2 – 4pm PDT\n\nOak Park Brewing Co.\n3514 Broadway\nSacramento\, CA 95817 \n\nJoin the Coalition Against Project 2025 at our favorite local eatery and Coalition Partner\, Oak Park Brewing Co. \n\nWe meet on the 2nd Sundays to connect with ways to defend and build a people-po — https://www.mobilize.us/eldoradoprogressives/event/824605/
 URL:https://www.mobilize.us/eldoradoprogressives/event/824605/
 END:VEVENT
 BEGIN:VEVENT
-UID:4565e4776cad@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T190000Z
-DTEND:20260919T210000Z
+UID:85d6db55e211@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T190000Z
+DTEND:20260926T210000Z
 SUMMARY:Howe & Arden RESISTS “ICE OUT FOR GOOD”
 LOCATION:Howe 'Bout Arden
 DESCRIPTION:[ACTION] — Coalition Against Project 2025 — (Recurring) — Active protest on 4 corners of this busy intersection. Started  by two brothers Thommy and Allen. It has grown to a protest worth a visit every Saturday from noon -2pm. Protest Against I.C.E. \nAnd this facist group of thugs stealing our tax dollars while prices go up\, people loos — https://www.mobilize.us/eldoradoprogressives/event/857077/
 URL:https://www.mobilize.us/eldoradoprogressives/event/857077/
 END:VEVENT
 BEGIN:VEVENT
-UID:4d2c7034a8a5@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T170000Z
-DTEND:20260918T190000Z
+UID:97b09cb55094@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260925T170000Z
+DTEND:20260925T190000Z
 SUMMARY:Natomas Resists!
 LOCATION:Corner of Truxel Rd & Del Paso Rd
 DESCRIPTION:[ACTION] — Coalition Against Project 2025 — (Recurring) — Natomas Resists!\nFridays **** NEW TIME:  10am-11:30am\n\n*** Because of hot weather\, we are moving the start time to 10am. Please check the website each week for any future changes***\n\nJoin our peaceful corner protest every Friday 10am-11:30am. Enjoy the fresh air and company of ot — https://www.mobilize.us/eldoradoprogressives/event/873691/
@@ -459,62 +456,62 @@ URL:https://www.mobilize.us/eldoradoprogressives/event/873691/
 END:VEVENT
 BEGIN:VEVENT
 UID:9080cf5db398@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261001T233000Z
 DTEND:20261002T013000Z
 SUMMARY:Signs of Fascism @ J/16th
-DESCRIPTION:[ACTION] — Coalition Against Project 2025 — SIGNS OF FASCISM. 16th and J location.  \n\nNote: For the Sunday Arden location see https://www.mobilize.us/cap25/event/888947/\n\nSIGNS OF FASCISM. \n\nWHAT:\nBurma Shave style protest.  20 Signs of Fascism. A block long event. Join us\, WE HAVE THE SIGNS. Please come\, WEAR BLACK or dar — https://www.mobilize.us/eldoradoprogressives/event/873805/
+DESCRIPTION:[ACTION] — Coalition Against Project 2025 — (Recurring) — SIGNS OF FASCISM. 16th and J location.  \n\nNote: For the Sunday Arden location see https://www.mobilize.us/cap25/event/888947/\n\nSIGNS OF FASCISM. \n\nWHAT:\nBurma Shave style protest.  20 Signs of Fascism. A block long event. Join us\, WE HAVE THE SIGNS. Please come\, WEAR BLACK or dar — https://www.mobilize.us/eldoradoprogressives/event/873805/
 URL:https://www.mobilize.us/eldoradoprogressives/event/873805/
 END:VEVENT
 BEGIN:VEVENT
 UID:90f0e81b2634@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260920T203000Z
 DTEND:20260920T223000Z
 SUMMARY:Signs of Fascism @ Howe/Arden
-DESCRIPTION:[ACTION] — Coalition Against Project 2025 — SIGNS OF FASCISM. \n\nNote: For the J & 16th event see https://www.mobilize.us/cap25/event/873805/\n\nWHAT\nBurma Shave style protest.  20 Signs of Fascism. A block long event. Join us\, WE HAVE THE SIGNS. Please come\, WEAR BLACK or dark colors\, bring a friend and HOLD a sign! Wear sun — https://www.mobilize.us/eldoradoprogressives/event/888947/
+DESCRIPTION:[ACTION] — Coalition Against Project 2025 — (Recurring) — SIGNS OF FASCISM. \n\nNote: For the J & 16th event see https://www.mobilize.us/cap25/event/873805/\n\nWHAT\nBurma Shave style protest.  20 Signs of Fascism. A block long event. Join us\, WE HAVE THE SIGNS. Please come\, WEAR BLACK or dark colors\, bring a friend and HOLD a sign! Wear sun — https://www.mobilize.us/eldoradoprogressives/event/888947/
 URL:https://www.mobilize.us/eldoradoprogressives/event/888947/
 END:VEVENT
 BEGIN:VEVENT
-UID:2390aa526b86@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T170000Z
-DTEND:20260919T190000Z
+UID:15937d160580@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T170000Z
+DTEND:20260926T190000Z
 SUMMARY:Citrus Heights Resists ICE! Hosted by Sunrise Solidarity
-DESCRIPTION:[ACTION] — Coalition Against Project 2025 — (Recurring) — Join Sunrise Solidarity every Saturday from 10am to 12pm to protest against ICE brutality and the corrupt Trump administration! We stand in solidarity to support our immigrant neighbors. The murders of Keith Porter\, Renee Good\, Alex Pretti\, along with many others will not be forg — https://www.mobilize.us/eldoradoprogressives/event/892133/
+DESCRIPTION:[ACTION] — Coalition Against Project 2025 — Join Sunrise Solidarity every Saturday from 10am to 12pm to protest against ICE brutality and the corrupt Trump administration! We stand in solidarity to support our immigrant neighbors. The murders of Keith Porter\, Renee Good\, Alex Pretti\, along with many others will not be forg — https://www.mobilize.us/eldoradoprogressives/event/892133/
 URL:https://www.mobilize.us/eldoradoprogressives/event/892133/
 END:VEVENT
 BEGIN:VEVENT
-UID:5a30f7707bc2@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T170000Z
-DTEND:20260919T190000Z
+UID:4eeed781cd68@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T170000Z
+DTEND:20260926T190000Z
 SUMMARY:ICE Out Everywhere - Fruitridge
 DESCRIPTION:[ACTION] — Coalition Against Project 2025 — (Recurring) — ### ICE Out Everywhere\n\nThis lawless regime is tearing apart our communities all across the nation. ICE is kidnapping family and neighbors\, both former immigrants (aka citizens) as well as recent immigrants. Well\, we’re not going to stand for that\, are we?\n\nHell no!\n\n- We do not — https://www.mobilize.us/eldoradoprogressives/event/909432/
 URL:https://www.mobilize.us/eldoradoprogressives/event/909432/
 END:VEVENT
 BEGIN:VEVENT
-UID:dabe12ff5894@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T160000Z
-DTEND:20260918T180000Z
+UID:6776fdd423fd@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261016T160000Z
+DTEND:20261016T180000Z
 SUMMARY:Fair Oaks Indivisible Monthly Coffee Klatch
 LOCATION:This event’s address is private. Sign up for more details
 DESCRIPTION:[MEETING] — Indivisible — (Recurring) — This a local Fair Oaks-Carmichael\, CA Indivisible event!\nWe gather once a month on the third Friday from 9-10 AM to build community\, share resources\, develop action plans and provide one another support during stressful times. Our location changes from time to time\, so sign up th — https://www.mobilize.us/eldoradoprogressives/event/915764/
 URL:https://www.mobilize.us/eldoradoprogressives/event/915764/
 END:VEVENT
 BEGIN:VEVENT
-UID:61a009f7c9a8@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260915T230000Z
-DTEND:20260916T010000Z
+UID:c6bf4d451c72@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260922T230000Z
+DTEND:20260923T010000Z
 SUMMARY:Tuesday Protest!
 DESCRIPTION:[ACTION] — Indivisible — (Recurring) — This a local WEEKLY Indivisible event!\n\nProtest Now! What's on your mind?\n\nWe are a group of people who have common goals to protect our Democracy\, stand  up for liberty and our planet via signs/posters and smiles.\n\nWe chose the corners of J and H streets\, where they cross Carlso — https://www.mobilize.us/eldoradoprogressives/event/931501/
 URL:https://www.mobilize.us/eldoradoprogressives/event/931501/
 END:VEVENT
 BEGIN:VEVENT
 UID:a36544dab918@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261007T013000Z
 DTEND:20261007T033000Z
 SUMMARY:Indivisible Fair Oaks-Carmichael Monthly Gathering
@@ -524,7 +521,7 @@ URL:https://www.mobilize.us/eldoradoprogressives/event/967302/
 END:VEVENT
 BEGIN:VEVENT
 UID:bb5c29994873@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260924T013000Z
 DTEND:20260924T033000Z
 SUMMARY:Carmichael Resistance Choir
@@ -533,60 +530,60 @@ DESCRIPTION:[CULTURE] — Indivisible — (Recurring) — This a local Indivisib
 URL:https://www.mobilize.us/eldoradoprogressives/event/995545/
 END:VEVENT
 BEGIN:VEVENT
-UID:f371f2b35baa@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T190000Z
-DTEND:20260916T210000Z
+UID:d5c2ffd58af4@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260923T190000Z
+DTEND:20260923T210000Z
 SUMMARY:Turnout to Win - Postcarding with Indivisible El Dorado in Cameron Park
 LOCATION:This event’s address is private. Sign up for more details
 DESCRIPTION:[ACTION] — El Dorado Progressives - Indivisible El Dorado — (Recurring) — Write postcards to voters in battleground U.S. House and Senate Districts in California and around the country to flip them from Red to Blue. Help bring accountability\, separation of powers\, and checks and balances back to the federal government. Make Congress a functional branch — https://www.mobilize.us/eldoradoprogressives/event/1002253/
 URL:https://www.mobilize.us/eldoradoprogressives/event/1002253/
 END:VEVENT
 BEGIN:VEVENT
-UID:09c208759e9d@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T203000Z
-DTEND:20260913T223000Z
+UID:daa2f9014812@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260920T203000Z
+DTEND:20260920T223000Z
 SUMMARY:Indivisible Citrus Heights
 LOCATION:DarkHeart Brewing Citrus Heights
 DESCRIPTION:[ACTION] — Indivisible — (Recurring) — This a local Indivisible event!  Every Sunday from 1:30-3:30 p.m.\nDarkHeart Brewing\, 7110 Auburn Blvd.\, Citrus Heights\, CA\n\nCome join us and write postcards for candidates -- learn from knowledgeable guests -- meet candidates in person -- and most of all\, join a community of open — https://www.mobilize.us/eldoradoprogressives/event/1004390/
 URL:https://www.mobilize.us/eldoradoprogressives/event/1004390/
 END:VEVENT
 BEGIN:VEVENT
-UID:9441e56a33e3@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T000000Z
-DTEND:20260917T020000Z
+UID:2cdd4db42df8@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261001T000000Z
+DTEND:20261001T020000Z
 SUMMARY:Singing Protest with Indivisible Fair Oaks-Carmichael
 LOCATION:Manzanita + Fair Oaks
 DESCRIPTION:[ACTION] — Indivisible — (Recurring) — This a local Indivisible event!\n\nJoin us at the "T" intersection of Fair Oaks Blvd and Manzanita Ave in Carmichael. Led by the Carmichael Resistance Choir\, we will sing our protest to the afternoon rush hour and the businesses in the area.  BRING YOUR SIGN!  BRING YOUR CHAIRS!! — https://www.mobilize.us/eldoradoprogressives/event/1011420/
 URL:https://www.mobilize.us/eldoradoprogressives/event/1011420/
 END:VEVENT
 BEGIN:VEVENT
-UID:f49499b46662@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T190000Z
-DTEND:20260913T210000Z
+UID:31ff6f9676d1@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260920T190000Z
+DTEND:20260920T210000Z
 SUMMARY:Flip the House Phonebank and Potluck for Randy Villegas CA-22
 LOCATION:This event’s address is private. Sign up for more details
 DESCRIPTION:[ACTION] — Coalition Against Project 2025 — (Recurring) — Join Third Act Sacramento to phone bank and potluck for Randy Villegas\, a great progressive candidate running to flip the House in the Central Valley\, in CA-22 Congressional District.\n\nThere will be a potluck lunch from 12-1 and we will then join our friends with the Santa Clara — https://www.mobilize.us/eldoradoprogressives/event/1017182/
 URL:https://www.mobilize.us/eldoradoprogressives/event/1017182/
 END:VEVENT
 BEGIN:VEVENT
-UID:4b69fd416dfa@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T140000Z
-DTEND:20260918T160000Z
+UID:e40d7572c8a6@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260925T140000Z
+DTEND:20260925T160000Z
 SUMMARY:Morning Commute Early Vote Reminder
 LOCATION:Cambridge Rd. Hwy 50 Overpass
 DESCRIPTION:[ACTION] — El Dorado Progressives - Indivisible El Dorado — (Recurring) — Join us on the Cambridge Road overpass on Friday mornings from 7 - 8:30 am every Friday from September 11 - October 10 to remind westbound morning commuters to vote early in the Midterms  Elections.\n\nPark in the Cambridge Rd Park & Ride lot on the north side of Hwy 50.\n\nFive peop — https://www.mobilize.us/eldoradoprogressives/event/1030250/
 URL:https://www.mobilize.us/eldoradoprogressives/event/1030250/
 END:VEVENT
 BEGIN:VEVENT
-UID:682c15bc4c3e@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T233000Z
-DTEND:20260917T013000Z
+UID:bd94475e4a24@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260923T233000Z
+DTEND:20260924T013000Z
 SUMMARY:Afternoon Commute Early Vote Reminder
 LOCATION:Ponderosa Rd. Hwy 50 Overpass
 DESCRIPTION:[ACTION] — El Dorado Progressives - Indivisible El Dorado — (Recurring) — Join us on the Ponderosa Road overpass on Wednesday afternoon from 4:30 - 6 pm every Wednesday from September 9 - October 8 to remind eastbound afternoon commuters to vote early in the Midterms Elections.\n\nPark in the Ponderosa Rd Park & Ride lot on the south side of Hwy 50.\n\nFiv — https://www.mobilize.us/eldoradoprogressives/event/1030266/
@@ -594,7 +591,7 @@ URL:https://www.mobilize.us/eldoradoprogressives/event/1030266/
 END:VEVENT
 BEGIN:VEVENT
 UID:37b0c8e9f836@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260923T170000Z
 DTEND:20260923T190000Z
 SUMMARY:Carmichael Monthly Coffee Klatch with Indivisible Fair Oaks-Carmichael
@@ -603,28 +600,38 @@ DESCRIPTION:[MEETING] — Indivisible — (Recurring) — This a local Indivisib
 URL:https://www.mobilize.us/eldoradoprogressives/event/1030428/
 END:VEVENT
 BEGIN:VEVENT
-UID:7b08339ddf61@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T210000Z
-DTEND:20260919T230000Z
+UID:a7ae3b4f903d@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261003T210000Z
+DTEND:20261003T230000Z
 SUMMARY:WORRIED ABOUT THE ELECTION?
-LOCATION:Cameron Park CSD Community Center
-DESCRIPTION:[MEETING] — El Dorado Progressives - Indivisible El Dorado — # WORRIED ABOUT THE ELECTION? *_So are we!_* \n# But _WE_ have a plan!\n\n## Come to INDIVISIBLE El Dorado's membership meeting on Saturday\, September 19\,  from 2 - 4 pm\, at the Cameron Park CSD Community Center to find out what **_we're_** planning to do about it.\n\n**Meet with like — https://www.mobilize.us/eldoradoprogressives/event/1031993/
+LOCATION:Price Hall\, Federated Church
+DESCRIPTION:[MEETING] — El Dorado Progressives - Indivisible El Dorado — # WORRIED ABOUT THE ELECTION? *_So are we!_* \n# But _WE_ have a plan!\n\n## Come to INDIVISIBLE El Dorado's membership meeting now _rescheduled to Saturday\, October 3\,_  from 2 - 4 pm\, at Federated Church in Placerville to find out what **_we're_** planning to do about it.\n\n**Meet — https://www.mobilize.us/eldoradoprogressives/event/1031993/
 URL:https://www.mobilize.us/eldoradoprogressives/event/1031993/
 END:VEVENT
 BEGIN:VEVENT
-UID:a2f782390409@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T200000Z
-DTEND:20260917T220000Z
-SUMMARY:Thriving Thursdays
-LOCATION:GSUL Empowerment Center\, 3725 Marysville Blvd\, Sacramento\, CA\, 95835\, United States
-DESCRIPTION:[TEACH-IN] — Greater Sacramento Urban League — Every Thursday\, drop-in to level up! From interviews to resumes\, soft skills to networking—we’ve got what you need to get job-ready and feel confident doing it. Come through\, connect\, and power up your future! \n1st Thursday – Resume Revival: Crafting a Career-Ready Brand \n2nd Thu — https://www.gsul.org/event/thriving-thursdays-13/
-URL:https://www.gsul.org/event/thriving-thursdays-13/
+UID:6fb4ae9b6173@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261105T023000Z
+DTEND:20261105T043000Z
+SUMMARY:Sing IN
+LOCATION:St. Michaels Episcopal Church
+DESCRIPTION:[MUTUAL AID] — Indivisible — This a local Indivisible event!\n\nCOME SING with the **Carmichael Resistance Choir** and Friends!  The day following the Midterm election\, we invite you to bring your fears\, your rage\, and your defiance.  We will transmute it all through harmony into joyful community collaboration — https://www.mobilize.us/eldoradoprogressives/event/1033123/
+URL:https://www.mobilize.us/eldoradoprogressives/event/1033123/
+END:VEVENT
+BEGIN:VEVENT
+UID:43bd1069e208@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261022T004500Z
+DTEND:20261022T024500Z
+SUMMARY:Galt Elementary/Middle School Board Protest
+LOCATION:Galt City Council & Meeting
+DESCRIPTION:[ACTION] — Coalition Against Project 2025 — (Recurring) — Please come join us as we protest our Galt school board!!!\n\nWhy? Because of allegations\, bringing in their own personal political agendas and bias to their job with no hesitation\, talking during meetings about how it would be good to have ICE in our elementary and middle schools\, — https://www.mobilize.us/eldoradoprogressives/event/1037083/
+URL:https://www.mobilize.us/eldoradoprogressives/event/1037083/
 END:VEVENT
 BEGIN:VEVENT
 UID:a66e800da83b@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260924T130000Z
 DTEND:20260924T150000Z
 SUMMARY:Job Talk
@@ -633,27 +640,27 @@ DESCRIPTION:[TEACH-IN] — Greater Sacramento Urban League — Greater Sacrament
 URL:https://www.gsul.org/event/job-talk-16/
 END:VEVENT
 BEGIN:VEVENT
-UID:6e555e37ce4d@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T163000Z
-DTEND:20260919T183000Z
-SUMMARY:Sac CLC Election Kickoff!
-DESCRIPTION:[ACTION] — Sacramento Central Labor Council — Kickoff the 2026 General Election by canvassing with the Sacramento Central Labor Council to support labor candidates!\n\nWhen: Saturday\, September 19 @10am-2pm\nWhere: 2840 El Centro Rd\, Sac CA — https://www.mobilize.us/sclc/event/1007334/
-URL:https://www.mobilize.us/sclc/event/1007334/
+UID:b7577e8c904f@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T163000Z
+DTEND:20260926T183000Z
+SUMMARY:Sacramento CLC Canvass Actions!
+DESCRIPTION:[ACTION] — Sacramento Central Labor Council — (Recurring) — Join the Sacramento Central Labor Council to canvass for Dr. Pan for Congress and other labor supported candidates! \n\nWe will be canvassing every Sunday and Saturday from 9:30am to 2pm. \n\nPhone banking for Dr. Pan will be available during Saturday canvassing. — https://www.mobilize.us/sclc/event/1036355/
+URL:https://www.mobilize.us/sclc/event/1036355/
 END:VEVENT
 BEGIN:VEVENT
 UID:f1bf2095e729@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260925T020000Z
 DTEND:20260925T040000Z
 SUMMARY:Latine Queer Group
 LOCATION:Lavender Library
-DESCRIPTION:[MEETING] — Lavender Library (LLACE) — The Sacramento Latine Queer group is about creating connections within our community and supporting each other when times get hard. This is a space to learn about our cultural background via presentation nights and sharing what we know with each other.   This group meets monthly — https://www.lavenderlibrary.com/events/latine-queer-group-7ejhj-gc9kw-52tee-ct9x5
+DESCRIPTION:[MEETING] — Lavender Library (LLACE) — (Every Thursday) — The Sacramento Latine Queer group is about creating connections within our community and supporting each other when times get hard. This is a space to learn about our cultural background via presentation nights and sharing what we know with each other.   This group meets monthly — https://www.lavenderlibrary.com/events/latine-queer-group-7ejhj-gc9kw-52tee-ct9x5
 URL:https://www.lavenderlibrary.com/events/latine-queer-group-7ejhj-gc9kw-52tee-ct9x5
 END:VEVENT
 BEGIN:VEVENT
 UID:2ff46807b34f@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260924T010000Z
 DTEND:20260924T030000Z
 SUMMARY:Queer Writers Salon
@@ -663,17 +670,17 @@ URL:https://www.lavenderlibrary.com/events/4xw7act4zp33bre
 END:VEVENT
 BEGIN:VEVENT
 UID:9d1e987b6a4e@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260922T020000Z
 DTEND:20260922T040000Z
 SUMMARY:Queer Magic Monday
 LOCATION:Lavender Library
-DESCRIPTION:[MEETING] — Lavender Library (LLACE) — Join us for a discussion of oracle and tarot cards\, their uses\, understanding the cards\, and practice. This is a safe and inclusive space for all to learn and explore the magic of these tools.   RSVP to Queer Magic Mondays by clicking here    This group meets monthly on the third — https://www.lavenderlibrary.com/events/magic-mondays-4asg7-4za2d-cxenm-snjx2-6dba5-a92mj-rf7lw-dabc7-97m6l-5aa9c-yyyd2-rs6kw-hhfn6-w6zdg-ll2at-934ye-ssfjc-frcdl-md2r8-t2s9a-wmsbr-b7eww-j62w5-yf5th-cdskd-c28ct-36kg6-kay4g-2wfbl-hxwp8-ncr6t
+DESCRIPTION:[MEETING] — Lavender Library (LLACE) — (Every Monday) — Join us for a discussion of oracle and tarot cards\, their uses\, understanding the cards\, and practice. This is a safe and inclusive space for all to learn and explore the magic of these tools.   RSVP to Queer Magic Mondays by clicking here    This group meets monthly on the third — https://www.lavenderlibrary.com/events/magic-mondays-4asg7-4za2d-cxenm-snjx2-6dba5-a92mj-rf7lw-dabc7-97m6l-5aa9c-yyyd2-rs6kw-hhfn6-w6zdg-ll2at-934ye-ssfjc-frcdl-md2r8-t2s9a-wmsbr-b7eww-j62w5-yf5th-cdskd-c28ct-36kg6-kay4g-2wfbl-hxwp8-ncr6t
 URL:https://www.lavenderlibrary.com/events/magic-mondays-4asg7-4za2d-cxenm-snjx2-6dba5-a92mj-rf7lw-dabc7-97m6l-5aa9c-yyyd2-rs6kw-hhfn6-w6zdg-ll2at-934ye-ssfjc-frcdl-md2r8-t2s9a-wmsbr-b7eww-j62w5-yf5th-cdskd-c28ct-36kg6-kay4g-2wfbl-hxwp8-ncr6t
 END:VEVENT
 BEGIN:VEVENT
 UID:61492fd2dea7@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260920T200000Z
 DTEND:20260920T220000Z
 SUMMARY:Queer Crafternoon
@@ -682,37 +689,18 @@ DESCRIPTION:[MEETING] — Lavender Library (LLACE) — (Every Sunday) — Callin
 URL:https://www.lavenderlibrary.com/events/g5dcwcx7a4z362h-45k4c-86z7z-crrx7-pgnhn
 END:VEVENT
 BEGIN:VEVENT
-UID:f50022c2654b@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T013000Z
-DTEND:20260918T033000Z
+UID:4972641f6fc5@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261002T013000Z
+DTEND:20261002T033000Z
 SUMMARY:Eclectic? Trash? Book Club
 LOCATION:Lavender Library
-DESCRIPTION:[TEACH-IN] — Lavender Library (LLACE) — (Every Thursday) — Eclectic? Trash? Join the Lavender Library’s original book club!   This group meets on the first and third Thursday\, 6:30 – 8:00 p.m. — https://www.lavenderlibrary.com/events/6stdzgwbkn9t6x5-lhyd2-hgc2g-s6edg-xnz78-xzxph-r8ww7-m8sa4-sj485-baesc-elxra-r65m8
-URL:https://www.lavenderlibrary.com/events/6stdzgwbkn9t6x5-lhyd2-hgc2g-s6edg-xnz78-xzxph-r8ww7-m8sa4-sj485-baesc-elxra-r65m8
-END:VEVENT
-BEGIN:VEVENT
-UID:cb40d48f26a9@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260915T020000Z
-DTEND:20260915T040000Z
-SUMMARY:Banned Book Club
-DESCRIPTION:[TEACH-IN] — Lavender Library (LLACE) — (Every Monday) — The monthly book club will feature a book that has been banned recently and features LGBTQ+ themes. We cannot wait to dig into these powerful stories with you that highlight the complexities of LGBTQ+ lives.   This group meets monthly on the second Monday\, 7 p.m. — https://www.lavenderlibrary.com/events/68dcr5jz7z6fajz-ephwh-kmmh2-n7yca-xghm7-xzebg-pfhm6-s4l93-kc99h
-URL:https://www.lavenderlibrary.com/events/68dcr5jz7z6fajz-ephwh-kmmh2-n7yca-xghm7-xzebg-pfhm6-s4l93-kc99h
-END:VEVENT
-BEGIN:VEVENT
-UID:399af6ff33b4@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T190000Z
-DTEND:20260913T210000Z
-SUMMARY:LLACE Game Day
-LOCATION:Lavender Library
-DESCRIPTION:[MEETING] — Lavender Library (LLACE) — (Every Sunday) — It’s game on! Every second Sunday the Lavender Library hosts a game-filled  afternoon. Bring your favorite board or card game to teach others\, or come to learn a new game yourself.    Come relax\, hang out\, and just have a good time in a friendly environment.    This group meets m — https://www.lavenderlibrary.com/events/game-day-ygbwa-pacpz-8tlb9-tfjmc-z8fyp-4y7yz-cckst-ytthn-fxhf4-ta7d9-aalkg-5kfk6-rl4cj-gmmz4-bzdpk-82fep-5n8kg-h35jh-wkb9n-8pfsh-6afan-dsecp-89xax-kla48-3gdpn-a7c3d-8hc3z-4jbzs
-URL:https://www.lavenderlibrary.com/events/game-day-ygbwa-pacpz-8tlb9-tfjmc-z8fyp-4y7yz-cckst-ytthn-fxhf4-ta7d9-aalkg-5kfk6-rl4cj-gmmz4-bzdpk-82fep-5n8kg-h35jh-wkb9n-8pfsh-6afan-dsecp-89xax-kla48-3gdpn-a7c3d-8hc3z-4jbzs
+DESCRIPTION:[TEACH-IN] — Lavender Library (LLACE) — (Every Thursday) — Eclectic? Trash? Join the Lavender Library’s original book club!   This group meets on the first and third Thursday\, 6:30 – 8:00 p.m. — https://www.lavenderlibrary.com/events/6stdzgwbkn9t6x5-lhyd2-hgc2g-s6edg-xnz78-xzxph-r8ww7-m8sa4-sj485-baesc-elxra-r65m8-n58yw
+URL:https://www.lavenderlibrary.com/events/6stdzgwbkn9t6x5-lhyd2-hgc2g-s6edg-xnz78-xzxph-r8ww7-m8sa4-sj485-baesc-elxra-r65m8-n58yw
 END:VEVENT
 BEGIN:VEVENT
 UID:4014993b2b19@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261015T020000Z
 DTEND:20261015T040000Z
 SUMMARY:Bi+Pan Sacramento
@@ -721,8 +709,27 @@ DESCRIPTION:[MEETING] — Lavender Library (LLACE) — Bi+Pan Sacramento is a gr
 URL:https://www.lavenderlibrary.com/events/hnrcj9ln75tfhby-mw9k6-5hgcy-6z4mk
 END:VEVENT
 BEGIN:VEVENT
+UID:036b5b58d683@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261013T020000Z
+DTEND:20261013T040000Z
+SUMMARY:Banned Book Club
+DESCRIPTION:[TEACH-IN] — Lavender Library (LLACE) — The monthly book club will feature a book that has been banned recently and features LGBTQ+ themes. We cannot wait to dig into these powerful stories with you that highlight the complexities of LGBTQ+ lives.   This group meets monthly on the second Monday\, 7 p.m. — https://www.lavenderlibrary.com/events/68dcr5jz7z6fajz-ephwh-kmmh2-n7yca-xghm7-xzebg-pfhm6-s4l93-kc99h-mpmxl
+URL:https://www.lavenderlibrary.com/events/68dcr5jz7z6fajz-ephwh-kmmh2-n7yca-xghm7-xzebg-pfhm6-s4l93-kc99h-mpmxl
+END:VEVENT
+BEGIN:VEVENT
+UID:0f41c0aedc29@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261011T190000Z
+DTEND:20261011T210000Z
+SUMMARY:LLACE Game Day
+LOCATION:Lavender Library
+DESCRIPTION:[MEETING] — Lavender Library (LLACE) — It’s game on! Every second Sunday the Lavender Library hosts a game-filled  afternoon. Bring your favorite board or card game to teach others\, or come to learn a new game yourself.    Come relax\, hang out\, and just have a good time in a friendly environment.    This group meets m — https://www.lavenderlibrary.com/events/game-day-ygbwa-pacpz-8tlb9-tfjmc-z8fyp-4y7yz-cckst-ytthn-fxhf4-ta7d9-aalkg-5kfk6-rl4cj-gmmz4-bzdpk-82fep-5n8kg-h35jh-wkb9n-8pfsh-6afan-dsecp-89xax-kla48-3gdpn-a7c3d-8hc3z-gym5s
+URL:https://www.lavenderlibrary.com/events/game-day-ygbwa-pacpz-8tlb9-tfjmc-z8fyp-4y7yz-cckst-ytthn-fxhf4-ta7d9-aalkg-5kfk6-rl4cj-gmmz4-bzdpk-82fep-5n8kg-h35jh-wkb9n-8pfsh-6afan-dsecp-89xax-kla48-3gdpn-a7c3d-8hc3z-gym5s
+END:VEVENT
+BEGIN:VEVENT
 UID:ff0aec429295@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261009T020000Z
 DTEND:20261009T040000Z
 SUMMARY:Ace/Aro Group
@@ -732,7 +739,7 @@ URL:https://www.lavenderlibrary.com/events/ace/aro-8r7yp-ng686-47jd3-2rhd7-c9mxx
 END:VEVENT
 BEGIN:VEVENT
 UID:e031c8877bfc@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261008T020000Z
 DTEND:20261008T040000Z
 SUMMARY:GenderQuark
@@ -742,7 +749,7 @@ URL:https://www.lavenderlibrary.com/events/2wh794zp5ed48cn-gag3j-6yn74
 END:VEVENT
 BEGIN:VEVENT
 UID:ea540f8323a4@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261007T010000Z
 DTEND:20261007T030000Z
 SUMMARY:FTM Sacramento Support Group
@@ -751,17 +758,17 @@ DESCRIPTION:[MEETING] — Lavender Library (LLACE) — FTM Sacramento is a suppo
 URL:https://www.lavenderlibrary.com/events/hfj8855bk4kkbt3-psa6p-nlh5f-y5h5s-39a9d-lfpc7-hshsa
 END:VEVENT
 BEGIN:VEVENT
-UID:37f48ff3d356@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T010000Z
-DTEND:20260918T030000Z
+UID:f800efac344d@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260925T010000Z
+DTEND:20260925T030000Z
 SUMMARY:Calmecac Danza Azteca Practice
-DESCRIPTION:[CULTURE] — Sol Collective — (Every Thursday) — Calmecac Danza Group is a pre-Columbian Aztec dance organization that meets weekly on Thursdays. — https://www.solcollective.org/calendar/calmecac-danza-azteca-practice-p6rag-meyml-y74sy-yhba4-3rbhw-r328p-b6zyh-a4f5t-nr77r-zjmmm-pbcpd
-URL:https://www.solcollective.org/calendar/calmecac-danza-azteca-practice-p6rag-meyml-y74sy-yhba4-3rbhw-r328p-b6zyh-a4f5t-nr77r-zjmmm-pbcpd
+DESCRIPTION:[CULTURE] — Sol Collective — (Every Thursday) — Calmecac Danza Group is a pre-Columbian Aztec dance organization that meets weekly on Thursdays. — https://www.solcollective.org/calendar/calmecac-danza-azteca-practice-p6rag-meyml-y74sy-yhba4-3rbhw-r328p-b6zyh-a4f5t-nr77r-zjmmm-pbcpd-9gawj
+URL:https://www.solcollective.org/calendar/calmecac-danza-azteca-practice-p6rag-meyml-y74sy-yhba4-3rbhw-r328p-b6zyh-a4f5t-nr77r-zjmmm-pbcpd-9gawj
 END:VEVENT
 BEGIN:VEVENT
 UID:912e8edb20f9@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260924T013000Z
 DTEND:20260924T033000Z
 SUMMARY:Breath in Rhythm
@@ -769,26 +776,17 @@ DESCRIPTION:[CULTURE] — Sol Collective — (Every Wednesday) — 2nd & 4th Wed
 URL:https://www.solcollective.org/calendar/breath-and-rhythm-xgtk5-7eh5g-7pxbe-k32yj-ffz5e-tnc68-3lgzp-39fpk-nsphj-397p3-hjys9
 END:VEVENT
 BEGIN:VEVENT
-UID:154cd47df05a@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T200000Z
-DTEND:20260919T220000Z
-SUMMARY:GLobal Local Mercado
-DESCRIPTION:[CULTURE] — Sol Collective — Global Local Mercado |  3rd  Saturdays  |  1-5pm   We’re kicking off market season + celebrating 20 years of Global Local! Join us for an afternoon of community\, music\, and culture. Featuring a curated lineup of amazing local vendors\, handcrafted goods\, vintage finds\, art\, and fo — https://www.solcollective.org/calendar/global-local-mercado-w3sty-lf78f-2bl6x
-URL:https://www.solcollective.org/calendar/global-local-mercado-w3sty-lf78f-2bl6x
-END:VEVENT
-BEGIN:VEVENT
-UID:188cd52d0438@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260917T020000Z
-DTEND:20260917T040000Z
+UID:b00c3cb44770@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261022T020000Z
+DTEND:20261022T040000Z
 SUMMARY:Cap City Pow Wow Drum & Dance Practice
-DESCRIPTION:[CULTURE] — Sol Collective — Every 3rd Wednesday | 7–9PM     Join us for our monthly Powwow Drum & Dance Practice — a welcoming space to drum\, dance\, work on regalia\, or simply connect with community.   All are welcome. Bring your energy\, — https://www.solcollective.org/calendar/cap-city-pow-wow-drum-dance-practice-h77a8-tlxys-xh37l-sjm5l-ztszl
-URL:https://www.solcollective.org/calendar/cap-city-pow-wow-drum-dance-practice-h77a8-tlxys-xh37l-sjm5l-ztszl
+DESCRIPTION:[CULTURE] — Sol Collective — Every 3rd Wednesday | 7–9PM     Join us for our monthly Powwow Drum & Dance Practice — a welcoming space to drum\, dance\, work on regalia\, or simply connect with community.   All are welcome. Bring your energy\, — https://www.solcollective.org/calendar/cap-city-pow-wow-drum-dance-practice-h77a8-tlxys-xh37l-sjm5l-ztszl-9hhbh
+URL:https://www.solcollective.org/calendar/cap-city-pow-wow-drum-dance-practice-h77a8-tlxys-xh37l-sjm5l-ztszl-9hhbh
 END:VEVENT
 BEGIN:VEVENT
 UID:44e51537048d@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20261003T010000Z
 DTEND:20261003T030000Z
 SUMMARY:Beads &. Beats
@@ -797,7 +795,7 @@ URL:https://www.solcollective.org/calendar/beads-beats-rjgx5-ygk5p-3c5am-r92me
 END:VEVENT
 BEGIN:VEVENT
 UID:698b14ddd107@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260926T160000Z
 DTEND:20260926T180000Z
 SUMMARY:Delegates Assembly and Voting is Sacred Training
@@ -807,7 +805,7 @@ URL:https://www.sacact.org/events/2025/5/16/delegates-assembly-recurring-quarter
 END:VEVENT
 BEGIN:VEVENT
 UID:6def88768e1e@ragingcunt.com
-DTSTAMP:20260913T170833Z
+DTSTAMP:20260920T170931Z
 DTSTART:20260926T160000Z
 DTEND:20260926T180000Z
 SUMMARY:Asamblea de Liderazgo y Capacitación el Voto es Sagrado
@@ -816,39 +814,59 @@ DESCRIPTION:[ACTION] — Sacramento ACT — https://www.sacact.org/events/2025/5
 URL:https://www.sacact.org/events/2025/5/16/delegates-assembly-recurring-quarterly-3623a-mhwta-j42ch-t3bp5-dkbjl-m6ht4
 END:VEVENT
 BEGIN:VEVENT
-UID:590a50011cf1@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260916T190000Z
-DTEND:20260916T210000Z
+UID:706aa7cc4da6@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261021T190000Z
+DTEND:20261021T210000Z
 SUMMARY:Multi-faith Prayer Vigil - Vigilia de oración Multi-religioso
 LOCATION:650 Capitol Mall
-DESCRIPTION:[ACTION] — Sacramento ACT — https://www.sacact.org/events/2025/11/13/interfaith-prayer-vigil-vigilia-de-oracin-interreligiosa-5cwer-lams3-8zzab-h2t5y-mghhw-xfxph-6wwnn-nyyaz-m8f33-52ery
-URL:https://www.sacact.org/events/2025/11/13/interfaith-prayer-vigil-vigilia-de-oracin-interreligiosa-5cwer-lams3-8zzab-h2t5y-mghhw-xfxph-6wwnn-nyyaz-m8f33-52ery
+DESCRIPTION:[ACTION] — Sacramento ACT — https://www.sacact.org/events/2025/11/13/interfaith-prayer-vigil-vigilia-de-oracin-interreligiosa-5cwer-lams3-8zzab-h2t5y-mghhw-xfxph-6wwnn-nyyaz-m8f33-52ery-gxb7z
+URL:https://www.sacact.org/events/2025/11/13/interfaith-prayer-vigil-vigilia-de-oracin-interreligiosa-5cwer-lams3-8zzab-h2t5y-mghhw-xfxph-6wwnn-nyyaz-m8f33-52ery-gxb7z
 END:VEVENT
 BEGIN:VEVENT
-UID:8bef43431b4d@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260919T170000Z
-DTEND:20260919T190000Z
+UID:8b1ba3b938db@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261006T013000Z
+DTEND:20261006T033000Z
+SUMMARY:Sacramento County Board of Supervisors District 1 Candidates Forum
+LOCATION:Parkside Community Church
+DESCRIPTION:[ACTION] — Sacramento ACT — https://www.sacact.org/events/octoberd1candidateforum
+URL:https://www.sacact.org/events/octoberd1candidateforum
+END:VEVENT
+BEGIN:VEVENT
+UID:407c60e023e0@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20261006T013000Z
+DTEND:20261006T033000Z
+SUMMARY:Español - Sacramento County Board of Supervisors District 1 Candidates Forum
+LOCATION:Parkside Community Church
+DESCRIPTION:[ACTION] — Sacramento ACT — https://www.sacact.org/events/octoberd1candidateforum-esp
+URL:https://www.sacact.org/events/octoberd1candidateforum-esp
+END:VEVENT
+BEGIN:VEVENT
+UID:e751904c677c@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260926T170000Z
+DTEND:20260926T190000Z
 SUMMARY:Folsom Speaks:  We Will Not Be Silent!
 DESCRIPTION:[ACTION] — Sunrise Solidarity — (Recurring) — Join us in our ongoing weekly corner protest that started in February 2026 and has continued through rain\, thunder\, hail and 100 degree heat since then!\n\nThis is a peaceful\, respectful and family-friendly protest - originally focused on the lawlessness and harm being perpetuated — https://www.mobilize.us/sunrisesolidarity/event/1011745/
 URL:https://www.mobilize.us/sunrisesolidarity/event/1011745/
 END:VEVENT
 BEGIN:VEVENT
-UID:52dec1960481@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260918T183000Z
-DTEND:20260918T203000Z
+UID:3e715d084684@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260925T183000Z
+DTEND:20260925T203000Z
 SUMMARY:STAND UP FOR DEMOCRACY - Weekly Standout
 LOCATION:This event’s address is private. Sign up for more details
 DESCRIPTION:[ACTION] — Indivisible Elk Grove Laguna — (Recurring) — As our neighbors\, healthcare and freedom are being attacked\, Americans come together to demand regime change.\n\nCome join Indivisible Elk Grove - Laguna as we take action to protest against these actions threatening our democracy\, due process\, our bodies\, and our communities. \n\nTh — https://www.mobilize.us/indivisibleelkgrovelaguna/event/993203/
 URL:https://www.mobilize.us/indivisibleelkgrovelaguna/event/993203/
 END:VEVENT
 BEGIN:VEVENT
-UID:be2c70966a09@ragingcunt.com
-DTSTAMP:20260913T170833Z
-DTSTART:20260913T190000Z
-DTEND:20260913T210000Z
+UID:16da564eee2f@ragingcunt.com
+DTSTAMP:20260920T170931Z
+DTSTART:20260920T190000Z
+DTEND:20260920T210000Z
 SUMMARY:Compassionate Resistance against policies of ICE and MAGA
 DESCRIPTION:[ACTION] — UUSS — (Recurring) — 4 corners of Fair Oaks Blvd and Howe Ave on Sundays from 12 noon to 3  signs banners and flags welcome (with no profanity).\, — https://www.mobilize.us/uuss/event/904400/
 URL:https://www.mobilize.us/uuss/event/904400/
