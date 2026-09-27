@@ -6,17 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:RAGINGCUNT — Fresno
 X-WR-CALDESC:Real local organizing in Fresno\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
-UID:e6fc2db9cfbf@ragingcunt.com
-DTSTAMP:20260920T170931Z
-DTSTART:20260925T010000Z
-DTEND:20260925T030000Z
-SUMMARY:Movement Makers: The Survival Guide to Careers in Social Change
-DESCRIPTION:[MEETING] — PowerCA Action — Are you passionate about social change but looking for your niche off the front lines? Join us on September 24th for a comprehensive survival guide to finding your place in the movement.\n\nOften\, the essential work that powers grassroots organizations happens behind the scenes. We — https://www.mobilize.us/powercaaction/event/1023728/
-URL:https://www.mobilize.us/powercaaction/event/1023728/
-END:VEVENT
-BEGIN:VEVENT
 UID:270177af887d@ragingcunt.com
-DTSTAMP:20260920T170931Z
+DTSTAMP:20260927T175934Z
 DTSTART:20261003T160000Z
 DTEND:20261003T180000Z
 SUMMARY:Meeting the Moment: Non-Cooperation Training
@@ -25,68 +16,86 @@ DESCRIPTION:[TEACH-IN] — PowerCA Action — We invite you to join local commun
 URL:https://www.mobilize.us/powercaaction/event/1027282/
 END:VEVENT
 BEGIN:VEVENT
-UID:da51e9f0a9eb@ragingcunt.com
-DTSTAMP:20260920T170931Z
-DTSTART:20260924T010000Z
-DTEND:20260924T030000Z
-SUMMARY:You Gotta Laugh About It! Tulare Chapter Meeting
-DESCRIPTION:[MEETING] — PowerCA Action — (Recurring) — End of Summer Meetup: Celebrating Our Wins & What’s Next! 🎉\n\nAs summer wraps up\, people power is making real waves across the area:\n\nMoratoriums won: Visalia and Tulare County\n\nNext target: The City of Tulare is now actively discussing a moratorium!\n\nTo celebrate\, we’re kicking t — https://www.mobilize.us/powercaaction/event/1035999/
+UID:43844931dbeb@ragingcunt.com
+DTSTAMP:20260927T175934Z
+DTSTART:20261024T010000Z
+DTEND:20261024T030000Z
+SUMMARY:🗳️ Boletas\, Pozole\, y Proposiciones
+LOCATION:Resilience OC
+DESCRIPTION:[MUTUAL AID] — PowerCA Action — ¡Comparte un rico pozole y prepárate para las elecciones de medio término del 3 de Noviembre con Resilience Orange County (ROC)!\n\nEn este evento educativo conversaremos sobre las proposiciones de la boleta con lenguaje claro y sencillo. También compartiremos información sobre cóm — https://www.mobilize.us/powercaaction/event/1032766/
+URL:https://www.mobilize.us/powercaaction/event/1032766/
+END:VEVENT
+BEGIN:VEVENT
+UID:491e3348161d@ragingcunt.com
+DTSTAMP:20260927T175934Z
+DTSTART:20261028T010000Z
+DTEND:20261028T030000Z
+SUMMARY:🎃 Spooktacular Souls to the Polls🎃
+DESCRIPTION:[MUTUAL AID] — PowerCA Action — Don’t let voting questions spook you! Join Resilience Orange County (ROC) for a Halloween-themed community gathering to get ready for the November 3 midterm elections.\n\nWe’ll share information about how and where to vote\, options for returning your ballot\, and how to make your vo — https://www.mobilize.us/powercaaction/event/1032767/
+URL:https://www.mobilize.us/powercaaction/event/1032767/
+END:VEVENT
+BEGIN:VEVENT
+UID:882b6c53f013@ragingcunt.com
+DTSTAMP:20260927T175934Z
+DTSTART:20261020T010000Z
+DTEND:20261020T030000Z
+SUMMARY:Know Your Vote
+DESCRIPTION:[MUTUAL AID] — PowerCA Action — Know what you will be voting on in the upcoming election that is happening in November. We will be going over the propositions that will be on the ballot. \n\nThere will be FREE FOOD and DRINKS — https://www.mobilize.us/powercaaction/event/1032799/
+URL:https://www.mobilize.us/powercaaction/event/1032799/
+END:VEVENT
+BEGIN:VEVENT
+UID:1279b622a74b@ragingcunt.com
+DTSTAMP:20260927T175934Z
+DTSTART:20261027T010000Z
+DTEND:20261027T030000Z
+SUMMARY:Read It. Know it. Vote it
+DESCRIPTION:[MUTUAL AID] — PowerCA Action — Know what you will be voting on in the upcoming election that is happening in November. We will be going over the propositions that will be on the ballot. \n\nThere will be FREE FOOD and DRINKS — https://www.mobilize.us/powercaaction/event/1032801/
+URL:https://www.mobilize.us/powercaaction/event/1032801/
+END:VEVENT
+BEGIN:VEVENT
+UID:27834d42036d@ragingcunt.com
+DTSTAMP:20260927T175934Z
+DTSTART:20261022T010000Z
+DTEND:20261022T030000Z
+SUMMARY:Can't Stop us Goth Night! Tulare Chapter Meeting
+DESCRIPTION:[MEETING] — PowerCA Action — (Recurring) — 🖤 Community "Can’t Stop" — Tulare Chapter Meeting & Goth Night! 🖤\nInstead of rolling out the red carpet for data centers\, Tulare County deserves real investment: dedicated green spaces\, stronger youth reading programs\, and accessible community centers.\nJoin us on October 21st  🗓 — https://www.mobilize.us/powercaaction/event/1035999/
 URL:https://www.mobilize.us/powercaaction/event/1035999/
 END:VEVENT
 BEGIN:VEVENT
-UID:613861ae5d68@ragingcunt.com
-DTSTAMP:20260920T170931Z
-DTSTART:20260925T010000Z
-DTEND:20260925T030000Z
-SUMMARY:CV United Front General Assembly Meeting
-DESCRIPTION:[MEETING] — PowerCA Action — Join us as we kick off our UF General Assembly Meeting in preparation for November election! — https://www.mobilize.us/powercaaction/event/1036197/
-URL:https://www.mobilize.us/powercaaction/event/1036197/
-END:VEVENT
-BEGIN:VEVENT
-UID:f3a4f6b041db@ragingcunt.com
-DTSTAMP:20260920T170931Z
-DTSTART:20260922T153000Z
-DTEND:20260922T173000Z
-SUMMARY:Call for Permanent Ban on Data Centers Tulare Board of Supervisors
-LOCATION:Board of Supervisors Chambers\, Administration Building
-DESCRIPTION:[MUTUAL AID] — PowerCA Action — The 45 day moratorium ends Dec 2nd.  Demand a Permanent Ban on Data Centers.\n\nMake your voice heard at the next Tulare County Board of Supervisors meeting on \n\nTuesday\, Sept 22\, 2026\, at 9:00 AM. \n\nWith the county's temporary moratorium expiring\, our local water supply\, power gri — https://www.mobilize.us/powercaaction/event/1038476/
-URL:https://www.mobilize.us/powercaaction/event/1038476/
-END:VEVENT
-BEGIN:VEVENT
 UID:eee05233ed06@ragingcunt.com
-DTSTAMP:20260920T170931Z
+DTSTAMP:20260927T175934Z
 DTSTART:20260929T150000Z
 DTEND:20260929T170000Z
 SUMMARY:Fong Is Wrong
-DESCRIPTION:[ACTION] — Fresno Bridge Brigade — Alternate Tuesdays protesting Republican Congressman Fong.\nSpeak out against his support for right wing Republican policies. — https://www.mobilize.us/fresnobridgebrigade/event/984101/
+DESCRIPTION:[ACTION] — Fresno Bridge Brigade — (Recurring) — Alternate Tuesdays protesting Republican Congressman Fong.\nSpeak out against his support for right wing Republican policies. — https://www.mobilize.us/fresnobridgebrigade/event/984101/
 URL:https://www.mobilize.us/fresnobridgebrigade/event/984101/
 END:VEVENT
 BEGIN:VEVENT
-UID:2217352649f8@ragingcunt.com
-DTSTAMP:20260920T170931Z
-DTSTART:20260925T140000Z
-DTEND:20260925T160000Z
+UID:67953685ce2e@ragingcunt.com
+DTSTAMP:20260927T175934Z
+DTSTART:20261002T140000Z
+DTEND:20261002T160000Z
 SUMMARY:Fearless Fridays
-DESCRIPTION:[ACTION] — Fresno Bridge Brigade — Every Friday morning rush hour from 7am to 9am.\nProtesting the tRump regime policies and promoting the upcoming Indivisible No Kings protest on October 17.\nBig emphasis on Vote Early — https://www.mobilize.us/fresnobridgebrigade/event/1033689/
+DESCRIPTION:[ACTION] — Fresno Bridge Brigade — (Recurring) — Every Friday morning rush hour from 7am to 9am.\nProtesting the tRump regime policies and promoting the upcoming Indivisible No Kings protest on October 17.\nBig emphasis on Vote Early\nWe have added some Wednesdays afternoons from 4pm to 6pm in October to our schedule in the lead u — https://www.mobilize.us/fresnobridgebrigade/event/1033689/
 URL:https://www.mobilize.us/fresnobridgebrigade/event/1033689/
 END:VEVENT
 BEGIN:VEVENT
-UID:3f95a9c0fd67@ragingcunt.com
-DTSTAMP:20260920T170931Z
-DTSTART:20260921T070000Z
-DTEND:20260921T090000Z
+UID:6a4ae4f99e18@ragingcunt.com
+DTSTAMP:20260927T175934Z
+DTSTART:20260928T070000Z
+DTEND:20260928T090000Z
 SUMMARY:Fresno Released Detainee Assistance
-DESCRIPTION:[ACTION] — Fresno Bridge Brigade — (Recurring) — WE ARE HERE TO HELP\nWE NEED YOUR HELP\nVolunteers are desperately needed to help released detainees.\nThey need food\, clothing\, cell phones\, and transportation home.\nWe also need donations\;\nFood\, clothes\, cell phones and chargers.\nBus\, train and plane tickets.\nPlease click the butt — https://www.mobilize.us/fresnobridgebrigade/event/1035360/
+DESCRIPTION:[ACTION] — Fresno Bridge Brigade — (Recurring) — WE ARE HERE TO HELP          \nWE NEED YOUR HELP          \nVolunteers are desperately needed to help released detainees.\nAll donations are tax deductible.\nThey need food\, clothing\, cell phones\, and transportation home.\nWe also need donations\;\nFood\, clothes\, cell phones and charger — https://www.mobilize.us/fresnobridgebrigade/event/1035360/
 URL:https://www.mobilize.us/fresnobridgebrigade/event/1035360/
 END:VEVENT
 BEGIN:VEVENT
-UID:88f191aadd24@ragingcunt.com
-DTSTAMP:20260920T170931Z
-DTSTART:20260924T010000Z
-DTEND:20260924T030000Z
+UID:d125850de2b3@ragingcunt.com
+DTSTAMP:20260927T175934Z
+DTSTART:20261029T010000Z
+DTEND:20261029T030000Z
 SUMMARY:Central Valley Indivisible Monthly Meeting
 LOCATION:The Big Red Church
-DESCRIPTION:[MEETING] — Central Valley Indivisible — (Recurring) — Join us for our monthly meeting where you will meet like minded people and take action. Plus\, there are snacks! — https://www.mobilize.us/centralvalleyindivisible/event/863765/
+DESCRIPTION:[MEETING] — Central Valley Indivisible — Join us for our monthly meeting where you will meet like minded people and take action. Plus\, there are snacks! — https://www.mobilize.us/centralvalleyindivisible/event/863765/
 URL:https://www.mobilize.us/centralvalleyindivisible/event/863765/
 END:VEVENT
 END:VCALENDAR
