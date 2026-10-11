@@ -6,244 +6,27 @@ METHOD:PUBLISH
 X-WR-CALNAME:RAGINGCUNT — Los Angeles
 X-WR-CALDESC:Real local organizing in Los Angeles\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
-UID:117563634b43@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261004T160000Z
-DTEND:20261004T180000Z
-SUMMARY:SFV: Coffee with Comrades in Santa Clarita
-DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/sfv-coffee-with-comrades-in-santa-clarita/
-URL:https://dsa-la.org/event/sfv-coffee-with-comrades-in-santa-clarita/
+UID:2a129901581b@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261011T170000Z
+DTEND:20261011T190000Z
+SUMMARY:Climate Justice Committee & Estuardo Mazariegos Street Cleaning Event
+DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/climate-justice-committee-estuardo-mazariegos-street-cleaning-event/
+URL:https://dsa-la.org/event/climate-justice-committee-estuardo-mazariegos-street-cleaning-event/
 END:VEVENT
 BEGIN:VEVENT
-UID:5d3bf55fcb1f@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261004T160000Z
-DTEND:20261004T180000Z
-SUMMARY:Petitioning for Block the Bombs\, Hollywood Farmer's Market
-DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/petitioning-for-block-the-bombs-hollywood-farmers-market-6/
-URL:https://dsa-la.org/event/petitioning-for-block-the-bombs-hollywood-farmers-market-6/
-END:VEVENT
-BEGIN:VEVENT
-UID:f628063ef3e4@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261004T180000Z
-DTEND:20261004T200000Z
-SUMMARY:Coffee with Comrades in West LA
-DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/coffee-with-comrades-in-west-la/
-URL:https://dsa-la.org/event/coffee-with-comrades-in-west-la/
-END:VEVENT
-BEGIN:VEVENT
-UID:bd58fe4e2705@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261004T190000Z
-DTEND:20261004T210000Z
-SUMMARY:Canvass in South Bay!
-LOCATION:Lennox Park\, 10828 Condon Ave\, Lennox\, 90304\, United States
-DESCRIPTION:[ACTION] — DSA Los Angeles — DSA has surpassed 120\,000 members and become the largest socialist organization in US history. Here in LA\, we have the opportunity to build working-class power and expand our bloc on city council. \nWe know the best way to win elections is by getting out there and talking to our n — https://dsa-la.org/event/canvass-in-south-bay-2/
-URL:https://dsa-la.org/event/canvass-in-south-bay-2/
-END:VEVENT
-BEGIN:VEVENT
-UID:cdc28ccb8b52@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261004T190000Z
-DTEND:20261004T210000Z
-SUMMARY:Canvass in Cypress Park for Angela\, Nithya and Marissa!
-LOCATION:Rio de Los Angeles State Park State Recreation Area\, 1900 N San Fernando Rd\, Los Angeles\, CA\, 90065
-DESCRIPTION:[ACTION] — DSA Los Angeles — DSA-LA is talking with voters about our biggest slate of socialist candidates ever!! \nCome out to Eagle Rock\, where we’ll be canvassing voters to discuss why Nithya Raman for Mayor\, Marissa Roy for City Attorney\, and Angela Gonzales-Torres for Congress are the best choices for th — https://dsa-la.org/event/canvass-in-cypress-park-10-4/
-URL:https://dsa-la.org/event/canvass-in-cypress-park-10-4/
-END:VEVENT
-BEGIN:VEVENT
-UID:b4199df3c482@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261004T210000Z
-DTEND:20261004T230000Z
-SUMMARY:Canvass in Eagle Rock for Angela\, Nithya and Marissa!
-LOCATION:Yosemite Recreation Center\, 1840 Yosemite Dr\, Los Angeles\, California\, 90041\, United States
-DESCRIPTION:[ACTION] — DSA Los Angeles — DSA-LA is talking with voters about our biggest slate of socialist candidates ever!! \nCome out to Eagle Rock\, where we’ll be canvassing voters to discuss why Nithya Raman for Mayor\, Marissa Roy for City Attorney\, and Angela Gonzales-Torres for Congress are the best choices for th — https://dsa-la.org/event/canvass-in-eagle-rock-10426/
-URL:https://dsa-la.org/event/canvass-in-eagle-rock-10426/
-END:VEVENT
-BEGIN:VEVENT
-UID:e40282e672b7@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261004T223000Z
-DTEND:20261005T003000Z
-SUMMARY:West Hollywood Flock Walk with Stephen Post
-LOCATION:West Hollywood Park\, 715 N San Vicente Blvd\, West Hollywood\, CA\, 90069\, United States
-DESCRIPTION:[MEETING] — DSA Los Angeles — Join Stephen Post and DSA-LA on Sunday\, Oct 4 as we visit Flock camera locations\, speak about AI surveillance\, and learn about what is actually needed to keep communities safe. \nJoin Us! — https://dsa-la.org/event/west-hollywood-flock-walk-with-stephen-post/
-URL:https://dsa-la.org/event/west-hollywood-flock-walk-with-stephen-post/
-END:VEVENT
-BEGIN:VEVENT
-UID:ea3076c19e3d@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261006T020000Z
-DTEND:20261006T040000Z
-SUMMARY:Postcarding for Marissa Roy in East Valley
-LOCATION:Lawless Brewing Co\, 5275 Craner Ave.\, North Hollywood\, 91601\, United States
-DESCRIPTION:[MEETING] — DSA Los Angeles — Want to help elect a socialist as LA City Attorney? Looking to get involved in the campaign? Have a few hours on a weeknight for some writing and camaraderie? \nJoin us in the San Fernando Valley branch in writing postcards for Marissa Roy for City Attorney. We’ll be writing to ou — https://dsa-la.org/event/postcarding-for-marissa-roy-in-east-valley/
-URL:https://dsa-la.org/event/postcarding-for-marissa-roy-in-east-valley/
-END:VEVENT
-BEGIN:VEVENT
-UID:d1c04e5b7fdc@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261007T010000Z
-DTEND:20261007T030000Z
-SUMMARY:Immigration Justice Committee Meeting
-DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/immigration-justice-committee-meeting-15/
-URL:https://dsa-la.org/event/immigration-justice-committee-meeting-15/
-END:VEVENT
-BEGIN:VEVENT
-UID:14d7fc0a400d@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261007T013000Z
-DTEND:20261007T033000Z
-SUMMARY:Canvass in Echo Park! - October 6
-DESCRIPTION:[ACTION] — DSA Los Angeles — DSA-LA is talking with voters about our biggest slate of socialist candidates ever!! \nCome out to Echo Park\, where we’ll be canvassing voters to discuss why Nithya Raman for Mayor and Marissa Roy for City Attorney are the best choices for the working class on the November ballot! — https://dsa-la.org/event/canvass-in-echo-park-october-6/
-URL:https://dsa-la.org/event/canvass-in-echo-park-october-6/
-END:VEVENT
-BEGIN:VEVENT
-UID:fdec2279953b@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261008T013000Z
-DTEND:20261008T033000Z
-SUMMARY:Palestine Solidarity Committee General Meeting
-DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/palestine-solidarity-committee-general-meeting-5/
-URL:https://dsa-la.org/event/palestine-solidarity-committee-general-meeting-5/
-END:VEVENT
-BEGIN:VEVENT
-UID:c342be697464@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261008T030000Z
-DTEND:20261008T050000Z
-SUMMARY:Postcarding in the Eastside for Marissa and Angela!
-LOCATION:Good Housekeeping HLP\, 5631 N Figueroa St\, Los Angeles\, CA\, 90042\, United States
-DESCRIPTION:[MEETING] — DSA Los Angeles — Want to help elect a democratic socialist slate for LA? Looking to get involved in the campaign? Have a few hours on a weeknight for some writing and camaraderie? \nJoin us in the Eastside Branch to write postcards for some of our slate of our amazing slate of candidates Marissa R — https://dsa-la.org/event/postcarding-in-the-eastside-for-marissa-and-angela-10726/
-URL:https://dsa-la.org/event/postcarding-in-the-eastside-for-marissa-and-angela-10726/
-END:VEVENT
-BEGIN:VEVENT
-UID:c31a72ae7d6c@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261009T000000Z
-DTEND:20261009T020000Z
-SUMMARY:Block the Bombs Phonebank + Social During/After!
-DESCRIPTION:[ACTION] — DSA Los Angeles — https://dsa-la.org/event/block-the-bombs-phonebank-social-after/
-URL:https://dsa-la.org/event/block-the-bombs-phonebank-social-after/
-END:VEVENT
-BEGIN:VEVENT
-UID:6d99d076de5a@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261009T013000Z
-DTEND:20261009T033000Z
-SUMMARY:Eastside + SGV DSA 101
-DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/eastside-sgv-dsa-101-8/
-URL:https://dsa-la.org/event/eastside-sgv-dsa-101-8/
-END:VEVENT
-BEGIN:VEVENT
-UID:285576e96a2e@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261009T020000Z
-DTEND:20261009T040000Z
-SUMMARY:DSA 101 - Westside Branch
-DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/dsa-101-westside-branch-3/
-URL:https://dsa-la.org/event/dsa-101-westside-branch-3/
-END:VEVENT
-BEGIN:VEVENT
-UID:406d134198eb@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261009T020000Z
-DTEND:20261009T040000Z
-SUMMARY:Postcarding in the Westside!
-LOCATION:Sorry Not Sorry\, 11520 W Pico Blvd\, Los Angeles\, CA\, 90064\, United States
-DESCRIPTION:[MEETING] — DSA Los Angeles — This is the last week to postcard for the Marissa Campaign as ballots have dropped and the campaign will complete postcarding on October 10th! \nHelp the Westside Branch power Marissa Roy to victory in November by postcarding! \nJoin us to write our neighbors and share why Marissa — https://dsa-la.org/event/postcarding-in-the-westside-3-2/
-URL:https://dsa-la.org/event/postcarding-in-the-westside-3-2/
-END:VEVENT
-BEGIN:VEVENT
-UID:ee52a7be5ab8@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261010T000000Z
-DTEND:20261010T020000Z
-SUMMARY:Westside Board Game Night
-DESCRIPTION:[CULTURE] — DSA Los Angeles — https://dsa-la.org/event/westside-board-game-night-2/
-URL:https://dsa-la.org/event/westside-board-game-night-2/
-END:VEVENT
-BEGIN:VEVENT
-UID:14a6e9e6c79c@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261010T170000Z
-DTEND:20261010T190000Z
-SUMMARY:Canvass for Metro Bathrooms
-DESCRIPTION:[ACTION] — DSA Los Angeles — https://dsa-la.org/event/canvass-for-metro-bathrooms-4/
-URL:https://dsa-la.org/event/canvass-for-metro-bathrooms-4/
-END:VEVENT
-BEGIN:VEVENT
-UID:3c332c88f71d@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261010T170000Z
-DTEND:20261010T190000Z
-SUMMARY:Canvass in NoHo!
-LOCATION:North Hollywood Park\, 5015 Tujunga Ave\, North Hollywood\, 91601\, United States
-DESCRIPTION:[ACTION] — DSA Los Angeles — Before Zohran was a household name\, DSA proved that he was viable candidate by knocking on thousands and thousands of doors to get the word out about his campaign. \nThat’s what we’re here to do for Nithya and Marissa\, DSA-LA’s first citywide candidate. \nThis is what organizing lo — https://dsa-la.org/event/canvass-in-noho/
-URL:https://dsa-la.org/event/canvass-in-noho/
-END:VEVENT
-BEGIN:VEVENT
-UID:89c3bab294de@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261010T170000Z
-DTEND:20261010T190000Z
-SUMMARY:Block Flock Canvass With Marissa Roy in Koreatown
-LOCATION:Immanuel Presbyterian Church\, 3300 Wilshire Blvd\, Los Angeles\, CA\, 90011\, United States
-DESCRIPTION:[ACTION] — DSA Los Angeles — Join Marissa Roy and DSA-LA on Saturday\, October 10 as we talk to neighbors about Flock and other ALPR (Automated License Plate Reader) providers\, discuss mass surveillance\, and learn how a socialist city attorney can fight to keep our communities safe. \nWe’re meeting at Immanuel — https://dsa-la.org/event/block-flock-canvass-with-marissa-roy-in-koreatown/
-URL:https://dsa-la.org/event/block-flock-canvass-with-marissa-roy-in-koreatown/
-END:VEVENT
-BEGIN:VEVENT
-UID:23fb3be00ec1@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261010T170000Z
-DTEND:20261010T190000Z
-SUMMARY:SC/I Ballot Party Branch Meeting + Canvass!
-DESCRIPTION:[ACTION] — DSA Los Angeles — https://dsa-la.org/event/sc-i-ballot-party-branch-meeting-canvass/
-URL:https://dsa-la.org/event/sc-i-ballot-party-branch-meeting-canvass/
-END:VEVENT
-BEGIN:VEVENT
-UID:5b09b6483342@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261010T180000Z
-DTEND:20261010T200000Z
-SUMMARY:DSA 101: San Fernando Valley Branch
-DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/dsa-101-san-fernando-valley-branch-5/
-URL:https://dsa-la.org/event/dsa-101-san-fernando-valley-branch-5/
-END:VEVENT
-BEGIN:VEVENT
-UID:4ce9a0968ba7@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261010T180000Z
-DTEND:20261010T200000Z
-SUMMARY:Canvass In Echo Park
-DESCRIPTION:[ACTION] — DSA Los Angeles — DSA-LA is talking with voters about our biggest slate of socialist candidates ever!! \nCome out to Echo Park\, where we’ll be canvassing voters to discuss why Nithya Raman for Mayor and Marissa Roy for City Attorney are the best choices for the working class on the November ballot! — https://dsa-la.org/event/canvass-in-echo-park/
-URL:https://dsa-la.org/event/canvass-in-echo-park/
-END:VEVENT
-BEGIN:VEVENT
-UID:dc09cd6f3ca2@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261010T210000Z
-DTEND:20261010T230000Z
+UID:f9d564e080c8@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261011T180000Z
+DTEND:20261011T200000Z
 SUMMARY:Canvass in West Hollywood!
 LOCATION:Plummer Park\, 7377 Santa Monica Blvd\, West Hollywood\, CA\, 90046
-DESCRIPTION:[ACTION] — DSA Los Angeles — Come canvass for Stephen Post this weekend to help us put the first democratic socialist ever on the West Hollywood city council! Together we can deliver a more affordable\, more connected\, cleaner and safer West Hollywood. \nOpen to everyone! \nMinors should be accompanied by a fam — https://dsa-la.org/event/canvass-in-west-hollywood-4/
-URL:https://dsa-la.org/event/canvass-in-west-hollywood-4/
-END:VEVENT
-BEGIN:VEVENT
-UID:73a1fb58228c@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261010T210000Z
-DTEND:20261010T230000Z
-SUMMARY:Canvass in Burbank!
-LOCATION:McCambridge Park – Burbank\, 1515 N Glenoaks Blvd\, Burbank\, CA\, 91504\, United States
-DESCRIPTION:[ACTION] — DSA Los Angeles — Join Nolan Southerland\, Mike Van Gorder\, and the DSA-LA for Burbank team at McCambridge Park in Burbank on Saturday! You will get training and canvassing turf so you can door knock to get Nolan and Mike elected onto Burbank City Council. \nClick Here to RSVP! — https://dsa-la.org/event/canvass-in-burbank/
-URL:https://dsa-la.org/event/canvass-in-burbank/
+DESCRIPTION:[ACTION] — DSA Los Angeles — Come canvass for Stephen Post this weekend to help us put the first democratic socialist ever on the West Hollywood city council! Together we can deliver a more affordable\, more connected\, cleaner and safer West Hollywood. \nOpen to everyone! \nMinors should be accompanied by a fam — https://dsa-la.org/event/canvass-in-west-hollywood-5/
+URL:https://dsa-la.org/event/canvass-in-west-hollywood-5/
 END:VEVENT
 BEGIN:VEVENT
 UID:cc7a1112460a@ragingcunt.com
-DTSTAMP:20261004T175517Z
+DTSTAMP:20261011T183126Z
 DTSTART:20261011T180000Z
 DTEND:20261011T200000Z
 SUMMARY:DSA-LA - SEIU Labor Circle Meeting
@@ -251,18 +34,58 @@ DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/dsa-la-se
 URL:https://dsa-la.org/event/dsa-la-seiu-labor-circle-meeting/
 END:VEVENT
 BEGIN:VEVENT
-UID:a4a0661038d6@ragingcunt.com
-DTSTAMP:20261004T175517Z
+UID:888d6743f6a3@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261011T180000Z
+DTEND:20261011T200000Z
+SUMMARY:Canvass in South Central!
+LOCATION:Jesse Brewer Jr Park\, 3777 Menlo Ave\, Los Angeles\, CA\, 90007
+DESCRIPTION:[ACTION] — DSA Los Angeles — DSA has surpassed 120\,000 members and become the largest socialist organization in US history. Here in LA\, we have the opportunity to build working-class power and expand our bloc on city council. \nWe know the best way to win elections is by getting out there and talking to our n — https://dsa-la.org/event/canvass-in-south-central-3-2/
+URL:https://dsa-la.org/event/canvass-in-south-central-3-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:10e456c99cde@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261011T190000Z
+DTEND:20261011T210000Z
+SUMMARY:Canvass in Inglewood!
+LOCATION:Center Park\, 3704 W 111th St\, Inglewood\, CA\, 90303\, United States
+DESCRIPTION:[ACTION] — DSA Los Angeles — DSA has surpassed 120\,000 members and become the largest socialist organization in US history. Here in LA\, we have the opportunity to build working-class power and expand our bloc on city council. \nWe know the best way to win elections is by getting out there and talking to our n — https://dsa-la.org/event/canvass-in-inglewood-5/
+URL:https://dsa-la.org/event/canvass-in-inglewood-5/
+END:VEVENT
+BEGIN:VEVENT
+UID:58d9fbcf4c46@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261011T200000Z
+DTEND:20261011T220000Z
+SUMMARY:Canvass in Cypress Park for Angela\, Nithya and Marissa!
+LOCATION:Rio de Los Angeles State Park State Recreation Area\, 1900 N San Fernando Rd\, Los Angeles\, CA\, 90065
+DESCRIPTION:[ACTION] — DSA Los Angeles — DSA-LA is talking with voters about our biggest slate of socialist candidates ever!! \nCome out to Eagle Rock\, where we’ll be canvassing voters to discuss why Nithya Raman for Mayor\, Marissa Roy for City Attorney\, and Angela Gonzales-Torres for Congress are the best choices for th — https://dsa-la.org/event/canvass-in-cypress-park-101126/
+URL:https://dsa-la.org/event/canvass-in-cypress-park-101126/
+END:VEVENT
+BEGIN:VEVENT
+UID:c4d0a34a7a7f@ragingcunt.com
+DTSTAMP:20261011T183126Z
 DTSTART:20261011T210000Z
 DTEND:20261011T230000Z
-SUMMARY:Canvass in West Hollywood!
-LOCATION:Plummer Park\, 7377 Santa Monica Blvd\, West Hollywood\, CA\, 90046
-DESCRIPTION:[ACTION] — DSA Los Angeles — Come canvass for Stephen Post this weekend to help us put the first democratic socialist ever on the West Hollywood city council! Together we can deliver a more affordable\, more connected\, cleaner and safer West Hollywood. \nOpen to everyone! \nMinors should be accompanied by a fam — https://dsa-la.org/event/canvass-in-west-hollywood-5/
-URL:https://dsa-la.org/event/canvass-in-west-hollywood-5/
+SUMMARY:Canvass in Eagle Rock for Angela\, Nithya and Marissa!
+LOCATION:Yosemite Recreation Center\, 1840 Yosemite Dr\, Los Angeles\, California\, 90041\, United States
+DESCRIPTION:[ACTION] — DSA Los Angeles — DSA-LA is talking with voters about our biggest slate of socialist candidates ever!! \nCome out to Eagle Rock\, where we’ll be canvassing voters to discuss why Nithya Raman for Mayor\, Marissa Roy for City Attorney\, and Angela Gonzales-Torres for Congress are the best choices for th — https://dsa-la.org/event/canvass-in-eagle-rock-101126/
+URL:https://dsa-la.org/event/canvass-in-eagle-rock-101126/
+END:VEVENT
+BEGIN:VEVENT
+UID:99c0c9946e1e@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261011T220000Z
+DTEND:20261012T000000Z
+SUMMARY:Canvass in Koreatown!
+LOCATION:Immanuel Presbyterian Church\, 3300 Wilshire Blvd\, Los Angeles\, CA\, 90011\, United States
+DESCRIPTION:[ACTION] — DSA Los Angeles — DSA-LA is talking with voters about our biggest slate of socialist candidates ever!! \nCome out to Koreatown\, where we’ll be canvassing voters to discuss why Nithya Raman for Mayor\, Marissa Roy for City Attorney\, and Angela Gonzales-Torres for Congress are the best choices for the — https://dsa-la.org/event/canvass-in-koreatown-4/
+URL:https://dsa-la.org/event/canvass-in-koreatown-4/
 END:VEVENT
 BEGIN:VEVENT
 UID:7ab85101a5fa@ragingcunt.com
-DTSTAMP:20261004T175517Z
+DTSTAMP:20261011T183126Z
 DTSTART:20261012T013000Z
 DTEND:20261012T033000Z
 SUMMARY:Live Comedy Fundraiser: Nolan for Burbank
@@ -271,7 +94,7 @@ URL:https://dsa-la.org/event/live-comedy-fundraiser-nolan-for-burbank/
 END:VEVENT
 BEGIN:VEVENT
 UID:6c6f78acab62@ragingcunt.com
-DTSTAMP:20261004T175517Z
+DTSTAMP:20261011T183126Z
 DTSTART:20261013T020000Z
 DTEND:20261013T040000Z
 SUMMARY:Mutual Aid Committee Meeting
@@ -280,8 +103,37 @@ DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/mutual-ai
 URL:https://dsa-la.org/event/mutual-aid-committee-meeting-10/
 END:VEVENT
 BEGIN:VEVENT
+UID:89314e31ef9d@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261014T013000Z
+DTEND:20261014T033000Z
+SUMMARY:Tax the Rich Happy Hour: Hang & Help Pass YES on 40!
+LOCATION:Audio Graph Beer Co.\, 1203 S Olive St\, Los Angeles\, CA\, 90015\, United States
+DESCRIPTION:[CULTURE] — DSA Los Angeles — Come hang out with Central Branch and help us Tax the Rich! \nDSA-LA is organizing to pass Prop 40\, the California Billionaire Tax\, and with Election Day around the corner\, we need all hands on deck. Billionaire tech CEOs are pouring hundreds of millions of dollars into defeating — https://dsa-la.org/event/prop-40-happy-hour/
+URL:https://dsa-la.org/event/prop-40-happy-hour/
+END:VEVENT
+BEGIN:VEVENT
+UID:f191166c985a@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261014T013000Z
+DTEND:20261014T033000Z
+SUMMARY:Postcarding in Boyle Heights for Marissa and Angela!
+LOCATION:Brooklyn Ave Pizza Co.\, 2706 E Cesar E Chavez Ave\, Los Angeles\, 90033\, United States
+DESCRIPTION:[MEETING] — DSA Los Angeles — Want to help elect a democratic socialist slate for LA? Looking to get involved in the campaign? Have a few hours on a weeknight for some writing and camaraderie? \nJoin us in the Eastside Branch to write postcards for some of our slate of our amazing slate of candidates Marissa R — https://dsa-la.org/event/postcarding-in-boyleheights-for-marissa-and-angela-101326/
+URL:https://dsa-la.org/event/postcarding-in-boyleheights-for-marissa-and-angela-101326/
+END:VEVENT
+BEGIN:VEVENT
+UID:caa51b4beb53@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261015T010000Z
+DTEND:20261015T030000Z
+SUMMARY:Billionaire Tax Phone Bank! Prop 40 w/ DSA-LA Tax the Rich WG ACLU Socal + SEIU-UHW!
+DESCRIPTION:[ACTION] — DSA Los Angeles — https://dsa-la.org/event/billionaire-tax-phone-bank-prop-40-w-dsa-la-tax-the-rich-wg-aclu-socal-seiu-uhw/
+URL:https://dsa-la.org/event/billionaire-tax-phone-bank-prop-40-w-dsa-la-tax-the-rich-wg-aclu-socal-seiu-uhw/
+END:VEVENT
+BEGIN:VEVENT
 UID:445032f971c9@ragingcunt.com
-DTSTAMP:20261004T175517Z
+DTSTAMP:20261011T183126Z
 DTSTART:20261015T013000Z
 DTEND:20261015T033000Z
 SUMMARY:Central Branch: Intro to Mass Organizations & Mass Parties
@@ -290,66 +142,162 @@ DESCRIPTION:[MEETING] — DSA Los Angeles — DSA-LA’s Mass Organizations and 
 URL:https://dsa-la.org/event/central-branch-intro-to-mass-organizations-mass-parties-3/
 END:VEVENT
 BEGIN:VEVENT
-UID:31962005ce64@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261007T020000Z
-DTEND:20261007T040000Z
-SUMMARY:Koreatown - Misa Popular
-DESCRIPTION:[TENANT] — LA Tenants Union — Street mass in Spanish in front of 739 S. Normandie\, Los Angeles 90005\nFirst Tuesday of each month\, 7 – 9pm\nHosted by Union de la 8\nMisa popular en español frente al 739 S. Normandie\, Los Ángeles 90005\nEl primer martes de cada mes\, de 7 a 9 p. m.\norganizado por la Unión de la 8 — https://latenantsunion.org/event/koreatown-misa-popular-4/
-URL:https://latenantsunion.org/event/koreatown-misa-popular-4/
+UID:fc0b8a72b9eb@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261015T013000Z
+DTEND:20261015T033000Z
+SUMMARY:Climate Justice Committee Meeting
+DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/climate-justice-committee-meeting-13/
+URL:https://dsa-la.org/event/climate-justice-committee-meeting-13/
 END:VEVENT
 BEGIN:VEVENT
-UID:194b72c41582@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261008T013000Z
-DTEND:20261008T033000Z
-SUMMARY:Westside Local
-LOCATION:767 California Ave\, Venice\, CA 90291\, USA
-DESCRIPTION:[TENANT] — LA Tenants Union — (Every Wednesday) — First and Third Wednesdays of the month 6:30-8:30pm. Oakwood Recreation Center Park (767 California Ave.\, Venice\, CA 90291) in the Community Room (first door to the left\, walking in from the main entrance of the Rec Center). Masks recommended!— \nEl primer y tercer miércoles de ca — https://latenantsunion.org/event/westside-local-7/
-URL:https://latenantsunion.org/event/westside-local-7/
+UID:03bae24c503d@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261015T030000Z
+DTEND:20261015T050000Z
+SUMMARY:Postcarding in the Eastside for Marissa and Angela!
+LOCATION:Good Housekeeping HLP\, 5631 N Figueroa St\, Los Angeles\, CA\, 90042\, United States
+DESCRIPTION:[MEETING] — DSA Los Angeles — Want to help elect a democratic socialist slate for LA? Looking to get involved in the campaign? Have a few hours on a weeknight for some writing and camaraderie? \nJoin us in the Eastside Branch to write postcards for some of our slate of our amazing slate of candidates Marissa R — https://dsa-la.org/event/postcarding-in-the-eastside-for-marissa-and-angela-101426/
+URL:https://dsa-la.org/event/postcarding-in-the-eastside-for-marissa-and-angela-101426/
 END:VEVENT
 BEGIN:VEVENT
-UID:5ed38f5035c8@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261008T020000Z
-DTEND:20261008T040000Z
-SUMMARY:Lincoln Heights
-LOCATION:2808 Altura St\, Lincoln Heights\, CA 90031\, USA
-DESCRIPTION:[TENANT] — LA Tenants Union — Church of the Epiphany2808 Altura St Los Angeles CA 900317pm – 9pm \nlincolnheightstenantunion@gmail.com / 310-853-0198 — https://latenantsunion.org/event/lincoln-heights-39/
-URL:https://latenantsunion.org/event/lincoln-heights-39/
+UID:02b88e96c2bf@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261016T020000Z
+DTEND:20261016T040000Z
+SUMMARY:Political Education Committee Meeting
+DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/political-education-committee-meeting-18/
+URL:https://dsa-la.org/event/political-education-committee-meeting-18/
 END:VEVENT
 BEGIN:VEVENT
-UID:db36fc1c6d71@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261008T020000Z
-DTEND:20261008T040000Z
-SUMMARY:Downtown Local
-LOCATION:Skid Row History Museum & Archive\, 250 S Broadway\, Los Angeles\, CA 90012\, USA
-DESCRIPTION:[TENANT] — LA Tenants Union — (Every Wednesday) — Meetings open to the public\n7-9pm\n250 S Broadway\nLos Angeles CA 90012 — https://latenantsunion.org/event/downtown-local-92/
-URL:https://latenantsunion.org/event/downtown-local-92/
+UID:793640b68863@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261016T020000Z
+DTEND:20261016T040000Z
+SUMMARY:JEOPARDSA!
+LOCATION:Mayan Music Venue\, 1038 S Hill St\, Los Angeles\, CA\, 90015\, United States
+DESCRIPTION:[MEETING] — DSA Los Angeles — Join DSA-LA on Thursday October 15th for JEOPARDSA!\, a comedy game show about LA\, politics\, and LA politics\, featuring: \n\nHasan Piker\,\nRekha Shankar\,\nJohn Early\, and\nhosted by Joel Kim-Booster!\n\nWhile we don’t really care about the game’s winner because we’re socialists here to m — https://dsa-la.org/event/jeopardsa/
+URL:https://dsa-la.org/event/jeopardsa/
 END:VEVENT
 BEGIN:VEVENT
-UID:b2eeb3edf0e9@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261010T193000Z
-DTEND:20261010T213000Z
-SUMMARY:Union de Vecinos 30th Anniversary
-DESCRIPTION:[TENANT] — LA Tenants Union — Meet at  Cesar Chavez and SotoEnding at Mariachi Plaza — https://latenantsunion.org/event/union-de-vecinos-30th-anniversary/
-URL:https://latenantsunion.org/event/union-de-vecinos-30th-anniversary/
+UID:091e8ff02cb7@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261017T170000Z
+DTEND:20261017T190000Z
+SUMMARY:Canvass for Angela and a free Palestine in East LA!
+LOCATION:Belvedere Park Lake\, 4914 E. 3rd St\, East Los Angeles\, CA\, 90022
+DESCRIPTION:[ACTION] — DSA Los Angeles — DSA-LA is talking with voters about our biggest slate of socialist candidates ever!! \nCome out to East LA\, where the Palestine Solidarity Committee will be canvassing with Angela Gonzales-Torres for Congress\, the best choice for the working class and for a free Palestine! \nBe sur — https://dsa-la.org/event/canvass-in-eastla-101726/
+URL:https://dsa-la.org/event/canvass-in-eastla-101726/
 END:VEVENT
 BEGIN:VEVENT
-UID:f4abf9535b72@ragingcunt.com
-DTSTAMP:20261004T175517Z
+UID:dc005ca14ef1@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261017T170000Z
+DTEND:20261017T190000Z
+SUMMARY:Canvass in Inglewood!
+LOCATION:Center Park\, 3704 W 111th St\, Inglewood\, CA\, 90303\, United States
+DESCRIPTION:[ACTION] — DSA Los Angeles — DSA has surpassed 120\,000 members and become the largest socialist organization in US history. Here in LA\, we have the opportunity to build working-class power and expand our bloc on city council. \nWe know the best way to win elections is by getting out there and talking to our n — https://dsa-la.org/event/canvass-in-inglewood-6/
+URL:https://dsa-la.org/event/canvass-in-inglewood-6/
+END:VEVENT
+BEGIN:VEVENT
+UID:39a2a9d52a9d@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261017T170000Z
+DTEND:20261017T190000Z
+SUMMARY:Canvass in South Central!
+LOCATION:Jesse Brewer Jr Park\, 3777 Menlo Ave\, Los Angeles\, CA\, 90007
+DESCRIPTION:[ACTION] — DSA Los Angeles — DSA has surpassed 120\,000 members and become the largest socialist organization in US history. Here in LA\, we have the opportunity to build working-class power and expand our bloc on city council. \nWe know the best way to win elections is by getting out there and talking to our n — https://dsa-la.org/event/canvass-in-south-central-3-3/
+URL:https://dsa-la.org/event/canvass-in-south-central-3-3/
+END:VEVENT
+BEGIN:VEVENT
+UID:f81d3cbb35c3@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261017T170000Z
+DTEND:20261017T190000Z
+SUMMARY:Canvass in Koreatown!
+LOCATION:Immanuel Presbyterian Church\, 3300 Wilshire Blvd\, Los Angeles\, CA\, 90011\, United States
+DESCRIPTION:[ACTION] — DSA Los Angeles — DSA-LA is talking with voters about our biggest slate of socialist candidates ever!! \nCome out to Koreatown\, where we’ll be canvassing voters to discuss why Nithya Raman for Mayor\, Marissa Roy for City Attorney\, and Angela Gonzales-Torres for Congress are the best choices for the — https://dsa-la.org/event/canvass-in-koreatown-2/
+URL:https://dsa-la.org/event/canvass-in-koreatown-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:c7c442e7fa63@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261017T170000Z
+DTEND:20261017T190000Z
+SUMMARY:SC/I Ballot Party Branch Meeting + Canvass!
+DESCRIPTION:[ACTION] — DSA Los Angeles — https://dsa-la.org/event/sc-i-ballot-party-branch-meeting-canvass/
+URL:https://dsa-la.org/event/sc-i-ballot-party-branch-meeting-canvass/
+END:VEVENT
+BEGIN:VEVENT
+UID:5c87d0d63ac2@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261017T173000Z
+DTEND:20261017T193000Z
+SUMMARY:Eastside + SGV Branch Meeting
+DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/eastside-sgv-branch-meeting-3/
+URL:https://dsa-la.org/event/eastside-sgv-branch-meeting-3/
+END:VEVENT
+BEGIN:VEVENT
+UID:ca6a18d47c3b@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261017T180000Z
+DTEND:20261017T200000Z
+SUMMARY:Westside Branch Meeting
+DESCRIPTION:[MEETING] — DSA Los Angeles — https://dsa-la.org/event/westside-branch-meeting-9/
+URL:https://dsa-la.org/event/westside-branch-meeting-9/
+END:VEVENT
+BEGIN:VEVENT
+UID:68e4f4a76808@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261017T180000Z
+DTEND:20261017T200000Z
+SUMMARY:SFV Branch Meeting & Canvass
+DESCRIPTION:[ACTION] — DSA Los Angeles — https://dsa-la.org/event/sfv-branch-meeting-canvass/
+URL:https://dsa-la.org/event/sfv-branch-meeting-canvass/
+END:VEVENT
+BEGIN:VEVENT
+UID:bc306b27f8da@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261017T190000Z
+DTEND:20261017T210000Z
+SUMMARY:Canvass in Eagle Rock for Angela\, Nithya and Marissa!
+LOCATION:Yosemite Recreation Center\, 1840 Yosemite Dr\, Los Angeles\, California\, 90041\, United States
+DESCRIPTION:[ACTION] — DSA Los Angeles — DSA-LA is talking with voters about our biggest slate of socialist candidates ever!! \nCome out to Eagle Rock\, where we’ll be canvassing voters to discuss why Nithya Raman for Mayor\, Marissa Roy for City Attorney\, and Angela Gonzales-Torres for Congress are the best choices for th — https://dsa-la.org/event/canvass-in-eagle-rock-101726/
+URL:https://dsa-la.org/event/canvass-in-eagle-rock-101726/
+END:VEVENT
+BEGIN:VEVENT
+UID:b1a95189c9ef@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261017T200000Z
+DTEND:20261017T220000Z
+SUMMARY:October Central Branch Meeting
+LOCATION:Immanuel Presbyterian Church\, 3300 Wilshire Blvd\, Los Angeles\, CA\, 90011\, United States
+DESCRIPTION:[MEETING] — DSA Los Angeles — Join us from 1-2pm for an informal lunch before our 2-4pm meeting! The meeting agenda includes electoral analysis\, interactive discussion on the DSA-LA Voter Guide + more! \nIf you’re new to the organization and want to meet socialists in your area\, our October Central Branch meet — https://dsa-la.org/event/october-central-branch-meeting/
+URL:https://dsa-la.org/event/october-central-branch-meeting/
+END:VEVENT
+BEGIN:VEVENT
+UID:f20250a88eaa@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261017T230000Z
+DTEND:20261018T010000Z
+SUMMARY:Canvass in Highland Park for Angela\, Nithya and Marissa!
+LOCATION:Highland Park Recreation Center\, 6152 Piedmont Ave\, Los Angeles\, CA\, 90042
+DESCRIPTION:[ACTION] — DSA Los Angeles — Before Zohran was a household name\, DSA proved he was a viable candidate by knocking on thousands and thousands of doors to spread the word about his campaign. \nThat’s what we’re here to do for our slate. \nThis is what organizing looks like. This is what community power looks lik — https://dsa-la.org/event/canvass-in-hlp-101726/
+URL:https://dsa-la.org/event/canvass-in-hlp-101726/
+END:VEVENT
+BEGIN:VEVENT
+UID:a29b8c5cd8a9@ragingcunt.com
+DTSTAMP:20261011T183126Z
 DTSTART:20261013T020000Z
 DTEND:20261013T040000Z
-SUMMARY:Hollywood Local
+SUMMARY:CANCELLED - Hollywood Local
 LOCATION:Blessed Sacrament Catholic Church\, 6657 Sunset Blvd\, Los Angeles\, CA 90028\, USA
-DESCRIPTION:[TENANT] — LA Tenants Union — Meeting 2nd Monday of each month\, 7pm – 9pmreuniones los segundo lunes de cada mes \, 7pm – 9pmBlessed Sacrament Hollywood6657 W. Sunset Blvd\, Los Angeles\, CA 90028 \nWe meet in Room 108 of the Blessed Sacrament school building. If coming by car\, enter via the rear parking lot\, on — https://latenantsunion.org/event/hollywood-local-5/
+DESCRIPTION:[TENANT] — LA Tenants Union — NO MEETING OCTOBER 12THNEXT MEETING NOVEMBER 9TH  \nMeeting 2nd Monday of each month\, 7pm – 9pmreuniones los segundo lunes de cada mes \, 7pm – 9pmBlessed Sacrament Hollywood6657 W. Sunset Blvd\, Los Angeles\, CA 90028 \nWe meet in Room 108 of the Blessed Sacrament school building. If — https://latenantsunion.org/event/hollywood-local-5/
 URL:https://latenantsunion.org/event/hollywood-local-5/
 END:VEVENT
 BEGIN:VEVENT
 UID:e8db6422df72@ragingcunt.com
-DTSTAMP:20261004T175517Z
+DTSTAMP:20261011T183126Z
 DTSTART:20261015T013000Z
 DTEND:20261015T033000Z
 SUMMARY:Echo Park Local
@@ -357,8 +305,18 @@ DESCRIPTION:[TENANT] — LA Tenants Union — Membership & Solidarity MeetingEve
 URL:https://latenantsunion.org/event/echo-park-local-5/
 END:VEVENT
 BEGIN:VEVENT
+UID:2000c2b4240c@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261015T020000Z
+DTEND:20261015T040000Z
+SUMMARY:Downtown Local
+LOCATION:Skid Row History Museum & Archive\, 250 S Broadway\, Los Angeles\, CA 90012\, USA
+DESCRIPTION:[TENANT] — LA Tenants Union — (Every Wednesday) — Meetings open to the public\n7-9pm\n250 S Broadway\nLos Angeles CA 90012 — https://latenantsunion.org/event/downtown-local-93/
+URL:https://latenantsunion.org/event/downtown-local-93/
+END:VEVENT
+BEGIN:VEVENT
 UID:604261056bbd@ragingcunt.com
-DTSTAMP:20261004T175517Z
+DTSTAMP:20261011T183126Z
 DTSTART:20261015T020000Z
 DTEND:20261015T040000Z
 SUMMARY:Highland Park Local
@@ -367,17 +325,27 @@ URL:https://latenantsunion.org/event/highland-park-local-8/
 END:VEVENT
 BEGIN:VEVENT
 UID:d9ef67416eb0@ragingcunt.com
-DTSTAMP:20261004T175517Z
+DTSTAMP:20261011T183126Z
 DTSTART:20261016T010000Z
 DTEND:20261016T030000Z
 SUMMARY:VyBe Local
 LOCATION:615 La Fayette Park Pl\, Los Angeles\, CA 90057\, USA
-DESCRIPTION:[TENANT] — LA Tenants Union — 6pm – 8pmen español e inglésbilingual meeting in Spanish and EnglishHeart of Los Angeles (HOLA)615 Lafayette Park Pl1st and 3rd Thursday of each month — https://latenantsunion.org/event/vybe-local-48/
+DESCRIPTION:[TENANT] — LA Tenants Union — (Every Thursday) — 6pm – 8pmen español e inglésbilingual meeting in Spanish and EnglishHeart of Los Angeles (HOLA)615 Lafayette Park Pl1st and 3rd Thursday of each month — https://latenantsunion.org/event/vybe-local-48/
 URL:https://latenantsunion.org/event/vybe-local-48/
 END:VEVENT
 BEGIN:VEVENT
+UID:7e6257fcc1b6@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261022T013000Z
+DTEND:20261022T033000Z
+SUMMARY:Westside Local
+LOCATION:767 California Ave\, Venice\, CA 90291\, USA
+DESCRIPTION:[TENANT] — LA Tenants Union — (Every Wednesday) — First and Third Wednesdays of the month 6:30-8:30pm. Oakwood Recreation Center Park (767 California Ave.\, Venice\, CA 90291) in the Community Room (first door to the left\, walking in from the main entrance of the Rec Center). Masks recommended!— \nEl primer y tercer miércoles de ca — https://latenantsunion.org/event/westside-local-8/
+URL:https://latenantsunion.org/event/westside-local-8/
+END:VEVENT
+BEGIN:VEVENT
 UID:b43f7ba3f945@ragingcunt.com
-DTSTAMP:20261004T175517Z
+DTSTAMP:20261011T183126Z
 DTSTART:20261022T020000Z
 DTEND:20261022T040000Z
 SUMMARY:Lincoln Heights Local
@@ -386,8 +354,57 @@ DESCRIPTION:[TENANT] — LA Tenants Union — Church of the Epiphany2808 Altura 
 URL:https://latenantsunion.org/event/lincoln-heights-local-4/
 END:VEVENT
 BEGIN:VEVENT
+UID:cb6940592b79@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261025T213000Z
+DTEND:20261025T233000Z
+SUMMARY:Pico Union Asamblea
+LOCATION:675 S Park View St\, Los Angeles\, CA 90057\, USA
+DESCRIPTION:[TENANT] — LA Tenants Union — https://latenantsunion.org/event/pico-union-asamblea/
+URL:https://latenantsunion.org/event/pico-union-asamblea/
+END:VEVENT
+BEGIN:VEVENT
+UID:02c9306ec746@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261101T200000Z
+DTEND:20261101T220000Z
+SUMMARY:Hollywood - Grace TA Raffle & Food Sale
+LOCATION:1918 Grace Ave\, Los Angeles\, CA 90068\, USA
+DESCRIPTION:[TENANT] — LA Tenants Union — https://latenantsunion.org/event/hollywood-grace-ta-raffle-food-sale/
+URL:https://latenantsunion.org/event/hollywood-grace-ta-raffle-food-sale/
+END:VEVENT
+BEGIN:VEVENT
+UID:0610cd16d7e9@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261104T030000Z
+DTEND:20261104T050000Z
+SUMMARY:Koreatown - Misa Popular
+DESCRIPTION:[TENANT] — LA Tenants Union — Street mass in Spanish in front of 739 S. Normandie\, Los Angeles 90005\nFirst Tuesday of each month\, 7 – 9pm\nHosted by Union de la 8\nMisa popular en español frente al 739 S. Normandie\, Los Ángeles 90005\nEl primer martes de cada mes\, de 7 a 9 p. m.\norganizado por la Unión de la 8 — https://latenantsunion.org/event/koreatown-misa-popular-5/
+URL:https://latenantsunion.org/event/koreatown-misa-popular-5/
+END:VEVENT
+BEGIN:VEVENT
+UID:fff3a9a1edc9@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261105T030000Z
+DTEND:20261105T050000Z
+SUMMARY:Lincoln Heights
+LOCATION:2808 Altura St\, Lincoln Heights\, CA 90031\, USA
+DESCRIPTION:[TENANT] — LA Tenants Union — Church of the Epiphany2808 Altura St Los Angeles CA 900317pm – 9pm \nlincolnheightstenantunion@gmail.com / 310-853-0198 — https://latenantsunion.org/event/lincoln-heights-40/
+URL:https://latenantsunion.org/event/lincoln-heights-40/
+END:VEVENT
+BEGIN:VEVENT
+UID:3044f3af0ca0@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261107T220000Z
+DTEND:20261108T000000Z
+SUMMARY:East Hollywood Local
+LOCATION:4959 Lemon Grove Ave\, Los Angeles\, CA 90029\, USA
+DESCRIPTION:[TENANT] — LA Tenants Union — Every first Saturday of the month at 2:00pm at LemonGrove Park located at 4959 Lemon Grove Ave. Los Angeles CA.  \nEl primer Sábado de cada mes en el parque de Lemon Grove localizado en la 4959 Lemon Grove Ave. Los Angeles CA. — https://latenantsunion.org/event/east-hollywood-local-5/
+URL:https://latenantsunion.org/event/east-hollywood-local-5/
+END:VEVENT
+BEGIN:VEVENT
 UID:16d4aa4a51ed@ragingcunt.com
-DTSTAMP:20261004T175517Z
+DTSTAMP:20261011T183126Z
 DTSTART:20261014T013000Z
 DTEND:20261014T033000Z
 SUMMARY:Initiate Justice Action General Meeting
@@ -395,68 +412,39 @@ DESCRIPTION:[MEETING] — Initiate Justice Action — (Recurring) — Join IJ Ac
 URL:https://www.mobilize.us/ijaction/event/810465/
 END:VEVENT
 BEGIN:VEVENT
-UID:fb4bdee1dc79@ragingcunt.com
-DTSTAMP:20261004T175517Z
+UID:a35ce8caf633@ragingcunt.com
+DTSTAMP:20261011T183126Z
 DTSTART:20261017T160000Z
 DTEND:20261017T180000Z
-SUMMARY:Mulch Move - October Volunteer Days
-DESCRIPTION:[MUTUAL AID] — Black Thumb Farm — Join our volunteer day and help spread mulch at Black Thumb Farm. We've moved into the site and are laying down the initial layers of mulch that will serve as the foundation for our farm. \n\nThis will require a medium to heavy level of labor. Heat is expected\, so dress appropriate — https://www.mobilize.us/blackthumbfarm/event/1038509/
+SUMMARY:October Open Farm Days
+DESCRIPTION:[MUTUAL AID] — Black Thumb Farm — (Recurring) — Join our volunteer day and help spread mulch at Black Thumb Farm. We've moved into the site and are laying down the initial layers of mulch that will serve as the foundation for our farm. \n\nThis will require a medium to heavy level of labor. Heat is expected\, so dress appropriate — https://www.mobilize.us/blackthumbfarm/event/1038509/
 URL:https://www.mobilize.us/blackthumbfarm/event/1038509/
 END:VEVENT
 BEGIN:VEVENT
-UID:a2fba5ca24bb@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261009T150000Z
-DTEND:20261009T170000Z
+UID:799951304ae3@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261016T150000Z
+DTEND:20261016T170000Z
 SUMMARY:Mano a Mano Food Distribution Volunteer Sign Up
 LOCATION:Pasadena Community Job Center (PCJC)
 DESCRIPTION:[MUTUAL AID] — National Day Laborer Organizing Network — (Recurring) — Please join the Mano a Mano program in distributing highly needed food baskets! We need as many volunteers to join us for food distribution the **Pasadena Community Job Center (PCJC)** every Friday! Please sign up below and share this form with your friends and family.\n\n**Backgro — https://www.mobilize.us/ndlon/event/867935/
 URL:https://www.mobilize.us/ndlon/event/867935/
 END:VEVENT
 BEGIN:VEVENT
-UID:21a5ac3d22c8@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261007T230000Z
-DTEND:20261008T010000Z
-SUMMARY:Let's Paint for Art Night
-DESCRIPTION:[MUTUAL AID] — National Day Laborer Organizing Network — Join us for a series of community painting sessions as we create silhouettes to be displayed during Pasadena Art Night! No painting experience is needed—just bring your creativity and help us bring this collective art installation to life. — https://www.mobilize.us/ndlon/event/1039998/
-URL:https://www.mobilize.us/ndlon/event/1039998/
-END:VEVENT
-BEGIN:VEVENT
-UID:4311b0d66770@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261010T010000Z
-DTEND:20261010T030000Z
-SUMMARY:ArtNight at the Pasadena Community Job Center
-LOCATION:Pasadena Community Job Center
-DESCRIPTION:[MUTUAL AID] — National Day Laborer Organizing Network — Join the **Pasadena Community Job Center** and **NDLON** to experience the sounds of _**Los Jornaleros del Norte**_ and view **Pasadena Rising from Ashes and Raids**\, an exhibition of photographs\, poster art\, murals\, and banners. Come see the incredible artistic and cultural work — https://www.mobilize.us/ndlon/event/1050845/
-URL:https://www.mobilize.us/ndlon/event/1050845/
-END:VEVENT
-BEGIN:VEVENT
-UID:fcd6014bd493@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261010T000000Z
-DTEND:20261010T020000Z
-SUMMARY:Volunteer at ArtNight at the Pasadena Job Center!
-LOCATION:Pasadena Job Center
-DESCRIPTION:[MUTUAL AID] — National Day Laborer Organizing Network — (Recurring) — **We're looking for volunteers for the ArtNight event at the Pasadena Community Job Center**. This will be the first time our center is participating in Pasadena's ArtNight event and we expect it to be a amazing event. **You don't need to have experience or particular skills\,** j — https://www.mobilize.us/ndlon/event/1052537/
-URL:https://www.mobilize.us/ndlon/event/1052537/
-END:VEVENT
-BEGIN:VEVENT
-UID:d7cf3bfc469d@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261009T230000Z
-DTEND:20261010T010000Z
+UID:6278536d124d@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261016T230000Z
+DTEND:20261017T010000Z
 SUMMARY:Tropical Meme Society bridge drop
 LOCATION:This event’s address is private. Sign up for more details
 DESCRIPTION:[ACTION] — tropical meme society — (Recurring) — The Tropical Meme Society (TMS) is a Visibility collective that does large scale messaging from LA’s freeway overpasses in support of democracy. TMS is a non-violent\, informal volunteer group in which we all participate with an understanding that our own actions are our personal — https://www.mobilize.us/tropicalmemesociety/event/869465/
 URL:https://www.mobilize.us/tropicalmemesociety/event/869465/
 END:VEVENT
 BEGIN:VEVENT
-UID:e82257ccb788@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261010T220000Z
-DTEND:20261011T000000Z
+UID:25b93a3fd272@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261107T230000Z
+DTEND:20261108T010000Z
 SUMMARY:Tropical Meme Society monthly mtg
 LOCATION:This event’s address is private. Sign up for more details
 DESCRIPTION:[MEETING] — tropical meme society — (Recurring) — Come one\, come all to the monthly strategy and planning meeting for the Tropical Meme Society (TMS)\, a visibility collective. Discuss priorities\, opportunities\, frustrations (vent!) and share space in community with like-minded Angelenos.\n\nTMS is a non-violent\, informal volunteer — https://www.mobilize.us/tropicalmemesociety/event/874885/
@@ -464,7 +452,7 @@ URL:https://www.mobilize.us/tropicalmemesociety/event/874885/
 END:VEVENT
 BEGIN:VEVENT
 UID:baf1075d6b75@ragingcunt.com
-DTSTAMP:20261004T175517Z
+DTSTAMP:20261011T183126Z
 DTSTART:20261017T150000Z
 DTEND:20261017T170000Z
 SUMMARY:[BEVERLY MA] Says Fix It\, Fedex!
@@ -473,66 +461,66 @@ DESCRIPTION:[ACTION] — May Day Strong — Tennessee just spent eight months di
 URL:https://www.mobilize.us/tropicalmemesociety/event/968701/
 END:VEVENT
 BEGIN:VEVENT
-UID:955f36b46d9f@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261008T144500Z
-DTEND:20261008T164500Z
+UID:23fc3b78bbb2@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261015T144500Z
+DTEND:20261015T164500Z
 SUMMARY:West LA Freeway Brigade
 DESCRIPTION:[ACTION] — Indivisible Westside Los Angeles — (Recurring) — Come join local activists from Indivisible Westside LA as we give commuters the morning anti-fascism boost they need! Remind our fellow Angelenos that we're standing up against this out-of-control regime and they can too! \n\nParking on the street or at the CVS/Trader Joe's at Sepu — https://www.mobilize.us/indivisiblewestsidela/event/804561/
 URL:https://www.mobilize.us/indivisiblewestsidela/event/804561/
 END:VEVENT
 BEGIN:VEVENT
-UID:48fbab629416@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261008T230000Z
-DTEND:20261009T010000Z
+UID:da10041b0bcd@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261015T230000Z
+DTEND:20261016T010000Z
 SUMMARY:Venice & Santa Monica   Let's Take Back Our Streets Weekly Protest
 LOCATION:Corner of Lincoln Blvd & California Ave- between Ralph's & Ross
 DESCRIPTION:[ACTION] — Indivisible Westside Los Angeles — (Recurring) — Calling  Santa Monica\, Venice and West Side Resisters!    \n\nJoin us for our weekly protest!  \n\nWe've moved  south to  the corner of Lincoln Blvd and California Ave (between Ralph's & Ross) with our signs and noise makers. (Honking encouraged) Have some Lemonade\, sit in beach chai — https://www.mobilize.us/indivisiblewestsidela/event/893106/
 URL:https://www.mobilize.us/indivisiblewestsidela/event/893106/
 END:VEVENT
 BEGIN:VEVENT
-UID:eb6683293571@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261006T143000Z
-DTEND:20261006T163000Z
+UID:863f39dc88bd@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261013T143000Z
+DTEND:20261013T163000Z
 SUMMARY:West LA Freeway Brigade Bonus Midterm Series! NO KINGS—VOTE EARLY
 DESCRIPTION:[ACTION] — Indivisible Westside Los Angeles — (Recurring) — Come join local activists from Indivisible Westside LA for our special MIDTERM ELECTION LEAD-UP EVENTS! From Sept 29 to Nov 3\, we'll be at Palms over the 405 on Tuesday mornings and Saturday afternoons with special NO KINGS VOTE EARLY messaging\, in addition to our regular Thursda — https://www.mobilize.us/indivisiblewestsidela/event/1040060/
 URL:https://www.mobilize.us/indivisiblewestsidela/event/1040060/
 END:VEVENT
 BEGIN:VEVENT
-UID:d6801214c576@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261009T230000Z
-DTEND:20261010T010000Z
+UID:29da1cdd6cc9@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261016T230000Z
+DTEND:20261017T010000Z
 SUMMARY:IWLA Friday Freeway Brigade at Cloverfield & the 10
 DESCRIPTION:[ACTION] — Indivisible Westside Los Angeles — (Recurring) — Join us for a Friday Happy Hour as we give commuters and others spicy and informative messages to help them resist the tangerine toddler's attempts to drive us into despair. Action is the antidote!\n\nWe meet at 4pm on the west side of the Cloverfield overpass at the 10 Fwy. Bring — https://www.mobilize.us/indivisiblewestsidela/event/1042734/
 URL:https://www.mobilize.us/indivisiblewestsidela/event/1042734/
 END:VEVENT
 BEGIN:VEVENT
-UID:714da9f97ca2@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261010T160000Z
-DTEND:20261010T180000Z
+UID:e9cd563da0d2@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261017T160000Z
+DTEND:20261017T180000Z
 SUMMARY:Election Defenders Weekly Hangout
 LOCATION:Los Angeles
 DESCRIPTION:[MEETING] — Resist Trump Campaign — (Recurring) — Election Defenders is a weekly organizing call to learn\, plan and promote resistance to authoritarian interference in our democratic elections.\n\nWe act in service of democracy and in line with lawful\, nonviolent civil resistance against authoritarians.\n\nThe meeting will be hosted — https://www.mobilize.us/resisttrumpcampaign/event/1006328/
 URL:https://www.mobilize.us/resisttrumpcampaign/event/1006328/
 END:VEVENT
 BEGIN:VEVENT
-UID:47cbe42a3821@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261006T180000Z
-DTEND:20261006T200000Z
+UID:87a2d85de00b@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261013T180000Z
+DTEND:20261013T200000Z
 SUMMARY:Podcasting for Democracy Weekly Hangout
 DESCRIPTION:[MEETING] — Resist Trump Campaign — (Recurring) — Podcasting for Democracy is an online hangout for anyone interested in using podcasting to strengthen democracy through meaningful conversations and community storytelling.\n\nWhether you're an experienced podcaster\, thinking about starting one\, or simply curious about how podcasts — https://www.mobilize.us/resisttrumpcampaign/event/1010704/
 URL:https://www.mobilize.us/resisttrumpcampaign/event/1010704/
 END:VEVENT
 BEGIN:VEVENT
-UID:cc4edcb954b8@ragingcunt.com
-DTSTAMP:20261004T175517Z
-DTSTART:20261008T010000Z
-DTEND:20261008T030000Z
+UID:41c0dd3ed786@ragingcunt.com
+DTSTAMP:20261011T183126Z
+DTSTART:20261015T010000Z
+DTEND:20261015T030000Z
 SUMMARY:West Hollywood-Fairfax Indivisible - Weekly Meeting
 LOCATION:Melrose Umbrella Co.
 DESCRIPTION:[MEETING] — WeHo-Fairfax Indivisible — (Recurring) — The West Hollywood-Fairfax branch of Indivisible is still very new\, but we are meeting weekly virtually to become tight-knit and organized around initiatives we value and feel like can help us move the needle. We have come together out of the desire to build a hyper-local communi — https://www.mobilize.us/wehofairfaxindivisible/event/985787/
