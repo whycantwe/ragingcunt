@@ -6,215 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:RAGINGCUNT — San Jose
 X-WR-CALDESC:Real local organizing in San Jose\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
-UID:e91fc29f3c9d@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261011T193000Z
-DTEND:20261011T213000Z
-SUMMARY:San Jose Clothing Swap
-LOCATION:San José Peace and Justice Center\, San Jose Peace and Justice Center\, 48 S 7th St\, San Jose\, CA\, 95112\, United States
-DESCRIPTION:[MEETING] — Silicon Valley DSA — SJ Clothing Swap is mutual aid for our community through clothing and fabric\, with an emphasis on sustainability\, queer expression\, intersectional community care\, accessibility\, and community organizing. We’re focused on: \n– Quality clothes for all\n– Being a safe space for explor — https://siliconvalleydsa.org/event/sjclothingswap/2026-10-11/
-URL:https://siliconvalleydsa.org/event/sjclothingswap/2026-10-11/
-END:VEVENT
-BEGIN:VEVENT
-UID:2fcae78e170f@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261011T210000Z
-DTEND:20261011T230000Z
-SUMMARY:Food Not Bombs San José Sunday Serve
-LOCATION:St. James Park\, N. 2nd St.\, San Jose\, CA\, 95112\, United States
-DESCRIPTION:[MUTUAL AID] — Silicon Valley DSA — (Every Sunday) — Join Food not Bombs San José in providing free food\, hygiene supplies\, fresh produce\, and clothing to the community no questions asked. \nLocation Details: \nSt. James Park \nN Second St \nSan Jose CA 95112 \nParking: \nThere is street parking and parking garages close by at San Pedro — https://siliconvalleydsa.org/event/food-not-bombs-san-jose-sunday-serve/2026-10-11/
-URL:https://siliconvalleydsa.org/event/food-not-bombs-san-jose-sunday-serve/2026-10-11/
-END:VEVENT
-BEGIN:VEVENT
-UID:b2a53dcd04fa@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261013T000000Z
-DTEND:20261013T020000Z
-SUMMARY:South Bay Banner for Palestine
-DESCRIPTION:[MEETING] — Silicon Valley DSA — (Every Monday) — Banner for Palestine with a crew of South Bay Activists on Mondays and Fridays on an overpass overlooking Highway 101 in Sunnyvale. \nDM @southbaybanner4palestine on Instagram for the exact location. — https://siliconvalleydsa.org/event/south-bay-banner-for-palestine-2/2026-10-12/
-URL:https://siliconvalleydsa.org/event/south-bay-banner-for-palestine-2/2026-10-12/
-END:VEVENT
-BEGIN:VEVENT
-UID:747a734f68b5@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261013T013000Z
-DTEND:20261013T033000Z
-SUMMARY:Transit Working Group Session
-LOCATION:Zoom
-DESCRIPTION:[MEETING] — Silicon Valley DSA — Come join us for an in-person transit working group session\, where we’ll work on ongoing projects and discuss strategy. Locations for the in-person session will vary from a session-to-session basis and will be posted in slack at least one week in advance of the meeting. Zoom is s — https://siliconvalleydsa.org/event/transit-working-group-session-2/2026-10-12/
-URL:https://siliconvalleydsa.org/event/transit-working-group-session-2/2026-10-12/
-END:VEVENT
-BEGIN:VEVENT
-UID:0eeafdc211e0@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261013T013000Z
-DTEND:20261013T033000Z
-SUMMARY:Tech Committee Working Session
-LOCATION:Zoom
-DESCRIPTION:[MEETING] — Silicon Valley DSA — The Tech Committee has bi-weekly working session where folks can start an up-for-grabs item or make progress on current items. Co-chairs are available for office-hours assistance for any questions that come up or for help finding something to contribute to. \nRegister for the Zoom — https://siliconvalleydsa.org/event/tech-committee-working-session/2026-10-12/
-URL:https://siliconvalleydsa.org/event/tech-committee-working-session/2026-10-12/
-END:VEVENT
-BEGIN:VEVENT
-UID:0c82fae7e756@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261013T020000Z
-DTEND:20261013T040000Z
-SUMMARY:Comms Committee Meeting
-LOCATION:Zoom
-DESCRIPTION:[MEETING] — Silicon Valley DSA — A lot of work goes into keeping our chapter running behind the scenes. The Comms Committee focuses on outreach and communication\, including the monthly newsletter and social media acounts. Please feel free to join and learn about what it takes to reach out to our community. \n\n\nRe — https://siliconvalleydsa.org/event/comms-committee-meeting-recurring/2026-10-12/
-URL:https://siliconvalleydsa.org/event/comms-committee-meeting-recurring/2026-10-12/
-END:VEVENT
-BEGIN:VEVENT
-UID:5d429671ef32@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261014T003000Z
-DTEND:20261014T023000Z
-SUMMARY:(AMA) Ask Me Anything
-LOCATION:Zoom
-DESCRIPTION:[MEETING] — Silicon Valley DSA — (Every Tuesday) — Join this weekly session hosted by a chapter officer\, co-chair\, veteran member or leader. \n\n10-15 minute educational topic & explanation [topic chosen by speaker]\n45-50 minute open Q&A – drop-in “Office Hours” [bring your questions or just come to chat]\n\nRegister for Zoom: https: — https://siliconvalleydsa.org/event/ask-me-anything-recurring/2026-10-13/
-URL:https://siliconvalleydsa.org/event/ask-me-anything-recurring/2026-10-13/
-END:VEVENT
-BEGIN:VEVENT
-UID:98747be8f688@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261014T030000Z
-DTEND:20261014T050000Z
-SUMMARY:October Bylaws Committee Meeting
-LOCATION:Zoom
-DESCRIPTION:[MEETING] — Silicon Valley DSA — With our proposed amendments passed at the September Chapter Meeting\, the Bylaws Committee will meet to discuss potential language and editorial changes we would like to propose. \nRegister for the Zoom meeting here: https://us06web.zoom.us/j/82536305395?pwd=VSUvGnuT7Koi9rcfAwNw5G — https://siliconvalleydsa.org/event/2026-10-13-bylaws/
-URL:https://siliconvalleydsa.org/event/2026-10-13-bylaws/
-END:VEVENT
-BEGIN:VEVENT
-UID:0f515b8d6d53@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261015T010000Z
-DTEND:20261015T030000Z
-SUMMARY:Leadership Meeting: Steering Committee
-LOCATION:Zoom
-DESCRIPTION:[MEETING] — Silicon Valley DSA — (Every Wednesday) — The elected officers (Steering Committee) meet every week on Zoom to check in on our Chapter’s administration\, make decisions on behalf of the Chapter in between general meetings\, and collaborate on urgent tasks. If you’re interested in the nuts and bolts of Chapter administratio — https://siliconvalleydsa.org/event/leadership-meeting-chapter-committee-recurring-2/2026-10-14/
-URL:https://siliconvalleydsa.org/event/leadership-meeting-chapter-committee-recurring-2/2026-10-14/
-END:VEVENT
-BEGIN:VEVENT
-UID:64b9e4bc0b37@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261015T010000Z
-DTEND:20261015T030000Z
-SUMMARY:Redwood City Rent Control Phone Bank
-LOCATION:Zoom
-DESCRIPTION:[ACTION] — Silicon Valley DSA — Join Silicon Valley DSA and the Affordable Redwood City campaign to help make calls and spread the word to RWC voters to vote “yes” on renters’ rights! \nNo prior phone banking experience required\, the event will start by sharing everything you need to know to help out. \nRSVP here — https://siliconvalleydsa.org/event/rwc-rent-control-phone-bank-10-14/
-URL:https://siliconvalleydsa.org/event/rwc-rent-control-phone-bank-10-14/
-END:VEVENT
-BEGIN:VEVENT
-UID:c0479b84500d@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261015T023000Z
-DTEND:20261015T043000Z
-SUMMARY:Liberation and Justice Working Group Meeting
-LOCATION:Zoom
-DESCRIPTION:[MEETING] — Silicon Valley DSA — Join us for our Liberation and Justice Working Group Meeting to connect\, organize\, and build collective power around areas like law enforcement\, racial justice\, and mass-incarceration. We meet on the 2nd and 4th Wednesday of every month @ 7:30-8:30pm on Zoom. \nIf you’re intereste — https://siliconvalleydsa.org/event/liberation-and-justice-working-group-meeting-2-2/2026-10-14/
-URL:https://siliconvalleydsa.org/event/liberation-and-justice-working-group-meeting-2-2/2026-10-14/
-END:VEVENT
-BEGIN:VEVENT
-UID:85fe0f32801e@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261015T150000Z
-DTEND:20261015T170000Z
-SUMMARY:ICE Watch
-LOCATION:ISAP Office\, 393 Blossom Hill\, San Jose\, CA\, 95123\, United States
-DESCRIPTION:[KNOW UR RIGHTS] — Silicon Valley DSA — Please join us every Thursday at the ISAP office on Blossom Hill Rd at any time between 8am-2pm to help protect your neighbors from ICE kidnappings\, and get connected with more local organizing opportunities! We are especially in need of multilingual folks – Spanish\, Hindi\, Arabi — https://siliconvalleydsa.org/event/ice-watch/2026-10-15/
-URL:https://siliconvalleydsa.org/event/ice-watch/2026-10-15/
-END:VEVENT
-BEGIN:VEVENT
-UID:5987655d81fc@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261016T010000Z
-DTEND:20261016T030000Z
-SUMMARY:Social Committee Meeting
-LOCATION:Zoom
-DESCRIPTION:[MEETING] — Silicon Valley DSA — Interested in building community and camaraderie? Looking for more opportunities to blow off steam and connect with people who share your values? \nJoin the Social Committee for our monthly meeting to help organize and facilitate social events for our comrades! \nRegister for the Z — https://siliconvalleydsa.org/event/social-committee-meeting-recurring-2-2-2/2026-10-15/
-URL:https://siliconvalleydsa.org/event/social-committee-meeting-recurring-2-2-2/2026-10-15/
-END:VEVENT
-BEGIN:VEVENT
-UID:38681aded23c@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261016T020000Z
-DTEND:20261016T040000Z
-SUMMARY:Agendas and Meeting Planning Monthly Meeting
-LOCATION:Online
-DESCRIPTION:[MEETING] — Silicon Valley DSA — The Agendas and Meeting Planning Committee will meet to discuss ways in which to improve chapter meetings and create the agenda for the following monthly chapter meeting! \nRegister for the zoom here: https://us02web.zoom.us/j/88404136662 — https://siliconvalleydsa.org/event/agendas-and-meeting-planning-monthly-meeting/2026-10-15/
-URL:https://siliconvalleydsa.org/event/agendas-and-meeting-planning-monthly-meeting/2026-10-15/
-END:VEVENT
-BEGIN:VEVENT
-UID:9b3db8696f74@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T000000Z
-DTEND:20261017T020000Z
-SUMMARY:South Bay Banner for Palestine
-DESCRIPTION:[MEETING] — Silicon Valley DSA — Banner for Palestine with a crew of South Bay Activists on Mondays and Fridays on an overpass overlooking Highway 101 in Sunnyvale. \nDM @southbaybanner4palestine on Instagram for the exact location. — https://siliconvalleydsa.org/event/south-bay-banner-for-palestine-2/2026-10-16/
-URL:https://siliconvalleydsa.org/event/south-bay-banner-for-palestine-2/2026-10-16/
-END:VEVENT
-BEGIN:VEVENT
-UID:09e0caf37c71@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T010000Z
-DTEND:20261017T030000Z
-SUMMARY:Social: Board Game Night
-DESCRIPTION:[CULTURE] — Silicon Valley DSA — Grab your favorite board game and join us at The Guildhouse for our monthly Board Game Night! \n  \nAddress: 420 First St\, San Jose\, CA 95113 — https://siliconvalleydsa.org/event/social-board-game-night-3/
-URL:https://siliconvalleydsa.org/event/social-board-game-night-3/
-END:VEVENT
-BEGIN:VEVENT
-UID:c43991ec2c17@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T160000Z
-DTEND:20261017T180000Z
-SUMMARY:SJPJC Garden Day
-LOCATION:San José Peace and Justice Center\, San Jose Peace and Justice Center\, 48 S 7th St\, San Jose\, CA\, 95112\, United States
-DESCRIPTION:[MEETING] — Silicon Valley DSA — The Silicon Valley DSA Mutual Aid Working group\, in association with San Jose Food Not Bombs and South Bay Mutual Aid\, is hosting a garden and build day this Saturday at the San Jose Peace and Justice Center (SJPJC)! We will be moving soil\, planting plants\, garden maintenance\, an — https://siliconvalleydsa.org/event/sjpjc-garden-day-2/2026-10-17/
-URL:https://siliconvalleydsa.org/event/sjpjc-garden-day-2/2026-10-17/
-END:VEVENT
-BEGIN:VEVENT
-UID:5e79bcac08ee@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T180000Z
-DTEND:20261017T200000Z
-SUMMARY:Redwood City Rent Control Canvass
-LOCATION:Faith in Action Bay Area RWC Office\, 820 Cassia Street\, Redwood City\, CA\, 94063\, United States
-DESCRIPTION:[ACTION] — Silicon Valley DSA — Join Silicon Valley DSA and the Affordable Redwood City campaign to knock on doors and spread the word to RWC voters to vote “yes” on renters’ rights! \nNo prior canvassing experience required\, the event will start by sharing everything you need to know to help out. \nRSVP here: ht — https://siliconvalleydsa.org/event/rwc-rent-control-canvass-10-17/
-URL:https://siliconvalleydsa.org/event/rwc-rent-control-canvass-10-17/
-END:VEVENT
-BEGIN:VEVENT
-UID:f31c2b49352f@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T190000Z
-DTEND:20261017T210000Z
-SUMMARY:No Kings Vote Early Mass Mobilization in San Jose
-LOCATION:St. James Park\, N. 2nd St.\, San Jose\, CA\, 95112\, United States
-DESCRIPTION:[MEETING] — Silicon Valley DSA — Silicon Valley Democratic Socialists of America are continuing our participation in the largest protest movement in US history\, the No Kings mobilization. On Saturday\, October 17 from 12-2 pm at St. James Park in San Jose we will gather in solidarity with our community in opposit — https://siliconvalleydsa.org/event/no-kings-vote-early-mass-mobilization/
-URL:https://siliconvalleydsa.org/event/no-kings-vote-early-mass-mobilization/
-END:VEVENT
-BEGIN:VEVENT
-UID:df59086fd592@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T210000Z
-DTEND:20261017T230000Z
-SUMMARY:San José Free Store
-LOCATION:San José Peace and Justice Center\, San Jose Peace and Justice Center\, 48 S 7th St\, San Jose\, CA\, 95112\, United States
-DESCRIPTION:[MUTUAL AID] — Silicon Valley DSA — Join Silicon Valley DSA\, South Bay Mutual Aid\, Food Not Bombs San José\, San José Clothing Swap\, and Art Pocket SJ\, for a really really free goods event in the San José Peace and Justice Center parking lot. We’ll have cleaning supplies\, clothes\, fresh produce\, fire preparedness ki — https://siliconvalleydsa.org/event/sjfreestore-2/2026-10-17/
-URL:https://siliconvalleydsa.org/event/sjfreestore-2/2026-10-17/
-END:VEVENT
-BEGIN:VEVENT
-UID:e8944017b084@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T230000Z
-DTEND:20261018T010000Z
-SUMMARY:No Appetite for Apartheid San Jose Autumnal Educational
-LOCATION:Grace Baptist Church\, 132 S 10th Street\, San Jose\, CA\, 95112\, United States
-DESCRIPTION:[MEETING] — Silicon Valley DSA — An educational about our ongoing campaign called No Appetite for Apartheid\, a campaign where we canvass businesses in San Jose to drop Zionist food products and put up a flyer publicly sharing that their business is Apartheid-Free to show community support for Palestine. This edu — https://siliconvalleydsa.org/event/no-appetite-for-apartheid-san-jose-autumnal-educational/
-URL:https://siliconvalleydsa.org/event/no-appetite-for-apartheid-san-jose-autumnal-educational/
-END:VEVENT
-BEGIN:VEVENT
 UID:fd94c62c092f@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261018T170000Z
 DTEND:20261018T190000Z
 SUMMARY:Socialist Reading Group
@@ -223,17 +16,47 @@ DESCRIPTION:[TEACH-IN] — Silicon Valley DSA — Come for coffee and discussion
 URL:https://siliconvalleydsa.org/event/socialist-reading-group/
 END:VEVENT
 BEGIN:VEVENT
-UID:706b2bf06381@ragingcunt.com
-DTSTAMP:20261011T183126Z
+UID:b15c5844937e@ragingcunt.com
+DTSTAMP:20261018T170058Z
 DTSTART:20261018T180000Z
 DTEND:20261018T200000Z
-SUMMARY:Coffee with Comrades: TBA
-DESCRIPTION:[MEETING] — Silicon Valley DSA — https://siliconvalleydsa.org/event/coffee-with-comrades-tba/
+SUMMARY:Coffee with Comrades: Voyager Craft Coffee
+LOCATION:Voyager Coffee Craft (Alameda location)\, 2221 The Alameda\, Santa Clara\, CA\, 95050\, United States
+DESCRIPTION:[MEETING] — Silicon Valley DSA — Join us at Voyager Coffee Craft on the Alameda (near Santa Clara University) for chill vibes and good conversation. \n**This event takes place immediately following Socialist Reading Group\, from 10-11a in the same location. See event details here. Attend just the reading group\, th — https://siliconvalleydsa.org/event/coffee-with-comrades-tba/
 URL:https://siliconvalleydsa.org/event/coffee-with-comrades-tba/
 END:VEVENT
 BEGIN:VEVENT
+UID:171b77af83ba@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261018T210000Z
+DTEND:20261018T230000Z
+SUMMARY:Food Not Bombs San José Sunday Serve
+LOCATION:St. James Park\, N. 2nd St.\, San Jose\, CA\, 95112\, United States
+DESCRIPTION:[MUTUAL AID] — Silicon Valley DSA — (Every Sunday) — Join Food not Bombs San José in providing free food\, hygiene supplies\, fresh produce\, and clothing to the community no questions asked. \nLocation Details: \nSt. James Park \nN Second St \nSan Jose CA 95112 \nParking: \nThere is street parking and parking garages close by at San Pedro — https://siliconvalleydsa.org/event/food-not-bombs-san-jose-sunday-serve/2026-10-18/
+URL:https://siliconvalleydsa.org/event/food-not-bombs-san-jose-sunday-serve/2026-10-18/
+END:VEVENT
+BEGIN:VEVENT
+UID:34aa9519f7de@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261018T230000Z
+DTEND:20261019T010000Z
+SUMMARY:No Staging for ICE
+LOCATION:El Roble Park\, 7550 Wren Ave\, Gilroy\, CA\, 95020\, United States
+DESCRIPTION:[MEETING] — Silicon Valley DSA — What happens in Gilroy doesn’t stay in Gilroy.  When an out of touch city council allows ICE to stage in their community it directly threatens the safety of all the Bay.  We are asking everyone in the Bay\, especially Santa Clara County\, to show up for our South County Neighbors a — https://siliconvalleydsa.org/event/2026-10-18-no-staging-for-ice/
+URL:https://siliconvalleydsa.org/event/2026-10-18-no-staging-for-ice/
+END:VEVENT
+BEGIN:VEVENT
+UID:4f4c4b1c8b18@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261020T000000Z
+DTEND:20261020T020000Z
+SUMMARY:South Bay Banner for Palestine
+DESCRIPTION:[MEETING] — Silicon Valley DSA — (Every Monday) — Banner for Palestine with a crew of South Bay Activists on Mondays and Fridays on an overpass overlooking Highway 101 in Sunnyvale. \nDM @southbaybanner4palestine on Instagram for the exact location. — https://siliconvalleydsa.org/event/south-bay-banner-for-palestine-2/2026-10-19/
+URL:https://siliconvalleydsa.org/event/south-bay-banner-for-palestine-2/2026-10-19/
+END:VEVENT
+BEGIN:VEVENT
 UID:e2784be5a0c9@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261020T013000Z
 DTEND:20261020T033000Z
 SUMMARY:Housing Working Group Meeting
@@ -243,7 +66,7 @@ URL:https://siliconvalleydsa.org/event/housing-wg-meeting-recurring/2026-10-19/
 END:VEVENT
 BEGIN:VEVENT
 UID:2d9b65fa9b8d@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261020T013000Z
 DTEND:20261020T033000Z
 SUMMARY:Tech Committee Meeting
@@ -252,8 +75,27 @@ DESCRIPTION:[MEETING] — Silicon Valley DSA — The Tech Committee meets bi-wee
 URL:https://siliconvalleydsa.org/event/tech-committee-meeting/2026-10-19/
 END:VEVENT
 BEGIN:VEVENT
+UID:6eb829c0eb27@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261020T020000Z
+DTEND:20261020T040000Z
+SUMMARY:Community Safety WG Meeting
+DESCRIPTION:[MEETING] — Silicon Valley DSA — Join the Community Safety Working Group as we discuss our ongoing work to fight back against the American police state. \nCurrently\, our group is most actively engaged in efforts against automated license plate readers (ALPRs)\, ICE\, and data centers. \nRegister here: https://us02we — https://siliconvalleydsa.org/event/community-safety-wg-meeting-4/
+URL:https://siliconvalleydsa.org/event/community-safety-wg-meeting-4/
+END:VEVENT
+BEGIN:VEVENT
+UID:a1b58b5e3a75@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261021T003000Z
+DTEND:20261021T023000Z
+SUMMARY:(AMA) Ask Me Anything
+LOCATION:Zoom
+DESCRIPTION:[MEETING] — Silicon Valley DSA — (Every Tuesday) — Join this weekly session hosted by a chapter officer\, co-chair\, veteran member or leader. \n\n10-15 minute educational topic & explanation [topic chosen by speaker]\n45-50 minute open Q&A – drop-in “Office Hours” [bring your questions or just come to chat]\n\nRegister for Zoom: https: — https://siliconvalleydsa.org/event/ask-me-anything-recurring/2026-10-20/
+URL:https://siliconvalleydsa.org/event/ask-me-anything-recurring/2026-10-20/
+END:VEVENT
+BEGIN:VEVENT
 UID:faeb9560cc89@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261021T013000Z
 DTEND:20261021T033000Z
 SUMMARY:International Solidarity WG Meeting
@@ -262,10 +104,168 @@ DESCRIPTION:[MEETING] — Silicon Valley DSA — Join our International Solidari
 URL:https://siliconvalleydsa.org/event/international-solidarity-wg-meeting-recurring-2-2-2/2026-10-20/
 END:VEVENT
 BEGIN:VEVENT
-UID:8055ce505d05@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T170000Z
-DTEND:20261017T190000Z
+UID:5fc2063b38ca@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261022T010000Z
+DTEND:20261022T030000Z
+SUMMARY:Leadership Meeting: Steering Committee
+LOCATION:Zoom
+DESCRIPTION:[MEETING] — Silicon Valley DSA — (Every Wednesday) — The elected officers (Steering Committee) meet every week on Zoom to check in on our Chapter’s administration\, make decisions on behalf of the Chapter in between general meetings\, and collaborate on urgent tasks. If you’re interested in the nuts and bolts of Chapter administratio — https://siliconvalleydsa.org/event/leadership-meeting-chapter-committee-recurring-2-6/
+URL:https://siliconvalleydsa.org/event/leadership-meeting-chapter-committee-recurring-2-6/
+END:VEVENT
+BEGIN:VEVENT
+UID:c36351d25669@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261022T023000Z
+DTEND:20261022T043000Z
+SUMMARY:Political Education WG Working Session
+LOCATION:Zoom
+DESCRIPTION:[TEACH-IN] — Silicon Valley DSA — This is our once monthly working session\, where we collaborate on developing curriculum\, curating educational content\, building presentations\, performing other tasks related to our strategic plan. \nZoom registration: https://us02web.zoom.us/meeting/register/-a_sj_ABR5SLix0Rm9AWtw — https://siliconvalleydsa.org/event/pol-ed-wg-working-session-recurring/2026-10-21/
+URL:https://siliconvalleydsa.org/event/pol-ed-wg-working-session-recurring/2026-10-21/
+END:VEVENT
+BEGIN:VEVENT
+UID:5fbd13e21f3b@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261022T150000Z
+DTEND:20261022T170000Z
+SUMMARY:ICE Watch
+LOCATION:ISAP Office\, 393 Blossom Hill\, San Jose\, CA\, 95123\, United States
+DESCRIPTION:[KNOW UR RIGHTS] — Silicon Valley DSA — Please join us every Thursday at the ISAP office on Blossom Hill Rd at any time between 8am-2pm to help protect your neighbors from ICE kidnappings\, and get connected with more local organizing opportunities! We are especially in need of multilingual folks – Spanish\, Hindi\, Arabi — https://siliconvalleydsa.org/event/ice-watch/2026-10-22/
+URL:https://siliconvalleydsa.org/event/ice-watch/2026-10-22/
+END:VEVENT
+BEGIN:VEVENT
+UID:32d180f7da8c@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261023T013000Z
+DTEND:20261023T033000Z
+SUMMARY:Electoral Working Group Meeting
+LOCATION:Zoom
+DESCRIPTION:[MEETING] — Silicon Valley DSA — The electoral working group will meet to discuss and plan for current and future electoral projects. All are welcome. \nRegister for the Zoom here: https://us02web.zoom.us/meeting/register/lMhKwarkTNqJPSg6qjXeUQ — https://siliconvalleydsa.org/event/electoral-wg-meeting-recurring-2/2026-10-22/
+URL:https://siliconvalleydsa.org/event/electoral-wg-meeting-recurring-2/2026-10-22/
+END:VEVENT
+BEGIN:VEVENT
+UID:ee96b1a8c622@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261024T000000Z
+DTEND:20261024T020000Z
+SUMMARY:South Bay Banner for Palestine
+DESCRIPTION:[MEETING] — Silicon Valley DSA — Banner for Palestine with a crew of South Bay Activists on Mondays and Fridays on an overpass overlooking Highway 101 in Sunnyvale. \nDM @southbaybanner4palestine on Instagram for the exact location. — https://siliconvalleydsa.org/event/south-bay-banner-for-palestine-2/2026-10-23/
+URL:https://siliconvalleydsa.org/event/south-bay-banner-for-palestine-2/2026-10-23/
+END:VEVENT
+BEGIN:VEVENT
+UID:bf257e43e633@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261024T010000Z
+DTEND:20261024T030000Z
+SUMMARY:Drag the Vote
+DESCRIPTION:[MEETING] — Silicon Valley DSA — Call all of your friends and family because October 23rd at 6pm we are going to Drag The Vote! Drag The Vote is a ballot party and drag show. There will be free food\, prizes\, and voter resources — https://siliconvalleydsa.org/event/2026-10-23-drag-the-vote/
+URL:https://siliconvalleydsa.org/event/2026-10-23-drag-the-vote/
+END:VEVENT
+BEGIN:VEVENT
+UID:5e7c411a3c96@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261024T010000Z
+DTEND:20261024T030000Z
+SUMMARY:Last Friday Social: San Pedro Square
+LOCATION:San Pedro’s Square – 87 N San Pedro St\, San Jose\, CA 95110\, 87 N San Pedro St\, San Jose\, CA\, 95110\, United States
+DESCRIPTION:[MEETING] — Silicon Valley DSA — Curious about socialism but don’t know where to start? In need of some comradely time to unwind? Want to connect with other local comrades and build community? Join us for our August Last Friday Social! \n  \nSan Pedro Square Market\n87 N San Pedro St\, San Jose\, CA 95110 — https://siliconvalleydsa.org/event/2026-10-23-last-friday-social/
+URL:https://siliconvalleydsa.org/event/2026-10-23-last-friday-social/
+END:VEVENT
+BEGIN:VEVENT
+UID:9485455f778f@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261024T160000Z
+DTEND:20261024T180000Z
+SUMMARY:SJPJC Garden Day
+LOCATION:San José Peace and Justice Center\, San Jose Peace and Justice Center\, 48 S 7th St\, San Jose\, CA\, 95112\, United States
+DESCRIPTION:[MEETING] — Silicon Valley DSA — The Silicon Valley DSA Mutual Aid Working group\, in association with San Jose Food Not Bombs and South Bay Mutual Aid\, is hosting a garden and build day this Saturday at the San Jose Peace and Justice Center (SJPJC)! We will be moving soil\, planting plants\, garden maintenance\, an — https://siliconvalleydsa.org/event/sjpjc-garden-day-2/2026-10-24/
+URL:https://siliconvalleydsa.org/event/sjpjc-garden-day-2/2026-10-24/
+END:VEVENT
+BEGIN:VEVENT
+UID:3f7fc00085b7@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261024T190000Z
+DTEND:20261024T210000Z
+SUMMARY:DSA 101
+LOCATION:SEIU Local 521 Union Hall\, 2302 Zanker Rd\, San Jose\, CA\, 95131
+DESCRIPTION:[MEETING] — Silicon Valley DSA — Are you tired of a system that is rigged against the Working Class? Have you had enough frustration with the status quo\, and want to do something about it? \nAt DSA\, we believe a better world is possible. Join us to learn about the movement we are building\, and how to create power — https://siliconvalleydsa.org/event/2026-01-24-dsa-101/
+URL:https://siliconvalleydsa.org/event/2026-01-24-dsa-101/
+END:VEVENT
+BEGIN:VEVENT
+UID:94893e3fabbb@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261024T200000Z
+DTEND:20261024T220000Z
+SUMMARY:October Chapter Meeting and Prop 40 Canvas
+LOCATION:SEIU Local 521 Union Hall\, 2302 Zanker Rd\, San Jose\, CA\, 95131
+DESCRIPTION:[MEETING] — Silicon Valley DSA — Join us for our monthly chapter meeting! Come meet your comrades\, learn about current and upcoming projects\, and take place in our democratic decision process! \nLocation Details\nSEIU 521 Union Hall\n2302 Zanker Rd.\nSan Jose CA 95131 \nParking \nThere is parking in the union hall par — https://siliconvalleydsa.org/event/2026-10-24-chapter-meeting/
+URL:https://siliconvalleydsa.org/event/2026-10-24-chapter-meeting/
+END:VEVENT
+BEGIN:VEVENT
+UID:bc674370ae1a@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261024T220000Z
+DTEND:20261025T000000Z
+SUMMARY:SV DSA Tax the Rich Canvass
+LOCATION:Whole Foods on The Alameda\, 777 The Alameda\, San Jose\, CA\, 95126\, United States
+DESCRIPTION:[ACTION] — Silicon Valley DSA — Join Silicon Valley DSA on Saturday\, October 24th to knock on doors\, drop literature\, and spread the word to San Jose D6 voters to vote YES on Prop Prop 40 and 3\; and NO on Prop 41 and 42. \nWe will be meeting near the Whole Foods on the Alameda around 3:00 pm\, and will share exac — https://siliconvalleydsa.org/event/sv-dsa-tax-the-rich-canvass/
+URL:https://siliconvalleydsa.org/event/sv-dsa-tax-the-rich-canvass/
+END:VEVENT
+BEGIN:VEVENT
+UID:1784355d4c14@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261027T013000Z
+DTEND:20261027T033000Z
+SUMMARY:Transit Working Group Meeting
+LOCATION:Zoom
+DESCRIPTION:[MEETING] — Silicon Valley DSA — Come join us for the transit working group meeting\, where we’ll discuss ongoing projects and strategies for SVDSA to build power in this space. \nRegister for the Zoom: https://us02web.zoom.us/meeting/register/KPNJzh9XRD6tttrjrK1nOw — https://siliconvalleydsa.org/event/transit-working-group-meeting-2/2026-10-26/
+URL:https://siliconvalleydsa.org/event/transit-working-group-meeting-2/2026-10-26/
+END:VEVENT
+BEGIN:VEVENT
+UID:020e133563a3@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261027T013000Z
+DTEND:20261027T033000Z
+SUMMARY:Tech Committee Working Session
+LOCATION:Zoom
+DESCRIPTION:[MEETING] — Silicon Valley DSA — The Tech Committee has bi-weekly working session where folks can start an up-for-grabs item or make progress on current items. Co-chairs are available for office-hours assistance for any questions that come up or for help finding something to contribute to. \nRegister for the Zoom — https://siliconvalleydsa.org/event/tech-committee-working-session/2026-10-26/
+URL:https://siliconvalleydsa.org/event/tech-committee-working-session/2026-10-26/
+END:VEVENT
+BEGIN:VEVENT
+UID:db976d8e2b98@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261027T020000Z
+DTEND:20261027T040000Z
+SUMMARY:Comms Committee Meeting
+LOCATION:Zoom
+DESCRIPTION:[MEETING] — Silicon Valley DSA — A lot of work goes into keeping our chapter running behind the scenes. The Comms Committee focuses on outreach and communication\, including the monthly newsletter and social media acounts. Please feel free to join and learn about what it takes to reach out to our community. \n\n\nRe — https://siliconvalleydsa.org/event/comms-committee-meeting-recurring/2026-10-26/
+URL:https://siliconvalleydsa.org/event/comms-committee-meeting-recurring/2026-10-26/
+END:VEVENT
+BEGIN:VEVENT
+UID:e218212497e2@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261028T013000Z
+DTEND:20261028T033000Z
+SUMMARY:Mutual Aid Working Group Meeting
+LOCATION:Zoom
+DESCRIPTION:[MUTUAL AID] — Silicon Valley DSA — Join the mutual aid working group to help support community-based efforts in the South Bay! No experience is required and everyone has something to contribute! We will be meeting at the San Jose Peace and Justice Center and a zoom link is available for those who cannot join in pe — https://siliconvalleydsa.org/event/mawg-2/2026-10-27/
+URL:https://siliconvalleydsa.org/event/mawg-2/2026-10-27/
+END:VEVENT
+BEGIN:VEVENT
+UID:896e26168cc9@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261029T023000Z
+DTEND:20261029T043000Z
+SUMMARY:Liberation and Justice Working Group Meeting
+LOCATION:Zoom
+DESCRIPTION:[MEETING] — Silicon Valley DSA — Join us for our Liberation and Justice Working Group Meeting to connect\, organize\, and build collective power around areas like law enforcement\, racial justice\, and mass-incarceration. We meet on the 2nd and 4th Wednesday of every month @ 7:30-8:30pm on Zoom. \nIf you’re intereste — https://siliconvalleydsa.org/event/liberation-and-justice-working-group-meeting-2-2/2026-10-28/
+URL:https://siliconvalleydsa.org/event/liberation-and-justice-working-group-meeting-2-2/2026-10-28/
+END:VEVENT
+BEGIN:VEVENT
+UID:b51157f8faf7@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261024T170000Z
+DTEND:20261024T190000Z
 SUMMARY:Defend Democracy - NO Kings in America!
 LOCATION:Winchester Shopping Center sign
 DESCRIPTION:[ACTION] — Blue Turn Indivisible — (Recurring) — Join our peaceful protest to Defend Democracy and Stop the Dismantling of our Government by this Corrupt Administration!\n \nDaily we are witnessing an unprecedented dismantling of our democratic system. This president and his posse have created a world of chaos. We are experiencin — https://www.mobilize.us/itsblueturn/event/964540/
@@ -273,7 +273,7 @@ URL:https://www.mobilize.us/itsblueturn/event/964540/
 END:VEVENT
 BEGIN:VEVENT
 UID:a005f8536e3d@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261028T013000Z
 DTEND:20261028T033000Z
 SUMMARY:Joint Issue Group Meeting
@@ -282,7 +282,7 @@ URL:https://surjsantaclaracounty.org/calendar/2026/10/13/joint-issue-group-meeti
 END:VEVENT
 BEGIN:VEVENT
 UID:86ab0b935bd6@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261027T020000Z
 DTEND:20261027T040000Z
 SUMMARY:Building the Movement Working Group--IN PERSON
@@ -292,7 +292,7 @@ URL:https://surjsantaclaracounty.org/calendar/2025/2/24/building-the-movement-wo
 END:VEVENT
 BEGIN:VEVENT
 UID:6fb1f7cf1bd0@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261022T023000Z
 DTEND:20261022T043000Z
 SUMMARY:Wealth Redistribution and Finance Working Group Meeting (Zoom)
@@ -301,7 +301,7 @@ URL:https://surjsantaclaracounty.org/calendar/2025/2/19/wealth-redistribution-an
 END:VEVENT
 BEGIN:VEVENT
 UID:233a6dee8d34@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261020T013000Z
 DTEND:20261020T033000Z
 SUMMARY:SURJ Coordinating Committee
@@ -309,26 +309,8 @@ DESCRIPTION:[MEETING] — SURJ Santa Clara County — https://surjsantaclaracoun
 URL:https://surjsantaclaracounty.org/calendar/2025/2/17/surj-decarceration-amp-care-first-strategy-squad-nlxam-xldwj-2kj6x-nkmsm-5l3fc-2jc8e-mdjhf-dcj6s-76an7-79nby-demfw-krz9s-ertdz-glt7c-cy26m
 END:VEVENT
 BEGIN:VEVENT
-UID:826c5a7eedd8@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261015T020000Z
-DTEND:20261015T040000Z
-SUMMARY:SURJ Dialogue: Unpacking our Whiteness (Zoom)
-DESCRIPTION:[MEETING] — SURJ Santa Clara County — https://surjsantaclaracounty.org/calendar/2025/2/26/surj-dialogue-unpacking-our-whiteness-zoom-84ted-38p68-937rc-nxc5m-ml4kd-a2g74-mabpx-b63aa-zz5hw-nhtfz-ds6fp-7md3s-r9tjk-agxwg-7fjkp-dl4jj
-URL:https://surjsantaclaracounty.org/calendar/2025/2/26/surj-dialogue-unpacking-our-whiteness-zoom-84ted-38p68-937rc-nxc5m-ml4kd-a2g74-mabpx-b63aa-zz5hw-nhtfz-ds6fp-7md3s-r9tjk-agxwg-7fjkp-dl4jj
-END:VEVENT
-BEGIN:VEVENT
-UID:5988bc9b4bce@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261013T020000Z
-DTEND:20261013T040000Z
-SUMMARY:SURJ Art & Culture Working Group IN PERSON
-DESCRIPTION:[MEETING] — SURJ Santa Clara County — https://surjsantaclaracounty.org/calendar/2026/3/9/surj-art-amp-culture-working-group-in-person-yjpnn-fr23h-cjd97-h9tem-wp5hn-hj4xy
-URL:https://surjsantaclaracounty.org/calendar/2026/3/9/surj-art-amp-culture-working-group-in-person-yjpnn-fr23h-cjd97-h9tem-wp5hn-hj4xy
-END:VEVENT
-BEGIN:VEVENT
 UID:701e98c8edc1@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261114T180000Z
 DTEND:20261114T200000Z
 SUMMARY:SURJ Decision Making Retreat
@@ -336,78 +318,8 @@ DESCRIPTION:[MEETING] — SURJ Santa Clara County — https://surjsantaclaracoun
 URL:https://surjsantaclaracounty.org/calendar/2026/10/18/surj-decision-making-retreat
 END:VEVENT
 BEGIN:VEVENT
-UID:60d40603eef4@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261011T230000Z
-DTEND:20261012T010000Z
-SUMMARY:Community Vigil for Gaza
-LOCATION:El Camino Real & Embarcadero Rd\, El Camino Real at Embarcadero Rd\, Palo Alto\, CA\, 94025\, United States
-DESCRIPTION:[ACTION] — Peninsula Peace & Justice Center — Grassroots community in Palo Alto organizing for an end to genocide\, occupation and apartheid. Free Palestine. Join our weekly Sunday Vigil\, rain or shine. — https://peaceandjustice.org/event/community-vigil-for-gaza-3-2/2026-10-11/
-URL:https://peaceandjustice.org/event/community-vigil-for-gaza-3-2/2026-10-11/
-END:VEVENT
-BEGIN:VEVENT
-UID:31e00230eae9@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261016T190000Z
-DTEND:20261016T210000Z
-SUMMARY:Fridays for Future Climate Vigil
-LOCATION:King Plaza\, 250 Hamilton Ave\, Palo Alto\, CA\, 94301\, United States
-DESCRIPTION:[ACTION] — Peninsula Peace & Justice Center — How are you feeling about climate change? In association and solidarity with the global Fridays for Future movement\, Fridays For Future Palo Alto conducts a climate strike every Friday in front of Palo Alto City Hall to demonstrate and demand action to stop burning fossil fuels. — https://peaceandjustice.org/event/fridays-for-future-climate-vigil/2026-10-16/
-URL:https://peaceandjustice.org/event/fridays-for-future-climate-vigil/2026-10-16/
-END:VEVENT
-BEGIN:VEVENT
-UID:721c3508fe2d@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261016T190000Z
-DTEND:20261016T210000Z
-SUMMARY:WILPF Silent Vigil for Peace & Justice
-LOCATION:El Camino Real & Embarcadero Rd\, El Camino Real at Embarcadero Rd\, Palo Alto\, CA\, 94025\, United States
-DESCRIPTION:[ACTION] — Peninsula Peace & Justice Center — Join WILPF’s silent vigil every Friday from 12:00 Noon to 1:00 PM at the corner of El Camino Real and Embarcadero Road\, Palo Alto.  \nThe women and men of the local Women’s International League for Peace & Freedom vigil silently every Friday\, noon to 1 on the public sidewalk at th — https://peaceandjustice.org/event/silent-vigil-for-peace-justice-2/2026-10-16/
-URL:https://peaceandjustice.org/event/silent-vigil-for-peace-justice-2/2026-10-16/
-END:VEVENT
-BEGIN:VEVENT
-UID:da5ca5ab2f71@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T000000Z
-DTEND:20261017T020000Z
-SUMMARY:Friday Night Peace Vigil
-LOCATION:Dr. Martin Luther King\, Jr. Library\, 150 E San Fernando St\, San Jose\, CA\, 95112\, United States
-DESCRIPTION:[ACTION] — Peninsula Peace & Justice Center — Join the Friday Night Peace Vigil to Honk and Wave at the Martin Luther King Jr Library in San Jose. This vigil has been ongoing weekly for 20+ years (since October 2001.) Join us to take a stand in opposition to war and militarism and in solidarity with all movements working for — https://peaceandjustice.org/event/friday-night-peace-vigil/2026-10-16/
-URL:https://peaceandjustice.org/event/friday-night-peace-vigil/2026-10-16/
-END:VEVENT
-BEGIN:VEVENT
-UID:e2acb4575806@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T010000Z
-DTEND:20261017T030000Z
-SUMMARY:Seeds for Liberation film screening + live Q&A with Director and Panel discussion
-LOCATION:First Presbyterian Church Palo Alto\, 1140 Cowper St.\, Palo Alto\, 94301
-DESCRIPTION:[TEACH-IN] — Peninsula Peace & Justice Center — Film screening of this award winning film\, followed by a Q&A with film director\, Matthew Solomon and an inspiration panel discussion \nSeeds for Liberation was born out of a deep urgency — not just to document\, but to connect. The events of October 7\, 2023\, became a global flashpo — https://peaceandjustice.org/event/seeds-for-liberation-film-screening-live-qa-with-director-and-panel-discussion/
-URL:https://peaceandjustice.org/event/seeds-for-liberation-film-screening-live-qa-with-director-and-panel-discussion/
-END:VEVENT
-BEGIN:VEVENT
-UID:3680ecd4db33@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T190000Z
-DTEND:20261017T210000Z
-SUMMARY:No Kings: Get Ready to Vote\, Mountain View on El Camino
-LOCATION:Gateway Plaza\, 790 W El Camino Real\, Mountain View\, 94040
-DESCRIPTION:[ACTION] — Peninsula Peace & Justice Center — IdaRose Sylvester & Sally Lieber are back for another No Kings! \nWe will stretch from San Antonio Road to Grant Road on both sides of El Camino\, for another peaceful\, in place visibility event. More details to come! \nWe decide who represents us. We decide what comes next. \nFor mo — https://peaceandjustice.org/event/no-kings-get-ready-to-vote-mountain-view-on-el-camino/
-URL:https://peaceandjustice.org/event/no-kings-get-ready-to-vote-mountain-view-on-el-camino/
-END:VEVENT
-BEGIN:VEVENT
-UID:6f99f951fdf7@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T200000Z
-DTEND:20261017T220000Z
-SUMMARY:Peace and Justice in Kevin Mullin's District
-LOCATION:ANA Furniture\, 3011 El Camino Real\, San Mateo\, United States
-DESCRIPTION:[ACTION] — Peninsula Peace & Justice Center — Hey Peace People\, we joined up with Indivisible San Mateo which was started by one of our ex-board members\, Mary Beavins\, and with her merry band of “Peace Strummers” on the steps of Hillsdale Mall and 31st Ave at El Camino Real starting 1 PM to 2:30 every Saturday. Honk your hor — https://peaceandjustice.org/event/peace-justice-mullins-dist-2-2-2-2/2026-10-17/
-URL:https://peaceandjustice.org/event/peace-justice-mullins-dist-2-2-2-2/2026-10-17/
-END:VEVENT
-BEGIN:VEVENT
 UID:80711b30be35@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261018T230000Z
 DTEND:20261019T010000Z
 SUMMARY:Humor and Art for Change
@@ -416,8 +328,58 @@ DESCRIPTION:[ACTION] — Peninsula Peace & Justice Center — WHAT HAPPENS WHEN 
 URL:https://peaceandjustice.org/event/humor-and-art-for-change/
 END:VEVENT
 BEGIN:VEVENT
+UID:15024b56b482@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261018T230000Z
+DTEND:20261019T010000Z
+SUMMARY:Community Vigil for Gaza
+LOCATION:El Camino Real & Embarcadero Rd\, El Camino Real at Embarcadero Rd\, Palo Alto\, CA\, 94025\, United States
+DESCRIPTION:[ACTION] — Peninsula Peace & Justice Center — Grassroots community in Palo Alto organizing for an end to genocide\, occupation and apartheid. Free Palestine. Join our weekly Sunday Vigil\, rain or shine. — https://peaceandjustice.org/event/community-vigil-for-gaza-3-2/2026-10-18/
+URL:https://peaceandjustice.org/event/community-vigil-for-gaza-3-2/2026-10-18/
+END:VEVENT
+BEGIN:VEVENT
+UID:a7f03603860e@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261023T190000Z
+DTEND:20261023T210000Z
+SUMMARY:Fridays for Future Climate Vigil
+LOCATION:King Plaza\, 250 Hamilton Ave\, Palo Alto\, CA\, 94301\, United States
+DESCRIPTION:[ACTION] — Peninsula Peace & Justice Center — How are you feeling about climate change? In association and solidarity with the global Fridays for Future movement\, Fridays For Future Palo Alto conducts a climate strike every Friday in front of Palo Alto City Hall to demonstrate and demand action to stop burning fossil fuels. — https://peaceandjustice.org/event/fridays-for-future-climate-vigil/2026-10-23/
+URL:https://peaceandjustice.org/event/fridays-for-future-climate-vigil/2026-10-23/
+END:VEVENT
+BEGIN:VEVENT
+UID:599728c1f32d@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261023T190000Z
+DTEND:20261023T210000Z
+SUMMARY:WILPF Silent Vigil for Peace & Justice
+LOCATION:El Camino Real & Embarcadero Rd\, El Camino Real at Embarcadero Rd\, Palo Alto\, CA\, 94025\, United States
+DESCRIPTION:[ACTION] — Peninsula Peace & Justice Center — Join WILPF’s silent vigil every Friday from 12:00 Noon to 1:00 PM at the corner of El Camino Real and Embarcadero Road\, Palo Alto.  \nThe women and men of the local Women’s International League for Peace & Freedom vigil silently every Friday\, noon to 1 on the public sidewalk at th — https://peaceandjustice.org/event/silent-vigil-for-peace-justice-2/2026-10-23/
+URL:https://peaceandjustice.org/event/silent-vigil-for-peace-justice-2/2026-10-23/
+END:VEVENT
+BEGIN:VEVENT
+UID:38abe6112852@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261024T000000Z
+DTEND:20261024T020000Z
+SUMMARY:Friday Night Peace Vigil
+LOCATION:Dr. Martin Luther King\, Jr. Library\, 150 E San Fernando St\, San Jose\, CA\, 95112\, United States
+DESCRIPTION:[ACTION] — Peninsula Peace & Justice Center — Join the Friday Night Peace Vigil to Honk and Wave at the Martin Luther King Jr Library in San Jose. This vigil has been ongoing weekly for 20+ years (since October 2001.) Join us to take a stand in opposition to war and militarism and in solidarity with all movements working for — https://peaceandjustice.org/event/friday-night-peace-vigil/2026-10-23/
+URL:https://peaceandjustice.org/event/friday-night-peace-vigil/2026-10-23/
+END:VEVENT
+BEGIN:VEVENT
+UID:50a63e735579@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261024T200000Z
+DTEND:20261024T220000Z
+SUMMARY:Peace and Justice in Kevin Mullin's District
+LOCATION:ANA Furniture\, 3011 El Camino Real\, San Mateo\, United States
+DESCRIPTION:[ACTION] — Peninsula Peace & Justice Center — Hey Peace People\, we joined up with Indivisible San Mateo which was started by one of our ex-board members\, Mary Beavins\, and with her merry band of “Peace Strummers” on the steps of Hillsdale Mall and 31st Ave at El Camino Real starting 1 PM to 2:30 every Saturday. Honk your hor — https://peaceandjustice.org/event/peace-justice-mullins-dist-2-2-2-2/2026-10-24/
+URL:https://peaceandjustice.org/event/peace-justice-mullins-dist-2-2-2-2/2026-10-24/
+END:VEVENT
+BEGIN:VEVENT
 UID:4f474eefbfbb@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261024T220000Z
 DTEND:20261025T000000Z
 SUMMARY:Day Worker Center 30th Anniversary Celebration
@@ -427,7 +389,7 @@ URL:https://peaceandjustice.org/event/day-worker-center-30th-anniversary-celebra
 END:VEVENT
 BEGIN:VEVENT
 UID:12beb64bbb06@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261108T190000Z
 DTEND:20261108T210000Z
 SUMMARY:Peace and Social Justice Harvest Fair 2026
@@ -436,196 +398,8 @@ DESCRIPTION:[ACTION] — Peninsula Peace & Justice Center — Fellowship Hall\, 
 URL:https://peaceandjustice.org/event/peace-and-social-justice-harvest-fair-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:07d71c0131c5@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261011T173000Z
-DTEND:20261011T193000Z
-SUMMARY:Volunteer Setup for SJ Clothing Swap
-LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Sunday) — SETUP for the SJ Clothing Swap\n\nMore Info: https://bit.ly/sjclothingswap\n\nLocation:\n\nSan Jose Peace and Justice Center\n48 S. 7th Street\nSan Jose CA 95112 US
-END:VEVENT
-BEGIN:VEVENT
-UID:ade3eaabdd76@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261011T200000Z
-DTEND:20261011T220000Z
-SUMMARY:San Jose Clothing Swap
-LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Sunday) — Follow us on instagram @sjclothingswap\nEmail: sjclothingswap@gmail.com\n\nLocation:\n\nSan Jose Peace and Justice Center\n48 S. 7th Street\nSan Jose CA 95112 US
-END:VEVENT
-BEGIN:VEVENT
-UID:b03fe48bccf6@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261011T210000Z
-DTEND:20261011T230000Z
-SUMMARY:San Jose Food Not Bombs Serve
-LOCATION:St. James Park N 2nd St &\, E St James St\, San Jose  CA 95112 USA
-DESCRIPTION:[MUTUAL AID] — San Jose Peace & Justice Center — (Every Sunday) — Join us for our weekly serve every Sunday at 2 PM at St. James Park in San Jose! We will be distributing food\, hygiene\, and clothing to our unhoused a lower income members. All are welcome! Everyone has something to contribute no matter ones experience. You can find us next to th
-END:VEVENT
-BEGIN:VEVENT
-UID:ee6070f278fc@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261011T230000Z
-DTEND:20261012T010000Z
-SUMMARY:Volunteer Teardown for SJ Clothing Swap
-LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — TEARDOWN for SJ Clothing Swap - reach out to us (sjclothingswap@gmail.com) if you would like to volunteer!\nEmail: sjclothingswap@gmail.com\nPhone: 669-244-4838\n\nMore Info: https://bit.ly/sjclothingswap\n\nLocation:\n\nSan Jose Peace and Justice Center\n48 S. 7th Street\nSan Jose CA 9511
-END:VEVENT
-BEGIN:VEVENT
-UID:4cd82bea8647@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261012T230000Z
-DTEND:20261013T010000Z
-SUMMARY:Floor cleaning
-LOCATION:San Jose Peace and Justice Center Rm 101 48 South 7th Street Room 101\, San Jose  CA 95112 USA
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Monday) — Location:\n\nSan Jose Peace and Justice Center Rm 101\n48 South 7th Street Room 101\nSan Jose CA 95112 USA
-END:VEVENT
-BEGIN:VEVENT
-UID:1135cd9e8028@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261013T000000Z
-DTEND:20261013T020000Z
-SUMMARY:Yoga for Activists with Sharat
-LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Tuesday) — Join us for relaxation and enjoy our class YOGA FOR ACTIVISTS with Sharat Lin\, RYT (Registered Yoga Teacher) at the San Jose Peace and Justice Center.\n\n Burnout and lack of attention to self-care is a common problem among social justice activists. So we created this class to reac
-END:VEVENT
-BEGIN:VEVENT
-UID:0eefc7266119@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261013T010000Z
-DTEND:20261013T030000Z
-SUMMARY:Self Defense Group
-LOCATION:San Jose Peace & Justice Center Parking Lot 48 S. 7th Street\, San Jose  CA 95112
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Tuesday) — Location:\n\nSan Jose Peace & Justice Center Parking Lot\n48 S. 7th Street\nSan Jose CA 95112
-END:VEVENT
-BEGIN:VEVENT
-UID:588969019de4@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261015T010000Z
-DTEND:20261015T030000Z
-SUMMARY:Self Defense Group (see description)
-LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Thursday) — Inclusive free self defense training from 6 pm to 8 pm Wednesday evenings starting January 15th.\nTraining is conducted with a philosophy of non-violence\, focusing on how to counter attacks with movement\, compliance\, and control.\nThis is a 3 month trial with limited training space
-END:VEVENT
-BEGIN:VEVENT
-UID:abea740ccf9d@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261015T013000Z
-DTEND:20261015T033000Z
-SUMMARY:Food Not Bombs San Jose Midweek Community Kitchen
-LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
-DESCRIPTION:[MUTUAL AID] — San Jose Peace & Justice Center — (Every Thursday) — Join Food Not Bombs San Jose as we prepare food for our unhoused as well as low and fixed income neighbors! The Midweek Community Kitchen begins at 6:30 PM and runs until 9 PM. Come by to help out and build solidarity!\n\nContact: Kyle Short\nEmail: sjfoodnotbombs@proton.me\n\nLocatio
-END:VEVENT
-BEGIN:VEVENT
-UID:cd1481f47282@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261016T000000Z
-DTEND:20261016T020000Z
-SUMMARY:Albany & El Cerrito for Palestine - Human Billboard for Gaza
-LOCATION:El Cerrito Plaza Corner of San Pablo & Carlson\, El Cerrito  CA 94530 United States
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Friday) — Human Billboard for Gaza – Thursday\, 5 PM @ El Cerrito Plaza\, San Pablo & Carlson. East Bay communities are taking a stand: demanding an end to the genocide in Gaza and U.S. complicity. With banners\, flags\, and bodies in the streets\, the message is clear: Gaza is not fo
-END:VEVENT
-BEGIN:VEVENT
-UID:464fb5ec2cae@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261016T190000Z
-DTEND:20261016T210000Z
-SUMMARY:SDS General Meeting
-LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Location:\n\nSan Jose Peace and Justice Center\n48 S. 7th Street\nSan Jose CA 95112 US
-END:VEVENT
-BEGIN:VEVENT
-UID:2c0acd1ccaf4@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T000000Z
-DTEND:20261017T020000Z
-SUMMARY:Weekly HONK FOR PEACE vigil
-LOCATION:in front of MLK Library 4rh and San Fernando\, San Jose 
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Saturday) — Location:\n\nin front of MLK Library\n4rh and San Fernando\nSan Jose
-END:VEVENT
-BEGIN:VEVENT
-UID:e17494112ef7@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T013000Z
-DTEND:20261017T033000Z
-SUMMARY:Art for Everyone
-LOCATION:San Jose Peace and Justice Center Rm 101 48 South 7th Street Room 101\, San Jose  CA 95112 USA
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Saturday) — Contact: Elin Lennox\nEmail: elin.lennox@gmail.com\n\nLocation:\n\nSan Jose Peace and Justice Center Rm 101\n48 South 7th Street Room 101\nSan Jose CA 95112 USA
-END:VEVENT
-BEGIN:VEVENT
-UID:df3f3a0dfa5d@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T070000Z
-DTEND:20261017T090000Z
-SUMMARY:PLUMBING WORK AT THE SJPJC ALL DAY!
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center
-END:VEVENT
-BEGIN:VEVENT
-UID:43310c7f6e5c@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T160000Z
-DTEND:20261017T180000Z
-SUMMARY:CANCELLED FOR TODAY! Garden Day
-LOCATION:San Jose Peace & Justice Center Parking Lot 48 S. 7th Street\, San Jose  CA 95112
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Come join San Jose Food Not Bombs\, South Bay Mutual Aid\, and Silicon Valley DSA Mutual Aid Working group for a garden and build day this Saturday at the San Jose Peace and Justice Center (SJPJC)! We will be moving soil\, planting plants\, garden maintenance\, and working on the drip
-END:VEVENT
-BEGIN:VEVENT
-UID:4a83718fafaa@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T170000Z
-DTEND:20261017T190000Z
-SUMMARY:No Kings: Peace Corner Sidewalk Protest (SJ/Santa Clara)
-LOCATION:Peace Corner (Stevens Creek & Winchester) Stevens Creek & Winchester Blvds\, San Jose 
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — No Kings: Peace Corner sidewalk to GOTV and protest kings\, billionaires\, and politicians who believe they are above the people and the law.\n\nContact: Indivisible San Jose\n\nMore Info: https://www.mobilize.us/nokings/event/1033599/\n\nLocation:\n\nPeace Corner (Stevens Creek & Winchest
-END:VEVENT
-BEGIN:VEVENT
-UID:fced69b4161b@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T190000Z
-DTEND:20261017T210000Z
-SUMMARY:No Kings! San Jose Rally
-LOCATION:St. James Park 180 N. First Street\, San Jose  CA 95113
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — NO KINGS: Join the San Jose Rally at St. James Park as we protest against authoritarianism & ICE\, and rise up for voting freedom & democracy.\n\nContact: 50501 San Jose\n\nMore Info: https://www.mobilize.us/nokings/event/1033293/\n\nLocation:\n\nSt. James Park\n180 N. First Street
-END:VEVENT
-BEGIN:VEVENT
-UID:f5b409094f41@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T210000Z
-DTEND:20261017T230000Z
-SUMMARY:CANCELLED FOR TODAY! SET-UP Really Really Free Market
-LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Location:\n\nSan Jose Peace and Justice Center\n48 S. 7th Street\nSan Jose CA 95112 US
-END:VEVENT
-BEGIN:VEVENT
-UID:71d31c18eddd@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T223000Z
-DTEND:20261018T003000Z
-SUMMARY:CANCELLED FOR TODAY! Really Really Free Market
-LOCATION:San Jose Peace & Justice Center Parking Lot 48 S. 7th Street\, San Jose  CA 95112
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Join Silicon Valley DSA and South Bay Mutual Aid for a really really free market event in the Peace and Justice Center parking lot. We'll have cleaning supplies\, clothes\, children's toys\, fire preparedness kits\, and more available so that people can take what they need\, for free.
-END:VEVENT
-BEGIN:VEVENT
-UID:a97631e78e32@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T230000Z
-DTEND:20261018T010000Z
-SUMMARY:No Appetite for Apartheid San Jose Autumnal Educational  hosted by SVDSA
-LOCATION:Grace Baptist Church 484 E San Fernando St\, San Jose  CA 95112 United States
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — An educational about our ongoing campaign called No Appetite for Apartheid\, a campaign where we canvass businesses in San Jose to drop Zionist food products and put up a flyer publicly sharing that their business is Apartheid-Free to show community support for Palestine.\n \n This
-END:VEVENT
-BEGIN:VEVENT
-UID:884bf69bf5fe@ragingcunt.com
-DTSTAMP:20261011T183126Z
-DTSTART:20261017T233000Z
-DTEND:20261018T013000Z
-SUMMARY:CANCELLED FOR TODAY! FNB General Meeting
-LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Location:\n\nSan Jose Peace and Justice Center\n48 S. 7th Street\nSan Jose CA 95112 US
-END:VEVENT
-BEGIN:VEVENT
 UID:110f2798ed98@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261018T210000Z
 DTEND:20261018T230000Z
 SUMMARY:Drag Workshop
@@ -633,8 +407,17 @@ LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112
 DESCRIPTION:[TEACH-IN] — San Jose Peace & Justice Center — Contact: Sylvia Vo\nEmail: abbi.kiss.drag@gmail.com\n\nLocation:\n\nSan Jose Peace and Justice Center\n48 S. 7th Street\nSan Jose CA 95112 US
 END:VEVENT
 BEGIN:VEVENT
+UID:db72ba4d790f@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261018T210000Z
+DTEND:20261018T230000Z
+SUMMARY:San Jose Food Not Bombs Serve
+LOCATION:St. James Park N 2nd St &\, E St James St\, San Jose  CA 95112 USA
+DESCRIPTION:[MUTUAL AID] — San Jose Peace & Justice Center — (Every Sunday) — Join us for our weekly serve every Sunday at 2 PM at St. James Park in San Jose! We will be distributing food\, hygiene\, and clothing to our unhoused a lower income members. All are welcome! Everyone has something to contribute no matter ones experience. You can find us next to th
+END:VEVENT
+BEGIN:VEVENT
 UID:4d8a22f4df42@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261019T010000Z
 DTEND:20261019T030000Z
 SUMMARY:Spiritual Voices
@@ -643,7 +426,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Join us for an even
 END:VEVENT
 BEGIN:VEVENT
 UID:86c8b2860bdc@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261019T170000Z
 DTEND:20261019T190000Z
 SUMMARY:Healthy Homes San Jose - Join the Movement
@@ -651,8 +434,71 @@ LOCATION:San Jose City  Hall Plaza 200 E. Santa Clara Street\, San Jose  CA 9511
 DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — In the most expensive and resourced city in the United States\, San Jose tenants – who make up immigrants\, service workers and working-class people are feeling the burden. The burden of the rising costs and high rents. On top of that\, they are faced with long-standing habita
 END:VEVENT
 BEGIN:VEVENT
+UID:542658ba6f86@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261019T230000Z
+DTEND:20261020T010000Z
+SUMMARY:Floor cleaning
+LOCATION:San Jose Peace and Justice Center Rm 101 48 South 7th Street Room 101\, San Jose  CA 95112 USA
+DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Monday) — Location:\n\nSan Jose Peace and Justice Center Rm 101\n48 South 7th Street Room 101\nSan Jose CA 95112 USA
+END:VEVENT
+BEGIN:VEVENT
+UID:cd9d3701afe7@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261020T000000Z
+DTEND:20261020T020000Z
+SUMMARY:Yoga for Activists with Sharat
+LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
+DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Tuesday) — Join us for relaxation and enjoy our class YOGA FOR ACTIVISTS with Sharat Lin\, RYT (Registered Yoga Teacher) at the San Jose Peace and Justice Center.\n\n Burnout and lack of attention to self-care is a common problem among social justice activists. So we created this class to reac
+END:VEVENT
+BEGIN:VEVENT
+UID:1aa258f51160@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261020T010000Z
+DTEND:20261020T030000Z
+SUMMARY:Self Defense Group
+LOCATION:San Jose Peace & Justice Center Parking Lot 48 S. 7th Street\, San Jose  CA 95112
+DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Tuesday) — Location:\n\nSan Jose Peace & Justice Center Parking Lot\n48 S. 7th Street\nSan Jose CA 95112
+END:VEVENT
+BEGIN:VEVENT
+UID:322ef4ff6ad0@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261020T070000Z
+DTEND:20261020T090000Z
+SUMMARY:Tombstones Painting (outdoors)
+LOCATION:San Jose Peace & Justice Center Parking Lot 48 S. 7th Street\, San Jose  CA 95112
+DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Tuesday) — TBD space hold for Tombstones painting.\n\nContact: Shaunn\nEmail: iq4rent@hotmail.com\nPhone: 6506426910\n\nLocation:\n\nSan Jose Peace & Justice Center Parking Lot\n48 S. 7th Street\nSan Jose CA 95112
+END:VEVENT
+BEGIN:VEVENT
+UID:0f2f35066935@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261021T190000Z
+DTEND:20261021T210000Z
+SUMMARY:SJPJC Internal
+LOCATION:San Jose Peace and Justice Center Rm 101 48 South 7th Street Room 101\, San Jose  CA 95112 USA
+DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Location:\n\nSan Jose Peace and Justice Center Rm 101\n48 South 7th Street Room 101\nSan Jose CA 95112 USA
+END:VEVENT
+BEGIN:VEVENT
+UID:8609f2d6be9c@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261022T010000Z
+DTEND:20261022T030000Z
+SUMMARY:Self Defense Group (see description)
+LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
+DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Thursday) — Inclusive free self defense training from 6 pm to 8 pm Wednesday evenings starting January 15th.\nTraining is conducted with a philosophy of non-violence\, focusing on how to counter attacks with movement\, compliance\, and control.\nThis is a 3 month trial with limited training space
+END:VEVENT
+BEGIN:VEVENT
+UID:3cc33b33d7e4@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261022T013000Z
+DTEND:20261022T033000Z
+SUMMARY:Food Not Bombs San Jose Midweek Community Kitchen
+LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
+DESCRIPTION:[MUTUAL AID] — San Jose Peace & Justice Center — (Every Thursday) — Join Food Not Bombs San Jose as we prepare food for our unhoused as well as low and fixed income neighbors! The Midweek Community Kitchen begins at 6:30 PM and runs until 9 PM. Come by to help out and build solidarity!\n\nContact: Kyle Short\nEmail: sjfoodnotbombs@proton.me\n\nLocatio
+END:VEVENT
+BEGIN:VEVENT
 UID:d17c9aaf3b51@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261022T180000Z
 DTEND:20261022T200000Z
 SUMMARY:California Faculty Association meeting
@@ -660,16 +506,43 @@ LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112
 DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Location:\n\nSan Jose Peace and Justice Center\n48 S. 7th Street\nSan Jose CA 95112 US
 END:VEVENT
 BEGIN:VEVENT
+UID:5010ab6260d3@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261023T000000Z
+DTEND:20261023T020000Z
+SUMMARY:Albany & El Cerrito for Palestine - Human Billboard for Gaza
+LOCATION:El Cerrito Plaza Corner of San Pablo & Carlson\, El Cerrito  CA 94530 United States
+DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Friday) — Human Billboard for Gaza – Thursday\, 5 PM @ El Cerrito Plaza\, San Pablo & Carlson. East Bay communities are taking a stand: demanding an end to the genocide in Gaza and U.S. complicity. With banners\, flags\, and bodies in the streets\, the message is clear: Gaza is not fo
+END:VEVENT
+BEGIN:VEVENT
 UID:06a6f6e88fea@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261023T020000Z
 DTEND:20261023T040000Z
 SUMMARY:"The Scratch"
 DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Friday) — Community music jam -\nBring an instrument\, your voice\, a poem\, or just yourself and we will all make some music together. Instagram: @thescratchsj\n\nContact: Aidan Rauh\nEmail: aidan.rauh@sjsu.edu
 END:VEVENT
 BEGIN:VEVENT
+UID:a949916ba903@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261024T000000Z
+DTEND:20261024T020000Z
+SUMMARY:Weekly HONK FOR PEACE vigil
+LOCATION:in front of MLK Library 4rh and San Fernando\, San Jose 
+DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Saturday) — Location:\n\nin front of MLK Library\n4rh and San Fernando\nSan Jose
+END:VEVENT
+BEGIN:VEVENT
+UID:7a1d3547bef4@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261024T013000Z
+DTEND:20261024T033000Z
+SUMMARY:Art for Everyone
+LOCATION:San Jose Peace and Justice Center Rm 101 48 South 7th Street Room 101\, San Jose  CA 95112 USA
+DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Saturday) — Contact: Elin Lennox\nEmail: elin.lennox@gmail.com\n\nLocation:\n\nSan Jose Peace and Justice Center Rm 101\n48 South 7th Street Room 101\nSan Jose CA 95112 USA
+END:VEVENT
+BEGIN:VEVENT
 UID:7612638b0fee@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261024T160000Z
 DTEND:20261024T180000Z
 SUMMARY:Garden Day
@@ -678,7 +551,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Saturday) �
 END:VEVENT
 BEGIN:VEVENT
 UID:3b5d0390e9f1@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261024T180000Z
 DTEND:20261024T200000Z
 SUMMARY:Dreamtime Gothic Market
@@ -687,7 +560,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Dreamtime gothic ma
 END:VEVENT
 BEGIN:VEVENT
 UID:7b532366050d@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261024T223000Z
 DTEND:20261025T003000Z
 SUMMARY:Really Really Free Market
@@ -695,7 +568,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Saturday)
 END:VEVENT
 BEGIN:VEVENT
 UID:99e2cf55f84a@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261024T230000Z
 DTEND:20261025T010000Z
 SUMMARY:Fundraiser & Live Concert - San Jose Tonatuih\, Brown Berets X\, Mujeres De Aztlan Collective
@@ -704,7 +577,7 @@ DESCRIPTION:[CULTURE] — San Jose Peace & Justice Center — Bring a chair and 
 END:VEVENT
 BEGIN:VEVENT
 UID:5f55fc26682c@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261025T000000Z
 DTEND:20261025T020000Z
 SUMMARY:Three Years of Ongoing Genocide\, A Conversation with Ali Abunimah and Lara Kiswani
@@ -713,7 +586,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Join the Middle Eas
 END:VEVENT
 BEGIN:VEVENT
 UID:27aa4504fa63@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261025T160000Z
 DTEND:20261025T180000Z
 SUMMARY:Baked Goods Not Bombs
@@ -722,7 +595,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Sunday) — 
 END:VEVENT
 BEGIN:VEVENT
 UID:99f30d25f985@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261025T224500Z
 DTEND:20261026T004500Z
 SUMMARY:Setup for Mending and Upcycling Event
@@ -731,7 +604,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Sunday) — 
 END:VEVENT
 BEGIN:VEVENT
 UID:83ba9e9e15e7@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261025T233000Z
 DTEND:20261026T013000Z
 SUMMARY:Mending and Upcycling Event
@@ -740,7 +613,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Join us at our mont
 END:VEVENT
 BEGIN:VEVENT
 UID:6e4eb53dc0d7@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261026T023000Z
 DTEND:20261026T043000Z
 SUMMARY:Teardown for Mending and Upcycling Event
@@ -749,7 +622,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Monday) — 
 END:VEVENT
 BEGIN:VEVENT
 UID:18a835a881f3@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261030T010000Z
 DTEND:20261030T030000Z
 SUMMARY:FRSO Halloween social
@@ -758,7 +631,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Join Freedom Road S
 END:VEVENT
 BEGIN:VEVENT
 UID:d3a3b4c1283b@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261031T150000Z
 DTEND:20261031T170000Z
 SUMMARY:AKSC event
@@ -767,7 +640,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Hi Joan\, Can you p
 END:VEVENT
 BEGIN:VEVENT
 UID:a9c61f8834db@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261031T230000Z
 DTEND:20261101T010000Z
 SUMMARY:SET-UP:  Red Scare Halloween Social
@@ -776,7 +649,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Location:\n\nSan Jo
 END:VEVENT
 BEGIN:VEVENT
 UID:2eac33e55dcd@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261101T010000Z
 DTEND:20261101T030000Z
 SUMMARY:Red Scare! - Halloween Social
@@ -785,7 +658,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Join us and other g
 END:VEVENT
 BEGIN:VEVENT
 UID:1c61dfdf9cb7@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261101T200000Z
 DTEND:20261101T220000Z
 SUMMARY:San Jose Against War General Meeting
@@ -794,7 +667,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Join San Jose Again
 END:VEVENT
 BEGIN:VEVENT
 UID:d9f576c62579@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261101T213000Z
 DTEND:20261101T233000Z
 SUMMARY:San Jose Coalition Against Trump: Monthly meeting
@@ -802,17 +675,17 @@ LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112
 DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Contact: CSO San Jos�\nEmail: sanjosecsorg@gmail.com\n\nLocation:\n\nSan Jose Peace and Justice Center\n48 S. 7th Street\nSan Jose CA 95112 US
 END:VEVENT
 BEGIN:VEVENT
-UID:7f1352005b74@ragingcunt.com
-DTSTAMP:20261011T183126Z
+UID:7f24b72efeee@ragingcunt.com
+DTSTAMP:20261018T170058Z
 DTSTART:20261103T010000Z
 DTEND:20261103T030000Z
-SUMMARY:CANCELLED: Yoga for Activists with Sharat
+SUMMARY:NO CLASS: Yoga for Activists with Sharat
 LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
-DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Tuesday) — Join us for relaxation and enjoy our class YOGA FOR ACTIVISTS with Sharat Lin\, RYT (Registered Yoga Teacher) at the San Jose Peace and Justice Center.\n\n Burnout and lack of attention to self-care is a common problem among social justice activists. So we created this class to reac
+DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Tuesday) — NO CLASS\n\nJoin us for relaxation and enjoy our class YOGA FOR ACTIVISTS with Sharat Lin\, RYT (Registered Yoga Teacher) at the San Jose Peace and Justice Center.\n\n Burnout and lack of attention to self-care is a common problem among social justice activists. So we created this cla
 END:VEVENT
 BEGIN:VEVENT
 UID:3719c2792aaa@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261103T023000Z
 DTEND:20261103T043000Z
 SUMMARY:Collins / SJPJC Board meeting
@@ -821,7 +694,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Tuesday) —
 END:VEVENT
 BEGIN:VEVENT
 UID:5f6000d2460c@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261104T020000Z
 DTEND:20261104T040000Z
 SUMMARY:South Bay Queer Solidarity Potluck
@@ -830,7 +703,7 @@ DESCRIPTION:[CULTURE] — San Jose Peace & Justice Center — (Every Wednesday) 
 END:VEVENT
 BEGIN:VEVENT
 UID:b411045fab80@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261104T030000Z
 DTEND:20261104T050000Z
 SUMMARY:South Bay Queer Solidarity meeting
@@ -839,7 +712,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Wednesday) �
 END:VEVENT
 BEGIN:VEVENT
 UID:3c1fd9523e1e@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261107T220000Z
 DTEND:20261108T000000Z
 SUMMARY:Drag Workshop
@@ -848,7 +721,7 @@ DESCRIPTION:[TEACH-IN] — San Jose Peace & Justice Center — Contact: Sylvia V
 END:VEVENT
 BEGIN:VEVENT
 UID:48c00138e33a@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261108T020000Z
 DTEND:20261108T040000Z
 SUMMARY:Leftist Infighting Extravaganza (Arm Wrestling Fundraiser)
@@ -857,7 +730,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — This Thanksgiving s
 END:VEVENT
 BEGIN:VEVENT
 UID:74da710b1dfa@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261108T200000Z
 DTEND:20261108T220000Z
 SUMMARY:San Jose Against War Divestment Party
@@ -866,7 +739,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Join SJAW for a soc
 END:VEVENT
 BEGIN:VEVENT
 UID:d0305b54d214@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261112T030000Z
 DTEND:20261112T050000Z
 SUMMARY:Dr. Jeanette Estruth Presents a History of San Jose
@@ -875,7 +748,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Jeannette Estruth i
 END:VEVENT
 BEGIN:VEVENT
 UID:9680e0c252d6@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261114T020000Z
 DTEND:20261114T040000Z
 SUMMARY:BATTLE OF THE CANS
@@ -884,7 +757,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — The Bay's premier b
 END:VEVENT
 BEGIN:VEVENT
 UID:8ed58bda1103@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261114T200000Z
 DTEND:20261114T220000Z
 SUMMARY:Drag Show Dress Rehearsal
@@ -893,7 +766,7 @@ DESCRIPTION:[CULTURE] — San Jose Peace & Justice Center — Contact: Sylvia Vo
 END:VEVENT
 BEGIN:VEVENT
 UID:0885c0bf49e0@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261114T220000Z
 DTEND:20261115T000000Z
 SUMMARY:SJPJC Volunteer Meeting
@@ -902,7 +775,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Saturday) �
 END:VEVENT
 BEGIN:VEVENT
 UID:8ea54f27afae@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261115T203000Z
 DTEND:20261115T223000Z
 SUMMARY:Drag Showcase
@@ -911,7 +784,7 @@ DESCRIPTION:[CULTURE] — San Jose Peace & Justice Center — Contact: Sylvia Vo
 END:VEVENT
 BEGIN:VEVENT
 UID:aabb99913a63@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261118T020000Z
 DTEND:20261118T040000Z
 SUMMARY:Citizens' Climate Lobby - Silicon Valley South Chapter Meeting
@@ -919,8 +792,17 @@ LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112
 DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Location:\n\nSan Jose Peace and Justice Center\n48 S. 7th Street\nSan Jose CA 95112 US
 END:VEVENT
 BEGIN:VEVENT
+UID:6c95bceeb329@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261121T020000Z
+DTEND:20261121T040000Z
+SUMMARY:Transgender Day of Remembrance
+LOCATION:St. James Park San Jose 
+DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Join San Jose People's Pride on November 20th to honor Transgender Day of Remembrance in downtown San Jose. We will be having a candlelight vigil in memorial of transgender people who have been made victims of transphobic oppression. We will be meeting on the corner of St. James
+END:VEVENT
+BEGIN:VEVENT
 UID:708f416f4580@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261121T220000Z
 DTEND:20261122T000000Z
 SUMMARY:SET-UP Really Really Free Market
@@ -929,7 +811,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Saturday) �
 END:VEVENT
 BEGIN:VEVENT
 UID:56aa2c371b84@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261122T003000Z
 DTEND:20261122T023000Z
 SUMMARY:FNB General Meeting
@@ -938,7 +820,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Sunday) — 
 END:VEVENT
 BEGIN:VEVENT
 UID:c591b63e61df@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261123T003000Z
 DTEND:20261123T023000Z
 SUMMARY:Mending and Upcycling Event
@@ -947,7 +829,7 @@ DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Monday) — 
 END:VEVENT
 BEGIN:VEVENT
 UID:6eb454486fa4@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261124T000000Z
 DTEND:20261124T020000Z
 SUMMARY:Floor cleaning
@@ -955,12 +837,39 @@ LOCATION:San Jose Peace and Justice Center Rm 101 48 South 7th Street Room 101\,
 DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — (Every Tuesday) — Location:\n\nSan Jose Peace and Justice Center Rm 101\n48 South 7th Street Room 101\nSan Jose CA 95112 USA
 END:VEVENT
 BEGIN:VEVENT
+UID:ed67bba6e81d@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261213T183000Z
+DTEND:20261213T203000Z
+SUMMARY:Volunteer Setup for SJ Clothing Swap
+LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
+DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — SETUP for the SJ Clothing Swap\n\nMore Info: https://bit.ly/sjclothingswap\n\nLocation:\n\nSan Jose Peace and Justice Center\n48 S. 7th Street\nSan Jose CA 95112 US
+END:VEVENT
+BEGIN:VEVENT
+UID:d757838cf631@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20261213T210000Z
+DTEND:20261213T230000Z
+SUMMARY:San Jose Clothing Swap
+LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
+DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Follow us on instagram @sjclothingswap\nEmail: sjclothingswap@gmail.com\n\nLocation:\n\nSan Jose Peace and Justice Center\n48 S. 7th Street\nSan Jose CA 95112 US
+END:VEVENT
+BEGIN:VEVENT
 UID:5d4fe9ef69c3@ragingcunt.com
-DTSTAMP:20261011T183126Z
+DTSTAMP:20261018T170058Z
 DTSTART:20261214T000000Z
 DTEND:20261214T020000Z
 SUMMARY:Volunteer Teardown for SJ Clothing Swap
 LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
 DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — TEARDOWN for SJ Clothing Swap - reach out to us (sjclothingswap@gmail.com) if you would like to volunteer!\nEmail: sjclothingswap@gmail.com\nPhone: 669-244-4838\n\nMore Info: https://bit.ly/sjclothingswap\n\nLocation:\n\nSan Jose Peace and Justice Center\n48 S. 7th Street\nSan Jose CA 9511
+END:VEVENT
+BEGIN:VEVENT
+UID:241a818a0b89@ragingcunt.com
+DTSTAMP:20261018T170058Z
+DTSTART:20270122T020000Z
+DTEND:20270122T040000Z
+SUMMARY:Know History Know Self: Introductory Ethnic Studies
+LOCATION:San Jose Peace and Justice Center 48 S. 7th Street\, San Jose  CA 95112 US
+DESCRIPTION:[ACTION] — San Jose Peace & Justice Center — Join us for a free non-credit Ethnic Studies class! The curriculum will be built around the interests/background knowledge of participants. Ethnic Studies originated with student- and community-led organizing in the 1960s. They demanded an education that reflected themselves and
 END:VEVENT
 END:VCALENDAR
