@@ -6,17 +6,35 @@ METHOD:PUBLISH
 X-WR-CALNAME:RAGINGCUNT — Riverside
 X-WR-CALDESC:Real local organizing in Riverside\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
-UID:942ecb104347@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261018T220000Z
-DTEND:20261019T000000Z
+UID:fca868c80013@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261025T230000Z
+DTEND:20261026T010000Z
+SUMMARY:Steering Committee Meeting
+LOCATION:Zoom Link available on Discord
+DESCRIPTION:[MEETING] — Inland Empire DSA — (Every other Sunday) — The Steering Committee (SC) is the administrative arm of the chapter and is responsible for executing the will of the chapter's members. All members are encouraged to join SC meetings to provide input and ensure the SC is moving in tandem with the will of the Chapter. Meeting inf
+END:VEVENT
+BEGIN:VEVENT
+UID:34f30c3b59e3@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261101T230000Z
+DTEND:20261102T010000Z
 SUMMARY:Political Education Committee
 LOCATION:https://us06web.zoom.us/j/87413700847?pwd=9ED7cML1EsJuAb2CgnzK33QLkFQ6pe.1
 DESCRIPTION:[TEACH-IN] — Inland Empire DSA — (Monthly) — Monthly meetings to recap the past month's activity\, prepare for the upcoming month\, and plan for the future! Join us in Discord to hear what we are cookin' up\, to offer feedback\, and get involved in the struggle to develop class consciousness!
 END:VEVENT
 BEGIN:VEVENT
+UID:568d4fce3697@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261029T010000Z
+DTEND:20261029T030000Z
+SUMMARY:Palestine Solidarity Working Group Meeting
+LOCATION:vc: 1536822739346784287
+DESCRIPTION:[MEETING] — Inland Empire DSA — (Every other Wednesday) — Come join us virtually to work on local actionable items for Palestine!
+END:VEVENT
+BEGIN:VEVENT
 UID:1d7837bedf02@ragingcunt.com
-DTSTAMP:20261018T170058Z
+DTSTAMP:20261025T171911Z
 DTSTART:20261030T010000Z
 DTEND:20261030T030000Z
 SUMMARY:Outreach Team Meeting & Workshop
@@ -24,77 +42,32 @@ LOCATION:Discord\, Meeting Room 2
 DESCRIPTION:[TEACH-IN] — Inland Empire DSA — (Every other Thursday) — Come through while the Outreach Team discusses the outcome of past IE DSA events & also workshop the types of actions\, socials\, teach-ins\, etc we'd want IE DSA to tackle for the future.
 END:VEVENT
 BEGIN:VEVENT
-UID:e201dd83d939@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261022T020000Z
-DTEND:20261022T040000Z
-SUMMARY:Labor Committee Meeting
-DESCRIPTION:[MEETING] — Inland Empire DSA — (Every other Wednesday) — Planning for Rant and File\, Socialist Job Fair\, and Labor Solidarity in general. Join  here  via zoom
-END:VEVENT
-BEGIN:VEVENT
-UID:3d4e396b7e69@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261029T010000Z
-DTEND:20261029T030000Z
-SUMMARY:Palestine Solidarity Working Group Meeting
-LOCATION:IE Discord - Meeting Room A
-DESCRIPTION:[MEETING] — Inland Empire DSA — (Every other Wednesday) — Come join us virtually to work on local actionable items for Palestine!
-END:VEVENT
-BEGIN:VEVENT
-UID:188cdfa3a155@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261028T020000Z
-DTEND:20261028T040000Z
+UID:c0c542b1550b@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261111T030000Z
+DTEND:20261111T050000Z
 SUMMARY:Budget\, Finance\, and Fundraising Team Meeting
 DESCRIPTION:[MEETING] — Inland Empire DSA — (Every other Tuesday) — Join the BFF Team as we go over the Chapter’s finances. This includes budgeting\, planning and executing fundraising\, and working on fiscal policies. Check out our channel on IE DSA’s Discord server for more info.
 END:VEVENT
 BEGIN:VEVENT
-UID:ff3e698bdd28@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261025T230000Z
-DTEND:20261026T010000Z
-SUMMARY:Steering Committee Meeting
-LOCATION:virtual
-DESCRIPTION:[MEETING] — Inland Empire DSA — (Every other Sunday) — The Steering Committee (SC) is the administrative arm of the chapter and is responsible for executing the will of the chapter's members. All members are encouraged to join in on SC meetings to provide input and ensure the SC is moving in tandem with the will of the Chapter. M
+UID:8f9faea7eb9f@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261105T030000Z
+DTEND:20261105T050000Z
+SUMMARY:Labor Committee Meeting
+DESCRIPTION:[MEETING] — Inland Empire DSA — (Every other Wednesday) — Planning for Rant and File\, Socialist Job Fair\, and Labor Solidarity in general. Join  here  via zoom
 END:VEVENT
 BEGIN:VEVENT
-UID:1796306f6448@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261021T020000Z
-DTEND:20261021T040000Z
+UID:44595c06376b@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261104T030000Z
+DTEND:20261104T050000Z
 SUMMARY:Immigrant Justice Meeting
 DESCRIPTION:[MEETING] — Inland Empire DSA — (Every other Tuesday) — Join us to discuss how to keep our neighbors safe and push back against ALPR's! Meeting will be held in Discord.
 END:VEVENT
 BEGIN:VEVENT
-UID:484de3ef5e83@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261018T200000Z
-DTEND:20261018T220000Z
-SUMMARY:Pumpkin Carving in the Park\, a Socialist Social
-LOCATION:Sunnymead Park\, 12655 Perris Blvd\, Moreno Valley\, CA 92553\, USA
-DESCRIPTION:[MEETING] — Inland Empire DSA — Join IE DSA for a pumpkin carving social in Moreno Valley! This event will be kid-friendly & dog friendly. Pumpkins and carving/painting materials will be provided\, but please bring your own pumpkin (BYOP) in case materials run out. Hope to see you there 🎃
-END:VEVENT
-BEGIN:VEVENT
-UID:3031c1ef8979@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261121T030000Z
-DTEND:20261121T050000Z
-SUMMARY:Beer & Roses\, a Socialist Social
-LOCATION:Carbon Nation Brewing\, 9860 Indiana Ave Unit 19\, Riverside\, CA 92503\, USA
-DESCRIPTION:[MEETING] — Inland Empire DSA — Gather with DSA members & other allies at a local bar for a night of socializing and solidarity.
-END:VEVENT
-BEGIN:VEVENT
-UID:ebd0ad29764e@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261024T000000Z
-DTEND:20261024T020000Z
-SUMMARY:Southside Book Club
-LOCATION:Coffee Bean & Tea Leaf Menifee
-DESCRIPTION:[TEACH-IN] — Inland Empire DSA — We are reading Blackshirts and Reds and discussing it in our IE DSA Southside region! Each book club will cover a successive chapter of the book until we finish! Please join us if you live in the area!
-END:VEVENT
-BEGIN:VEVENT
 UID:a5d4ee93ed85@ragingcunt.com
-DTSTAMP:20261018T170058Z
+DTSTAMP:20261025T171911Z
 DTSTART:20261113T030000Z
 DTEND:20261113T050000Z
 SUMMARY:"Light" Lit Circle
@@ -102,34 +75,34 @@ LOCATION:1317 E. Foothill Blvd. Upland\, CA 91786
 DESCRIPTION:[MEETING] — Inland Empire DSA — (Every Friday) — Hello comrades! Let's meet up and talk socialism! This is basically a pol-ed social\, so bring a friend! At a "Light" Lit Circle\, rather than books\, we take some time to read an article or two\, make friends\, and just having a chill time just talkin' bout socialism! This will be th
 END:VEVENT
 BEGIN:VEVENT
-UID:6d5f05505b46@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261020T000000Z
-DTEND:20261020T020000Z
-SUMMARY:Prop 40 Weekly Phone Bank
-LOCATION:https://seiu-uhw.zoom.us/j/95339090745?pwd=wBakaiWpHyNayGY84wLJJRPlp6nGlb.1&from=addon
-DESCRIPTION:[ACTION] — Inland Empire DSA — This is our opportunity to Tax the Rich in California! Be sure to come by and make some phone calls to mobilize voters in our state! No experience required! Every call helps!
-END:VEVENT
-BEGIN:VEVENT
 UID:4733836cb3f7@ragingcunt.com
-DTSTAMP:20261018T170058Z
+DTSTAMP:20261025T171911Z
 DTSTART:20270117T080000Z
 DTEND:20270117T100000Z
 SUMMARY:IE DSA Local Chapter Convention
 DESCRIPTION:[MEETING] — Inland Empire DSA — Description\, RSVP\, and time TBD
 END:VEVENT
 BEGIN:VEVENT
-UID:60ddc415b2fb@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261018T190000Z
-DTEND:20261018T210000Z
-SUMMARY:Southside Regional Organizing Brainstorm
-LOCATION:vc: 1536822739346784287
-DESCRIPTION:[MEETING] — Inland Empire DSA — Time to brainstorm about what we in Southside can do to organize our neighbors\, host socials\, or anything else! Please join us if you are interested in giving some ideas and live in the vicinity!
+UID:32ef1f5f61da@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261027T000000Z
+DTEND:20261027T020000Z
+SUMMARY:Prop 40 Weekly Phone Bank
+LOCATION:https://seiu-uhw.zoom.us/j/95339090745?pwd=wBakaiWpHyNayGY84wLJJRPlp6nGlb.1&from=addon
+DESCRIPTION:[ACTION] — Inland Empire DSA — This is our opportunity to Tax the Rich in California! Be sure to come by and make some phone calls to mobilize voters in our state! No experience required! Every call helps!
+END:VEVENT
+BEGIN:VEVENT
+UID:3cefc1d4c126@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261027T023000Z
+DTEND:20261027T043000Z
+SUMMARY:Electoral Committee Meeting
+LOCATION:vc: Meeting Room A
+DESCRIPTION:[MEETING] — Inland Empire DSA — Join the Electoral Committee (EC) for our regular meeting\, where we’ll discuss campaign updates\, endorsement work\, upcoming priorities\, and committee business. This meeting will be held virtually. For meeting details and access information\, please see the Electoral Committee chan
 END:VEVENT
 BEGIN:VEVENT
 UID:3dfd6d3503ef@ragingcunt.com
-DTSTAMP:20261018T170058Z
+DTSTAMP:20261025T171911Z
 DTSTART:20261031T220000Z
 DTEND:20261101T000000Z
 SUMMARY:Canvass Event for Joz Sida and Joe Alvanez
@@ -137,46 +110,62 @@ LOCATION:Intersection of Sierra + 10 fwy exit
 DESCRIPTION:[ACTION] — Inland Empire DSA — Come join us at the intersection of Sierra and the 10 in Fontana to make some noise and get the word out about our endorsed candidates Joz Sida and Joe Alvanez! Refreshments will be provided. No canvassing experience necessary\, we will train you before we hit the streets to talk
 END:VEVENT
 BEGIN:VEVENT
-UID:b012a73c7501@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261022T020000Z
-DTEND:20261022T040000Z
-SUMMARY:"Light" Lit Circle
-LOCATION:1317 E. Foothill Blvd. Upland\, CA 91786
-DESCRIPTION:[MEETING] — Inland Empire DSA — Hello comrades! Let's meet up and talk socialism! This is basically a pol-ed social\, so bring a friend! At a "Light" Lit Circle\, rather than books\, we take some time to read an article or two\, make friends\, and just having a chill time just talkin' bout socialism! This will be th
+UID:6a159473ed02@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261028T030000Z
+DTEND:20261028T050000Z
+SUMMARY:Budget\, Finance\, and Fundraising Team meeting
+LOCATION:vc: Meeting Room A
+DESCRIPTION:[MEETING] — Inland Empire DSA — Join the BFF Team as we go over the Chapter’s finances. This includes budgeting\, planning and executing fundraising\, and working on fiscal policies. Check out our channel on IE DSA’s Discord server for more info.
 END:VEVENT
 BEGIN:VEVENT
-UID:4abe00e7df3a@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261019T204500Z
-DTEND:20261019T224500Z
-SUMMARY:Nat'l Pharmacy Week of Action in Redlands! | The Pharmacy Guild
-DESCRIPTION:[MEETING] — Inland Empire Labor Council — Join CVS pharmacy professionals\, labor allies\, and community supporters as we call on CVS to bargain fairly and put patient care and pharmacy professionals ‘ safety before profits. Please RSVP here. \n\n\n\nMonday\, October 19\, 2026CVS Specialty Redlands1127 Bryn Mawr Ave.\, Suite A\, R — https://ielabor.org/event/natl-pharmacy-week-of-action-in-redlands-the-pharmacy-guild/
-URL:https://ielabor.org/event/natl-pharmacy-week-of-action-in-redlands-the-pharmacy-guild/
+UID:cca1643145a7@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261027T023000Z
+DTEND:20261027T043000Z
+SUMMARY:"The Horrors of Capitalism" a 4 Part Movie Screening: 3 of 4
+LOCATION:vc: cinema
+DESCRIPTION:[TEACH-IN] — Inland Empire DSA — Come join IE DSA for "The Horrors of Capitalism!" a 4 part Movie Screening! The schedule is as follows:    October 22 - "They Live" (1988)  October 24 - "Vampire Hunter D" (1985)  October 26 - "Rocky Horror Picture Show" (1975)  October 28 - "N
 END:VEVENT
 BEGIN:VEVENT
-UID:d1a5b0858e98@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261021T140000Z
-DTEND:20261021T160000Z
-SUMMARY:SEIU 1000 On Strike in San Bernardino
-LOCATION:Rosa Parks Building\, 464 W 4th St
-DESCRIPTION:[ACTION] — Inland Empire Labor Council — Stand with the striking members of SEIU 1000 locally in San Bernardino! — https://ielabor.org/event/seiu-1000-on-strike-in-san-bernardino/
-URL:https://ielabor.org/event/seiu-1000-on-strike-in-san-bernardino/
+UID:b0c506cc8668@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261030T010000Z
+DTEND:20261030T030000Z
+SUMMARY:Meeting and Planning Operations Taskforce Meeting
+LOCATION:vc: 1536823083154014339
+DESCRIPTION:[MEETING] — Inland Empire DSA — Join MPOT as as we take over an Outreach Team meeting to plan the logistics of our Nov. 15 General Meeting.
 END:VEVENT
 BEGIN:VEVENT
-UID:6844c5b32ccc@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261023T010000Z
-DTEND:20261023T030000Z
-SUMMARY:“American Agitators” Labor Documentary Screening (Nights with the Museum)
-LOCATION:Main Library Community Room\, 3900 Mission Inn Avenue\, Riverside\, California\, 92501\, United States
-DESCRIPTION:[TEACH-IN] — Inland Empire Labor Council — Join us for a screening of the documentary film American Agitators\, which focuses on the legacy of labor organizers Fred Ross Sr. and his son\, Fred Ross Jr. Ross Sr.\, is credited with helping to invent modern grassroots organizing techniques\, and the film covers his work with Dus — https://ielabor.org/event/american-agitators-labor-documentary-screening-nights-with-the-museum/
-URL:https://ielabor.org/event/american-agitators-labor-documentary-screening-nights-with-the-museum/
+UID:3031c1ef8979@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261121T030000Z
+DTEND:20261121T050000Z
+SUMMARY:Beer & Roses\, a Socialist Social
+LOCATION:Carbon Nation Brewing\, 9860 Indiana Ave Unit 19\, Riverside\, CA 92503\, USA
+DESCRIPTION:[MEETING] — Inland Empire DSA — Gather with DSA members & other allies at a local bar for a night of socializing and solidarity.
+END:VEVENT
+BEGIN:VEVENT
+UID:6eec8a4351a7@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261029T023000Z
+DTEND:20261029T043000Z
+SUMMARY:"The Horrors of Capitalism" a 4 Part Movie Screening: 4 of 4
+LOCATION:vc: 1505931951813689454
+DESCRIPTION:[TEACH-IN] — Inland Empire DSA — Come join IE DSA for "The Horrors of Capitalism!" a 4 part Movie Screening! The schedule is as follows:    October 22 - "They Live" (1988)  October 24 - "Vampire Hunter D" (1985)  October 26 - "Rocky Horror Picture Show" (1975)  October 28 - "N
+END:VEVENT
+BEGIN:VEVENT
+UID:bf9fedc563f7@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261028T010000Z
+DTEND:20261028T030000Z
+SUMMARY:Protect the Vote: Voter Protection Training
+DESCRIPTION:[TEACH-IN] — Inland Empire Labor Council — We are calling on all union and community members to join us Tuesday\, October 27th for an emergency voter protection training in advance of the 2026 General Election! \n\n\n\nThe 2026 General Election is only 12 days away\, join us for this important training from the California Labor — https://ielabor.org/event/protect-the-vote-voter-protection-training/
+URL:https://ielabor.org/event/protect-the-vote-voter-protection-training/
 END:VEVENT
 BEGIN:VEVENT
 UID:a5b4bfa3fb60@ragingcunt.com
-DTSTAMP:20261018T170058Z
+DTSTAMP:20261025T171911Z
 DTSTART:20261111T023000Z
 DTEND:20261111T043000Z
 SUMMARY:November Delegate Meeting
@@ -185,7 +174,7 @@ URL:https://ielabor.org/event/november-delegate-meeting-3/
 END:VEVENT
 BEGIN:VEVENT
 UID:2110310e886b@ragingcunt.com
-DTSTAMP:20261018T170058Z
+DTSTAMP:20261025T171911Z
 DTSTART:20261113T210000Z
 DTEND:20261113T230000Z
 SUMMARY:Politics & Policy Committee Meeting
@@ -194,7 +183,7 @@ URL:https://ielabor.org/event/politics-policy-committee-meeting-10/
 END:VEVENT
 BEGIN:VEVENT
 UID:9083eb2b6444@ragingcunt.com
-DTSTAMP:20261018T170058Z
+DTSTAMP:20261025T171911Z
 DTSTART:20261209T023000Z
 DTEND:20261209T043000Z
 SUMMARY:December Delegate Meeting
@@ -202,8 +191,18 @@ DESCRIPTION:[MEETING] — Inland Empire Labor Council — Meeting starts promptl
 URL:https://ielabor.org/event/december-delegate-meeting-2/
 END:VEVENT
 BEGIN:VEVENT
+UID:13ae9fdfcafa@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261031T000000Z
+DTEND:20261031T020000Z
+SUMMARY:Spooky Ballot Party
+LOCATION:Starting Over Inc
+DESCRIPTION:[ACTION] — Starting Over Inc — Join us for a Spooky Ballot Party the evening before Halloween with games\, prizes\, dinner\, pumpkin painting\, costume contests\, and more! Bring the whole family: learn about what’s on the ballot\, get help returning your ballot\, and stay for the spooky vibes! — https://www.startingoverinc.org/events/spooky-ballot-party
+URL:https://www.startingoverinc.org/events/spooky-ballot-party
+END:VEVENT
+BEGIN:VEVENT
 UID:a7d72b3e6eee@ragingcunt.com
-DTSTAMP:20261018T170058Z
+DTSTAMP:20261025T171911Z
 DTSTART:20261030T170000Z
 DTEND:20261030T190000Z
 SUMMARY:Digital Skills Classes - 4/4
@@ -213,7 +212,7 @@ URL:https://www.startingoverinc.org/events/digital-skills-classes-14-64gxd-3a5zn
 END:VEVENT
 BEGIN:VEVENT
 UID:d1ae1a7a6878@ragingcunt.com
-DTSTAMP:20261018T170058Z
+DTSTAMP:20261025T171911Z
 DTSTART:20261029T010000Z
 DTEND:20261029T030000Z
 SUMMARY:Prison Board Preparation Family Workshop
@@ -222,47 +221,18 @@ DESCRIPTION:[TEACH-IN] — Starting Over Inc — (Every Wednesday) — https://w
 URL:https://www.startingoverinc.org/events/prison-board-preparation-family-workshop-gpbml-6p5gy-mzxjj-hfccz-s9edl-fdeax-dl6ay
 END:VEVENT
 BEGIN:VEVENT
-UID:3ad16fabb91e@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261024T150000Z
-DTEND:20261024T170000Z
+UID:36c2cd70db1e@ragingcunt.com
+DTSTAMP:20261025T171911Z
+DTSTART:20261114T160000Z
+DTEND:20261114T180000Z
 SUMMARY:Food for LiFE
 LOCATION:6355 Riverside Avenue
-DESCRIPTION:[ACTION] — Starting Over Inc — (Every Saturday) — Fresh groceries are available bimonthly\, on every second and fourth Saturday of the month from 8 AM to 12 PM. Bags are provided.   Contact  office@startingoverinc.org  for questions\, to volunteer\, or to donate. You can also reach us at: (951) 898-0862 — https://www.startingoverinc.org/events/food-for-life-w3l92-3z2pt-48765-pcanr-4yd94-tm7pn-pa6em-nyaz2-m6r7d-j746b-66ks9-y3ylw-6lr6n-aa564
-URL:https://www.startingoverinc.org/events/food-for-life-w3l92-3z2pt-48765-pcanr-4yd94-tm7pn-pa6em-nyaz2-m6r7d-j746b-66ks9-y3ylw-6lr6n-aa564
-END:VEVENT
-BEGIN:VEVENT
-UID:54c6fd9a6e1e@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261023T170000Z
-DTEND:20261023T190000Z
-SUMMARY:Digital Skills Classes - 3/4
-LOCATION:303 North D Street
-DESCRIPTION:[ACTION] — Starting Over Inc — Join us in Perris this October for 4 FREE classes designed to help you with essential smartphone/computer skills and accessing resources online! We can answer your questions and assist with accessing a laptop.    Register — https://www.startingoverinc.org/events/digital-skills-classes-14-64gxd-3a5zn
-URL:https://www.startingoverinc.org/events/digital-skills-classes-14-64gxd-3a5zn
-END:VEVENT
-BEGIN:VEVENT
-UID:04fc8978a421@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261021T230000Z
-DTEND:20261022T010000Z
-SUMMARY:San Bernardino Shared Safety Expungement Clinic & Candidate Forum
-LOCATION:Inland Congregations United for Change
-DESCRIPTION:[ACTION] — Starting Over Inc — Join Californians for Safety and Justice alongside San Bernardino residents\, community leaders\, crime survivors\, people living with old records\, faith leaders\, and community-based organizations for an important conversation with candidates seeking elected office. — https://www.startingoverinc.org/events/shared-voiceshared-vote-shared-safety-san-bernardino-shared-safety-expungement-clinic-candidate-forum
-URL:https://www.startingoverinc.org/events/shared-voiceshared-vote-shared-safety-san-bernardino-shared-safety-expungement-clinic-candidate-forum
-END:VEVENT
-BEGIN:VEVENT
-UID:45bbd7bde99f@ragingcunt.com
-DTSTAMP:20261018T170058Z
-DTSTART:20261020T010000Z
-DTEND:20261020T030000Z
-SUMMARY:Riverside All Of Us or None October Meeting
-DESCRIPTION:[ACTION] — Starting Over Inc — Join us for a POTLUCK for our July Meeting!  Riverside All Of Us or None is part of a national organizing initiative of currently and formerly incarcerated people & allies advocating for the rights\, futures\, & dignity of those impacted by incarceration. RAOUON meets on the third — https://www.startingoverinc.org/events/riverside-all-of-us-or-none-monthly-meeting-xpxzt-hggjp-bpmls-gnmsc-n5zzg-x57ck-az8jk-8gtbt-ddnth
-URL:https://www.startingoverinc.org/events/riverside-all-of-us-or-none-monthly-meeting-xpxzt-hggjp-bpmls-gnmsc-n5zzg-x57ck-az8jk-8gtbt-ddnth
+DESCRIPTION:[ACTION] — Starting Over Inc — (Every Saturday) — Fresh groceries are available bimonthly\, on every second and fourth Saturday of the month from 8 AM to 12 PM. Bags are provided.   Contact  office@startingoverinc.org  for questions\, to volunteer\, or to donate. You can also reach us at: (951) 898-0862 — https://www.startingoverinc.org/events/food-for-life-w3l92-3z2pt-48765-pcanr-4yd94-tm7pn-pa6em-nyaz2-m6r7d-j746b-66ks9-y3ylw-6lr6n-aa564-frdjn
+URL:https://www.startingoverinc.org/events/food-for-life-w3l92-3z2pt-48765-pcanr-4yd94-tm7pn-pa6em-nyaz2-m6r7d-j746b-66ks9-y3ylw-6lr6n-aa564-frdjn
 END:VEVENT
 BEGIN:VEVENT
 UID:af98e6eb4837@ragingcunt.com
-DTSTAMP:20261018T170058Z
+DTSTAMP:20261025T171911Z
 DTSTART:20261117T020000Z
 DTEND:20261117T040000Z
 SUMMARY:Riverside All Of Us or None November Meeting
