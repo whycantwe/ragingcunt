@@ -6,27 +6,27 @@ METHOD:PUBLISH
 X-WR-CALNAME:RAGINGCUNT — Davis
 X-WR-CALDESC:Real local organizing in Davis\, refreshed weekly. ragingcunt.com
 BEGIN:VEVENT
-UID:8d49b67cc57b@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261030T190000Z
-DTEND:20261030T210000Z
+UID:8aaf1a764ef3@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261106T200000Z
+DTEND:20261106T220000Z
 SUMMARY:Auburn Fridays for the Future
 LOCATION:Auburn City Hall
 DESCRIPTION:[MUTUAL AID] — California Democratic Party — (Recurring) — JOIN us for FRIDAYS FOR THE FUTURE\n\nCome join us to bring awareness to the climate crisis.  We demonstrate from 12:00 to 1:00 every Friday in front of :\nAuburn City Hall\n1225 Lincoln Way\nAuburn\, CA — https://www.mobilize.us/indivisibleyolo/event/597102/
 URL:https://www.mobilize.us/indivisibleyolo/event/597102/
 END:VEVENT
 BEGIN:VEVENT
-UID:ff918503b09a@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261030T170000Z
-DTEND:20261030T190000Z
+UID:3bfa7762eb41@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261106T180000Z
+DTEND:20261106T200000Z
 SUMMARY:AADC Coffee and Conversation
 DESCRIPTION:[MEETING] — California Democratic Party — (Recurring) — You're Invited!  Coffee & Conversation Political Meetup\n\nJoin us for a relaxing and stimulating Coffee & Conversation political meetup! We look forward to seeing you and hearing what's on your mind.  Join us on Friday from from 10:00 to 1:00.\n\nWhether you're deeply involved in lo — https://www.mobilize.us/indivisibleyolo/event/748509/
 URL:https://www.mobilize.us/indivisibleyolo/event/748509/
 END:VEVENT
 BEGIN:VEVENT
 UID:a6a56aaa8dff@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261209T020000Z
 DTEND:20261209T040000Z
 SUMMARY:Placer Action Network Monthly Meeting (In-Person)
@@ -36,7 +36,7 @@ URL:https://www.mobilize.us/indivisibleyolo/event/751559/
 END:VEVENT
 BEGIN:VEVENT
 UID:0f34f11a68c5@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261119T010000Z
 DTEND:20261119T030000Z
 SUMMARY:Woodland Activist Circle Monthly Meeting
@@ -45,28 +45,18 @@ DESCRIPTION:[MEETING] — Indivisible Yolo — (Recurring) — Join local activi
 URL:https://www.mobilize.us/indivisibleyolo/event/774543/
 END:VEVENT
 BEGIN:VEVENT
-UID:c45938e1a293@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261025T223000Z
-DTEND:20261026T003000Z
+UID:bf9b46f01bd0@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261101T233000Z
+DTEND:20261102T013000Z
 SUMMARY:Davis Visibility Brigade: I-80 Highway Bannering (Thursdays and Sundays)
 LOCATION:This event’s address is private. Sign up for more details
 DESCRIPTION:[ACTION] — Indivisible Yolo — (Recurring) — Join the Davis Visibility Brigade each Thursday and Sunday to make VISIBLE our opposition to the endless corruption\, incompetence\, and immorality of the current regime.  We display messages to commuters that aim to ACTIVATE\, WAKE-UP\, and EMPATHIZE. 14\,000 people will see our mess — https://www.mobilize.us/indivisibleyolo/event/791515/
 URL:https://www.mobilize.us/indivisibleyolo/event/791515/
 END:VEVENT
 BEGIN:VEVENT
-UID:287bf8e13880@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261026T160000Z
-DTEND:20261026T180000Z
-SUMMARY:WSAC Monday Morning Visibility Brigade
-LOCATION:Harbor Blvd. Highway 50 Overpass
-DESCRIPTION:[ACTION] — Indivisible Yolo — Demonstrate with the West Sacramento Action Circle Banner Brigade and share the message of RESISTANCE!\nMondays at 9:00 a.m. on the Harbor Blvd. at Highway 50 Overpass\nOur giant banner displays a timely message to:\n    *Remind the public of our country’s current crisis\n    *Sugges — https://www.mobilize.us/indivisibleyolo/event/810047/
-URL:https://www.mobilize.us/indivisibleyolo/event/810047/
-END:VEVENT
-BEGIN:VEVENT
 UID:7925a46ab89f@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261105T003000Z
 DTEND:20261105T023000Z
 SUMMARY:Disappeared in America Visibility Event - Davis (1st Wednesday)
@@ -76,7 +66,7 @@ URL:https://www.mobilize.us/indivisibleyolo/event/816339/
 END:VEVENT
 BEGIN:VEVENT
 UID:beaa88cbcf50@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261113T023000Z
 DTEND:20261113T043000Z
 SUMMARY:Roseville Area Democratic Club General Meeting (in-Person)
@@ -85,10 +75,10 @@ DESCRIPTION:[MEETING] — California Democratic Party — _We’re Fighting for 
 URL:https://www.mobilize.us/indivisibleyolo/event/846450/
 END:VEVENT
 BEGIN:VEVENT
-UID:dfe9df288181@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261028T233000Z
-DTEND:20261029T013000Z
+UID:4a27f69f144d@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261105T003000Z
+DTEND:20261105T023000Z
 SUMMARY:WSAC Wednesday Afternoon Visibility Brigade
 LOCATION:This event’s address is private. Sign up for more details
 DESCRIPTION:[ACTION] — Indivisible Yolo — (Recurring) — Join the WSAC Visibility Brigade each Wednesday afternoon to make VISIBLE our opposition to the endless corruption\, incompetence\, and immorality of the current regime. We display messages to commuters that aim to ACTIVATE\, WAKE-UP\, and EMPATHIZE. Hundreds of people will see our m — https://www.mobilize.us/indivisibleyolo/event/855760/
@@ -96,7 +86,7 @@ URL:https://www.mobilize.us/indivisibleyolo/event/855760/
 END:VEVENT
 BEGIN:VEVENT
 UID:f81aca8f1ed0@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261110T020000Z
 DTEND:20261110T040000Z
 SUMMARY:FOLSOM AREA DEMOCRATIC CLUB MONTHLY MEETING
@@ -106,7 +96,7 @@ URL:https://www.mobilize.us/indivisibleyolo/event/872524/
 END:VEVENT
 BEGIN:VEVENT
 UID:322f6fda17d7@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261104T160000Z
 DTEND:20261104T180000Z
 SUMMARY:Disappeared in America Visibility Event - West Sacramento (1st Wednesday)
@@ -116,7 +106,7 @@ URL:https://www.mobilize.us/indivisibleyolo/event/877694/
 END:VEVENT
 BEGIN:VEVENT
 UID:bde54ce7798a@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261105T003000Z
 DTEND:20261105T023000Z
 SUMMARY:Disappeared in America Visibility Event - Woodland (1st Wednesday)
@@ -126,7 +116,7 @@ URL:https://www.mobilize.us/indivisibleyolo/event/877695/
 END:VEVENT
 BEGIN:VEVENT
 UID:2b5bbf6017e1@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261120T023000Z
 DTEND:20261120T043000Z
 SUMMARY:Democratic Club of Lincoln Monthly Meeting
@@ -136,7 +126,7 @@ URL:https://www.mobilize.us/indivisibleyolo/event/878136/
 END:VEVENT
 BEGIN:VEVENT
 UID:55e16c662a2e@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261106T014500Z
 DTEND:20261106T034500Z
 SUMMARY:Auburn Area Democratic Club Monthly Meeting
@@ -145,76 +135,38 @@ DESCRIPTION:[MEETING] — California Democratic Party — (Recurring) — Join u
 URL:https://www.mobilize.us/indivisibleyolo/event/879900/
 END:VEVENT
 BEGIN:VEVENT
-UID:7c4b4b541c8f@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261028T000000Z
-DTEND:20261028T020000Z
-SUMMARY:WORKSHOP | Yes\, you can(vass)!
-DESCRIPTION:[TEACH-IN] — California Democratic Party — **One voter and one conversation at a time ... that's how Democrats win!**\n\nStudies have shown that turnout increases by up to 9 percentage points through door-to-door canvassing! \n \nAre you thinking about canvassing\, but don't feel quite ready? If you've never canvassed before\, — https://www.mobilize.us/indivisibleyolo/event/895414/
-URL:https://www.mobilize.us/indivisibleyolo/event/895414/
+UID:ca7548af68ef@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261101T210000Z
+DTEND:20261101T230000Z
+SUMMARY:Take Back the House: Canvass for Dr. Pan and Sean Frame in Roseville!
+LOCATION:This event’s address is private. Sign up for more details
+DESCRIPTION:[ACTION] — California Democratic Party — Help us Take Back the House by electing Dr. Richard Pan to Congress to represent CA Congressional District 6! Victory happens at the door\, one conversation at a time! The exact meeting location will be shared a few days before the event.\n\nWhether you’re a seasoned canvasser or br — https://www.mobilize.us/indivisibleyolo/event/1001638/
+URL:https://www.mobilize.us/indivisibleyolo/event/1001638/
 END:VEVENT
 BEGIN:VEVENT
-UID:0408f305feaa@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261027T170000Z
-DTEND:20261027T190000Z
+UID:d13eba8bb104@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261103T180000Z
+DTEND:20261103T200000Z
 SUMMARY:Sierra College Voter Registration
 LOCATION:Sierra College
 DESCRIPTION:[ACTION] — California Democratic Party — (Recurring) — We are an upbeat\, positive\, non-confrontational team.  We use surveys to engage students.  This "hook" provides us with the opportunity to talk to students and find out if they are registered to vote.  It also gives us the opportunity to educate students and find out what their p — https://www.mobilize.us/indivisibleyolo/event/1004483/
 URL:https://www.mobilize.us/indivisibleyolo/event/1004483/
 END:VEVENT
 BEGIN:VEVENT
-UID:4e78a80d6868@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261027T013000Z
-DTEND:20261027T033000Z
+UID:3e17933ed121@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261103T023000Z
+DTEND:20261103T043000Z
 SUMMARY:United for ALL Students School Board Canvass
 LOCATION:TBD
-DESCRIPTION:[ACTION] — California Democratic Party — (Recurring) — The character of our schools and our community are at stake in the November election.  Western Placer Unified School District has three seats being contested in Trustee Areas 1\, 2 and 4. \n\nPlease join us to canvass for the three candidates endorsed by the United for ALL Students — https://www.mobilize.us/indivisibleyolo/event/1021753/
+DESCRIPTION:[ACTION] — California Democratic Party — The character of our schools and our community are at stake in the November election.  Western Placer Unified School District has three seats being contested in Trustee Areas 1\, 2 and 4. \n\nPlease join us to canvass for the three candidates endorsed by the United for ALL Students — https://www.mobilize.us/indivisibleyolo/event/1021753/
 URL:https://www.mobilize.us/indivisibleyolo/event/1021753/
 END:VEVENT
 BEGIN:VEVENT
-UID:cbc1265963d0@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261028T233000Z
-DTEND:20261029T013000Z
-SUMMARY:Hands Off Our Vote! Protest - Indivisible Yolo
-DESCRIPTION:[ACTION] — Indivisible Yolo — In America\, the right of citizens to vote and to have their vote counted is fundamental! We are a nation where the law rules--not a self-proclaimed king. "Hands Off Our Vote" are Yolo County Days of Action to stand up for the rule of law and the right of the people to elect princ — https://www.mobilize.us/indivisibleyolo/event/1028822/
-URL:https://www.mobilize.us/indivisibleyolo/event/1028822/
-END:VEVENT
-BEGIN:VEVENT
-UID:3dc079092200@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261025T200000Z
-DTEND:20261025T220000Z
-SUMMARY:Commit to Vote with the Placer Dems
-LOCATION:Maidu Park
-DESCRIPTION:[MUTUAL AID] — California Democratic Party — Join the Placer Democrats at Maidu Park\, across from the Maidu Library\, to make a plan to vote and learn about the races in your area. This is a free\, public event with snacks provided. A ballot drop box is in front of the Maidu Library\, so we encourage you to bring your ballot. — https://www.mobilize.us/indivisibleyolo/event/1055509/
-URL:https://www.mobilize.us/indivisibleyolo/event/1055509/
-END:VEVENT
-BEGIN:VEVENT
-UID:3fc9d7ffea47@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261028T230000Z
-DTEND:20261029T010000Z
-SUMMARY:Hwy 50 Banner Drop with American River Democrats
-LOCATION:White Rock Community Park
-DESCRIPTION:[ACTION] — California Democratic Party — Please join members of American River Democrats Club for one of the last two Banner Drop events of this campaign:\nWednesday\, October 21 \nWednesday October 28 \n\nLocation: Highway 50 pedestrian overpass in Rancho Cordova\, members of American River Democrats Club\n\nTime: from 4:00 to — https://www.mobilize.us/indivisibleyolo/event/1058521/
-URL:https://www.mobilize.us/indivisibleyolo/event/1058521/
-END:VEVENT
-BEGIN:VEVENT
-UID:8df53c965d87@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261031T160000Z
-DTEND:20261031T180000Z
-SUMMARY:Tricks\, Treats\, and Turnout
-LOCATION:Maidu Community Center
-DESCRIPTION:[MUTUAL AID] — California Democratic Party — Help us kick off our final weekend of GOTV (Get Out the Vote) activities with a special event featuring Congressman Ami Bera\, CD3\, and Dr. Richard Pan\, CD6. \n\nJoin us for this Halloween event on Saturday\, 10/31\, at 9:00 AM in Roseville. Following the event\, we'll launch a GOTV ca — https://www.mobilize.us/indivisibleyolo/event/1068214/
-URL:https://www.mobilize.us/indivisibleyolo/event/1068214/
-END:VEVENT
-BEGIN:VEVENT
 UID:72f63abdc015@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261104T030000Z
 DTEND:20261104T050000Z
 SUMMARY:ELECTION NIGHT WATCH PARTY with FOLSOM AREA DEMOCRATIC CLUB
@@ -223,8 +175,48 @@ DESCRIPTION:[CULTURE] — California Democratic Party — Join the Folsom Area D
 URL:https://www.mobilize.us/indivisibleyolo/event/1072510/
 END:VEVENT
 BEGIN:VEVENT
+UID:8cc9a1a751e4@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261104T023000Z
+DTEND:20261104T043000Z
+SUMMARY:Election Night Watch Party with Neva Parker (AD-5) and Friends!
+LOCATION:Casa Ramos Mexican Restaurant
+DESCRIPTION:[CULTURE] — California Democratic Party — Join members of the Roseville Area Democratic Club (RAD) with Neva Parker running for Assembly District 5\, Nora Parella running for Placer County Board of Education\, and other local candidates for an election night watch party at Casa Ramos restaurant in Roseville!\n\nStarting at 6 — https://www.mobilize.us/indivisibleyolo/event/1076243/
+URL:https://www.mobilize.us/indivisibleyolo/event/1076243/
+END:VEVENT
+BEGIN:VEVENT
+UID:5e2298cf6177@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261104T160000Z
+DTEND:20261104T180000Z
+SUMMARY:WSAC Wednesday Morning Visibility Brigade
+LOCATION:This event’s address is private. Sign up for more details
+DESCRIPTION:[ACTION] — Indivisible Yolo — (Recurring) — Join the WSAC Visibility Brigade each Wednesday morning to make VISIBLE our opposition to the endless corruption\, incompetence\, and immorality of the current regime. We display messages to commuters that aim to ACTIVATE\, WAKE-UP\, and EMPATHIZE. Hundreds of people will see our mes — https://www.mobilize.us/indivisibleyolo/event/1076328/
+URL:https://www.mobilize.us/indivisibleyolo/event/1076328/
+END:VEVENT
+BEGIN:VEVENT
+UID:2e59879af11e@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261101T210000Z
+DTEND:20261101T230000Z
+SUMMARY:Canvass for Dr. Pan and Sean Frame with Jon 'Bowzer' Bauman in Roseville
+LOCATION:This event’s address is private. Sign up for more details
+DESCRIPTION:[ACTION] — California Democratic Party — Help us Take Back the House by electing Dr. Richard Pan to Congress to represent CA Congressional District 6 with Jon 'Bowzer' Bauman and Dr. Pan.\n\nDr. Pan and Jon Bauman will welcome morning canvassers back and launch afternoon canvassers.\n\nWhether you’re a seasoned canvasser or — https://www.mobilize.us/indivisibleyolo/event/1077583/
+URL:https://www.mobilize.us/indivisibleyolo/event/1077583/
+END:VEVENT
+BEGIN:VEVENT
+UID:1140c5820f78@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261119T023000Z
+DTEND:20261119T043000Z
+SUMMARY:Post Election Celebration Wednesday November 18 with American River Democrats
+LOCATION:This event’s address is private. Sign up for more details
+DESCRIPTION:[MEETING] — California Democratic Party — Join members of American River Democrats Club on Wednesday\, November 18 as we celebrate electoral victories and plan our next activities. \n\nSocial time begins at 6:30 pm and our program runs from 7:00 to 8:30 pm.\nOur meetings usually include time for lively discussion of top issu — https://www.mobilize.us/indivisibleyolo/event/1078495/
+URL:https://www.mobilize.us/indivisibleyolo/event/1078495/
+END:VEVENT
+BEGIN:VEVENT
 UID:0f3752831e1f@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261117T200000Z
 DTEND:20261117T220000Z
 SUMMARY:CDTTF (Cool Davis Transportation Task Force) Meeting
@@ -232,31 +224,40 @@ DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — The Cool Davis Transportat
 END:VEVENT
 BEGIN:VEVENT
 UID:62edae7190d2@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261119T003000Z
 DTEND:20261119T023000Z
 SUMMARY:Cool Davis Coalition Steering Committee Meeting
 DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — Link to Meeting Notes:      https://docs.google.com/document/d/1RSQtqLoZyd3MTZB8gCzxLmKpsf5xq6C4M6ZQOu7cYa0/edit?usp=sharing   <br
 END:VEVENT
 BEGIN:VEVENT
-UID:482cd4a537e0@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261027T010000Z
-DTEND:20261027T030000Z
-SUMMARY:C&EJC Meeting
-DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — The Climate & Environmental Justice Commission meets on the fourth Monday of each month at 6:00 p.m. in the Community Chambers  at City Hall\, located at 23 Russell Boulevard.       REGULAR MEETING TIME AND PLACE    The fourth Monday of t
-END:VEVENT
-BEGIN:VEVENT
 UID:06b8c83ff23b@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261128T153000Z
 DTEND:20261128T173000Z
 SUMMARY:Cool Davis Energy @FARMERS MARKET - Make A Plan for Your Clean Energy Home
 DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — 7:30  Set up    8:00 Start    1:00 End    1:30 Complete Take Down       Sign Up  Here !
 END:VEVENT
 BEGIN:VEVENT
+UID:045ab46bf6be@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261106T200000Z
+DTEND:20261106T220000Z
+SUMMARY:Climate Strike Fridays for Future Davis
+LOCATION:5th Street & B Street\, 5th St & B St\, Davis\, CA 95616\, USA
+DESCRIPTION:[ACTION] — Cool Davis — (Every Friday) — https://www.instagram.com/fridaysforfuture_davis/
+END:VEVENT
+BEGIN:VEVENT
+UID:ddbdc47fd16c@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261124T020000Z
+DTEND:20261124T040000Z
+SUMMARY:C&EJC Meeting
+DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — The Climate & Environmental Justice Commission meets on the fourth Monday of each month at 6:00 p.m. in the Community Chambers  at City Hall\, located at 23 Russell Boulevard.       REGULAR MEETING TIME AND PLACE    The fourth Monday of t
+END:VEVENT
+BEGIN:VEVENT
 UID:e5b08422eb49@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261127T010000Z
 DTEND:20261127T030000Z
 SUMMARY:VCE - Community Advisory Committee
@@ -264,7 +265,7 @@ DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — Link to VCE Community Advi
 END:VEVENT
 BEGIN:VEVENT
 UID:581c35dc3b0b@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261121T153000Z
 DTEND:20261121T173000Z
 SUMMARY:Cool Davis at Davis FARMERS MARKET - Ride Cool EV Pop-up withDEVA
@@ -272,7 +273,7 @@ DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — Sign Up  Here !
 END:VEVENT
 BEGIN:VEVENT
 UID:a31f467b91e5@ragingcunt.com
-DTSTAMP:20261025T171911Z
+DTSTAMP:20261101T184043Z
 DTSTART:20261112T210000Z
 DTEND:20261112T230000Z
 SUMMARY:Interfaith Alliance for Climate Justice - Planning Committee
@@ -280,28 +281,20 @@ LOCATION:Now on Zoom
 DESCRIPTION:[ACTION] — Cool Davis — (Monthly) — Topic: YIACJ Meeting Time: Dec 2\, 2021 01:00 PM Pacific Time (US and Canada)        Every month on the Second Thu\, until Nov 2\, 2023\, 24 occurrence(s)         Please download and import the following iCalendar (.ic
 END:VEVENT
 BEGIN:VEVENT
-UID:237ead08b589@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261030T190000Z
-DTEND:20261030T210000Z
-SUMMARY:Climate Strike Fridays for Future Davis
-LOCATION:5th Street & B Street\, 5th St & B St\, Davis\, CA 95616\, USA
-DESCRIPTION:[ACTION] — Cool Davis — (Every Friday) — https://www.instagram.com/fridaysforfuture_davis/
+UID:6109946c8683@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261101T200000Z
+DTEND:20261101T220000Z
+SUMMARY:Cool Davis Make a Plan Workshop
+LOCATION:Muir Commons\, 2222 Muir Woods Pl\, Davis\, CA 95616\, USA
+DESCRIPTION:[TEACH-IN] — Cool Davis — Learn more here!      Ready to make a plan for your home’s energy future?   Cool Davis is hosting a free   Make a Plan Home Energy Workshop   at Muir Commons on
 END:VEVENT
 BEGIN:VEVENT
-UID:6acd6cd557dc@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261101T070000Z
-DTEND:20261101T100000Z
-SUMMARY:COOL DAVIS NEWSLETTER nov-dec
-DESCRIPTION:[ACTION] — Cool Davis — (Yearly)
-END:VEVENT
-BEGIN:VEVENT
-UID:0e7c9d911a50@ragingcunt.com
-DTSTAMP:20261025T171911Z
-DTSTART:20261026T230000Z
-DTEND:20261027T010000Z
-SUMMARY:Yolo County Climate Action Commission
-DESCRIPTION:[ACTION] — Cool Davis — (Every 2 months) — Link to County Page with Monthly meeting information.  https://www.yolocounty.org/government/general-gove
+UID:10a963eb0151@ragingcunt.com
+DTSTAMP:20261101T184043Z
+DTSTART:20261101T220000Z
+DTEND:20261102T000000Z
+SUMMARY:Make a Plan Electric Home Tours
+DESCRIPTION:[ACTION] — Cool Davis — Ready to make a plan for your home’s energy future?   Cool Davis is hosting a free   Make a Plan Home Energy Workshop   at Muir Commons on Sunday\, November 1\, followed by  Electric Home Tours.    Sunda
 END:VEVENT
 END:VCALENDAR
