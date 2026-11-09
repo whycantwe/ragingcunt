@@ -104,6 +104,25 @@
   .brand i{font-style:normal;color:var(--ash);font-size:12px;font-family:var(--type)}
   .curcity{font-family:var(--scrawl);font-size:17px;color:var(--pink);text-shadow:var(--glow);max-width:52vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;transform:rotate(-2deg)}
   .topnav{display:flex;gap:8px;align-items:center}
+  .menubtn{font-family:var(--head);font-size:12px;letter-spacing:1px;color:var(--pink);background:transparent;border:2px solid var(--pink);padding:8px 13px;cursor:pointer;box-shadow:0 0 14px rgba(255,45,149,.3);transition:.12s;white-space:nowrap}
+  .menubtn:hover{background:var(--pink);color:#0d0a0c}
+  .menubtn:focus-visible{outline:3px solid var(--acid);outline-offset:2px}
+  .menu{position:fixed;inset:0;z-index:1000;opacity:0;visibility:hidden;transition:opacity .2s}
+  .menu.open{opacity:1;visibility:visible}
+  .menu-scrim{position:absolute;inset:0;background:rgba(5,4,8,.82)}
+  .menu-card{position:absolute;top:0;right:0;height:100%;width:min(380px,88vw);overflow-y:auto;background:var(--wall);border-left:3px solid var(--pink);box-shadow:-12px 0 44px rgba(255,45,149,.28);padding:20px 20px 44px;display:flex;flex-direction:column;gap:24px;transform:translateX(100%);transition:transform .24s ease}
+  .menu.open .menu-card{transform:none}
+  .menu-top{display:flex;align-items:center;justify-content:space-between}
+  .menu-eye{font-family:var(--head);font-size:11px;letter-spacing:3px;color:var(--pink);background:#000;padding:4px 10px;display:inline-block}
+  .menu-x{font-family:var(--head);font-size:20px;line-height:1;color:var(--bone);background:transparent;border:0;cursor:pointer;padding:4px 8px}
+  .menu-x:hover{color:var(--pink)}
+  .menu-go{display:flex;flex-direction:column}
+  .menu-go a{font-family:var(--disp);text-transform:uppercase;font-size:clamp(21px,6.5vw,28px);letter-spacing:.5px;color:var(--bone);text-decoration:none;padding:13px 0;border-bottom:1px solid var(--line);transition:.12s}
+  .menu-go a:hover{color:var(--pink);padding-left:8px}
+  .menu-fil{display:flex;flex-direction:column;gap:12px}
+  .menu-fil .chipbar{border-bottom:0;padding:0;justify-content:flex-start;gap:8px;overflow:visible}
+  @media(max-width:600px){.menubtn{font-size:11px;padding:7px 11px}}
+  @media(prefers-reduced-motion:reduce){.menu,.menu-card{transition:none}}
   /* narrow screens: drop the city label (already on the chips/issue head) and
      shrink the two shortcut pills + brand so both fit at ~390px without wrapping */
   @media(max-width:600px){
@@ -125,6 +144,9 @@
   .citychip.on{color:var(--pink)}
   .citychip.on::after{content:"";position:absolute;inset:-6px -8px;border:2.5px solid var(--pink);border-radius:60% 40% 55% 45%;transform:rotate(-3deg);pointer-events:none;box-shadow:0 0 16px rgba(255,45,149,.5)}
   .citychip .n{font-family:var(--type);font-size:11px;opacity:.6;margin-left:5px}
+  .cityselect{font-family:var(--head);font-size:14px;letter-spacing:.4px;color:var(--ink);background-color:var(--paper);border:0;padding:12px 42px 12px 16px;cursor:pointer;max-width:100%;-webkit-appearance:none;appearance:none;box-shadow:3px 4px 0 var(--pink),0 0 18px rgba(255,45,149,.4);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='M3 5l5 6 5-6' fill='none' stroke='%23ff2d95' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;background-size:15px;min-width:230px;width:auto}
+  .cityselect:focus-visible{outline:3px solid var(--pink);outline-offset:3px}
+  .cityselect option{font-family:var(--head);background:var(--paper);color:var(--ink)}
 
   /* ── MASTHEAD ── */
   .mast{position:relative;z-index:1;padding:44px 16px 32px;text-align:center}
@@ -132,21 +154,36 @@
   .plate{position:relative;z-index:2;display:inline-flex;flex-wrap:wrap;justify-content:center;align-items:flex-end;gap:5px;line-height:.82;background:var(--paper);background-image:radial-gradient(var(--ink) 1.1px, transparent 1.3px);background-size:6px 6px;padding:22px 26px 16px;transform:rotate(-1.6deg);box-shadow:0 12px 26px rgba(0,0,0,.6),0 0 44px rgba(255,45,149,.3),0 0 66px rgba(255,150,70,.15);animation:flick 7s infinite steps(1)}
   .plate::before{content:"";position:absolute;top:-13px;left:24px;width:96px;height:28px;background:rgba(236,228,205,.42);border-left:1px dashed rgba(255,255,255,.4);border-right:1px dashed rgba(255,255,255,.4);transform:rotate(-22deg)}
   .plate::after{content:"";position:absolute;top:-11px;right:22px;width:96px;height:28px;background:rgba(255,45,149,.34);border-left:1px dashed rgba(255,139,196,.6);border-right:1px dashed rgba(255,139,196,.6);transform:rotate(18deg);box-shadow:0 0 14px rgba(255,45,149,.4)}
-  .p-a,.p-b{font-family:var(--disp);font-size:clamp(50px,15vw,120px);padding:4px 12px 0;transform:skewX(-6deg);letter-spacing:1px}
+  .p-a,.p-b{font-family:var(--disp);font-size:clamp(38px,11vw,120px);padding:4px 12px 0;transform:skewX(-6deg);letter-spacing:1px}
   .p-a{background:var(--ink);color:var(--paper)}
   .p-b{color:var(--ink);-webkit-text-stroke:2px var(--ink)}
   .p-dot{font-family:var(--type);font-size:clamp(11px,3vw,15px);color:#6b6470;align-self:flex-end;margin-bottom:8px;letter-spacing:1px}
-  .tagline{position:relative;z-index:2;font-family:var(--type);font-size:clamp(17px,5vw,28px);line-height:1.5;letter-spacing:.3px;color:var(--bone);margin-top:26px}
+  .tagline{position:relative;z-index:2;font-family:var(--type);font-size:clamp(13px,3.4vw,16px);line-height:1.4;letter-spacing:.3px;color:var(--ash);margin-top:12px}
   .tagline .caps{text-transform:uppercase;letter-spacing:4px;color:var(--pink);margin:0 3px;text-shadow:0 0 15px rgba(255,45,149,.45)}
   .tagline .cur{display:inline-block;color:var(--pink);animation:blink 1.05s steps(1) infinite;margin-left:2px}
   .subtag{display:none}
   .stamp{display:none}
+  .lede{position:relative;z-index:2;max-width:620px;margin:22px auto 0;font-family:var(--type);font-size:clamp(14px,3.6vw,17px);line-height:1.6;color:var(--bone)}
+  .lede b{color:var(--pink-lift);font-family:var(--head);font-weight:400;letter-spacing:.2px;text-shadow:0 0 10px rgba(255,122,184,.35)}
+  @media(max-width:600px){
+    .topstrip{padding:6px 14px 5px}
+    .mast{padding:10px 16px 4px}
+    .plate{padding:10px 13px 7px;transform:rotate(-1.2deg)}
+    .p-a,.p-b{font-size:clamp(23px,6.6vw,120px)}
+    .tagline{font-size:12.5px;margin-top:8px}
+    .lede{margin-top:10px;font-size:13px;line-height:1.45}
+    .citybar{padding:9px 16px;align-items:center;gap:10px}
+    .barlabel{font-size:14px;white-space:nowrap;flex:0 0 auto}
+    .cityselect{flex:1 1 auto;width:auto;min-width:0;font-size:15px;padding:11px 38px 11px 14px}
+    .ihead{padding:14px 0 6px}
+    .ihead h1{font-size:clamp(34px,10vw,120px)}
+  }
 
   /* ── CHIPS ── */
-  .chipbar{position:relative;z-index:1;display:flex;gap:8px;overflow-x:auto;padding:18px 16px;scrollbar-width:none;border-bottom:2px dashed var(--line);justify-content:center;flex-wrap:wrap}
+  .chipbar{position:relative;z-index:1;display:flex;gap:6px;overflow-x:auto;padding:12px 16px;scrollbar-width:none;border-bottom:2px dashed var(--line);justify-content:center;flex-wrap:wrap}
   .chipbar::-webkit-scrollbar{display:none}
   .chip{
-    flex:0 0 auto;font-family:var(--head);font-size:11px;letter-spacing:.5px;padding:7px 12px;cursor:pointer;
+    flex:0 0 auto;font-family:var(--head);font-size:10.5px;letter-spacing:.4px;padding:6px 10px;cursor:pointer;
     background:transparent;color:var(--bone);border:2px solid var(--line);white-space:nowrap;transform:skewX(-6deg);transition:.12s;user-select:none;
   }
   .chip:hover{border-color:var(--pink)}
@@ -317,18 +354,32 @@
 
 <header class="topbar">
   <div class="brand disp"><b>RAGING</b>CUNT <i>.com</i></div>
-  <nav class="topnav" aria-label="Shortcuts">
-    <a class="addorg" href="#subscribe">↻ CALENDAR</a>
-    <a class="addorg" href="#contact">＋ ADD YOUR ORG</a>
-  </nav>
   <div class="curcity" id="curcity" aria-hidden="true"></div>
+  <button class="menubtn" id="menubtn" aria-label="Open menu" aria-expanded="false" aria-controls="menu">☰&nbsp;MENU</button>
 </header>
+
+<div class="menu" id="menu">
+  <div class="menu-scrim" data-close></div>
+  <div class="menu-card" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="menu-top"><span class="menu-eye">THE MENU</span><button class="menu-x" id="menux" data-close aria-label="Close menu">✕</button></div>
+    <nav class="menu-go" aria-label="Go">
+      <a href="#issue" data-close>↓ See the calendar</a>
+      <a href="#subscribe" data-close>↻ Subscribe / add to calendar</a>
+      <a href="#contact" data-close>＋ Add your org</a>
+    </nav>
+    <div class="menu-fil">
+      <span class="menu-eye">FILTER THE WALL</span>
+      <nav class="chipbar" id="chips" aria-label="Filter by type"></nav>
+    </div>
+  </div>
+</div>
 
 <section class="mast">
   <div class="plate">
     <span class="p-a">RAGING</span><span class="p-b">CUNT</span><span class="p-dot">.COM</span>
   </div>
-  <div class="tagline">be the <span class="caps">raging&nbsp;cunt</span><br>you want to see in the world.<span class="cur">▮</span></div>
+  <div class="tagline">be the <span class="caps">raging&nbsp;cunt</span> you want to see in the world.<span class="cur">▮</span></div>
+  <p class="lede">What's on near you — <b>protests · meetings · mutual aid · tenant fights</b>. Real org calendars, updated weekly.</p>
 </section>
 
 <nav class="citybar" id="cities" aria-label="Choose city">
@@ -336,10 +387,9 @@
   <div class="citychips" id="citychips"></div>
 </nav>
 
-<nav class="chipbar" id="chips" aria-label="Filter by type"></nav>
 
 <main class="wrap">
-  <div id="issue"><!--SSR:START--><div class="ihead"><span class="eyebrow">ISSUE #01</span><h1>CITYWIDE</h1><div class="where">RIVERSIDE, CA · <span class="count">29 DISPATCHES</span></div></div><div class="feed"><div class="daydiv"><div class="d"><b>SUN</b> NOV 8</div></div><div class="grid"><article class="flyer"><div class="tagrow"><span class="tag t-action">ACTION</span></div><h3 class="ftitle">No Appetite for Apartheid Canvassing</h3><div class="meta"><div><span class="k">WHEN</span><span>2:00PM PT</span></div><div><span class="k">WHERE</span><span>Flo's Farmhouse Cafe, 5620 Van Buren Boulevard, Riverside, CA 92503, USA</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="blurb">Palestine Solidarity Working Group is canvassing to get businesses onboard to boycott the apartheid state of Israel and be &quot;Apartheid Free Zones&quot;. We provide…</div><div class="src"><span>src: ics</span></div></article><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span><span class="recur">↻ Every other Sunday</span></div><h3 class="ftitle">Steering Committee Meeting</h3><div class="meta"><div><span class="k">NEXT</span><span>5:30PM PT</span></div><div><span class="k">WHERE</span><span>Zoom Link available on Discord</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="blurb">The Steering Committee (SC) is the administrative arm of the chapter and is responsible for executing the will of the chapter's members. All members are encouraged to…</div><div class="src"><span>src: ics</span></div></article></div><div class="daydiv"><div class="d"><b>MON</b> NOV 9</div></div><div class="grid"><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span></div><h3 class="ftitle">What is... Socialism, Part 1 of 4</h3><div class="meta"><div><span class="k">WHEN</span><span>7:00PM PT</span></div><div><span class="k">WHERE</span><span>https://iedsa.solidarity.tech/what-is-socialism</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="blurb">What is Socialism?  Join IE DSA's Political Education committee for a presentation and discussion about socialism. Here you'll learn about Inland Empire DSA, what work…</div><div class="src"><span>src: ics</span></div></article><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span></div><h3 class="ftitle">Electoral Committee Meeting</h3><div class="meta"><div><span class="k">WHEN</span><span>7:30PM PT</span></div><div><span class="k">WHERE</span><span>vc: 1536822739346784287</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="blurb">Join the Electoral Committee (EC) for our regular meeting, where we’ll discuss campaign updates, endorsement work, upcoming priorities, and committee business. This…</div><div class="src"><span>src: ics</span></div></article></div><div class="daydiv"><div class="d"><b>TUE</b> NOV 10</div></div><div class="grid"><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span></div><h3 class="ftitle">O4P Track A Session 1</h3><div class="meta"><div><span class="k">WHEN</span><span>8:45AM PT</span></div><div><span class="k">WHERE</span><span>https://us06web.zoom.us/j/88013014272?pwd=bbD4ikr9LlTD1iQljk94CcOwl7M478.1</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="src"><span>src: ics</span></div></article><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span></div><h3 class="ftitle">O4P Track B Session 1</h3><div class="meta"><div><span class="k">WHEN</span><span>4:45PM PT</span></div><div><span class="k">WHERE</span><span>https://us06web.zoom.us/j/86577580924?pwd=zJQhiWJ7J5JngcIXPwysVkQykOBBls.1</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="src"><span>src: ics</span></div></article><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span></div><h3 class="ftitle">November Delegate Meeting</h3><div class="meta"><div><span class="k">WHEN</span><span>6:30PM PT</span></div><div><span class="k">WHERE</span><span>TBA — RSVP</span></div><div><span class="k">WHO</span><span>Inland Empire Labor Council</span></div></div><div class="blurb">Meeting starts promptly at 6:30 PM. Union delegates please arrive early for food and refreshments. Download the schedule below.</div><a class="flyer-link" href="https://ielabor.org/event/november-delegate-meeting-3/" target="_blank" rel="noopener">DETAILS / RSVP →</a><div class="src"><span>src: ics</span></div></article><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span></div><h3 class="ftitle">Budget, Finance, and Fundraising Team meeting</h3><div class="meta"><div><span class="k">WHEN</span><span>7:00PM PT</span></div><div><span class="k">WHERE</span><span>vc: 1536822739346784287</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="blurb">Join the BFF Team as we go over the Chapter’s finances. This includes budgeting, planning and executing fundraising, and working on fiscal policies. Check out our…</div><div class="src"><span>src: ics</span></div></article></div><div class="daydiv"><div class="d"><b>WED</b> NOV 11</div></div><div class="grid"><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span><span class="recur">↻ Every other Wednesday</span></div><h3 class="ftitle">Palestine Solidarity Working Group Meeting</h3><div class="meta"><div><span class="k">NEXT</span><span>6:00PM PT</span></div><div><span class="k">WHERE</span><span>IE Discord - Meeting Room A</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="blurb">Come join us virtually to work on local actionable items for Palestine!</div><div class="src"><span>src: ics</span></div></article><article class="flyer"><div class="tagrow"><span class="tag t-teachin">TEACH-IN</span><span class="recur">↻ Every Wednesday</span></div><h3 class="ftitle">Prison Board Preparation Family Workshop</h3><div class="meta"><div><span class="k">NEXT</span><span>6:00PM PT</span></div><div><span class="k">WHERE</span><span>Starting Over Inc</span></div><div><span class="k">WHO</span><span>Starting Over Inc</span></div></div><a class="flyer-link" href="https://www.startingoverinc.org/events/prison-board-preparation-family-workshop-gpbml-6p5gy-mzxjj-hfccz-s9edl-fdeax-dl6ay-z624l" target="_blank" rel="noopener">DETAILS / RSVP →</a><div class="src"><span>src: squarespace</span></div></article></div><div class="daydiv"><div class="d"><b>THU</b> NOV 12</div></div><div class="grid"><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span></div><h3 class="ftitle">O4P Track A Session 2</h3><div class="meta"><div><span class="k">WHEN</span><span>8:45AM PT</span></div><div><span class="k">WHERE</span><span>https://us06web.zoom.us/j/88013014272?pwd=bbD4ikr9LlTD1iQljk94CcOwl7M478.1</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="src"><span>src: ics</span></div></article><article class="flyer"><div class="tagrow"><span class="tag t-action">ACTION</span></div><h3 class="ftitle">Red Cup Day Rally &amp; March | Starbucks Workers United</h3><div class="meta"><div><span class="k">WHEN</span><span>12:00PM PT</span></div><div><span class="k">WHERE</span><span>TBA — RSVP</span></div><div><span class="k">WHO</span><span>Inland Empire Labor Council</span></div></div><div class="blurb">Join local union workers, students, and allies as we stand in solidarity with local union baristas and support calls to boycott Starbucks! 
+  <div id="issue"><!--SSR:START--><div class="ihead"><span class="eyebrow">ISSUE #14</span><h1>CITYWIDE</h1><div class="where">RIVERSIDE, CA · <span class="count">29 DISPATCHES</span></div></div><div class="feed"><div class="daydiv"><div class="d"><b>SUN</b> NOV 8</div></div><div class="grid"><article class="flyer"><div class="tagrow"><span class="tag t-action">ACTION</span></div><h3 class="ftitle">No Appetite for Apartheid Canvassing</h3><div class="meta"><div><span class="k">WHEN</span><span>2:00PM PT</span></div><div><span class="k">WHERE</span><span>Flo's Farmhouse Cafe, 5620 Van Buren Boulevard, Riverside, CA 92503, USA</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="blurb">Palestine Solidarity Working Group is canvassing to get businesses onboard to boycott the apartheid state of Israel and be &quot;Apartheid Free Zones&quot;. We provide…</div><div class="src"><span>src: ics</span></div></article><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span><span class="recur">↻ Every other Sunday</span></div><h3 class="ftitle">Steering Committee Meeting</h3><div class="meta"><div><span class="k">NEXT</span><span>5:30PM PT</span></div><div><span class="k">WHERE</span><span>Zoom Link available on Discord</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="blurb">The Steering Committee (SC) is the administrative arm of the chapter and is responsible for executing the will of the chapter's members. All members are encouraged to…</div><div class="src"><span>src: ics</span></div></article></div><div class="daydiv"><div class="d"><b>MON</b> NOV 9</div></div><div class="grid"><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span></div><h3 class="ftitle">What is... Socialism, Part 1 of 4</h3><div class="meta"><div><span class="k">WHEN</span><span>7:00PM PT</span></div><div><span class="k">WHERE</span><span>https://iedsa.solidarity.tech/what-is-socialism</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="blurb">What is Socialism?  Join IE DSA's Political Education committee for a presentation and discussion about socialism. Here you'll learn about Inland Empire DSA, what work…</div><div class="src"><span>src: ics</span></div></article><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span></div><h3 class="ftitle">Electoral Committee Meeting</h3><div class="meta"><div><span class="k">WHEN</span><span>7:30PM PT</span></div><div><span class="k">WHERE</span><span>vc: 1536822739346784287</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="blurb">Join the Electoral Committee (EC) for our regular meeting, where we’ll discuss campaign updates, endorsement work, upcoming priorities, and committee business. This…</div><div class="src"><span>src: ics</span></div></article></div><div class="daydiv"><div class="d"><b>TUE</b> NOV 10</div></div><div class="grid"><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span></div><h3 class="ftitle">O4P Track A Session 1</h3><div class="meta"><div><span class="k">WHEN</span><span>8:45AM PT</span></div><div><span class="k">WHERE</span><span>https://us06web.zoom.us/j/88013014272?pwd=bbD4ikr9LlTD1iQljk94CcOwl7M478.1</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="src"><span>src: ics</span></div></article><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span></div><h3 class="ftitle">O4P Track B Session 1</h3><div class="meta"><div><span class="k">WHEN</span><span>4:45PM PT</span></div><div><span class="k">WHERE</span><span>https://us06web.zoom.us/j/86577580924?pwd=zJQhiWJ7J5JngcIXPwysVkQykOBBls.1</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="src"><span>src: ics</span></div></article><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span></div><h3 class="ftitle">November Delegate Meeting</h3><div class="meta"><div><span class="k">WHEN</span><span>6:30PM PT</span></div><div><span class="k">WHERE</span><span>TBA — RSVP</span></div><div><span class="k">WHO</span><span>Inland Empire Labor Council</span></div></div><div class="blurb">Meeting starts promptly at 6:30 PM. Union delegates please arrive early for food and refreshments. Download the schedule below.</div><a class="flyer-link" href="https://ielabor.org/event/november-delegate-meeting-3/" target="_blank" rel="noopener">DETAILS / RSVP →</a><div class="src"><span>src: ics</span></div></article><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span></div><h3 class="ftitle">Budget, Finance, and Fundraising Team meeting</h3><div class="meta"><div><span class="k">WHEN</span><span>7:00PM PT</span></div><div><span class="k">WHERE</span><span>vc: 1536822739346784287</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="blurb">Join the BFF Team as we go over the Chapter’s finances. This includes budgeting, planning and executing fundraising, and working on fiscal policies. Check out our…</div><div class="src"><span>src: ics</span></div></article></div><div class="daydiv"><div class="d"><b>WED</b> NOV 11</div></div><div class="grid"><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span><span class="recur">↻ Every other Wednesday</span></div><h3 class="ftitle">Palestine Solidarity Working Group Meeting</h3><div class="meta"><div><span class="k">NEXT</span><span>6:00PM PT</span></div><div><span class="k">WHERE</span><span>IE Discord - Meeting Room A</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="blurb">Come join us virtually to work on local actionable items for Palestine!</div><div class="src"><span>src: ics</span></div></article><article class="flyer"><div class="tagrow"><span class="tag t-teachin">TEACH-IN</span><span class="recur">↻ Every Wednesday</span></div><h3 class="ftitle">Prison Board Preparation Family Workshop</h3><div class="meta"><div><span class="k">NEXT</span><span>6:00PM PT</span></div><div><span class="k">WHERE</span><span>Starting Over Inc</span></div><div><span class="k">WHO</span><span>Starting Over Inc</span></div></div><a class="flyer-link" href="https://www.startingoverinc.org/events/prison-board-preparation-family-workshop-gpbml-6p5gy-mzxjj-hfccz-s9edl-fdeax-dl6ay-z624l" target="_blank" rel="noopener">DETAILS / RSVP →</a><div class="src"><span>src: squarespace</span></div></article></div><div class="daydiv"><div class="d"><b>THU</b> NOV 12</div></div><div class="grid"><article class="flyer"><div class="tagrow"><span class="tag t-meeting">MEETING</span></div><h3 class="ftitle">O4P Track A Session 2</h3><div class="meta"><div><span class="k">WHEN</span><span>8:45AM PT</span></div><div><span class="k">WHERE</span><span>https://us06web.zoom.us/j/88013014272?pwd=bbD4ikr9LlTD1iQljk94CcOwl7M478.1</span></div><div><span class="k">WHO</span><span>Inland Empire DSA</span></div></div><div class="src"><span>src: ics</span></div></article><article class="flyer"><div class="tagrow"><span class="tag t-action">ACTION</span></div><h3 class="ftitle">Red Cup Day Rally &amp; March | Starbucks Workers United</h3><div class="meta"><div><span class="k">WHEN</span><span>12:00PM PT</span></div><div><span class="k">WHERE</span><span>TBA — RSVP</span></div><div><span class="k">WHO</span><span>Inland Empire Labor Council</span></div></div><div class="blurb">Join local union workers, students, and allies as we stand in solidarity with local union baristas and support calls to boycott Starbucks! 
 
 
 
@@ -412,7 +462,7 @@ IELC Delegate Meeting Schedule 2026Download</div><a class="flyer-link" href="htt
    ============================================================ */
 const TYPES = {
   action:{label:"ACTION",cls:"t-action"}, meeting:{label:"MEETING",cls:"t-meeting"},
-  mutualaid:{label:"MUTUAL AID",cls:"t-mutualaid"}, culture:{label:"CULTURE",cls:"t-culture"},
+  mutualaid:{label:"MUTUAL AID",cls:"t-mutualaid"},
   teachin:{label:"TEACH-IN",cls:"t-teachin"}, tenant:{label:"TENANT",cls:"t-tenant"},
   kyr:{label:"KNOW UR RIGHTS",cls:"t-kyr"}
 };
@@ -452,28 +502,19 @@ function boot(){
   // City chips are real links to each city's crawlable page (URL always matches
   // the content shown). Filtering within a city stays client-side.
   function renderCities(){
-    cchips.innerHTML = keys.map(k=>{
-      const n = upcoming(cities[k].events).length;
-      const on = k === state.city;
-      return on
-        ? `<span class="citychip on" aria-current="page">${shortName(k)}<span class="n">${n}</span></span>`
-        : `<a class="citychip" href="${cityHref(k)}">${shortName(k)}<span class="n">${n}</span></a>`;
+    const opts = keys.map(k=>{
+      const n = upcoming(cities[k].events).filter(e=>e.type!=="culture").length;
+      return `<option value="${k}" data-href="${cityHref(k)}"${k===state.city?" selected":""}>${shortName(k)} · ${n}</option>`;
     }).join("");
+    cchips.innerHTML = `<select class="cityselect" aria-label="Choose city">${opts}</select>`;
+    const sel = cchips.querySelector(".cityselect");
+    sel.addEventListener("change", ()=>{
+      const href = sel.options[sel.selectedIndex].getAttribute("data-href");
+      if(href) window.location.href = href;
+    });
     if(state.city) curcity.textContent = shortName(state.city);
   }
-  // Center the current city's chip in the mobile horizontal scroll. Run after
-  // fonts settle (and once more on a timer) so the row has its real width — an
-  // early call fires before webfonts load, when the row isn't scrollable yet.
-  function centerActiveCity(){
-    const on = cchips.querySelector(".citychip.on");
-    if(!on) return;
-    const cr = cchips.getBoundingClientRect(), er = on.getBoundingClientRect();
-    cchips.scrollLeft += (er.left - cr.left) + er.width/2 - cr.width/2;
-  }
   renderCities();
-  centerActiveCity();
-  if(document.fonts && document.fonts.ready) document.fonts.ready.then(centerActiveCity);
-  setTimeout(centerActiveCity, 500);
 
   render();
 }
@@ -515,7 +556,7 @@ function render(){
     return;
   }
 
-  const all = upcoming(city.events).sort((a,b)=>Date.parse(a.start)-Date.parse(b.start));
+  const all = upcoming(city.events).filter(e=>e.type!=="culture").sort((a,b)=>Date.parse(a.start)-Date.parse(b.start));
   const present = [...new Set(all.map(e=>e.type))].filter(t=>TYPES[t]);
   const counts = {}; all.forEach(e=>counts[e.type]=(counts[e.type]||0)+1);
 
@@ -532,10 +573,16 @@ function render(){
     if(t==="__all"){ state.only.clear(); }              // reset to show everything
     else { state.only.has(t) ? state.only.delete(t) : state.only.add(t); }  // toggle this type
     render();
+    if(window.closeMenu){ window.closeMenu(); const w=document.getElementById("issue"); if(w) w.scrollIntoView({behavior:"smooth"}); }
   }));
 
   if(all.length===0){
-    box.innerHTML = `<div class="citynote">
+    const wired = city.events && city.events.length > 0;
+    box.innerHTML = wired ? `<div class="citynote">
+      <h3>Nothing upcoming in ${esc(city.label)} right now.</h3>
+      <p>The orgs here are wired in — there just aren't any future events on their calendars this week. Fresh listings land every Sunday. Subscribe and they'll come to you, or check back.</p>
+      <a href="#subscribe">SUBSCRIBE / ADD TO YOUR CALENDAR →</a>
+    </div>` : `<div class="citynote">
       <h3>No issue for ${esc(city.label)} yet.</h3>
       <p>Nobody's wired up the feeds for this city. Know the orgs, fridges, unions and venues here? Send their public calendars and we'll cut this block its first issue.</p>
       <a href="#contact">REQUEST THIS CITY →</a>
@@ -544,8 +591,9 @@ function render(){
   }
 
   const evs = state.only.size ? all.filter(e=>state.only.has(e.type)) : all;
+  const ISSUE = (function(g){ const epoch=Date.UTC(2026,7,9); const d=g?new Date(g):new Date(); const wk=Math.floor((Date.UTC(d.getUTCFullYear(),d.getUTCMonth(),d.getUTCDate())-epoch)/6048e5); return Math.max(1,wk+1); })(DATA.generated);
   let html = `<div class="ihead">
-    <span class="eyebrow">ISSUE #01</span>
+    <span class="eyebrow">ISSUE #${String(ISSUE).padStart(2,"0")}</span>
     <h1>CITYWIDE</h1>
     <div class="where">${esc(city.label).toUpperCase()} · <span class="count">${evs.length} DISPATCH${evs.length===1?"":"ES"}</span></div>
   </div><div class="feed">`;
@@ -591,6 +639,16 @@ document.addEventListener("click", e=>{
   const done = ()=>{ const t=b.textContent; b.textContent="COPIED ✓"; setTimeout(()=>{b.textContent=t;},1400); };
   if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(b.dataset.copy).then(done).catch(()=>{}); }
 });
+
+/* Hamburger menu — holds the shortcuts + the type filters */
+(function(){
+  const menu=document.getElementById("menu"), btn=document.getElementById("menubtn");
+  if(!menu||!btn) return;
+  window.closeMenu=function(){menu.classList.remove("open");btn.setAttribute("aria-expanded","false");};
+  btn.addEventListener("click",()=>{menu.classList.add("open");btn.setAttribute("aria-expanded","true");});
+  menu.addEventListener("click",e=>{ if(e.target.closest("[data-close]")||e.target.classList.contains("menu-scrim")) window.closeMenu(); });
+  document.addEventListener("keydown",e=>{ if(e.key==="Escape") window.closeMenu(); });
+})();
 </script>
 </body>
 </html>

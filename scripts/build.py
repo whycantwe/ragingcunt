@@ -50,6 +50,8 @@ SOURCES   = DATA / "sources.yml"
 HEALTH    = DATA / "feed-health.json"
 HOODS_DIR = DATA / "neighborhoods"
 NOW       = dt.datetime.now(dt.timezone.utc)
+ISSUE_EPOCH = dt.date(2026, 8, 9)                              # Sun Aug 9 2026 = Issue #1
+ISSUE_NO  = max(1, (NOW.date() - ISSUE_EPOCH).days // 7 + 1)   # weekly zine issue number
 
 # Feed watchdog: a source that pulls nothing (empty or errored) for this many
 # consecutive weekly runs is treated as broken and worth a human's attention.
@@ -776,7 +778,7 @@ def render_ssr(result, city_key=DEFAULT_CITY):
     evs = sorted((e for e in city.get("events", []) if _pt(e.get("start"))),
                  key=lambda e: _pt(e["start"]))
     n = len(evs)
-    html = (f'<div class="ihead"><span class="eyebrow">ISSUE #01</span><h1>CITYWIDE</h1>'
+    html = (f'<div class="ihead"><span class="eyebrow">ISSUE #{ISSUE_NO:02d}</span><h1>CITYWIDE</h1>'
             f'<div class="where">{_esc((city.get("label") or "").upper())} · '
             f'<span class="count">{n} DISPATCH{"" if n == 1 else "ES"}</span></div></div>'
             f'<div class="feed">')
