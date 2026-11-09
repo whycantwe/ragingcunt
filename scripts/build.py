@@ -1126,7 +1126,7 @@ def main():
         if not collected and prev_events.get(city_key):
             log(f"[{city_key}] using last-good ({len(prev_events[city_key])} events)")
             collected = prev_events[city_key]
-        collected = dedupe(drop_offbrand(drop_past(collected)))
+        collected = [e for e in dedupe(drop_offbrand(drop_past(collected))) if e.get("type") != "culture"]  # CULTURE dropped site-wide
         out_cities[city_key] = {"label": label, "events": collected}
         log(f"[{city_key}] {len(collected)} events")
 
