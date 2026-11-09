@@ -778,7 +778,7 @@ def render_ssr(result, city_key=DEFAULT_CITY):
     evs = sorted((e for e in city.get("events", []) if _pt(e.get("start"))),
                  key=lambda e: _pt(e["start"]))
     n = len(evs)
-    html = (f'<div class="ihead"><span class="eyebrow">ISSUE #{ISSUE_NO:02d}</span><h1>CITYWIDE</h1>'
+    html = (f'<div class="ihead"><span class="eyebrow">ISSUE #{ISSUE_NO:02d}</span>'
             f'<div class="where">{_esc((city.get("label") or "").upper())} · '
             f'<span class="count">{n} DISPATCH{"" if n == 1 else "ES"}</span></div></div>'
             f'<div class="feed">')
